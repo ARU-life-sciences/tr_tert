@@ -24,9 +24,18 @@ segregation test now run dataset-wide: does not replicate the author's
 clean Capsicum-like full segregation (0/44 fully segregated), but finds
 partial segregation is common (13/22 informative sets show the minor
 variant standing alone at some arms) alongside genuine co-localisation
-(9/22) - see "Specific to #6" below. Written to answer: what are the
-headline results, what's still needed before this is publication-ready,
-and which files/notes back each result.
+(9/22) - see "Specific to #6" below. **Updated 2026-09-18: headline #7
+substantially revised** - checking `Epilobium_hirsutum`'s previously-
+untested haplotype (hap1) found TERT genuinely present there, at the
+exact syntenic locus where hap2 (the assembly this pipeline tracks)
+shows nothing, confirmed two independent ways. What was written up as a
+candidate species-level TERT loss is now a candidate haplotype-specific
+absence instead - real, but a smaller and different claim; no longer a
+Viscum-parallel "both components gone" example. See
+`notes/epilobium_hirsutum_tert_absence.md`'s "Revision" section and
+"Specific to #7" below. Written to answer: what are the headline
+results, what's still needed before this is publication-ready, and
+which files/notes back each result.
 
 ## Related work (read 2026-09-14, 2026-09-15 - changes framing, not headline validity)
 
@@ -227,19 +236,26 @@ authors replied to an email summarising this project's findings (see
    point-mutant paralogs at all - naive position-wise comparison of these
    short, near-periodic motifs overstates how different two cores look
    unless corrected for cyclic rotation.
-7. **`Epilobium_hirsutum` shows a candidate localised TERT loss despite
-   an intact, telomere-confirmed TR** - a different pattern from Viscum
-   (#1: both components absent). No TERT hit by any of 3 HMM profiles or
-   tblastn, while TR is present (3 loci, one identical core) and already
-   confirmed to genuinely match the real telomere. A targeted synteny
-   check against its congener `E. ciliatum` (which has a strong,
-   unambiguous TERT hit) rules out assembly incompleteness: the genomic
-   neighbourhood around TERT maps cleanly to a specific, fully-resolved
-   (0% N's), mid-scaffold locus in `E. hirsutum` (87-93% flanking
-   identity) - but the ~8.5kb TERT gene body itself has zero detectable
-   sequence similarity there at any blastn stringency. Comparative-
-   genomic evidence only (same tier as Viscum), single congener, single
-   haplotype - see `notes/epilobium_hirsutum_tert_absence.md`.
+7. **REVISED (2026-09-18) - `Epilobium_hirsutum` is NOT a species-level
+   TERT loss.** Originally reported as a Viscum-like candidate loss (no
+   TERT hit on any of 3 HMM profiles or tblastn against the hap2 assembly
+   this pipeline tracks, despite an intact, telomere-confirmed TR gene),
+   but checking the untested haplotype (hap1) found a strong,
+   multi-method TERT hit (all 3 HMM profiles, e-values to 4.9e-48;
+   tblastn, 334 hits to 1.5e-111) at the exact syntenic locus where hap2
+   shows nothing - confirmed the same physical locus two independent
+   ways (via the original `E. ciliatum` congener comparison, and
+   directly blasting hap1 against hap2), with the anchor coordinate
+   matching to the base pair (3,043,979) between the two routes. So TERT
+   is present in this individual - just missing specifically from hap2,
+   not the species. Now a candidate **haplotype-specific absence**
+   (genuine hemizygous deletion vs. a hap2-specific assembly artifact -
+   not distinguishable with data on hand), a much more modest and
+   different claim than originally written up, and no longer usable as a
+   Viscum-parallel "both components gone" example. TR side unaffected
+   (still present, multi-copy, confirmed telomeric). See
+   `notes/epilobium_hirsutum_tert_absence.md`'s "Revision" section for
+   full evidence.
 
 ## What's needed before this is paper-ready
 
@@ -415,28 +431,51 @@ authors replied to an email summarising this project's findings (see
   finding conservative (undercounts), not inflated - not corrected for.
 
 **Specific to #7 (Epilobium hirsutum TERT):**
-- Single congener comparison only - doesn't rule out TERT having moved
-  (large-scale rearrangement) rather than been deleted; a whole-genome
-  low-stringency TERT search hasn't been run to check for this.
-- Only one haplotype checked per species, and the two compared species
-  use different ones (`E. hirsutum` hap2, `E. ciliatum` hap1) - worth
-  confirming `E. hirsutum` hap1 agrees, if available.
-- No literature check for this species/genus (Onagraceae) at all.
-- Same evidentiary tier as Viscum (#1): comparative-genomic only, no
-  wet-lab validation.
+- **DONE (2026-09-18), and it changed the finding: checked `E. hirsutum`
+  hap1** (the untested haplotype flagged below as the obvious next
+  check). Result: TERT is present on hap1, at the same syntenically-
+  confirmed locus where hap2 shows nothing - see the headline #7 entry
+  above and `notes/epilobium_hirsutum_tert_absence.md`'s "Revision"
+  section. This resolves the "only one haplotype checked" gap, but in
+  doing so downgrades #7 from a species-level loss to a
+  haplotype-specific one - a smaller, different claim.
+- Single congener comparison for the original hap2 check only - now
+  largely moot, since hap1 already shows the gene at the expected
+  syntenic locus, but the large-scale-rearrangement alternative was
+  never formally excluded for hap2 specifically.
+- No literature check for this species/genus (Onagraceae) at all,
+  including specifically for prior reports of intraspecific/allelic
+  telomerase-component variation (newly relevant given the revision).
+- Still comparative-genomic only, no wet-lab or read-coverage evidence -
+  can't distinguish genuine hemizygous deletion from a hap2-specific
+  assembly artifact (see the note's revised Interpretation).
+- **Not yet done: whether hap2-specific absence is real or an assembly
+  artifact** - would need read-level coverage evidence across the hap2
+  locus, not available to this analysis.
+- **Caveat surfaced by this revision, not yet acted on: the dataset-wide
+  completeness check below is haplotype-blind.** It only searches
+  whichever single haplotype `inputs/dtol_plant_paths.txt` happens to
+  track per species (hap2 for `E. hirsutum`) - exactly the blind spot
+  that produced the original, now-corrected #7 claim. `Viscum_album`
+  (#1) only has one curated assembly at all (not haplotype-resolved the
+  same way), so isn't exposed to this specific risk, but any other
+  species with a haplotype-resolved assembly and a "missing" call from
+  the completeness check below could in principle have the same
+  haplotype-specific pattern, unchecked.
 - **DONE (2026-09-16): dataset-wide check for other TR-present/TERT-absent
-  species.** Ran a completeness check across all 703 species: a species
-  counts as "missing TERT" only if BOTH detection methods (HMM/nhmmer,
-  3 profiles; protein BLAST/tblastn) find zero hits. Result: only 2/703
-  species show this pattern dataset-wide - `Viscum_album` (#1) and
-  `Epilobium_hirsutum` (#7) - no other candidates found. One methodology
-  note surfaced in passing: `Lemna_minuta` has 0 HMM hits but 324 strong
-  tblastn hits (e-values to ~1e-81, real TERT locus on `SUPER_3`) - a
-  false negative in the HMM method for this species specifically, not a
-  biological absence; worth keeping in mind as a reminder that the HMM
-  method alone isn't fully sensitive, not something requiring its own
-  write-up. Script: `src/tert_absence_summary.py`. Output:
-  `outputs/tert_absence_summary.tsv`.
+  species** (haplotype-blind - see caveat just above). Ran a completeness
+  check across all 703 species: a species counts as "missing TERT" only
+  if BOTH detection methods (HMM/nhmmer, 3 profiles; protein BLAST/tblastn)
+  find zero hits against the pipeline's tracked assembly. Result: only
+  2/703 species show this pattern dataset-wide - `Viscum_album` (#1) and
+  `Epilobium_hirsutum` (#7, now known to be hap2-specific, see above) -
+  no other candidates found. One methodology note surfaced in passing:
+  `Lemna_minuta` has 0 HMM hits but 324 strong tblastn hits (e-values to
+  ~1e-81, real TERT locus on `SUPER_3`) - a false negative in the HMM
+  method for this species specifically, not a biological absence; worth
+  keeping in mind as a reminder that the HMM method alone isn't fully
+  sensitive, not something requiring its own write-up. Script:
+  `src/tert_absence_summary.py`. Output: `outputs/tert_absence_summary.tsv`.
 
 ## Files backing each result
 

@@ -1,0 +1,14 @@
+# target name        accession  query name                                                                                              accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                    -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_13             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -              221    1465 15367579 15369190 15367516 15369210 17608448    +     4.9e-48  165.9  40.0  -
+SUPER_13             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_isoform_X1_[Nicotiana_sylvestris]_as_nucl_aligned -             1473    1690 15369908 15370540 15369888 15370553 17608448    +     1.8e-09   38.0   5.6  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      inputs/clusters/isoform_X1_tert.hmm
+# Target file:     outputs/synteny_checks/hap_check/Epilobium_hirsutum_hap1.fa
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout outputs/synteny_checks/hap_check/hap1_isoform_X1_tert.tbl --dna --cpu 8 inputs/clusters/isoform_X1_tert.hmm outputs/synteny_checks/hap_check/Epilobium_hirsutum_hap1.fa 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Fri Sep 18 14:58:38 2026
+# [ok]

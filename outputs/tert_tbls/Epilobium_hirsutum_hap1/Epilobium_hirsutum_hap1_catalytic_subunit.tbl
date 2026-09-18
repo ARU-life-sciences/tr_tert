@@ -1,0 +1,18 @@
+# target name        accession  query name                                                                                         accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                               -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_13             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2589    3035 15368692 15369192 15368652 15369205 17608448    +     7.7e-25   89.0  11.3  -
+SUPER_13             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1540    1959 15367480 15367875 15367460 15367899 17608448    +     1.4e-16   61.6  15.9  -
+SUPER_13             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3026    3231 15369814 15370022 15369806 15370032 17608448    +     2.4e-15   57.5   9.0  -
+SUPER_13             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             2164    2342 15368187 15368372 15368174 15368393 17608448    +     4.6e-05   23.4  11.3  -
+SUPER_13             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             3341    3463 15370436 15370561 15370418 15370581 17608448    +      0.0039   17.0   6.7  -
+SUPER_13             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_catalytic_subunit_[Zea_mays]_as_nucl_aligned -             1346    1425 15366997 15367076 15366977 15367086 17608448    +           3    7.4   3.4  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      inputs/clusters/catalytic_subunit_tert.hmm
+# Target file:     outputs/synteny_checks/hap_check/Epilobium_hirsutum_hap1.fa
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout outputs/synteny_checks/hap_check/hap1_catalytic_subunit_tert.tbl --dna --cpu 8 inputs/clusters/catalytic_subunit_tert.hmm outputs/synteny_checks/hap_check/Epilobium_hirsutum_hap1.fa 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Fri Sep 18 15:01:40 2026
+# [ok]

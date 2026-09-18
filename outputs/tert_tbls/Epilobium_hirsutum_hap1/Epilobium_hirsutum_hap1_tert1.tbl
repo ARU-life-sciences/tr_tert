@@ -1,0 +1,18 @@
+# target name        accession  query name                                                                                          accession  hmmfrom hmm to  alifrom   ali to  envfrom   env to   sq len strand   E-value  score  bias  description of target
+#------------------- ----------                                                                                -------------------- ---------- ------- -------  -------  -------  -------  -------  ------- ------ --------- ------ ----- ---------------------
+SUPER_13             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2799    3244 15368693 15369192 15368672 15369213 17608448    +     9.9e-24   85.2  10.5  -
+SUPER_13             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             1746    2186 15367476 15367892 15367452 15367912 17608448    +     2.2e-15   57.5  16.6  -
+SUPER_13             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             3238    3439 15369817 15370024 15369803 15370044 17608448    +     1.3e-12   48.3  10.3  -
+SUPER_13             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -             2380    2558 15368193 15368378 15368171 15368400 17608448    +     2.4e-06   27.5  11.5  -
+SUPER_13             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -              899    1000 15365485 15365606 15365476 15365617 17608448    +        0.35   10.3   6.0  -
+SUPER_13             -          plant_TERT_cdhit.faa.telomerase_reverse_transcriptase_[Oryza_sativa_Japonica_Group]_as_nucl_aligned -              475     572 15364972 15365068 15364952 15365083 17608448    +         6.4    6.1   3.7  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      inputs/clusters/tert1.hmm
+# Target file:     outputs/synteny_checks/hap_check/Epilobium_hirsutum_hap1.fa
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout outputs/synteny_checks/hap_check/hap1_tert1.tbl --dna --cpu 8 inputs/clusters/tert1.hmm outputs/synteny_checks/hap_check/Epilobium_hirsutum_hap1.fa 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tr_tert
+# Date:            Fri Sep 18 15:01:43 2026
+# [ok]
