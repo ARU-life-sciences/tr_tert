@@ -1,0 +1,4 @@
+Cylindroiulus_punctatus	/data/tol/data/darwin/arthropods/Cylindroiulus_punctatus/assembly/curated/qdCylPunc2.1/qdCylPunc2.1.primary.fa.gz
+Lithobius_variegatus	/data/tol/data/darwin/arthropods/Lithobius_variegatus/assembly/curated/qcLitVari1.1/qcLitVari1.hap1.1.primary.fa.gz
+Polydesmus_denticulatus	/data/tol/data/darwin/arthropods/Polydesmus_denticulatus/assembly/curated/qdPolDent1.1/qdPolDent1.hap1.1.primary.fa.gz
+Strigamia_acuminata	/data/tol/data/darwin/arthropods/Strigamia_acuminata/assembly/curated/qcStrAcum1.1/qcStrAcum1.1.primary.fa.gz

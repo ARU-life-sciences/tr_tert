@@ -15,3 +15,7 @@ __pycache__/
 # of MB) and trivially regenerable from the genome assembly; the
 # meaningful output is the *_synteny_blastn.tsv hit table (tracked).
 /outputs/synteny_checks/*_db.*
+# clade_discovery/ (new-clade TR/TERT discovery, see clade_discovery/notes/plan.md)
+/clade_discovery/outputs/logs
+/clade_discovery/outputs/classify_genera.log
+/clade_discovery/inputs/candidate_genera_ge2.txt

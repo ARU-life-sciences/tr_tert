@@ -1,0 +1,1 @@
+Metellina_segmentata	/data/tol/data/darwin/arthropods/Metellina_segmentata/assembly/curated/qqMetSegm1.Tisiphia_sp_1.1/qqMetSegm1.Tisiphia_sp_1.1.primary.fa.gz	curated-directory name 'qqMetSegm1.Tisiphia_sp_1.1' doesn't match the plain assembly-version pattern
