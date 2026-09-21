@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Ampedus_sanguinolentus	ACAGACCGACAGACCGACAGACCG	1	127430	40	0	NOT_TERMINAL
+coleoptera	Ampedus_sanguinolentus	AAAATAATTTT	2	105717	40	0	NOT_TERMINAL
+coleoptera	Ampedus_sanguinolentus	AACCTAACCTAACCTAACCTAACCT	3	98541	40	4	TERMINAL_ENRICHED

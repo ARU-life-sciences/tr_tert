@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Leistus_rufomarginatus	ACACTACACTACACT	1	10742	26	0	NOT_TERMINAL
+coleoptera	Leistus_rufomarginatus	AAATAAT	2	10109	26	0	NOT_TERMINAL
+coleoptera	Leistus_rufomarginatus	AACCTAACCTAACCTAACCTAACCTAACT	3	9460	26	0	NOT_TERMINAL

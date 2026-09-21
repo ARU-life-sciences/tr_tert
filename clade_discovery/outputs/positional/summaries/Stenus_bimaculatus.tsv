@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Stenus_bimaculatus	AACCTAACCTAACCT	1	111382	40	8	TERMINAL_ENRICHED
+coleoptera	Stenus_bimaculatus	AACCTAACCTAACCTAACCTAACCT	2	104890	40	8	TERMINAL_ENRICHED
+coleoptera	Stenus_bimaculatus	AACATAACATAAGGGGTCTGACCTAACCT	3	67226	40	0	NOT_TERMINAL

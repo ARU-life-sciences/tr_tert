@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Ilybius_aenescens	AATATATATATATATATAT	1	53652	40	2	TERMINAL_ENRICHED
+coleoptera	Ilybius_aenescens	AATATATATATATATATATATATAT	2	37694	40	2	TERMINAL_ENRICHED
+coleoptera	Ilybius_aenescens	AATATATATATATAT	3	12933	40	2	TERMINAL_ENRICHED

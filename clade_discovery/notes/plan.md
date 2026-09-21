@@ -143,6 +143,62 @@ we ever attempt a clade with no confirmed telomere motif in hand.
 - `src/run_tidk_clade.bash` - Stage 0 telomere motif discovery via
   `tidk explore`, LSF-submitted, per clade.
 
+## Stage 0.5: positional confirmation (2026-09-21)
+
+Stage 0's top genome-wide repeat is not necessarily telomeric (satellite/
+centromeric repeats routinely outrank the true, much shorter telomeric
+array by raw count) - so before touching candidate-locus prediction,
+ran the actual positional check: `tidk search` restricted to chromosome
+termini, for each species' top-3 Stage-0 candidates (not just #1).
+Script: `src/confirm_repeat_positional_clade.py` (per-species worker,
+deletes its own 10-20MB+ raw window dump immediately after analysis -
+this farm's disk quota is a real, binding constraint, already hit once
+this project), `src/run_confirm_positional_clade.bash` (LSF submission,
+one job per species), `src/merge_positional_confirmations.bash`
+(combines the per-species summaries - kept one-file-per-species during
+the run specifically to avoid concurrent-write corruption across ~190
+parallel jobs). Output: `outputs/positional_confirmations.tsv`.
+
+**Result - Coleoptera is a clear, strong hit; Araneae/Myriapoda much
+weaker:**
+
+| clade | species checked | species with >=1 confirmed terminal motif |
+|---|---|---|
+| Coleoptera | 166 | **106 (64%)** |
+| Araneae | 18 | 4 (22%) |
+| Myriapoda | 4 | 1 (25%, but n=4) |
+
+**Coleoptera's confirmed motifs converge cleanly on a 5bp-periodic
+family** - the large majority are `AACCT` or exact multiples/rotations
+of it (`AACCTAACCT`, `AACCTAACCTAACCT`, `ACCTGACCTG...` - a frame-shifted
+read of the same unit), 106 species, no wet-lab input, no assumed motif
+going in. This is consistent with the well-established ancestral insect
+telomere repeat family (`TTAGG`-type) and is a genuinely independent,
+dataset-wide computational rediscovery of it - a strong sanity check
+that Stage 0 + Stage 0.5 work correctly end-to-end. **One real minority
+variant stands out**: 5 species confirmed with `AACCCAACCCAACCC...`
+(`AACCC`, not `AACCT` - a one-base swap in the repeat unit) - this is
+exactly the kind of within-clade motif *variability* the whole
+discovery method (see "Method" above, step 1) depends on to make
+candidate-TR-locus prediction tractable. Worth identifying which 5
+species these are and treating them as the seed for reciprocal-
+filtering, mirroring exactly how Fajkus used `B. sylvestris`'s point
+mutation against the other *Bombus* species.
+
+**Araneae's 4 confirmed hits look qualitatively different and less
+trustworthy** - `AAAAAAC`, `AATATATATATATATAT`, `AAAAAATT`, `ATCGC` -
+none resemble each other, and several look more like generic AT-rich
+low-complexity sequence than a genuine repeat family. Possible
+explanations, not yet distinguished: (a) spider telomere motifs really
+are this heterogeneous/poorly conserved (plausible - Araneae's
+telomere biology is much less characterized than insects'), or (b) some
+of these are false positives from unresolved/low-complexity sequence
+clustering near contig ends in draft assemblies (assembly-artifact
+enrichment, not real telomere biology - the same class of confound
+`check_gene_synteny_gap.py`'s N-content check was built for in the
+parent plant pipeline). **Needs an N-content-near-terminus sanity check
+before trusting any of these 4** - not yet done.
+
 ## Not yet built (needs real Stage 0 data first to design sensibly)
 
 - Candidate TR-locus prediction (step 3) - parameters (window size,

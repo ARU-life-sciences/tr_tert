@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Stenus_solutus	AACAACCTAACCT	1	111510	40	0	NOT_TERMINAL
+coleoptera	Stenus_solutus	AACCTAACCTAACCTAACT	2	95166	40	1	WEAK
+coleoptera	Stenus_solutus	AAGCTAGGGTC	3	84128	40	0	NOT_TERMINAL

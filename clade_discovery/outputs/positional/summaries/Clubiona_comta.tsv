@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+araneae	Clubiona_comta	AAATGTCCGTCGCCT	1	63023	27	0	NOT_TERMINAL
+araneae	Clubiona_comta	AAATTTAGATTAAGTTAAT	2	52679	27	0	NOT_TERMINAL
+araneae	Clubiona_comta	AAAAG	3	40397	27	0	NOT_TERMINAL

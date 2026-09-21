@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Mycetophagus_piceus	ACCTGACCTGACCTGACCTG	1	17580	20	7	TERMINAL_ENRICHED
+coleoptera	Mycetophagus_piceus	AAAAAAAT	2	12871	20	0	NOT_TERMINAL
+coleoptera	Mycetophagus_piceus	ACCTGACCTGACCTGACCTGACCTG	3	10630	20	6	TERMINAL_ENRICHED

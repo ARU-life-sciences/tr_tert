@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Agonum_muelleri	AACCTAACCTAACCTAACCTAACCT	1	60950	40	1	WEAK
+coleoptera	Agonum_muelleri	AACCTAACCTAACCT	2	56232	40	18	TERMINAL_ENRICHED
+coleoptera	Agonum_muelleri	AACCTAACCTAACCTAACCTAACCTAACCT	3	50792	40	1	WEAK

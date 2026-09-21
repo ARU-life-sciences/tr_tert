@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Agrilus_cyanescens	AACCTAACCTAACCTAACCTAACCT	1	47544	10	4	TERMINAL_ENRICHED
+coleoptera	Agrilus_cyanescens	AAAAATCCAAAACCC	2	33262	10	0	NOT_TERMINAL
+coleoptera	Agrilus_cyanescens	AAAAACCCAAAAATCCAAAATCCC	3	23171	10	0	NOT_TERMINAL

@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Larinus_planus	AAACTAACCCCCC	1	72785	40	0	NOT_TERMINAL
+coleoptera	Larinus_planus	AAACTAACCCAACTAACCC	2	49768	40	0	NOT_TERMINAL
+coleoptera	Larinus_planus	AAACTCTAACCC	3	42721	40	2	TERMINAL_ENRICHED

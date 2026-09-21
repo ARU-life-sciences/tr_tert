@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Ocypus_olens	AAAGTCCGGGTAC	1	75013	40	0	NOT_TERMINAL
+coleoptera	Ocypus_olens	AACCTAACCTAACCTACCT	2	61629	40	0	NOT_TERMINAL
+coleoptera	Ocypus_olens	AAAACTGAGATTTTC	3	59329	40	1	WEAK

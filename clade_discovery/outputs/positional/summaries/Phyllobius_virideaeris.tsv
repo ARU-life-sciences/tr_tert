@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Phyllobius_virideaeris	AACCTAACCTAACCTAACCT	1	90032	40	10	TERMINAL_ENRICHED
+coleoptera	Phyllobius_virideaeris	AATATAATATAATATAATAT	2	70960	40	0	NOT_TERMINAL
+coleoptera	Phyllobius_virideaeris	AAATAAATAAATAAAT	3	63191	40	0	NOT_TERMINAL

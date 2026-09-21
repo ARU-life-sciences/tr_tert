@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Agriotes_lineatus	AAATAATAATAAT	1	521974	40	0	NOT_TERMINAL
+coleoptera	Agriotes_lineatus	AAAACAGCGTCCCGGAC	2	195929	40	0	NOT_TERMINAL
+coleoptera	Agriotes_lineatus	ACAGACAGACAGACAGACAGACAGACAG	3	184746	40	0	NOT_TERMINAL

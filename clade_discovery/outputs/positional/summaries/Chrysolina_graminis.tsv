@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Chrysolina_graminis	AAAAAAAAGTTGCATTCGAGAGTTCCG	1	60307	40	0	NOT_TERMINAL
+coleoptera	Chrysolina_graminis	AAAAAAAAAAGTTGCATTCGAGGGTTCCG	2	58774	40	0	NOT_TERMINAL
+coleoptera	Chrysolina_graminis	AAAAGTGTTTGCGGACG	3	51234	40	0	NOT_TERMINAL

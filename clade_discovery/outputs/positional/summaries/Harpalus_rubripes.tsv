@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Harpalus_rubripes	AATATACATACAT	1	189710	40	0	NOT_TERMINAL
+coleoptera	Harpalus_rubripes	AATAATTAT	2	99372	40	0	NOT_TERMINAL
+coleoptera	Harpalus_rubripes	AACCTAACCTAACCTAACCTAACCT	3	96964	40	2	TERMINAL_ENRICHED

@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Rhyzobius_forestieri	AAATAAAT	1	18038	40	0	NOT_TERMINAL
+coleoptera	Rhyzobius_forestieri	AAATAAATAAAT	2	12772	40	0	NOT_TERMINAL
+coleoptera	Rhyzobius_forestieri	AAGTAAGT	3	9957	40	0	NOT_TERMINAL

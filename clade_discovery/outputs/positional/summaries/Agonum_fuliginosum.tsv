@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Agonum_fuliginosum	AAATTCAGTCT	1	129292	40	17	TERMINAL_ENRICHED
+coleoptera	Agonum_fuliginosum	AAATACAAT	2	39812	40	0	NOT_TERMINAL
+coleoptera	Agonum_fuliginosum	AAATTCGGTCT	3	37335	40	14	TERMINAL_ENRICHED

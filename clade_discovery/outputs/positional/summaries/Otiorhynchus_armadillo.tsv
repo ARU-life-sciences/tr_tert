@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Otiorhynchus_armadillo	ACCGATGACCGATG	1	126477	40	2	TERMINAL_ENRICHED
+coleoptera	Otiorhynchus_armadillo	AAATAAATAAATAAAT	2	94116	40	0	NOT_TERMINAL
+coleoptera	Otiorhynchus_armadillo	AACACGAACTGAACACGAACTG	3	87137	40	0	NOT_TERMINAL

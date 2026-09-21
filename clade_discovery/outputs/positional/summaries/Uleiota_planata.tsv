@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Uleiota_planata	AACCTAACCTAACCTAACCTAACCT	1	99152	40	4	TERMINAL_ENRICHED
+coleoptera	Uleiota_planata	AACCTAACCT	2	84877	40	9	TERMINAL_ENRICHED
+coleoptera	Uleiota_planata	ACACACGCACGCGC	3	84466	40	0	NOT_TERMINAL

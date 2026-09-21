@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Ocys_tachysoides	ACAGACAGACAGGGTAG	1	72444	40	0	NOT_TERMINAL
+coleoptera	Ocys_tachysoides	ACAGACAGACAGACAGACAGACAGGGTAG	2	42346	40	0	NOT_TERMINAL
+coleoptera	Ocys_tachysoides	ACAGACAGACAGACAGACAGGGTAG	3	42014	40	0	NOT_TERMINAL

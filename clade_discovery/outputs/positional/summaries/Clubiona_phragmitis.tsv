@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+araneae	Clubiona_phragmitis	AAAAATCCGTGTCGGTG	1	36564	38	0	NOT_TERMINAL
+araneae	Clubiona_phragmitis	AAAAGTCCGTGTCGGTG	2	36215	38	0	NOT_TERMINAL
+araneae	Clubiona_phragmitis	AAACACCGAACGTCCCCCCTCCACTCCTTT	3	14224	38	0	NOT_TERMINAL

@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Phaedon_tumidulus	AACCTAACCTAACCTAACCTAACCT	1	96501	40	13	TERMINAL_ENRICHED
+coleoptera	Phaedon_tumidulus	AAACTCGAGATCTCGACTTGAT	2	60302	40	0	NOT_TERMINAL
+coleoptera	Phaedon_tumidulus	AACCTAACCTAACCTAACCTAACCTAACCT	3	56416	40	11	TERMINAL_ENRICHED

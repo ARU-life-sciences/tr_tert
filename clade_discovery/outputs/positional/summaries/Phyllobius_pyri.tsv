@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Phyllobius_pyri	AAAGTTAAATT	1	68391	22	0	NOT_TERMINAL
+coleoptera	Phyllobius_pyri	AAATAAATAAATAAATAAAT	2	52842	22	0	NOT_TERMINAL
+coleoptera	Phyllobius_pyri	AACCTAACCTAACCTAACCTAACCT	3	49596	22	3	TERMINAL_ENRICHED

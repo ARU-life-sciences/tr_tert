@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Cantharis_pallida	AAAATGG	1	127981	40	7	TERMINAL_ENRICHED
+coleoptera	Cantharis_pallida	AATAATAT	2	85604	40	0	NOT_TERMINAL
+coleoptera	Cantharis_pallida	AAAAATC	3	42639	40	0	NOT_TERMINAL

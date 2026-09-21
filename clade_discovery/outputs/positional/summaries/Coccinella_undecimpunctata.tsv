@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Coccinella_undecimpunctata	AACCTAACCTAACCTAACCTAACCT	1	99542	40	10	TERMINAL_ENRICHED
+coleoptera	Coccinella_undecimpunctata	AACCTAACCTAACCT	2	86424	40	10	TERMINAL_ENRICHED
+coleoptera	Coccinella_undecimpunctata	AACCTAACCTAACCTAACT	3	61056	40	3	TERMINAL_ENRICHED

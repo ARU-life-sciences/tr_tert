@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Phyllobius_roboretanus	AACCTAACCTAACT	1	90945	16	1	WEAK
+coleoptera	Phyllobius_roboretanus	AACCTAACCTAACCTAACCTAACCT	2	55820	16	10	TERMINAL_ENRICHED
+coleoptera	Phyllobius_roboretanus	AAAATAATAAAATAAT	3	52450	16	1	WEAK

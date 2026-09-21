@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Stictoleptura_scutellata	ACATACATACATACATACATACAT	1	133536	40	0	NOT_TERMINAL
+coleoptera	Stictoleptura_scutellata	AACCTAACCTAACCTAACT	2	127961	40	2	TERMINAL_ENRICHED
+coleoptera	Stictoleptura_scutellata	AAAAATTTCGAAATTTTCAAAATTTC	3	92038	40	0	NOT_TERMINAL

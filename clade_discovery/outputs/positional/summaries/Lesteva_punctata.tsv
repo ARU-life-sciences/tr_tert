@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Lesteva_punctata	AATATATATAT	1	61520	40	0	NOT_TERMINAL
+coleoptera	Lesteva_punctata	AATATATATATAT	2	34236	40	0	NOT_TERMINAL
+coleoptera	Lesteva_punctata	AATATATATATATATATATATAT	3	31508	40	0	NOT_TERMINAL

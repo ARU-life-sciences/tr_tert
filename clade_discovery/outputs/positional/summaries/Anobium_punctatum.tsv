@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Anobium_punctatum	AAATAAATCCCCCGG	1	72060	40	0	NOT_TERMINAL
+coleoptera	Anobium_punctatum	AAAATGTTTGTTGAATT	2	62074	40	0	NOT_TERMINAL
+coleoptera	Anobium_punctatum	AACCTAACCTAACCTAACCTAACCTAACCT	3	45000	40	6	TERMINAL_ENRICHED

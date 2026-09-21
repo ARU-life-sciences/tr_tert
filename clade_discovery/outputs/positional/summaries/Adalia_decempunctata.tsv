@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Adalia_decempunctata	AACCTAACCTAACCTAACCTAACCT	1	56776	19	9	TERMINAL_ENRICHED
+coleoptera	Adalia_decempunctata	AACCTAACCTAACCTAACCTAACCTAACT	2	37921	19	1	WEAK
+coleoptera	Adalia_decempunctata	AACCTAACCTAACCTAACCT	3	34645	19	10	TERMINAL_ENRICHED

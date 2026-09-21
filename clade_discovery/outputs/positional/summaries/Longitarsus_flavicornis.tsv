@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Longitarsus_flavicornis	ACTCTACTCTCACTCTC	1	62203	40	0	NOT_TERMINAL
+coleoptera	Longitarsus_flavicornis	AAAAAAT	2	30045	40	0	NOT_TERMINAL
+coleoptera	Longitarsus_flavicornis	AAATAAAT	3	29524	40	10	TERMINAL_ENRICHED

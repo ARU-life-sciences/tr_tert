@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Anthocomus_fasciatus	AAATAAATAAATAAAT	1	45652	10	0	NOT_TERMINAL
+coleoptera	Anthocomus_fasciatus	ACCTGACCTGACCTGACCTGACCTG	2	43362	10	10	TERMINAL_ENRICHED
+coleoptera	Anthocomus_fasciatus	ACCTGACCTGACCTGACCTG	3	41622	10	10	TERMINAL_ENRICHED

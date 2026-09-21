@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+araneae	Xysticus_acerbus	AAAGCTGGCCAAGAAGAGATG	1	31171	40	0	NOT_TERMINAL
+araneae	Xysticus_acerbus	AATACGTAATCTATATATT	2	15277	40	0	NOT_TERMINAL
+araneae	Xysticus_acerbus	ACACACACACACACACACACATCC	3	5674	40	0	NOT_TERMINAL

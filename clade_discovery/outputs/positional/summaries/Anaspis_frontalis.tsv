@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Anaspis_frontalis	ACGGACGGACGGACGGACGGACGGACGG	1	53580	40	0	NOT_TERMINAL
+coleoptera	Anaspis_frontalis	ACGGACGGACGGACGGACGGACGG	2	42292	40	0	NOT_TERMINAL
+coleoptera	Anaspis_frontalis	ACGGACGGACGGACGG	3	32834	40	0	NOT_TERMINAL

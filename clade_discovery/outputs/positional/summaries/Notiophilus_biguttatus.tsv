@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Notiophilus_biguttatus	AATAATTGTGAATATTGAG	1	43212	40	0	NOT_TERMINAL
+coleoptera	Notiophilus_biguttatus	AATATATATAT	2	18063	40	1	WEAK
+coleoptera	Notiophilus_biguttatus	AAAAAAATT	3	14689	40	0	NOT_TERMINAL

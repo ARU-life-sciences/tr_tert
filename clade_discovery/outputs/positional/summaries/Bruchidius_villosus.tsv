@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Bruchidius_villosus	ACAGACTGACG	1	77420	40	0	NOT_TERMINAL
+coleoptera	Bruchidius_villosus	ACAGACGACAGACGACAGACG	2	72212	40	0	NOT_TERMINAL
+coleoptera	Bruchidius_villosus	AACCTAACCTAACCTAACCTAACCT	3	64616	40	9	TERMINAL_ENRICHED

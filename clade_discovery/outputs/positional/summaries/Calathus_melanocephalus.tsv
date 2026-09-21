@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Calathus_melanocephalus	AAAATGCAAATCTAT	1	59912	40	0	NOT_TERMINAL
+coleoptera	Calathus_melanocephalus	AAAAAGCAAGG	2	57969	40	2	TERMINAL_ENRICHED
+coleoptera	Calathus_melanocephalus	AACATAACATAACATAACATAACAT	3	52578	40	0	NOT_TERMINAL

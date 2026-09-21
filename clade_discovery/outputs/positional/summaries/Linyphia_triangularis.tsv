@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+araneae	Linyphia_triangularis	AAAAATAATTATAAACATTAT	1	51512	40	0	NOT_TERMINAL
+araneae	Linyphia_triangularis	AAATAATAATAAATAATAATAAT	2	41441	40	0	NOT_TERMINAL
+araneae	Linyphia_triangularis	AAATAAATAAATAAATAAATAAATAAAT	3	25228	40	0	NOT_TERMINAL

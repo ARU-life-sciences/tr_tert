@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Amara_aenea	AGCCCAGCCTAGCCT	1	54251	40	0	NOT_TERMINAL
+coleoptera	Amara_aenea	AACCTAACCTAACCTAACT	2	44899	40	2	TERMINAL_ENRICHED
+coleoptera	Amara_aenea	AACCTAACCTAACCTAACCTAACCT	3	44488	40	18	TERMINAL_ENRICHED

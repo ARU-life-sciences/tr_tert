@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+araneae	Pachygnatha_clercki	AAATACAAATAC	1	27631	25	0	NOT_TERMINAL
+araneae	Pachygnatha_clercki	AAGAAGAAGAAGATCCAAGGATGGGCG	2	25967	25	0	NOT_TERMINAL
+araneae	Pachygnatha_clercki	AATGGGAGT	3	24734	25	0	NOT_TERMINAL

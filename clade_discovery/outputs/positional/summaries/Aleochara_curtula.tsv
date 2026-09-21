@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Aleochara_curtula	AAGGTCAAGGTC	1	71946	14	0	NOT_TERMINAL
+coleoptera	Aleochara_curtula	AACCTAACCT	2	50240	14	8	TERMINAL_ENRICHED
+coleoptera	Aleochara_curtula	AAGGTCAAGGTCAAGGTC	3	47964	14	0	NOT_TERMINAL

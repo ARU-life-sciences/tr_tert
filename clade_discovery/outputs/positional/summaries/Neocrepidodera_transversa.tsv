@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Neocrepidodera_transversa	AAATC	1	90627	40	1	WEAK
+coleoptera	Neocrepidodera_transversa	AAAATAAATGAAATAAATG	2	75394	40	0	NOT_TERMINAL
+coleoptera	Neocrepidodera_transversa	AAAAT	3	63197	40	7	TERMINAL_ENRICHED

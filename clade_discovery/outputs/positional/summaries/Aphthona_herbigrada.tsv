@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Aphthona_herbigrada	AAATAATAATAAT	1	29659	40	0	NOT_TERMINAL
+coleoptera	Aphthona_herbigrada	ACAGACCTACATACCT	2	18888	40	0	NOT_TERMINAL
+coleoptera	Aphthona_herbigrada	AAATAAATAAATAAAT	3	18795	40	0	NOT_TERMINAL

@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Malthodes_minimus	AAAAAATGGTTT	1	72499	40	0	NOT_TERMINAL
+coleoptera	Malthodes_minimus	AACCGACTGAACCGACTG	2	48402	40	0	NOT_TERMINAL
+coleoptera	Malthodes_minimus	AACCAACCTAACCTAACCTAACCT	3	38970	40	0	NOT_TERMINAL

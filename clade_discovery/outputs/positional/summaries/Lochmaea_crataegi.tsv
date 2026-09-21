@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Lochmaea_crataegi	AAAAAATGGTCAATAATTGTC	1	51828	40	0	NOT_TERMINAL
+coleoptera	Lochmaea_crataegi	AACCTAACCTAACCTAACT	2	24843	40	1	WEAK
+coleoptera	Lochmaea_crataegi	AAGAC	3	21496	40	0	NOT_TERMINAL

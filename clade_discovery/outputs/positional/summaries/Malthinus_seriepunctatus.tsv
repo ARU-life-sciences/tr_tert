@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Malthinus_seriepunctatus	AACCTAACCTAACCTAACCTAACCTAACCT	1	45884	9	2	TERMINAL_ENRICHED
+coleoptera	Malthinus_seriepunctatus	AACATCTATTATCT	2	36337	9	0	NOT_TERMINAL
+coleoptera	Malthinus_seriepunctatus	AACATCTATTATCTAACATCTATTATCT	3	36336	9	0	NOT_TERMINAL

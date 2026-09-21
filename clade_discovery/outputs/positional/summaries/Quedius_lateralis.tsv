@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Quedius_lateralis	AAATTCCATGATATTCTGAAG	1	38541	40	0	NOT_TERMINAL
+coleoptera	Quedius_lateralis	AATACAG	2	32420	40	0	NOT_TERMINAL
+coleoptera	Quedius_lateralis	AAATT	3	21264	40	0	NOT_TERMINAL

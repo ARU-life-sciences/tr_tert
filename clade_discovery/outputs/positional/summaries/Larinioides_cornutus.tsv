@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+araneae	Larinioides_cornutus	AATATAATATAATAT	1	109839	40	0	NOT_TERMINAL
+araneae	Larinioides_cornutus	AATAATTAATATTAATTAT	2	89256	40	0	NOT_TERMINAL
+araneae	Larinioides_cornutus	AAACCCCCCC	3	26633	40	0	NOT_TERMINAL

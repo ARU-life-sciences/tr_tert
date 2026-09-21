@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Oedemera_lurida	ACCTGACCTGACCTGACTG	1	230288	40	0	NOT_TERMINAL
+coleoptera	Oedemera_lurida	ACCTGACCTGACCTGACCTGACCTG	2	193058	40	9	TERMINAL_ENRICHED
+coleoptera	Oedemera_lurida	AAATAAATAAATAAATAAATAAAT	3	164926	40	0	NOT_TERMINAL

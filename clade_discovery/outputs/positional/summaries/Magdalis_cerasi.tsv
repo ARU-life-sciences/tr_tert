@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Magdalis_cerasi	AAACCAAACCAAACCAAACCAAACC	1	114838	40	14	TERMINAL_ENRICHED
+coleoptera	Magdalis_cerasi	AAACC	2	69840	40	14	TERMINAL_ENRICHED
+coleoptera	Magdalis_cerasi	AAGAAT	3	62774	40	0	NOT_TERMINAL

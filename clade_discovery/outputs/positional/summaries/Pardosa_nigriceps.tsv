@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+araneae	Pardosa_nigriceps	ATCGC	1	68455	40	5	TERMINAL_ENRICHED
+araneae	Pardosa_nigriceps	AATATATATATATATATATATAT	2	50601	40	1	WEAK
+araneae	Pardosa_nigriceps	AAATTATTACACTATT	3	41144	40	0	NOT_TERMINAL

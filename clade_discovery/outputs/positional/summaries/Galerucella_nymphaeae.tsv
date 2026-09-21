@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Galerucella_nymphaeae	AATAATCGATTAATAATCGATTC	1	43608	17	0	NOT_TERMINAL
+coleoptera	Galerucella_nymphaeae	AACCTAACCTAACCTAACCTAACCTAACCT	2	32916	17	16	TERMINAL_ENRICHED
+coleoptera	Galerucella_nymphaeae	AACCTAACCTAACCT	3	32442	17	16	TERMINAL_ENRICHED

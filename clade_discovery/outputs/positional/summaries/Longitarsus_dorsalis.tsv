@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Longitarsus_dorsalis	ACACAGGACTGGTACAGG	1	35882	40	0	NOT_TERMINAL
+coleoptera	Longitarsus_dorsalis	AAACTGTAATGTCGGTAGG	2	32234	40	0	NOT_TERMINAL
+coleoptera	Longitarsus_dorsalis	ACGCACGC	3	28728	40	2	TERMINAL_ENRICHED

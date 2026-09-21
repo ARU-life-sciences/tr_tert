@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+araneae	Philodromus_dispar	AAATGTACCTGTCGGGC	1	86611	40	0	NOT_TERMINAL
+araneae	Philodromus_dispar	AAAGTCGGACCGGTCGATATCGGCG	2	60798	40	0	NOT_TERMINAL
+araneae	Philodromus_dispar	AAACTACTATCAAATAT	3	51971	40	0	NOT_TERMINAL

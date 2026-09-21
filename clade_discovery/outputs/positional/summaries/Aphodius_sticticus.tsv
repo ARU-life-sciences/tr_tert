@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Aphodius_sticticus	AACCCAACCCAACCC	1	151014	34	4	TERMINAL_ENRICHED
+coleoptera	Aphodius_sticticus	AACCCAACCCAACCCAACCCAACCC	2	90606	34	3	TERMINAL_ENRICHED
+coleoptera	Aphodius_sticticus	AAACAAATACTATTTGTTT	3	56254	34	0	NOT_TERMINAL

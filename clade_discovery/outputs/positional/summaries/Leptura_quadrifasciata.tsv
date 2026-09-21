@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Leptura_quadrifasciata	ACTCTACTCTACTCTACTCTACTCT	1	185084	26	0	NOT_TERMINAL
+coleoptera	Leptura_quadrifasciata	ACTCTACTCTACTCT	2	175327	26	0	NOT_TERMINAL
+coleoptera	Leptura_quadrifasciata	AACAACAACTAAT	3	108655	26	0	NOT_TERMINAL

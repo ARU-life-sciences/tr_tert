@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Polydrusus_formosus	AAAAATCCCGG	1	59851	40	3	TERMINAL_ENRICHED
+coleoptera	Polydrusus_formosus	ACACACACACACAT	2	39648	40	0	NOT_TERMINAL
+coleoptera	Polydrusus_formosus	AAACCTGAGCAAACCTGAGCAAACCTGAGC	3	37843	40	2	TERMINAL_ENRICHED

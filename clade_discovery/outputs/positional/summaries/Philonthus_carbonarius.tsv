@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Philonthus_carbonarius	AAAATTAACAGAT	1	99328	40	0	NOT_TERMINAL
+coleoptera	Philonthus_carbonarius	AAACACGGATGGATATT	2	83508	40	0	NOT_TERMINAL
+coleoptera	Philonthus_carbonarius	AACCTAACCTAACCTACCT	3	83447	40	0	NOT_TERMINAL

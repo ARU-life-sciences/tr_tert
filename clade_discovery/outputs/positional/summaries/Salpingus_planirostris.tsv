@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Salpingus_planirostris	ACCTGACCTGACCTG	1	24634	32	12	TERMINAL_ENRICHED
+coleoptera	Salpingus_planirostris	ACCTGACCTG	2	18314	32	12	TERMINAL_ENRICHED
+coleoptera	Salpingus_planirostris	AAATAAC	3	10481	32	3	TERMINAL_ENRICHED

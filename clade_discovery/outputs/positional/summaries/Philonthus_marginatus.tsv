@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Philonthus_marginatus	AACCTAACCTAACCT	1	93538	19	17	TERMINAL_ENRICHED
+coleoptera	Philonthus_marginatus	AACCTAACCTAACCTAACCTAACCT	2	56120	19	10	TERMINAL_ENRICHED
+coleoptera	Philonthus_marginatus	AACCTAACCTAACCTAACCTAACCTAACCT	3	46768	19	8	TERMINAL_ENRICHED

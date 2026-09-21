@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Pterostichus_vernalis	AACCTAACCTACCT	1	49403	40	0	NOT_TERMINAL
+coleoptera	Pterostichus_vernalis	AAGATGGCCGCCGGAATCC	2	39018	40	0	NOT_TERMINAL
+coleoptera	Pterostichus_vernalis	AACCTAACCTAACCTAACCTAACCTACCT	3	36044	40	0	NOT_TERMINAL

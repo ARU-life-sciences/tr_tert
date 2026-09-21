@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Acupalpus_parvulus	AAACCTAACCT	1	68328	40	0	NOT_TERMINAL
+coleoptera	Acupalpus_parvulus	AACCTAACCTAACCTAACCTAACCT	2	63472	40	11	TERMINAL_ENRICHED
+coleoptera	Acupalpus_parvulus	AACCTAACCTAACT	3	35789	40	2	TERMINAL_ENRICHED

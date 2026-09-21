@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Cantharis_pellucida	AACCTAACCTAACCTAACCT	1	57834	40	4	TERMINAL_ENRICHED
+coleoptera	Cantharis_pellucida	AACCTAACCTAACCTAACCTAACCT	2	47028	40	3	TERMINAL_ENRICHED
+coleoptera	Cantharis_pellucida	AACCTAACCTAACCT	3	38555	40	6	TERMINAL_ENRICHED

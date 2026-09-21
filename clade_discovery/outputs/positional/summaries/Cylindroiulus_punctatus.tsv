@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+myriapoda	Cylindroiulus_punctatus	AAAGTAGGAATTG	1	13662	40	0	NOT_TERMINAL
+myriapoda	Cylindroiulus_punctatus	AAAAAAAGACGTCCTTTTCCGACG	2	8284	40	0	NOT_TERMINAL
+myriapoda	Cylindroiulus_punctatus	AAACTTTAGCGGCCATGCGGCACG	3	4609	40	0	NOT_TERMINAL

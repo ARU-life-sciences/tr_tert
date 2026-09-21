@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Pterostichus_nigrita	AAACCTAACCTAACCT	1	97494	40	0	NOT_TERMINAL
+coleoptera	Pterostichus_nigrita	AACCTAACCTAACCTAACCTAACCTAACT	2	59430	40	0	NOT_TERMINAL
+coleoptera	Pterostichus_nigrita	AACCTAACCTAACCT	3	59270	40	17	TERMINAL_ENRICHED

@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Hemicrepidius_hirtus	AACCTAACCTAACCTAACCTAACCT	1	33710	40	3	TERMINAL_ENRICHED
+coleoptera	Hemicrepidius_hirtus	AACCTAACCTAACCTAACCTAACCTAACCT	2	28090	40	3	TERMINAL_ENRICHED
+coleoptera	Hemicrepidius_hirtus	AAATAAAT	3	26810	40	0	NOT_TERMINAL

@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+araneae	Araneus_quadratus	AAAAAAAT	1	127745	40	1	WEAK
+araneae	Araneus_quadratus	AAAATAATACATATAATCATATT	2	91942	40	0	NOT_TERMINAL
+araneae	Araneus_quadratus	AAAAAAC	3	75225	40	9	TERMINAL_ENRICHED

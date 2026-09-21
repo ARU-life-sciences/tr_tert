@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Ontholestes_murinus	AGATGATAGATGATAGATGAT	1	43462	40	0	NOT_TERMINAL
+coleoptera	Ontholestes_murinus	AAATAAATAAAT	2	41145	40	0	NOT_TERMINAL
+coleoptera	Ontholestes_murinus	ACAGATGACAGATGACAGATG	3	36640	40	0	NOT_TERMINAL

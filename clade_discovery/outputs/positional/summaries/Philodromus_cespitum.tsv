@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+araneae	Philodromus_cespitum	AAAATTGGAACAGTAGAAGAG	1	47168	40	0	NOT_TERMINAL
+araneae	Philodromus_cespitum	AAAGAAAGGTCATGCACCCCCAGGC	2	45693	40	0	NOT_TERMINAL
+araneae	Philodromus_cespitum	AAAATTG	3	28110	40	0	NOT_TERMINAL

@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Amara_convexiuscula	AACCTAACCTAACCTACCT	1	56869	40	0	NOT_TERMINAL
+coleoptera	Amara_convexiuscula	AACCTAACCTAACCTAACCTAACCT	2	54810	40	12	TERMINAL_ENRICHED
+coleoptera	Amara_convexiuscula	AAACCTAACCT	3	41460	40	1	WEAK

@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Strophosoma_melanogrammum	AAAAAAAAAAT	1	62920	40	0	NOT_TERMINAL
+coleoptera	Strophosoma_melanogrammum	AACCTGAGCTAACCTGAGCT	2	59639	40	13	TERMINAL_ENRICHED
+coleoptera	Strophosoma_melanogrammum	ACATACATACATACATACATACATACAT	3	54519	40	0	NOT_TERMINAL

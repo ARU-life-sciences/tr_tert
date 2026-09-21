@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Pterostichus_diligens	AACCTAACCTAACCT	1	118968	40	12	TERMINAL_ENRICHED
+coleoptera	Pterostichus_diligens	AACCTAACCTAACCTAACCTAACCT	2	71380	40	7	TERMINAL_ENRICHED
+coleoptera	Pterostichus_diligens	ACATAGGCCATAGG	3	67716	40	0	NOT_TERMINAL

@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Harmonia_quadripunctata	AACCTAACCTAACCT	1	78499	10	4	TERMINAL_ENRICHED
+coleoptera	Harmonia_quadripunctata	AAAAAAATTGG	2	54113	10	0	NOT_TERMINAL
+coleoptera	Harmonia_quadripunctata	AACCTAACCTAACCTAACCTAACCT	3	50575	10	4	TERMINAL_ENRICHED

@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Aphthona_nonstriata	ACTATATAT	1	7998	40	0	NOT_TERMINAL
+coleoptera	Aphthona_nonstriata	AAATAAT	2	6532	40	0	NOT_TERMINAL
+coleoptera	Aphthona_nonstriata	ACCTCCG	3	6325	40	0	NOT_TERMINAL

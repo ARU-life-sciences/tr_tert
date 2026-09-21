@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Lathrobium_brunnipes	AACCTAACCTAACCTAACCTAACCT	1	62662	37	10	TERMINAL_ENRICHED
+coleoptera	Lathrobium_brunnipes	AACCAACCTAACCTAACCTAACCTAACCT	2	25190	37	0	NOT_TERMINAL
+coleoptera	Lathrobium_brunnipes	AAATAAT	3	21134	37	0	NOT_TERMINAL

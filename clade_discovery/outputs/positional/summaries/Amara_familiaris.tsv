@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Amara_familiaris	AACCTAACCTAACCT	1	168376	40	16	TERMINAL_ENRICHED
+coleoptera	Amara_familiaris	AACCTAACCTAACCTAACCTAACCT	2	101024	40	16	TERMINAL_ENRICHED
+coleoptera	Amara_familiaris	AACCTAACCTAACCTAACCT	3	21232	40	16	TERMINAL_ENRICHED

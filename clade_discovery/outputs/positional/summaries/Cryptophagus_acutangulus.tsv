@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Cryptophagus_acutangulus	AACCTAACCTAACCT	1	29224	40	13	TERMINAL_ENRICHED
+coleoptera	Cryptophagus_acutangulus	AACCTAACCTAACCTAACCT	2	24722	40	12	TERMINAL_ENRICHED
+coleoptera	Cryptophagus_acutangulus	AACCTAACCTAACCTAACCTAACCT	3	22496	40	8	TERMINAL_ENRICHED

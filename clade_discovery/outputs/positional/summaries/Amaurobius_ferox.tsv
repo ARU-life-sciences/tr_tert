@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+araneae	Amaurobius_ferox	AAATTTAGAACAGG	1	255618	40	0	NOT_TERMINAL
+araneae	Amaurobius_ferox	AAATTTAG	2	218920	40	0	NOT_TERMINAL
+araneae	Amaurobius_ferox	AAAATTTAG	3	193794	40	0	NOT_TERMINAL

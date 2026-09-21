@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+araneae	Anyphaena_accentuata	AAAATAATAATAATAAAT	1	39428	40	0	NOT_TERMINAL
+araneae	Anyphaena_accentuata	AAATATCGAAGTCGGCCACGATATC	2	34776	40	0	NOT_TERMINAL
+araneae	Anyphaena_accentuata	AAAGATCGTGATACTT	3	16758	40	0	NOT_TERMINAL

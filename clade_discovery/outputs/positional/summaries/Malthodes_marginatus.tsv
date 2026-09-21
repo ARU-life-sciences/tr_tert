@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Malthodes_marginatus	AACCGTAACGT	1	77712	40	1	WEAK
+coleoptera	Malthodes_marginatus	AACCTAACCTAACCT	2	63498	40	4	TERMINAL_ENRICHED
+coleoptera	Malthodes_marginatus	AACCTAACCTAACCTAACCTAACCTAACCT	3	58268	40	1	WEAK

@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Leistus_spinibarbis	AACCTAACCTAACCT	1	25038	40	20	TERMINAL_ENRICHED
+coleoptera	Leistus_spinibarbis	AACCTAACCTAACCTAACCTAACCT	2	15020	40	5	TERMINAL_ENRICHED
+coleoptera	Leistus_spinibarbis	AAAACTAAAACTAAAACTAAAACTAAACT	3	11170	40	0	NOT_TERMINAL

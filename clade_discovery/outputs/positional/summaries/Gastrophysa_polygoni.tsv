@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Gastrophysa_polygoni	AACCTAACCTAACCT	1	73528	13	11	TERMINAL_ENRICHED
+coleoptera	Gastrophysa_polygoni	AACCTAACCTAACCTAACCTAACCT	2	44116	13	5	TERMINAL_ENRICHED
+coleoptera	Gastrophysa_polygoni	AACCTAACCTAACCTAACCTAACCTAACCT	3	36762	13	4	TERMINAL_ENRICHED

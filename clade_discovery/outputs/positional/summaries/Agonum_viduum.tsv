@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Agonum_viduum	AACCTAACCTAACCT	1	80404	40	16	TERMINAL_ENRICHED
+coleoptera	Agonum_viduum	AACCTAACCTAACCTAACCTAACCT	2	79968	40	7	TERMINAL_ENRICHED
+coleoptera	Agonum_viduum	AACCTAACCTAACCTAACCTAACCTAACT	3	63896	40	0	NOT_TERMINAL

@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Brachypterus_glaber	ACAGACAGACAGACAGACAG	1	26032	40	0	NOT_TERMINAL
+coleoptera	Brachypterus_glaber	ACAGACAGACAGACAG	2	20244	40	0	NOT_TERMINAL
+coleoptera	Brachypterus_glaber	ACAGACAGACAGACAGACAGACAGACAG	3	18715	40	0	NOT_TERMINAL

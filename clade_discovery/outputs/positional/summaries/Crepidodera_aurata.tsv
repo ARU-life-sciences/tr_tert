@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Crepidodera_aurata	ACCTGACCTGACCTGACCTGACCTG	1	44352	40	7	TERMINAL_ENRICHED
+coleoptera	Crepidodera_aurata	AAGTGAGGGCGGG	2	35765	40	0	NOT_TERMINAL
+coleoptera	Crepidodera_aurata	ACCTGACCTGACCTGACCTGACCTGACCTG	3	32283	40	3	TERMINAL_ENRICHED

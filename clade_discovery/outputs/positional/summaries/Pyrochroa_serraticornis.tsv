@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Pyrochroa_serraticornis	ACCTGACCTGACCTG	1	63346	20	3	TERMINAL_ENRICHED
+coleoptera	Pyrochroa_serraticornis	ACCTGACCTG	2	47510	20	4	TERMINAL_ENRICHED
+coleoptera	Pyrochroa_serraticornis	AAGATTATT	3	35833	20	0	NOT_TERMINAL

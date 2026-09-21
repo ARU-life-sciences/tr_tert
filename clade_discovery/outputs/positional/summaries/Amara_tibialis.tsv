@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Amara_tibialis	AACCTAACCTAACCT	1	41058	40	19	TERMINAL_ENRICHED
+coleoptera	Amara_tibialis	AACCTAACCTAACCTAACCTAACCTAACCT	2	40184	40	12	TERMINAL_ENRICHED
+coleoptera	Amara_tibialis	ACATACATACATACAT	3	32864	40	0	NOT_TERMINAL

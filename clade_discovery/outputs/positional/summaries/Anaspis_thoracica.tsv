@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Anaspis_thoracica	AAGGCGGCGAATACGGAG	1	20525	40	0	NOT_TERMINAL
+coleoptera	Anaspis_thoracica	AAAATAAATAAAT	2	15213	40	0	NOT_TERMINAL
+coleoptera	Anaspis_thoracica	ACGGACGGACGG	3	10406	40	0	NOT_TERMINAL

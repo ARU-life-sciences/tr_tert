@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Agonum_thoreyi	AACCTAACCTGACCT	1	57499	33	0	NOT_TERMINAL
+coleoptera	Agonum_thoreyi	AAAATTTCG	2	52783	33	0	NOT_TERMINAL
+coleoptera	Agonum_thoreyi	ACATACATACATACATACATACAT	3	50470	33	0	NOT_TERMINAL

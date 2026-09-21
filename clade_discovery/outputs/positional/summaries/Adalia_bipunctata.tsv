@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Adalia_bipunctata	AACCTAACCTAACCTAACCTAACCT	1	84022	40	7	TERMINAL_ENRICHED
+coleoptera	Adalia_bipunctata	AACCTAACCTAACCTAACCT	2	75078	40	9	TERMINAL_ENRICHED
+coleoptera	Adalia_bipunctata	AATAATCTGC	3	36305	40	0	NOT_TERMINAL

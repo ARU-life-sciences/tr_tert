@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Aphodius_granarius	AACCCAACCCAACCCAACCCAACCC	1	69400	40	4	TERMINAL_ENRICHED
+coleoptera	Aphodius_granarius	ATCGC	2	27711	40	1	WEAK
+coleoptera	Aphodius_granarius	AAAAT	3	26439	40	5	TERMINAL_ENRICHED

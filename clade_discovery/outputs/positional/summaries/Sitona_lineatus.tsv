@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Sitona_lineatus	AAAAAAATCGGGACGAAAAGT	1	78481	12	0	NOT_TERMINAL
+coleoptera	Sitona_lineatus	AAGAATCAGAAGAATCAGAAGAATCAG	2	50722	12	1	WEAK
+coleoptera	Sitona_lineatus	AAAACTAATTTATTTTAAATACTAT	3	46927	12	0	NOT_TERMINAL

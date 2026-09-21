@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Phratora_vitellinae	AAATTTCAACATAATTAAGTTG	1	50786	28	0	NOT_TERMINAL
+coleoptera	Phratora_vitellinae	AACCTAACCTAACCTAACT	2	46246	28	1	WEAK
+coleoptera	Phratora_vitellinae	AAAACCTATGAAT	3	34700	28	0	NOT_TERMINAL

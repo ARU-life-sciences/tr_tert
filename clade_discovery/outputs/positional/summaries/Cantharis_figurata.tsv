@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Cantharis_figurata	AAAATACTGACCATATTATTT	1	53430	40	0	NOT_TERMINAL
+coleoptera	Cantharis_figurata	AACCTAACCT	2	38544	40	0	NOT_TERMINAL
+coleoptera	Cantharis_figurata	AATAATT	3	35356	40	0	NOT_TERMINAL

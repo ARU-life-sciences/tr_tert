@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Philonthus_cognatus	AATATATATAT	1	22566	13	0	NOT_TERMINAL
+coleoptera	Philonthus_cognatus	AACCTAACCT	2	18652	13	8	TERMINAL_ENRICHED
+coleoptera	Philonthus_cognatus	AAGGTCATCCCAAGGTCATCCCC	3	14176	13	0	NOT_TERMINAL

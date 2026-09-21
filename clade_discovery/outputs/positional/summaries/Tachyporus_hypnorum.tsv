@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Tachyporus_hypnorum	AACAGTTCAGG	1	41075	40	0	NOT_TERMINAL
+coleoptera	Tachyporus_hypnorum	AAAGTAATT	2	29510	40	0	NOT_TERMINAL
+coleoptera	Tachyporus_hypnorum	AACAGTTCGGG	3	28515	40	0	NOT_TERMINAL

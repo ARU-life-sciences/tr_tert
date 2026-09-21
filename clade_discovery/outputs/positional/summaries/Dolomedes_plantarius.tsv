@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+araneae	Dolomedes_plantarius	AATATATATATATATATATATATATATAT	1	149704	40	0	NOT_TERMINAL
+araneae	Dolomedes_plantarius	AATATATATATATATATAT	2	108619	40	0	NOT_TERMINAL
+araneae	Dolomedes_plantarius	AATATATATATATATAT	3	68608	40	2	TERMINAL_ENRICHED

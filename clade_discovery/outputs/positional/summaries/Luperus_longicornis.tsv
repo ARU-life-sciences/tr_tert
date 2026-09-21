@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Luperus_longicornis	AACCGACAACGACAACGAC	1	76073	40	0	NOT_TERMINAL
+coleoptera	Luperus_longicornis	AACCTAACCTAACCTAACCTAACCT	2	58491	40	0	NOT_TERMINAL
+coleoptera	Luperus_longicornis	AAAACAGGTCTAACAGAAGCTAATTTCAT	3	50346	40	0	NOT_TERMINAL

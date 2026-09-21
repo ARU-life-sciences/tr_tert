@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Nebria_salina	ACAGACATATAGGTCAT	1	27190	40	0	NOT_TERMINAL
+coleoptera	Nebria_salina	AACT	2	22794	40	17	TERMINAL_ENRICHED
+coleoptera	Nebria_salina	ACAGATCAGACAT	3	20453	40	0	NOT_TERMINAL

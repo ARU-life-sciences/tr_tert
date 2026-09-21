@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+araneae	Clubiona_pallidula	AAAAATCCGTGTCGGTG	1	27307	28	0	NOT_TERMINAL
+araneae	Clubiona_pallidula	AAACAGTCATGGCT	2	9324	28	0	NOT_TERMINAL
+araneae	Clubiona_pallidula	AAATGTGTGGCAAGGTCTCCGAACTCCCT	3	9254	28	0	NOT_TERMINAL

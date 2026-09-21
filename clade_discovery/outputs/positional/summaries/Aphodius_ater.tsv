@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Aphodius_ater	AACCCAACCCAACCCAACCCAACCC	1	126104	40	6	TERMINAL_ENRICHED
+coleoptera	Aphodius_ater	AAATCTCGTGTGC	2	64356	40	0	NOT_TERMINAL
+coleoptera	Aphodius_ater	AAATAATTAAT	3	24274	40	0	NOT_TERMINAL

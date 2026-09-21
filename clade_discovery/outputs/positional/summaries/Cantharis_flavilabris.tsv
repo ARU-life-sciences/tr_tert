@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Cantharis_flavilabris	AACCTAACCT	1	201658	8	7	TERMINAL_ENRICHED
+coleoptera	Cantharis_flavilabris	AACCTAACCTAACCTAACCT	2	100828	8	5	TERMINAL_ENRICHED
+coleoptera	Cantharis_flavilabris	AACCTAACCTAACCTAACCTAACCT	3	80662	8	5	TERMINAL_ENRICHED

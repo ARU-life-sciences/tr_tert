@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Bruchus_rufimanus	AACCTAACCTAACCTAACCTAACCT	1	90766	18	0	NOT_TERMINAL
+coleoptera	Bruchus_rufimanus	AAACCTCACC	2	48133	18	4	TERMINAL_ENRICHED
+coleoptera	Bruchus_rufimanus	AACCTAACCTAACCT	3	37005	18	16	TERMINAL_ENRICHED

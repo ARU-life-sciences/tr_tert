@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Lathrobium_fulvipenne	AATAGAATAGAATAGAATAGAATAG	1	35749	40	0	NOT_TERMINAL
+coleoptera	Lathrobium_fulvipenne	AAAAAAGGCAAAAATCTAC	2	33543	40	0	NOT_TERMINAL
+coleoptera	Lathrobium_fulvipenne	AACAC	3	30146	40	0	NOT_TERMINAL

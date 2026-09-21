@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Agonum_gracile	ACACACTCGCC	1	51089	40	0	NOT_TERMINAL
+coleoptera	Agonum_gracile	AAACTTAATCT	2	32599	40	0	NOT_TERMINAL
+coleoptera	Agonum_gracile	AAAATATACAATATAGCAT	3	21960	40	0	NOT_TERMINAL

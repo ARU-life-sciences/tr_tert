@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Psylliodes_napi	AAATAATCGATTAATCG	1	20976	40	0	NOT_TERMINAL
+coleoptera	Psylliodes_napi	AACCTAACCTAACCT	2	16171	40	3	TERMINAL_ENRICHED
+coleoptera	Psylliodes_napi	AAGAGGGTGCGGCGTGG	3	14061	40	0	NOT_TERMINAL

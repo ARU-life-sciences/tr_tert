@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Cantharis_rustica	AACCTAACCTAACCT	1	63258	10	4	TERMINAL_ENRICHED
+coleoptera	Cantharis_rustica	AACCTAACCTACCT	2	50617	10	0	NOT_TERMINAL
+coleoptera	Cantharis_rustica	AACCTAACCTAACCTAACCT	3	48466	10	2	TERMINAL_ENRICHED

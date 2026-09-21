@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Tachinus_rufipes	AACCTAACCTAACCTAACCTAACCT	1	134226	14	8	TERMINAL_ENRICHED
+coleoptera	Tachinus_rufipes	AAACCTAACCAAAGCTC	2	56323	14	0	NOT_TERMINAL
+coleoptera	Tachinus_rufipes	ACAGATGACAGATG	3	50766	14	0	NOT_TERMINAL

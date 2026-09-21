@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Lochmaea_capreae	AAAATCGATTGGG	1	46952	18	0	NOT_TERMINAL
+coleoptera	Lochmaea_capreae	ACACTACTCTACTCT	2	43974	18	0	NOT_TERMINAL
+coleoptera	Lochmaea_capreae	ATCCATCCATCCATCCATCC	3	30519	18	0	NOT_TERMINAL

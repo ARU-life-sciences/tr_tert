@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+myriapoda	Lithobius_variegatus	AACCTAACCTAACCTACCT	1	103190	40	0	NOT_TERMINAL
+myriapoda	Lithobius_variegatus	AAAAAAAGAGAGTGATT	2	66682	40	0	NOT_TERMINAL
+myriapoda	Lithobius_variegatus	AAATACCG	3	55146	40	0	NOT_TERMINAL

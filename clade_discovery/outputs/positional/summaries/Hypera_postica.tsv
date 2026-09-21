@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Hypera_postica	AAAACTAACCAAAACTAACCAAAACTAACC	1	147013	40	6	TERMINAL_ENRICHED
+coleoptera	Hypera_postica	AAGGGGGAGGGGG	2	146411	40	0	NOT_TERMINAL
+coleoptera	Hypera_postica	AACCGTTACTGACACAG	3	96226	40	0	NOT_TERMINAL

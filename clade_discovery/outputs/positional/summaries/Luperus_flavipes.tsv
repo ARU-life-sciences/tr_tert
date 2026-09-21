@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Luperus_flavipes	AAACCTAACCT	1	47821	40	0	NOT_TERMINAL
+coleoptera	Luperus_flavipes	AAAATAAAATAAAATAAAATAAAAT	2	41869	40	1	WEAK
+coleoptera	Luperus_flavipes	ACGTATCAGAG	3	40448	40	0	NOT_TERMINAL

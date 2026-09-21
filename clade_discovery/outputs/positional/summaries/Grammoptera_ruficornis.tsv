@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Grammoptera_ruficornis	AACCTAACCTAACCTAACCTAACCT	1	76572	23	10	TERMINAL_ENRICHED
+coleoptera	Grammoptera_ruficornis	AACCTAACCTAACCTACGACCT	2	57386	23	0	NOT_TERMINAL
+coleoptera	Grammoptera_ruficornis	AACCTAACCTAACCTAACCTAACCTAACT	3	51366	23	0	NOT_TERMINAL

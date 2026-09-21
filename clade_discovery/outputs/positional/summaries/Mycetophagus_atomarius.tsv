@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Mycetophagus_atomarius	ACCTGACCTGACCTGACCTG	1	37318	17	5	TERMINAL_ENRICHED
+coleoptera	Mycetophagus_atomarius	ACCTGACCTGACCTGACCTGACCTG	2	29856	17	5	TERMINAL_ENRICHED
+coleoptera	Mycetophagus_atomarius	ACCTGACCTGACCTGACCTGACCTGACCTG	3	25380	17	4	TERMINAL_ENRICHED

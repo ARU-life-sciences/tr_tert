@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+araneae	Phylloneta_impressa	ACCGGCCCGTAT	1	54190	40	0	NOT_TERMINAL
+araneae	Phylloneta_impressa	AAACATCGTCATATACGATGCATCGGG	2	33249	40	0	NOT_TERMINAL
+araneae	Phylloneta_impressa	AAACAACGAGCTGAAGAAGAAGCT	3	26482	40	0	NOT_TERMINAL

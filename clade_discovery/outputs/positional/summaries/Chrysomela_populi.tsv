@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Chrysomela_populi	ACCCCGGCCCCCGCCGCCGCCG	1	36941	17	0	NOT_TERMINAL
+coleoptera	Chrysomela_populi	AACCTAACCTAACCTAACCTAACCT	2	27372	17	13	TERMINAL_ENRICHED
+coleoptera	Chrysomela_populi	ACCCCGCGCCCGCCG	3	26795	17	0	NOT_TERMINAL

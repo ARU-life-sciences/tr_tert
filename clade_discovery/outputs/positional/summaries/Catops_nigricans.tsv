@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Catops_nigricans	AACTAG	1	26795	40	0	NOT_TERMINAL
+coleoptera	Catops_nigricans	AACTAACTAACT	2	23356	40	0	NOT_TERMINAL
+coleoptera	Catops_nigricans	AACTAACTAACTAACTAACT	3	12677	40	0	NOT_TERMINAL

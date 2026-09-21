@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Galerucella_sagittariae	AAAAAAGCGGCCGTAAAGT	1	36004	21	0	NOT_TERMINAL
+coleoptera	Galerucella_sagittariae	AATAATCGATT	2	34879	21	3	TERMINAL_ENRICHED
+coleoptera	Galerucella_sagittariae	AAACCTAACCTAACCTAACCTAACCT	3	31742	21	0	NOT_TERMINAL

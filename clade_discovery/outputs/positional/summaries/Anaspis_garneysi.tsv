@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Anaspis_garneysi	ACCTGACCTG	1	10053	35	2	TERMINAL_ENRICHED
+coleoptera	Anaspis_garneysi	AAAATTCATGACATCTGTC	2	8158	35	0	NOT_TERMINAL
+coleoptera	Anaspis_garneysi	ACCTGACCTGACCTG	3	7165	35	1	WEAK

@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Sphaeridium_bipustulatum	AAAGCAAAGCAAAGC	1	29134	13	0	NOT_TERMINAL
+coleoptera	Sphaeridium_bipustulatum	AATTAATTAATT	2	21209	13	0	NOT_TERMINAL
+coleoptera	Sphaeridium_bipustulatum	AAAGCAAAGCAAAGCAAAGCAAAGC	3	17478	13	0	NOT_TERMINAL

@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Sitona_cylindricollis	AAAACTAACCAAAACTAACCAAACTAACC	1	90871	40	0	NOT_TERMINAL
+coleoptera	Sitona_cylindricollis	AAAACTAACCAAACTAACC	2	70357	40	2	TERMINAL_ENRICHED
+coleoptera	Sitona_cylindricollis	AAAAAAAGTAAAAATCGGG	3	54772	40	0	NOT_TERMINAL

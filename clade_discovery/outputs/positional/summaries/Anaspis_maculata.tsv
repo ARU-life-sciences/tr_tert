@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Anaspis_maculata	ACCTGACCTGACCTGACCTGACCTG	1	128884	25	4	TERMINAL_ENRICHED
+coleoptera	Anaspis_maculata	AAATGTCTGGTAAATGTGT	2	99606	25	0	NOT_TERMINAL
+coleoptera	Anaspis_maculata	ACGGACGGACGGACGG	3	97046	25	0	NOT_TERMINAL

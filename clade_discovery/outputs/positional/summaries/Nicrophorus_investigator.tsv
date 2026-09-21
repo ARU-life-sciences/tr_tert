@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Nicrophorus_investigator	AAAATGTCAAAATGTC	1	39308	39	1	WEAK
+coleoptera	Nicrophorus_investigator	AACGGTAACGGTAACGGT	2	34244	39	0	NOT_TERMINAL
+coleoptera	Nicrophorus_investigator	AAAATGTCAAAATGTCAAAATGTC	3	28901	39	0	NOT_TERMINAL

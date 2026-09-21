@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Nacerdes_melanura	AAGGTCGGGTCAGGTCCGGTACGGT	1	185414	40	0	NOT_TERMINAL
+coleoptera	Nacerdes_melanura	AGGGCATCGCCGG	2	108873	40	0	NOT_TERMINAL
+coleoptera	Nacerdes_melanura	AAAAAATCGGTGAACTG	3	30939	40	0	NOT_TERMINAL

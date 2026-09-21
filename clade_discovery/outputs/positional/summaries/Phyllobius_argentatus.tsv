@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Phyllobius_argentatus	AAAAGTAGTTCAAAAGTAGTTC	1	73944	33	0	NOT_TERMINAL
+coleoptera	Phyllobius_argentatus	AAGGGCGGCAATACTCTATACCGAC	2	67856	33	0	NOT_TERMINAL
+coleoptera	Phyllobius_argentatus	AAACCCTAACCTGACGATACCGGAGCT	3	53936	33	0	NOT_TERMINAL

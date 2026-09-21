@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Chrysolina_haemoptera	ACCCGACTCCGATCCGACTCCG	1	33869	30	0	NOT_TERMINAL
+coleoptera	Chrysolina_haemoptera	ACCCGACTCCG	2	26786	30	0	NOT_TERMINAL
+coleoptera	Chrysolina_haemoptera	ACCTATGACCTCG	3	20244	30	0	NOT_TERMINAL

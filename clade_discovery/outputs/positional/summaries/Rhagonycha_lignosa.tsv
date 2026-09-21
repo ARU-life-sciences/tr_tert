@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Rhagonycha_lignosa	AACCTAACCTAACCTAACCTAACCTAACCT	1	85670	40	4	TERMINAL_ENRICHED
+coleoptera	Rhagonycha_lignosa	AAACCGTCAAATGATATTCAG	2	66646	40	0	NOT_TERMINAL
+coleoptera	Rhagonycha_lignosa	AACCTAACCTAACCT	3	37456	40	4	TERMINAL_ENRICHED

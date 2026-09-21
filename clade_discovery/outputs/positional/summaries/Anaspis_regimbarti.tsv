@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Anaspis_regimbarti	ACCTGACCTGACCTGACCTGACCTG	1	67090	8	2	TERMINAL_ENRICHED
+coleoptera	Anaspis_regimbarti	AAAAACCGGTCAGGAACCGCT	2	43833	8	0	NOT_TERMINAL
+coleoptera	Anaspis_regimbarti	ACCTGACCTGACCTGACCTG	3	41932	8	3	TERMINAL_ENRICHED

@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Otiorhynchus_rugosostriatus	AAGGAAGGAAGGAAGG	1	16574	31	3	TERMINAL_ENRICHED
+coleoptera	Otiorhynchus_rugosostriatus	AACCTAACCTAACCTACCT	2	15109	31	0	NOT_TERMINAL
+coleoptera	Otiorhynchus_rugosostriatus	AAGGAAGGAAGGAAGGAAGG	3	15036	31	0	NOT_TERMINAL

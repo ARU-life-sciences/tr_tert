@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+myriapoda	Strigamia_acuminata	AACCTAACCTAACCTAACCTAACCT	1	22494	40	5	TERMINAL_ENRICHED
+myriapoda	Strigamia_acuminata	AAAACTTGC	2	21566	40	0	NOT_TERMINAL
+myriapoda	Strigamia_acuminata	AAAAATTAAAATT	3	18007	40	0	NOT_TERMINAL

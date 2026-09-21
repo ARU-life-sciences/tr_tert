@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Gastrophysa_viridula	AAAGAAAG	1	64355	31	0	NOT_TERMINAL
+coleoptera	Gastrophysa_viridula	AATATTC	2	53457	31	0	NOT_TERMINAL
+coleoptera	Gastrophysa_viridula	AAATGTCAAATGTC	3	52466	31	1	WEAK

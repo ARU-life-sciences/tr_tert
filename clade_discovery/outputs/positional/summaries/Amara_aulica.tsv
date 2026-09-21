@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Amara_aulica	AACCTAACCTAACCT	1	23882	40	11	TERMINAL_ENRICHED
+coleoptera	Amara_aulica	AATAG	2	20846	40	0	NOT_TERMINAL
+coleoptera	Amara_aulica	AAAAAATTTTC	3	20004	40	0	NOT_TERMINAL

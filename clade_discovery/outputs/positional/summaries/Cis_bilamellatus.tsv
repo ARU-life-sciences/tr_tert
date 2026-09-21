@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Cis_bilamellatus	ACAGGTGATGTC	1	38096	29	0	NOT_TERMINAL
+coleoptera	Cis_bilamellatus	AAAGTGATTTCCACGATTTCC	2	31990	29	0	NOT_TERMINAL
+coleoptera	Cis_bilamellatus	ATATATCG	3	31967	29	0	NOT_TERMINAL

@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Harpalus_anxius	AAGAAGAAGAAGAAGGG	1	68615	40	0	NOT_TERMINAL
+coleoptera	Harpalus_anxius	AAAATTAACTT	2	52089	40	0	NOT_TERMINAL
+coleoptera	Harpalus_anxius	AAATAATAATAATAATAAT	3	49341	40	0	NOT_TERMINAL

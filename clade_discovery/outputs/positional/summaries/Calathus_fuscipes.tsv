@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Calathus_fuscipes	AACCTAACCTAACCTAACCTAACCT	1	109504	40	3	TERMINAL_ENRICHED
+coleoptera	Calathus_fuscipes	AAAACATAAAACT	2	106038	40	0	NOT_TERMINAL
+coleoptera	Calathus_fuscipes	AAACCTATCCTGCTT	3	64907	40	0	NOT_TERMINAL

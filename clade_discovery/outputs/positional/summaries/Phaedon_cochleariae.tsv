@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Phaedon_cochleariae	AGATAGATAGATAGAT	1	48885	40	0	NOT_TERMINAL
+coleoptera	Phaedon_cochleariae	AAAAATCGCAAAAATTCCTGAAAATAGC	2	46240	40	0	NOT_TERMINAL
+coleoptera	Phaedon_cochleariae	AAAAATTTCTGAAAATTGC	3	44767	40	0	NOT_TERMINAL

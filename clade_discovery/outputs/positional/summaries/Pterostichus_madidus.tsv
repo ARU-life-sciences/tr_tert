@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Pterostichus_madidus	AACCTAACCTAACCTAACCTAACCT	1	64298	19	0	NOT_TERMINAL
+coleoptera	Pterostichus_madidus	AACCTAACCTAACCT	2	53582	19	6	TERMINAL_ENRICHED
+coleoptera	Pterostichus_madidus	AACAGGTCTTG	3	34405	19	0	NOT_TERMINAL

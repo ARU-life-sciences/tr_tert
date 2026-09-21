@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Cryptocephalus_pusillus	AAAAACCGGTTTCAATGACCTAG	1	18712	40	0	NOT_TERMINAL
+coleoptera	Cryptocephalus_pusillus	AAACCTAACCT	2	18343	40	0	NOT_TERMINAL
+coleoptera	Cryptocephalus_pusillus	AAAAAAAATAAGGGTTG	3	13684	40	0	NOT_TERMINAL

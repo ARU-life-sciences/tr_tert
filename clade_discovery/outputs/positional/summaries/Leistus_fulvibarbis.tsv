@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Leistus_fulvibarbis	AAACCTAACCT	1	38268	40	0	NOT_TERMINAL
+coleoptera	Leistus_fulvibarbis	AACCTAACCTAACCT	2	35628	40	9	TERMINAL_ENRICHED
+coleoptera	Leistus_fulvibarbis	AACCTAACCTAACCTAACCTAACCT	3	21376	40	1	WEAK

@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Chrysomela_saliceti	AACCTAACCTAACCTAACT	1	70394	32	4	TERMINAL_ENRICHED
+coleoptera	Chrysomela_saliceti	AACCTAACCTAACT	2	59660	32	4	TERMINAL_ENRICHED
+coleoptera	Chrysomela_saliceti	AACCTAACCTAACCTAACCT	3	43684	32	13	TERMINAL_ENRICHED

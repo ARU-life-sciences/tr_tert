@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Polydrusus_impressifrons	AAACCCGACC	1	117230	14	5	TERMINAL_ENRICHED
+coleoptera	Polydrusus_impressifrons	ACATGTACGCGCGT	2	75766	14	0	NOT_TERMINAL
+coleoptera	Polydrusus_impressifrons	ATATATCGATATATCG	3	68024	14	0	NOT_TERMINAL

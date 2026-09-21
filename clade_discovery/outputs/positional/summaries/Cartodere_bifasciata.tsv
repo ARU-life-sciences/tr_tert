@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Cartodere_bifasciata	AACCTAACCT	1	46101	14	8	TERMINAL_ENRICHED
+coleoptera	Cartodere_bifasciata	AACCTAACCTAACCTAACCTAACCT	2	36880	14	3	TERMINAL_ENRICHED
+coleoptera	Cartodere_bifasciata	AACCTAACCTAACCT	3	30734	14	7	TERMINAL_ENRICHED

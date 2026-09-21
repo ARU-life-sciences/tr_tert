@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Altica_lythri	AAATAATAGGTAT	1	145256	40	0	NOT_TERMINAL
+coleoptera	Altica_lythri	AACCTAACCTAACCT	2	85523	40	8	TERMINAL_ENRICHED
+coleoptera	Altica_lythri	AAAAATTCTAAAAATTT	3	61544	40	0	NOT_TERMINAL

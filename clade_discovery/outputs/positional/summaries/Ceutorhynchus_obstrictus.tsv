@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Ceutorhynchus_obstrictus	AAAGATATAACGTAGAGAGACG	1	48992	40	0	NOT_TERMINAL
+coleoptera	Ceutorhynchus_obstrictus	AAATAAATAAATAAAT	2	41875	40	0	NOT_TERMINAL
+coleoptera	Ceutorhynchus_obstrictus	AATGAT	3	40905	40	0	NOT_TERMINAL

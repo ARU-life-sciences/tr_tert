@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Coccinella_magnifica	AACCTAACCTAACCTAACCT	1	90344	40	8	TERMINAL_ENRICHED
+coleoptera	Coccinella_magnifica	AACCTAACCTAACCTAACCTAACCT	2	87586	40	6	TERMINAL_ENRICHED
+coleoptera	Coccinella_magnifica	AACCTAACCTAACCTAACCTAACCTAACCT	3	60228	40	4	TERMINAL_ENRICHED

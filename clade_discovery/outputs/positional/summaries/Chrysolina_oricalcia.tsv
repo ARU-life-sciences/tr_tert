@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Chrysolina_oricalcia	AACCTAACCTAACCTAACCTAACCTACCT	1	113412	26	0	NOT_TERMINAL
+coleoptera	Chrysolina_oricalcia	AAAATCGAATTTTCCATGG	2	49236	26	0	NOT_TERMINAL
+coleoptera	Chrysolina_oricalcia	AAGACGTAAGACGTAAGACGT	3	37340	26	0	NOT_TERMINAL

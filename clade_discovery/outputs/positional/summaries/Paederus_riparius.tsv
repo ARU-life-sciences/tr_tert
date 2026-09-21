@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Paederus_riparius	AACCTAACCTAACCTAACT	1	96198	40	5	TERMINAL_ENRICHED
+coleoptera	Paederus_riparius	ACACACAGACAGACAG	2	68307	40	0	NOT_TERMINAL
+coleoptera	Paederus_riparius	AACACCTAACCTAACCT	3	38589	40	0	NOT_TERMINAL

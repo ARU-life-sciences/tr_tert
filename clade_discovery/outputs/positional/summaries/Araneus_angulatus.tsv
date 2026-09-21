@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+araneae	Araneus_angulatus	AAATAATATGT	1	139948	40	0	NOT_TERMINAL
+araneae	Araneus_angulatus	AAAAGG	2	127768	40	0	NOT_TERMINAL
+araneae	Araneus_angulatus	AATATATATATATATAT	3	93065	40	0	NOT_TERMINAL

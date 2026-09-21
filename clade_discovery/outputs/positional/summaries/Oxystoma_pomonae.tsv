@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Oxystoma_pomonae	AACCCAACCCAACCCAACCCAACCC	1	237642	12	6	TERMINAL_ENRICHED
+coleoptera	Oxystoma_pomonae	AAAAAAAAATAAG	2	125613	12	0	NOT_TERMINAL
+coleoptera	Oxystoma_pomonae	AAAAAAAAAATTG	3	112982	12	0	NOT_TERMINAL

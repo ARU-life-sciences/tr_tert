@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Poecilus_cupreus	AATGGTGTGCTGTGGGATG	1	41474	40	0	NOT_TERMINAL
+coleoptera	Poecilus_cupreus	AACCTAACCTAACCTAACCTAACCT	2	32490	40	8	TERMINAL_ENRICHED
+coleoptera	Poecilus_cupreus	AAAATTTTC	3	25620	40	0	NOT_TERMINAL

@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Magdalis_barbicornis	AAAATAT	1	73957	40	0	NOT_TERMINAL
+coleoptera	Magdalis_barbicornis	AATATATATATATATATATATAT	2	31562	40	0	NOT_TERMINAL
+coleoptera	Magdalis_barbicornis	AAAAAAAAGGTGG	3	22352	40	1	WEAK

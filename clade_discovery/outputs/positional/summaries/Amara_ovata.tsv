@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Amara_ovata	AACCTAACCTAACCT	1	80536	33	15	TERMINAL_ENRICHED
+coleoptera	Amara_ovata	AAGCCAAGCCAAGCC	2	67222	33	0	NOT_TERMINAL
+coleoptera	Amara_ovata	AACCTAACCTAACCTAACCTAACCT	3	48322	33	15	TERMINAL_ENRICHED

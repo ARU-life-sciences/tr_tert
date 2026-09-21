@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Geotrupes_spiniger	AACCCAACCCAACCCAACCCAACCC	1	71056	40	10	TERMINAL_ENRICHED
+coleoptera	Geotrupes_spiniger	AAAAAAAAAAG	2	50768	40	0	NOT_TERMINAL
+coleoptera	Geotrupes_spiniger	AACCCAACCCAACCCAACCC	3	46898	40	10	TERMINAL_ENRICHED

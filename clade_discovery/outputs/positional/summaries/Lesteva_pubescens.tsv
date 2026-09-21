@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Lesteva_pubescens	AATATATATATATATATATATAT	1	29084	40	0	NOT_TERMINAL
+coleoptera	Lesteva_pubescens	AATATATATATATATATATATATAT	2	28720	40	0	NOT_TERMINAL
+coleoptera	Lesteva_pubescens	AATATATATAATATATATAATATATAT	3	20672	40	0	NOT_TERMINAL

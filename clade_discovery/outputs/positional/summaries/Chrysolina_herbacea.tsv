@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Chrysolina_herbacea	AAGACGTAAGACGTAAGACGT	1	47907	40	0	NOT_TERMINAL
+coleoptera	Chrysolina_herbacea	AGAGCAGAGCAGAGCAGAGCAGAGC	2	46715	40	0	NOT_TERMINAL
+coleoptera	Chrysolina_herbacea	AAAAAGAC	3	28574	40	1	WEAK

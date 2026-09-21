@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Coccinella_septempunctata	AACCTAACCTAACCT	1	113600	11	10	TERMINAL_ENRICHED
+coleoptera	Coccinella_septempunctata	AACCTAACCTAACCTAACCTAACCTAACCT	2	65644	11	10	TERMINAL_ENRICHED
+coleoptera	Coccinella_septempunctata	AACCTAACCTCGACCT	3	48899	11	0	NOT_TERMINAL

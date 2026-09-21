@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Sitona_obsoletus	AAACTAACCTAAACTAACCTAACCT	1	178096	40	1	WEAK
+coleoptera	Sitona_obsoletus	AAACTTCAAGCAACAAGCAACTC	2	128551	40	0	NOT_TERMINAL
+coleoptera	Sitona_obsoletus	AAAAAAAGTAAAAATCGGG	3	113494	40	0	NOT_TERMINAL

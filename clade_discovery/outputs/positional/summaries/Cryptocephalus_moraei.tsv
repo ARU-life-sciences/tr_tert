@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Cryptocephalus_moraei	AAATCGCCGCCCAGAGGGAAG	1	30969	29	0	NOT_TERMINAL
+coleoptera	Cryptocephalus_moraei	AACTCGGCGATGCAGAGTCGGCGATGGTC	2	13749	29	0	NOT_TERMINAL
+coleoptera	Cryptocephalus_moraei	AAAGAGAGCCAACGAAAGAGAGTCCACCG	3	11474	29	0	NOT_TERMINAL

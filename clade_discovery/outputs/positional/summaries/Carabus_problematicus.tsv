@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Carabus_problematicus	ACCCTACCCTACCCTACCCTACCCT	1	29608	21	8	TERMINAL_ENRICHED
+coleoptera	Carabus_problematicus	AACAGCAGCACTG	2	25594	21	0	NOT_TERMINAL
+coleoptera	Carabus_problematicus	ACCCTACCCTACCCT	3	24660	21	12	TERMINAL_ENRICHED

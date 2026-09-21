@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Rhagium_inquisitor	AAATAAATAAAT	1	21476	40	0	NOT_TERMINAL
+coleoptera	Rhagium_inquisitor	AGATAGATAGAT	2	13825	40	0	NOT_TERMINAL
+coleoptera	Rhagium_inquisitor	AAAT	3	10432	40	0	NOT_TERMINAL

@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+myriapoda	Polydesmus_denticulatus	AAAACATGCGCAGTAAAACATGCGCAGT	1	7028	8	0	NOT_TERMINAL
+myriapoda	Polydesmus_denticulatus	AAAAAT	2	5944	8	0	NOT_TERMINAL
+myriapoda	Polydesmus_denticulatus	AATT	3	588	8	0	NOT_TERMINAL

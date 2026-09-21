@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Anthonomus_pomorum	AAACAAAC	1	20356	40	0	NOT_TERMINAL
+coleoptera	Anthonomus_pomorum	AAATAAAT	2	15828	40	0	NOT_TERMINAL
+coleoptera	Anthonomus_pomorum	ACCTGATGC	3	13642	40	0	NOT_TERMINAL

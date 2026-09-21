@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Carabus_nemoralis	ACCCTACCCTACCCTACCT	1	24244	33	1	WEAK
+coleoptera	Carabus_nemoralis	ACCCCTACCCT	2	22390	33	3	TERMINAL_ENRICHED
+coleoptera	Carabus_nemoralis	ACCCTACCCTACCCTACCCTACCCTACCCT	3	21582	33	6	TERMINAL_ENRICHED

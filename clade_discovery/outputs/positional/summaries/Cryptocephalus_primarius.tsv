@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Cryptocephalus_primarius	AACCCGAATAC	1	43836	40	1	WEAK
+coleoptera	Cryptocephalus_primarius	AACACACCCG	2	39843	40	0	NOT_TERMINAL
+coleoptera	Cryptocephalus_primarius	AACACACACCCG	3	33032	40	0	NOT_TERMINAL

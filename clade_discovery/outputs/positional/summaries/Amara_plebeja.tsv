@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Amara_plebeja	AACCTAACCTT	1	90561	40	10	TERMINAL_ENRICHED
+coleoptera	Amara_plebeja	AACCTAACCTAACCTAACCTAACCT	2	50506	40	16	TERMINAL_ENRICHED
+coleoptera	Amara_plebeja	AACCTAACCTAACCTACCT	3	47103	40	1	WEAK

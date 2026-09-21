@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Malthinus_flaveolus	AACCTAACCTAACCTAACCTAACCTAACT	1	10344	6	0	NOT_TERMINAL
+coleoptera	Malthinus_flaveolus	AAGGACTAAGGACTAAGGACT	2	8426	6	0	NOT_TERMINAL
+coleoptera	Malthinus_flaveolus	AACCT	3	5804	6	6	TERMINAL_ENRICHED

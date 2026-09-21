@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Rhagonycha_lutea	AACCGCCATAATAATTCCGGCCT	1	86768	40	0	NOT_TERMINAL
+coleoptera	Rhagonycha_lutea	AAAAATTAACCTCAAAATT	2	24314	40	0	NOT_TERMINAL
+coleoptera	Rhagonycha_lutea	ACATACATACATACATACATACAT	3	15405	40	0	NOT_TERMINAL

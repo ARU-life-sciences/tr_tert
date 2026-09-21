@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+araneae	Araneus_marmoreus	AAAGTTGATTTGCGGGGCCTGGTGC	1	80592	40	0	NOT_TERMINAL
+araneae	Araneus_marmoreus	AAAATAATAATTTTAATAATATT	2	40838	40	0	NOT_TERMINAL
+araneae	Araneus_marmoreus	AAAAGCAAATCAAAGACTTTCATTC	3	22431	40	0	NOT_TERMINAL

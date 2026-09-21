@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Chrysolina_hyperici	AACCTAACCTAACCTAACCTAACCT	1	92754	31	17	TERMINAL_ENRICHED
+coleoptera	Chrysolina_hyperici	AAACCTAACCT	2	59090	31	0	NOT_TERMINAL
+coleoptera	Chrysolina_hyperici	AACCTAACCTAACT	3	46447	31	1	WEAK

@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Gyrinus_marinus	AAAATAAAATAAAATAAAATAAAAT	1	28359	40	0	NOT_TERMINAL
+coleoptera	Gyrinus_marinus	AATATATATATAT	2	13495	40	0	NOT_TERMINAL
+coleoptera	Gyrinus_marinus	AAAAGTCAGGG	3	12532	40	0	NOT_TERMINAL

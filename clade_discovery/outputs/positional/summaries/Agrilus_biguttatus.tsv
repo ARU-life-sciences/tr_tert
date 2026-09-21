@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Agrilus_biguttatus	AACCTAACCTAACCT	1	58654	20	5	TERMINAL_ENRICHED
+coleoptera	Agrilus_biguttatus	AACCTAACCTAACCTAACCT	2	43990	20	5	TERMINAL_ENRICHED
+coleoptera	Agrilus_biguttatus	AACCTAACCTAACCTAACCTAACCT	3	35192	20	5	TERMINAL_ENRICHED

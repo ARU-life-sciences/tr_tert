@@ -1,0 +1,4 @@
+clade	species	repeat	explore_rank	explore_count	n_main_chroms	n_terminal_enriched	verdict
+coleoptera	Cantharis_decipiens	AATGTC	1	40522	40	2	TERMINAL_ENRICHED
+coleoptera	Cantharis_decipiens	AACT	2	28322	40	0	NOT_TERMINAL
+coleoptera	Cantharis_decipiens	AAAT	3	21126	40	0	NOT_TERMINAL
