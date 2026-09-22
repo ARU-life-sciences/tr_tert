@@ -199,6 +199,85 @@ enrichment, not real telomere biology - the same class of confound
 parent plant pipeline). **Needs an N-content-near-terminus sanity check
 before trusting any of these 4** - not yet done.
 
+## Step 3, take 2: promoter-based anchoring (2026-09-22)
+
+Naive template-matching for candidate TR loci (first version of
+`predict_tr_candidate_loci.py`, tested on the 3 confirmed-`AACCC`
+*Aphodius* species) turned out not to scale down to the literature's
+"needle in a haystack" tractability even after correcting a specificity
+bug (fixed copy-count threshold vs. one that scales with unit length -
+see the script's docstring): `Aphodius_granarius` alone produced
+460,440 candidates even after the fix. Short (5bp) repeat units are
+just fundamentally less specific than the literature's 11-13bp units -
+more tandem copies would help precision but risks conflating candidates
+with the real telomeric/interstitial array. Decided (user's call) to
+build the promoter-based anchor instead of brute-forcing reciprocal
+blastn on ~460k candidates - **explicitly framed as reusable machinery
+for other clades, not a one-off fix for Coleoptera specifically.**
+
+**Built:**
+- `inputs/rfam/snRNA_promoter_models.cm` - Rfam's U1/U2/U3/U4/U5/U6/
+  U6atac/RNase_MRP/Arthropod_7SK covariance models (the exact 9 families
+  Fajkus's Hymenoptera paper used), fetched from the full Rfam.cm
+  release via `cmfetch`, then `cmpress`-indexed. ~2MB total - the large
+  intermediate download (44MB Rfam.cm) was deleted after extraction.
+- `src/run_snrna_search_clade.bash` - LSF-submitted `cmsearch` against
+  these 9 models, per species. ~15 min wall-clock (8 CPUs) for a
+  ~300Mb beetle genome in testing.
+- `src/extract_snrna_promoters.py` - pulls confident hits (e<1e-5, a
+  stricter cutoff than Infernal's own default inclusion flag, which was
+  too permissive for this purpose - 417 "included" U5 hits vs 36 at
+  e<1e-5 for one species) and extracts the upstream flanking region
+  (200bp default), handling genomic strand correctly (a '-strand hit's
+  "upstream" is the higher-coordinate flank, reverse-complemented back
+  to transcript-relative orientation).
+- `src/run_mafft.bash` - this farm's top-level `/software/team301/mafft`
+  wrapper is broken (bash errors from unset internal path variables,
+  produces empty output); worked around by calling the underlying
+  binary directly with `MAFFT_BINARIES` set explicitly. Worth knowing
+  about beyond clade_discovery if the parent plant pipeline ever needs
+  MAFFT again (README lists it as a dependency).
+- `src/build_promoter_consensus.py` - per-column consensus + a
+  conservation-fraction track from a MAFFT alignment of extracted
+  promoter regions, plus a scan for the best-conserved short window
+  (the TATA-box candidate).
+
+**Result, pilot on `Aphodius_granarius` (the AACCC-confirmed species):**
+142 confident (e<1e-5) snRNA hits, all 9 families represented (U1: 16,
+U2: 36, U3: 14, U4: 4, U5: 36, U6: 32, U6atac: 1, RNase_MRP: 2,
+Arthropod_7SK: 1). Promoter-region alignment + consensus found a
+**clear, independently-replicated TATA-box-like element** (`TATATA`
+core, best single window `GTATATAT`, ~69% mean conservation) at a
+consistent position near the transcript-proximal end of the extracted
+region - critically, this shows up independently across genuinely
+different, unrelated gene families (U2, U3, U4, U5, U6, U6atac,
+RNase_MRP, Arthropod_7SK all show the same core pattern individually,
+not just as an artifact of one family's internal tandem-array
+redundancy - checked explicitly by inspecting raw, ungapped sequence at
+the conserved column across families, not just trusting the pooled
+consensus number). This is a real, clean, unseeded rediscovery of a
+canonical type-3 RNAPIII promoter TATA box, directly analogous to what
+Fajkus describes doing by hand - found here with no assumed sequence.
+No clear second (USE/PSEA) element identified yet in this quick pass -
+worth a closer, more careful look, but the TATA signal alone is already
+a much stronger anchor than bare template-matching.
+
+**Not yet done:**
+- Run the same promoter search on the other 2 *Aphodius* species (and
+  ideally `Geotrupes_spiniger`) to check the TATA consensus is
+  consistent across species, not a one-genome fluke.
+- Use the characterized promoter signature (candidate TATA-box-like
+  sequence within ~200bp of a genomic position) AS the new specificity
+  filter for candidate TR loci, in place of/alongside bare template
+  matching - i.e. redo step 3 requiring BOTH a promoter-like signature
+  AND a nearby template match, which should be a much stronger joint
+  filter than either alone and should get candidate counts back down to
+  something reciprocal-blastn can actually handle.
+- Identify a candidate USE/PSEA element more carefully (may need a
+  cleaner, less redundant sequence set - collapsing near-identical
+  same-locus tandem copies before alignment would reduce bias from
+  within-array redundancy).
+
 ## Not yet built (needs real Stage 0 data first to design sensibly)
 
 - Candidate TR-locus prediction (step 3) - parameters (window size,

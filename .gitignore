@@ -28,3 +28,6 @@ __pycache__/
 # one per species/candidate - clutter, not meaningful individually; the
 # real result is outputs/positional_confirmations.tsv).
 /clade_discovery/outputs/positional/*.log
+# verbose cmsearch per-hit alignment output (MB-scale) - the structured
+# .tbl file has everything downstream steps actually use.
+/clade_discovery/outputs/snrna_search/*_snrna.log
