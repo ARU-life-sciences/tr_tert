@@ -22,16 +22,21 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 CLADE_ROOT="$(dirname "$SCRIPT_DIR")"
 
-CLADE_NAME="${1:?usage: reciprocal_filter_candidates.bash <clade_name> <query_species> <subject_species> [evalue] [outdir]}"
-QUERY_SP="${2:?usage: reciprocal_filter_candidates.bash <clade_name> <query_species> <subject_species> [evalue] [outdir]}"
-SUBJECT_SP="${3:?usage: reciprocal_filter_candidates.bash <clade_name> <query_species> <subject_species> [evalue] [outdir]}"
+CLADE_NAME="${1:?usage: reciprocal_filter_candidates.bash <clade_name> <query_species> <subject_species> [evalue] [outdir] [candidate_fa]}"
+QUERY_SP="${2:?usage: reciprocal_filter_candidates.bash <clade_name> <query_species> <subject_species> [evalue] [outdir] [candidate_fa]}"
+SUBJECT_SP="${3:?usage: reciprocal_filter_candidates.bash <clade_name> <query_species> <subject_species> [evalue] [outdir] [candidate_fa]}"
 EVALUE="${4:-1e-20}"
 OUTDIR="${5:-${CLADE_ROOT}/outputs/reciprocal_filter}"
 mkdir -p "$OUTDIR"
 
+# Defaults to the colocated_candidates output (promoter+template joint
+# filter - see find_promoter_template_colocated.py); pass an explicit
+# path as $6 to use a different candidate source (e.g. the older
+# template-only candidate_loci/ output).
+CANDIDATE_FA="${6:-${CLADE_ROOT}/outputs/colocated_candidates/${QUERY_SP}_colocated_candidates.fa}"
+[[ -s "$CANDIDATE_FA" ]] || { echo "No candidates at $CANDIDATE_FA" >&2; exit 1; }
+WORKER="${SCRIPT_DIR}/worker_reciprocal_filter.bash"
 BLASTBIN="${BLASTBIN:-/software/team301/ncbi-blast-2.16.0+/bin}"
-CANDIDATE_FA="${CLADE_ROOT}/outputs/candidate_loci/${QUERY_SP}_candidates.fa"
-[[ -s "$CANDIDATE_FA" ]] || { echo "No candidates at $CANDIDATE_FA - run predict_tr_candidate_loci.py first" >&2; exit 1; }
 
 SUBJECT_PATH=$(awk -F'\t' -v s="$SUBJECT_SP" '$1==s{print $2}' "${CLADE_ROOT}/inputs/${CLADE_NAME}_paths.txt")
 [[ -n "$SUBJECT_PATH" ]] || { echo "Subject species $SUBJECT_SP not found in ${CLADE_NAME}_paths.txt" >&2; exit 1; }
@@ -57,17 +62,7 @@ bsub \
   -M "$memMB" \
   -o "${LOGDIR}/${jobname}.%J.out" \
   -e "${LOGDIR}/${jobname}.%J.err" \
-  bash -lc "
-    tmpdir=\$(mktemp -d -p \${TMPDIR:-/tmp} recip_${QUERY_SP}_${SUBJECT_SP}.XXXXXX)
-    trap 'rm -rf \"\$tmpdir\"' EXIT
-    fa=\"\$tmpdir/subject.fa\"
-    if [[ '$SUBJECT_PATH' =~ \.gz\$ ]]; then gunzip -c '$SUBJECT_PATH' > \"\$fa\"; else cp '$SUBJECT_PATH' \"\$fa\"; fi
-    '$BLASTBIN/makeblastdb' -in \"\$fa\" -dbtype nucl -out \"\$tmpdir/db\"
-    '$BLASTBIN/blastn' -query '$CANDIDATE_FA' -db \"\$tmpdir/db\" \
-      -num_threads $nCPU -evalue $EVALUE \
-      -outfmt '6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore' \
-      -out '${out_hits}.tmp'
-    mv '${out_hits}.tmp' '$out_hits'
-  "
+  -env "all, nCPU=$nCPU, BLASTBIN=$BLASTBIN" \
+  bash "$WORKER" "$CANDIDATE_FA" "$SUBJECT_PATH" "$EVALUE" "$out_hits"
 
 echo "[reciprocal_filter_candidates] submitted, output -> $out_hits"

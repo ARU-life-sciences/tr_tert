@@ -262,21 +262,104 @@ No clear second (USE/PSEA) element identified yet in this quick pass -
 worth a closer, more careful look, but the TATA signal alone is already
 a much stronger anchor than bare template-matching.
 
-**Not yet done:**
-- Run the same promoter search on the other 2 *Aphodius* species (and
-  ideally `Geotrupes_spiniger`) to check the TATA consensus is
-  consistent across species, not a one-genome fluke.
-- Use the characterized promoter signature (candidate TATA-box-like
-  sequence within ~200bp of a genomic position) AS the new specificity
-  filter for candidate TR loci, in place of/alongside bare template
-  matching - i.e. redo step 3 requiring BOTH a promoter-like signature
-  AND a nearby template match, which should be a much stronger joint
-  filter than either alone and should get candidate counts back down to
-  something reciprocal-blastn can actually handle.
-- Identify a candidate USE/PSEA element more carefully (may need a
-  cleaner, less redundant sequence set - collapsing near-identical
-  same-locus tandem copies before alignment would reduce bias from
-  within-array redundancy).
+## Step 4: joint filter + reciprocal blastn - first full pipeline pass (2026-09-24)
+
+Ran the promoter search on the other 2 confirmed-`AACCC` *Aphodius*
+species plus `Geotrupes_spiniger`. Result is mixed, not a clean
+replication: `Aphodius_sticticus`'s pooled/aligned consensus did NOT
+show the same clear TATA peak as `granarius` (best window there was an
+unrelated `agatggcg`, 76% conserved) - but inspecting raw (ungapped)
+promoter sequences directly showed the TATA-like signal *was* present,
+just diluted in the pooled alignment because different snRNA
+subfamilies have slightly different exact spacing, shifting the true
+signal to different alignment columns per subfamily. Lesson for next
+time: build the consensus per-family (or collapse near-identical
+same-locus tandem copies first) rather than pooling everything through
+one alignment - noted but not fixed this session.
+
+**Built the actual fix for the candidate-volume problem**:
+`find_promoter_template_colocated.py` - scans for the promoter
+signature genome-wide first (far rarer than the template), then only
+checks the ~200bp window downstream of each promoter hit for a
+template match, directly mirroring Fajkus's stated method. First
+version did a pure-Python per-position Hamming-distance scan - far too
+slow (killed after 10+ min CPU with no result on one genome). Fixed by
+compiling all within-Hamming-distance variants of the promoter motif
+into a single alternation regex (25 variants for an 8bp motif at
+max_mm=1) and using `re.finditer` - C-speed, same genome finished in
+under 2 minutes. **Even an exact-match (0 mismatch) 8bp promoter motif
+alone still had 32,352 genome-wide hits** in `Aphodius_granarius` -
+this genome is simply AT/repeat-rich enough that even the "specific"
+promoter anchor isn't that specific alone; requiring co-occurrence with
+a template match cut this to 19,109 - an 24x reduction from the
+template-only approach's 460,440, and finally within reach of
+reciprocal blastn.
+
+**Also fixed a second nested-quoting bug** (same class as the one
+already fixed in `run_snrna_search_clade.bash`) in
+`reciprocal_filter_candidates.bash` - both now delegate to plain
+worker scripts (`worker_snrna_search.bash`, `worker_reciprocal_filter.bash`)
+matching the parent pipeline's own `worker_tblastn_tert.bash` pattern,
+rather than inlining fragile `bsub 'bash -lc "..."'` strings.
+
+**Result - real, substantial signal, now genuinely tractable:**
+
+Ran reciprocal blastn of `Aphodius_granarius`'s 19,109 joint-filter
+candidates against both `Aphodius_ater`'s and `Aphodius_sticticus`'s
+full genomes (e<=1e-20, matching the Bombus paper's threshold):
+
+| comparison | candidates with >=1 significant hit | single-copy (exactly 1 hit) |
+|---|---|---|
+| vs `Aphodius_ater` | 2,535 | 1,987 |
+| vs `Aphodius_sticticus` | - | 1,866 |
+| **conserved single-copy in BOTH** | - | **1,477** |
+
+Single-copy-in-one-species hits were distinguished from repeat-family
+noise by hit-count clustering: 1,987/2,535 candidates had exactly 1
+hit, while groups of candidates sharing suspiciously identical hit
+counts (24 candidates each with exactly 115 hits, 12 each with exactly
+805, etc.) are almost certainly shared repeat/transposon families, not
+single-copy genes, and were excluded. The surviving 1,477
+three-way-conserved candidates show consistently high, biologically
+coherent identity (median 88%, IQR 85-92%, several at 98-100%) -
+unusually high for cross-species comparison, consistent with either
+very recent divergence within *Aphodius* or genuine strong purifying
+selection (the latter being exactly what you'd expect for a
+functionally important ncRNA gene).
+
+Output: `outputs/candidate_tr_loci/Aphodius_3way_singlecopy_candidates.fa`/`.tsv`
+(1,477 loci, each confirmed single-copy-conserved across all 3 checked
+*Aphodius* species).
+
+**Honest caveat - this is NOT "found the TR gene," it's a much smaller,
+tractable shortlist.** A real genome typically has one TR gene (or a
+handful of paralogs at most) - 1,477 surviving candidates, even after
+promoter+template+3-way-single-copy-conservation filtering, still
+almost certainly contains many other classes of conserved single-copy
+functional elements that happen to carry both signals by chance
+(genuine housekeeping ncRNAs, protein-coding gene fragments, etc.), not
+exclusively TR candidates. No structural (covariance model) validation
+has been attempted yet, and there's no gene annotation available to
+check whether candidates overlap known protein-coding genes (which
+would argue against a genuine standalone ncRNA).
+
+## Not yet done (next steps, not started)
+- Further discriminate within the 1,477: cross-reference against any
+  available gene annotation (ruling out protein-coding overlap), extend
+  the 3-way conservation check to `Geotrupes_spiniger` (a fourth,
+  more distant confirmed-`AACCC` species - true positives should still
+  show up, repeat-family false positives are less likely to be
+  conserved that far out) and to the ~100 `AACCT`-canonical Coleoptera
+  species as a negative control (a genuine `AACCC`-lineage-specific TR
+  should NOT show the same signal there).
+- Build a covariance model (Infernal `cmbuild`/`cmsearch`) from the
+  surviving candidates and check for the expected TR secondary
+  structure (pseudoknot/PK, template boundary element/TBE, P1c stem) -
+  this is the actual structural-validation step, not yet attempted.
+- Fix the per-family promoter-consensus dilution issue noted above
+  before relying on any single species' consensus in isolation.
+- Investigate GERONIMO (see "Open items" above) as a possible
+  replacement for some of this hand-built machinery going forward.
 
 ## Not yet built (needs real Stage 0 data first to design sensibly)
 

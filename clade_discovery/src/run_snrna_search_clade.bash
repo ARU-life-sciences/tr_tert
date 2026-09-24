@@ -26,9 +26,9 @@ SPECIES_LIST=("$@")
 
 CM="${CLADE_ROOT}/inputs/rfam/snRNA_promoter_models.cm"
 [[ -s "$CM" ]] || { echo "No CM file at $CM" >&2; exit 1; }
+WORKER="${SCRIPT_DIR}/worker_snrna_search.bash"
 
 ASSEMBLY_LIST="${CLADE_ROOT}/inputs/${CLADE_NAME}_paths.txt"
-CMSEARCH="/software/team301/infernal-1.1.4-linux-intel-gcc/binaries/cmsearch"
 
 OUTDIR="${CLADE_ROOT}/outputs/snrna_search"
 LOGDIR="${CLADE_ROOT}/outputs/logs/snrna_search"
@@ -61,13 +61,7 @@ for species in "${SPECIES_LIST[@]}"; do
     -M "$memMB" \
     -o "${LOGDIR}/${species}.%J.out" \
     -e "${LOGDIR}/${species}.%J.err" \
-    bash -lc "
-      tmpdir=\$(mktemp -d -p \${TMPDIR:-/tmp} snrna_${species}.XXXXXX)
-      trap 'rm -rf \"\$tmpdir\"' EXIT
-      fa=\"\$tmpdir/genome.fa\"
-      if [[ '$fasta' =~ \.gz\$ ]]; then gunzip -c '$fasta' > \"\$fa\"; else cp '$fasta' \"\$fa\"; fi
-      '$CMSEARCH' --cpu $nCPU --tblout '${out_tbl}.tmp' '$CM' \"\$fa\"
-      mv '${out_tbl}.tmp' '$out_tbl'
-    "
+    -env "all, nCPU=$nCPU" \
+    bash "$WORKER" "$species" "$fasta" "$CM" "$out_tbl"
   echo "[run_snrna_search_clade] ${species}: submitted"
 done
