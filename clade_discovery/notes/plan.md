@@ -343,23 +343,109 @@ has been attempted yet, and there's no gene annotation available to
 check whether candidates overlap known protein-coding genes (which
 would argue against a genuine standalone ncRNA).
 
+## Extended conservation check + negative control (2026-09-24)
+
+Extended the 1,477 three-way-*Aphodius*-conserved candidates two ways:
+(a) reciprocal blastn against `Geotrupes_spiniger` - a fourth confirmed-
+`AACCC` species, more distantly related to *Aphodius* than the three
+*Aphodius* species are to each other; (b) reciprocal blastn against 3
+`AACCT`-canonical (i.e. NOT the `AACCC` variant) Coleoptera species
+(`Adalia_bipunctata`, `Agrilus_biguttatus`, `Carabus_intricatus`) as a
+negative control - not phylogenetically matched to *Aphodius*/
+*Geotrupes* (no superfamily-level taxonomy available to pick closer
+relatives), a real limitation worth flagging.
+
+**Result - a clean, meaningful specificity signal:**
+
+| target | candidates with a significant hit |
+|---|---|
+| `Geotrupes_spiniger` (AACCC-lineage) | 68 |
+| `Adalia_bipunctata` (AACCT, negative control) | 6 |
+| `Agrilus_biguttatus` (AACCT, negative control) | 6 |
+| `Carabus_intricatus` (AACCT, negative control) | 8 |
+| union of the 3 negative controls | 12 |
+| **Geotrupes hits NOT in any negative control (lineage-specific)** | **60** |
+
+60/68 Geotrupes-conserved candidates are specifically absent from all
+three AACCT-canonical species - roughly an order of magnitude fewer
+candidates surviving in the negative controls despite testing 3 species
+there vs. 1 for the positive check, and exactly the asymmetric pattern
+a genuine AACCC-lineage-tracking TR locus should show. This is now a
+**60-candidate final shortlist**, down from the original 460,440 raw
+template matches - output:
+`outputs/candidate_tr_loci/Aphodius_final_60_lineage_specific_candidates.tsv`
+(coordinates across all 4 checked species; extraction/sequences not
+yet pulled - see below).
+
+## Structural validation attempt (2026-09-24) - inconclusive, not confirmed
+
+Installed ViennaRNA's Python bindings (`pip install --user ViennaRNA`,
+PyPI reachable even though bioconda wasn't - no RNA structure tool was
+otherwise available on this farm). Built `structural_validation.py`:
+for each of the 60 final lineage-specific candidates, pulled the
+orthologous sequence from every species it was confirmed conserved in
+(via the reciprocal-blastn coordinates already computed), aligned with
+MAFFT, and ran `RNA.alifold` (covariation-aware consensus folding, not
+just single-sequence MFE) to check for a plausible stem-loop
+(candidate P1c-like element) - explicitly scoped down from the full
+PK+TBE+P1c architecture, since standard nearest-neighbor folding can't
+predict pseudoknots.
+
+**Result: 60/60 candidates "passed" (longest consecutive-paired-column
+run >= 3, actual range 5-14, median 8) - and this 100% pass rate is
+itself the finding, not evidence of anything real.** Checked with a
+proper null model: folded 5 random shuffles of one candidate's own
+sequence (same length and base composition, scrambled order) and got
+essentially the same range (longest run 5-9). A ~150-300bp AT-rich
+sequence reliably folds into *some* short helix under MFE folding
+regardless of whether it's a real, evolved structure - this is a
+generic property of sequences this size and composition, not a
+TR-specific structural signal. **The check as built has no
+discriminating power and should not be read as structural confirmation
+one way or the other.** This is a real methodological lesson, not a
+result to build on: a meaningful structural test needs either a much
+stricter, alignment-position-specific expectation (e.g. checking that
+the predicted stem sits specifically where P1c should be, not just
+"somewhere in the sequence"), a proper randomized-sequence null
+distribution compared quantitatively (not just eyeballed against 5
+trials, as done here), or genuine covariation-based evidence
+(compensatory mutations at specific predicted pairing positions across
+species, which alifold's consensus folding gestures at but doesn't
+rigorously test the significance of - R-scape does this properly and
+wasn't available here).
+
+**Bottom line on the whole clade_discovery effort so far**: the
+60-candidate lineage-specific conservation shortlist (previous section)
+is the genuine, substantiated result of this session - real sequence
+conservation, real specificity (present in AACCC-lineage species,
+absent in AACCT-canonical negative controls), found via a fully
+computational, unseeded pipeline. The structural-validation attempt
+did not add confirming evidence; it's an open task, not a closed one.
+
 ## Not yet done (next steps, not started)
-- Further discriminate within the 1,477: cross-reference against any
-  available gene annotation (ruling out protein-coding overlap), extend
-  the 3-way conservation check to `Geotrupes_spiniger` (a fourth,
-  more distant confirmed-`AACCC` species - true positives should still
-  show up, repeat-family false positives are less likely to be
-  conserved that far out) and to the ~100 `AACCT`-canonical Coleoptera
-  species as a negative control (a genuine `AACCC`-lineage-specific TR
-  should NOT show the same signal there).
-- Build a covariance model (Infernal `cmbuild`/`cmsearch`) from the
-  surviving candidates and check for the expected TR secondary
-  structure (pseudoknot/PK, template boundary element/TBE, P1c stem) -
-  this is the actual structural-validation step, not yet attempted.
-- Fix the per-family promoter-consensus dilution issue noted above
+- **DONE (2026-09-24)**: extended the 3-way conservation check to
+  `Geotrupes_spiniger` and to 3 `AACCT`-canonical negative-control
+  species - see "Extended conservation check" above. Result: 60
+  lineage-specific candidates.
+- **ATTEMPTED, inconclusive (2026-09-24)**: structural validation via
+  ViennaRNA `alifold` - see "Structural validation attempt" above. The
+  naive stem-loop-presence check has no discriminating power (random
+  shuffles of the same sequences pass just as easily). A real
+  structural test - stricter positional expectations, a proper
+  randomized-sequence null distribution, or genuine covariation
+  significance testing (R-scape or equivalent, not available on this
+  farm) - is still needed, not a quick fix.
+- Cross-reference the 60 candidates against any available gene
+  annotation to rule out protein-coding overlap - not yet done, no
+  annotation currently on hand for these species.
+- Fix the per-family promoter-consensus dilution issue noted earlier
   before relying on any single species' consensus in isolation.
 - Investigate GERONIMO (see "Open items" above) as a possible
   replacement for some of this hand-built machinery going forward.
+- The 3 negative-control species weren't phylogenetically matched to
+  *Aphodius*/*Geotrupes* (no superfamily-level taxonomy available) -
+  worth a proper Scarabaeoidea-vs-non-Scarabaeoidea-matched control if
+  this shortlist is pursued further.
 
 ## Not yet built (needs real Stage 0 data first to design sensibly)
 
