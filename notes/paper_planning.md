@@ -196,7 +196,12 @@ authors replied to an email summarising this project's findings (see
    reference to the telomere** - a boundary-anchored rule (start 2bp
    after the conservation-derived G-rich boundary, take 12bp) recovers
    the true core at mean IoU 0.836 across 1073 loci.
-6. **The minor variant's arrangement within the telomere is not random -
+6. **REVISED (2026-10-06) - control group re-derived on tidk 0.3.0
+   output (60 sets): regular alternation 6/44 vs 0/60 still holds
+   (p=0.005, robust to GAP=100), but "any confirmed minor variant" is no
+   longer different (93.2% vs 91.7%, p=1.0) - drop that comparison; see
+   `notes/tidk_v03_rerun.md`.** Original text:
+   **The minor variant's arrangement within the telomere is not random -
    it clusters - and a controlled comparison shows regular short-period
    alternation (candidate HOR) specifically requires TR paralog
    divergence.** After two real methodology fixes (a fixed 5000bp window
@@ -269,12 +274,13 @@ authors replied to an email summarising this project's findings (see
   stands, but the telomere is a mixed `AAACCG`/`AAACTG`-family, not
   `AAACTG` alone (reword). #3/#4 - template correlation agrees at 93% of
   loci, positional confirmations unaffected (`tidk search`). #6 - control
-  group selection (`find_identical_set_second_candidates.py`) is
-  threshold-tuned to 0.2.7 counts and does not port directly: 196 vs 62
-  sets on 0.3.0 output. The published comparison stands (the decisive
-  step is the base-pair walk), but **decide whether to re-derive the
-  control group on 0.3.0 output** (recalibrate `MIN_SECOND_COUNT`/
-  `MAX_DIFF`, re-run the walk). Also new: T2T status for every assembly
+  group re-derived on 0.3.0 output: 60 sets (62 on 0.2.7). Regular
+  alternation 6/44 vs 0/60 holds (p=0.005, both gap thresholds); the
+  "any confirmed minor variant" comparison does not (93.2% vs 91.7%,
+  p=1.0) and should be dropped (see the note and headline #6). #1 Viscum -
+  no telomere at any chromosome end (canonical at 0/676 ends, incl. 49
+  sequences >= 100 Mb): consistent with telomerase loss, but ~1% of
+  assemblies show the same for probably assembly-related reasons. Also new: T2T status for every assembly
   (`outputs/tidk_v0.3/summary.tsv`) - useful context for absence claims.
 - Literature search started 2026-09-14 (see "Related work" above:
   Fajkus 2019, Kumawat 2025, Belyayev 2023) - still needed: Viscum/

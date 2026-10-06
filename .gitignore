@@ -40,3 +40,12 @@ __pycache__/
 /outputs/tidk_ends/candidates/
 /outputs/tidk_ends/*.err
 /outputs/tidk_v0.3/*.err
+# per-species walk inputs/results/logs behind the re-derived control group
+# (src/run_identical_set_array_structure_bsub.bash); the merged
+# identical_set_array_structure.tsv and its summary are what's tracked.
+/outputs/tr_repeat_correlation/tidk_v03/**/per_species/
+/outputs/tr_repeat_correlation/tidk_v03/**/inputs/
+/outputs/tr_repeat_correlation/tidk_v03/**/logs/
+/outputs/tr_repeat_correlation/tidk_v03/per_species/
+/outputs/tr_repeat_correlation/tidk_v03/inputs/
+/outputs/tr_repeat_correlation/tidk_v03/logs/

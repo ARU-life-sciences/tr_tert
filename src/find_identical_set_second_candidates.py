@@ -71,12 +71,15 @@ def load_tidk(path):
 
 def candidates_of_length(version, rows, length):
     """Candidates the same length as the core. tidk 0.2.7 repeats are kmer
-    seeds, compared as they are. tidk 0.3.0 reports primitive units, so each
-    unit no longer than the core is tandemised to the core length, as the
-    0.2.7 seed of that length would have been."""
+    seeds, compared as they are: a seed of this length means an array with
+    this period. tidk 0.3.0 reports primitive units, collapsing exact
+    multimers, so the equivalent is a unit whose length divides the core
+    length, tandemised to it (exactly the multimer 0.2.7 would have
+    reported). Shorter units that don't divide it are left out: they can't
+    form an array with this period."""
     if version != "0.3":
         return [(seq, c) for seq, c in rows if len(seq) == length]
-    return [(tidk_io.tandemise(u, length), c) for u, c in rows if len(u) <= length]
+    return [(tidk_io.tandemise(u, length), c) for u, c in rows if length % len(u) == 0]
 
 
 def main():

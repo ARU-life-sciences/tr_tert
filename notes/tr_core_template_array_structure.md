@@ -381,6 +381,29 @@ Script: `tr_core_template_array_structure.py` and
 `tr_identical_set_array_structure.py` both honor a `GAP_THRESHOLD`
 environment variable override for this check.
 
+**Update (2026-10-06): control group re-derived on tidk 0.3.0 output.**
+The control candidates above came from tidk 0.2.7 `explore` output, which
+had multimer and run-counting bugs (`notes/tidk_v03_rerun.md`).
+Re-selecting them from the tidk 0.3.0 rerun gives 60 sets, and re-running
+the same walk:
+
+| | Differing (44) | Control, v0.2.7 (62) | Control, 0.3.0 (60) |
+|---|---|---|---|
+| Regular alternation (candidate HOR) | 6/44 (13.6%) | 0/62, p=0.004 | **0/60, p=0.005** |
+| Any confirmed minor variant | 41/44 (93.2%) | 45/62 (72.6%), p=0.011 | **55/60 (91.7%), p=1.0** |
+| Non-random structure, given present | 35/41 (85.4%) | 30/45 (66.7%), p=0.049 | 44/55 (80.0%), p=0.59 |
+
+At `GAP_THRESHOLD=100`: regular alternation 6/44 vs 0/60 (p=0.005); any
+minor variant 95.5% vs 95.0% (p=1.0); non-random given present 85.7% vs
+87.7% (p=0.77).
+
+Regular alternation remains exclusive to differing sets, at both
+thresholds. But "any confirmed minor variant" is no longer more common in
+differing sets (93.2% vs 91.7%, p=1.0): with corrected candidates, minor
+variants are confirmed in controls just as often. Treat the earlier
+presence result as an artefact of the 0.2.7 candidate selection. Outputs:
+`outputs/tr_repeat_correlation/tidk_v03/`.
+
 **Reading**: ordinary blocky/clustered structure happens at a real
 baseline rate even without any TR paralog divergence (30/62, 48.4%
 overall) - consistent with Belyayev's DNA-recombination mechanism

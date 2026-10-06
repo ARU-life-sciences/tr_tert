@@ -1,7 +1,6 @@
 # tidk 0.3.0 rerun: corrected telomeric repeat calls for all plant assemblies
 
-**Status: rerun complete for 702/703 species (`Viscum_album` still running,
-2026-10-06).** Results in `outputs/tidk_v0.3/` and `outputs/tidk_ends/`;
+**Status: rerun complete for all 703 species (2026-10-07).** Results in `outputs/tidk_v0.3/` and `outputs/tidk_ends/`;
 per-species summary in `outputs/tidk_v0.3/summary.tsv`. The v0.2.7
 results in `outputs/tidk/` are left untouched, as the existing notes cite
 them.
@@ -106,8 +105,23 @@ which calls a telomere (or not) at both ends of each chromosome.
   the end (`not_terminal`). This is per-assembly context for any claim
   that something is *absent* from a genome.
 
+- **No telomere at any chromosome end** (no candidate at any end):
+  `Impatiens_glandulifera`, `Jasione_montana`, `Ribes_uva_crispa`,
+  `Senecio_squalidus`, `Tragopogon_pratensis` - and effectively
+  `Viscum_album` (below). Probably assembly-related in most cases; worth a
+  look before any of these is used in an absence argument.
+
 ## Impact on existing results
 
+- **#1 Viscum:** no telomere at the chromosome ends. Canonical `AAACCCT` is
+  at 0/676 sequence ends (338 sequences >= 1 Mb, 49 of them >= 100 Mb, the
+  largest ~2.1 Gb), and the best of the top 5 explore candidates (a
+  satellite, `AATAATTAGT`) is at 1/676. `AAACCCT` is present in the
+  genome but sparse (explore rank 27, 1009 copies near ends). This is
+  consistent with the missing TR and TERT, but only as supporting
+  evidence: ~1% of assemblies here have no telomere at any end for
+  probably assembly-related reasons, and the assembly-completeness gap
+  noted for #1 still applies.
 - **#2 Carlina:** canonical `AAACCCT` is at 0/26 chromosome ends, so the
   non-canonical claim stands. But the telomere is a mixture, not
   `AAACTG`-family alone: `AAACCGAACCG` (and `AACCG`) is at 13/26 ends
@@ -121,15 +135,40 @@ which calls a telomere (or not) at both ends of each chromosome.
   significant matches (p < 0.05, >= 8 bp) 1070 -> 1141 (16 lost, spread
   thinly; 87 gained, 44 in `Levisticum_officinale`). Positional
   confirmations use `tidk search`, which these fixes don't affect.
-- **#6 control group (needs a decision):** `find_identical_set_second_candidates.py`
-  selects 196 sets on 0.3.0 output vs 62 on v0.2.7, with the same second
-  candidate in only 9/57 shared sets. Its thresholds (`MIN_SECOND_COUNT =
-  200`, `MAX_DIFF = 3`) were tuned on v0.2.7 run counts; 0.3.0 counts
-  copies, which are larger. This step is a pre-filter (the decisive check
-  is the base-pair terminal walk, which doesn't use `tidk explore`), so
-  the published 62-set comparison isn't invalidated by the bugs. But
-  re-deriving the control group on 0.3.0 output would need the
-  thresholds recalibrated first, and the walk re-run.
+- **#6 control group:** on 0.3.0 output,
+  `find_identical_set_second_candidates.py` selects 60 control sets (62 on
+  v0.2.7); 36 are shared, 26 of those with the same second candidate (up
+  to rotation). (A first adapter tandemised every shorter unit to the core
+  length, which gave 196 sets; that was wrong - a 0.2.7 seed of length L
+  means an array with period L, so the 0.3.0 equivalent is only units whose
+  length divides L, i.e. the multimers 0.2.7 reported.) The thresholds
+  were left as they were: 0.3.0 counts are not a fixed multiple of 0.2.7's
+  (0.3.0/0.2.7 for the `AAACCCT` family: median 0.39, IQR 0.09-2.97 across
+  671 species, as 0.2.7's were inflated by the bugs), so there is no
+  principled rescaling. Re-running the base-pair terminal walk on the
+  0.3.0 set (`src/run_identical_set_array_structure_bsub.bash`, one LSF
+  job per species; outputs in `outputs/tr_repeat_correlation/tidk_v03/`;
+  Fisher tests scripted in `src/array_structure_control_comparison.py`,
+  which reproduces the published v0.2.7 numbers exactly):
+
+  | | Differing (44) | Control, v0.2.7 (62) | Control, 0.3.0 (60) |
+  |---|---|---|---|
+  | Regular alternation (candidate HOR) | 6/44 (13.6%) | 0/62, p=0.004 | **0/60, p=0.005** |
+  | Any confirmed minor variant | 41/44 (93.2%) | 45/62 (72.6%), p=0.011 | **55/60 (91.7%), p=1.0** |
+  | Non-random structure, given present | 35/41 (85.4%) | 30/45 (66.7%), p=0.049 | 44/55 (80.0%), p=0.59 |
+
+  At `GAP_THRESHOLD=100`: regular alternation 6/44 vs 0/60 (p=0.005); any
+  minor variant 95.5% vs 95.0% (p=1.0); non-random given present 85.7% vs
+  87.7% (p=0.77).
+
+  **The headline holds**: regular alternation is still found only in
+  TR-paralog-differing sets, at both gap thresholds. **The presence
+  result does not**: with 0.3.0 candidates, a minor variant is confirmed
+  in as many controls as differing sets. Most likely the v0.2.7
+  candidates were partly bug artefacts not genuinely in the telomere,
+  which made controls look as though they lacked minor variants - so
+  that comparison should be dropped. The third comparison was already
+  not robust and stays non-significant.
 
 ## Scripts changed to read 0.3.0 output
 
@@ -148,9 +187,6 @@ Before these changes, `tr_repeat_correlation.py` and
 
 ## Next
 
-- Add `Viscum_album` when its job finishes (rerun `run_tidk_ends_candidates.bash`
-  and `tidk_v03_summary.py`).
-- Decide on #6's control group (above).
 - Rerun the `clade_discovery` species (188) the same way.
 - A Tree of Life-wide run (all taxa) with the same scripts and an
   all-taxa assembly list.

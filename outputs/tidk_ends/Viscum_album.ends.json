@@ -1,0 +1,37 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 337,
+  "not_terminal": [
+    {
+      "id": "Scaffold_439",
+      "offset": 5080,
+      "side": "end"
+    },
+    {
+      "id": "Scaffold_624",
+      "offset": 5790,
+      "side": "start"
+    },
+    {
+      "id": "Scaffold_665",
+      "offset": 4180,
+      "side": "end"
+    }
+  ],
+  "one_end": 1,
+  "sequences": 338,
+  "t2t": 0,
+  "t2t_ids": [],
+  "tidk_version": "0.3.0",
+  "unit": "AATAATTAGT",
+  "window": 10000,
+  "wrong_strand": [
+    {
+      "id": "SUPER_10_3",
+      "offset": 100,
+      "side": "end"
+    }
+  ]
+}

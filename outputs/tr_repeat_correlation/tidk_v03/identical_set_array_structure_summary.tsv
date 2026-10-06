@@ -1,0 +1,61 @@
+species	core_length	n_loci	modal	telomere_dominant	copy_dominant_is_telomere_dominant	minor_freq	band	structure	runs_z
+Buxus_sempervirens	13	3	AAACCCTAAACCT	None	0	0.0	ABSENT	ABSENT	None
+Carex_depauperata	14	2	TAAACCCTAAACCC	TAAACCCTAAACCC	1	0.0	ABSENT	ABSENT	None
+Lepidium_didymum	13	2	AACCCTGAACCCT	AAACCCTAAACCT	0	0.0	ABSENT	ABSENT	None
+Mimulus_peregrinus	11	3	AACCCGAAACC	AACCCGAAACC	1	0.0	ABSENT	ABSENT	None
+Persicaria_amphibia	15	6	AACCCTAAACCTCCC	AAACCCCTAAACCCT	0	0.0	ABSENT	ABSENT	None
+Draba_verna	7	3	AAATCTA	AAACCCT	0	0.0002	RARE	CLUSTERED (runs test, block 1, z=-12.8)	-12.75
+Poa_chaixii	7	2	AAACCAA	AAACCCT	0	0.0005	RARE	ISOLATED (never adjacent to itself)	0.09
+Scirpus_sylvaticus	14	2	TAAACCCTAAACCC	TAAACCCTAAACCC	1	0.0005	RARE	CLUSTERED (runs test, block 3, z=-2.9)	-2.92
+Potentilla_sterilis	15	2	TAAACCCTAAACCCT	TAAACCCTAAACCCT	1	0.0007	RARE	ISOLATED (never adjacent to itself)	0.18
+Levisticum_officinale	7	44	ACCCTAA	ACCCTAA	1	0.0014	RARE	CLUSTERED (runs test, block 4, z=-9.0)	-9.04
+Draba_verna	13	9	CTAAACCCTAAAC	CTAAACCCTAAAC	1	0.0035	RARE	CLUSTERED (runs test, block 3, z=-5.5)	-5.52
+Draba_incana	13	3	CTAAACCCTAAAC	CTAAACCCTAAAC	1	0.0051	RARE	BLOCKY (longest run 2 units)	-1.16
+Lycopus_europaeus	13	5	TAAACCCTAAACC	TAAACCCTAAACC	1	0.0054	RARE	ISOLATED (never adjacent to itself)	0.66
+Colchicum_autumnale	15	4	TAAACCCTAAACCCT	TAAACCCTAAACCCT	1	0.006	RARE	BLOCKY (longest run 2 units)	0.8
+Logfia_minima	13	3	TAAACCCTAAACC	TAAACCCTAAACC	1	0.0065	RARE	CLUSTERED (runs test, block 2, z=-3.3)	-3.32
+Scheuchzeria_palustris	13	2	CTAAACCCTAAAC	CTAAACCCTAAAC	1	0.0071	RARE	BLOCKY (longest run 2 units)	0.56
+Hypericum_perforatum	15	2	AAACCCTAAACCCTA	AAACCCTAAACCCTA	1	0.0075	RARE	BLOCKY (longest run 2 units)	0.71
+Filago_pyramidata	13	2	TAAACCCTAAACC	TAAACCCTAAACC	1	0.0078	RARE	BLOCKY (longest run 3 units)	0.49
+Trifolium_striatum	13	4	AACCCTAAACCCT	AACCCTAAACCCT	1	0.0079	RARE	ISOLATED (never adjacent to itself)	-0.96
+Epilobium_ciliatum	13	3	TAAACCCTAAACC	TAAACCCTAAACC	1	0.0081	RARE	CLUSTERED (runs test, block 3, z=-2.2)	-2.25
+Glechoma_hederacea	13	3	TAAACCCTAAACC	TAAACCCTAAACC	1	0.0086	RARE	BLOCKY (longest run 2 units)	-1.39
+Senecio_vulgaris	13	3	TAAACCCTAAACC	TAAACCCTAAACC	1	0.009	RARE	BLOCKY (longest run 3 units)	-1.45
+Rosa_rubiginosa	13	4	AACCCTAAACCCT	AACCCTAAACCCT	1	0.0097	RARE	CLUSTERED (runs test, block 4, z=-5.4)	-5.39
+Rosa_agrestis	13	4	AACCCTAAACCCT	AACCCTAAACCCT	1	0.0105	RARE	CLUSTERED (runs test, block 3, z=-2.3)	-2.33
+Geum_rivale	13	2	AACCCTAAACCCT	AACCCTAAACCCT	1	0.0109	RARE	CLUSTERED (runs test, block 6, z=-8.4)	-8.41
+Geum_urbanum	13	2	AACCCTAAACCCT	AACCCTAAACCCT	1	0.0115	RARE	BLOCKY (longest run 2 units)	0.81
+Galinsoga_quadriradiata	13	2	TAAACCCTAAACC	TAAACCCTAAACC	1	0.0116	RARE	BLOCKY (longest run 2 units)	0.41
+Filago_lutescens	13	3	TAAACCCTAAACC	TAAACCCTAAACC	1	0.0119	RARE	BLOCKY (longest run 2 units)	0.65
+Scrophularia_umbrosa	13	2	TAAACCCTAAACC	TAAACCCTAAACC	1	0.0125	RARE	BLOCKY (longest run 2 units)	0.64
+Atropa_belladonna	13	3	TAAACCCTAAACC	TAAACCCTAAACC	1	0.015	RARE	BLOCKY (longest run 2 units)	-0.02
+Alchemilla_alpina	14	3	AAACCCTAAACCCT	AAACCCTAAACCCT	1	0.0157	RARE	CLUSTERED (runs test, block 77, z=-12.0)	-11.96
+Senecio_sylvaticus	13	3	TAAACCCTAAACC	TAAACCCTAAACC	1	0.0171	RARE	BLOCKY (longest run 2 units)	0.82
+Senecio_viscosus	13	2	TAAACCCTAAACC	TAAACCCTAAACC	1	0.0178	RARE	BLOCKY (longest run 2 units)	-1.12
+Rubus_caesius	13	2	AACCCTAAACCCT	AACCCTAAACCCT	1	0.0179	RARE	BLOCKY (longest run 2 units)	-0.02
+Adonis_annua	13	3	TAAACCCTAAACC	TAAACCCTAAACC	1	0.0181	RARE	BLOCKY (longest run 3 units)	-0.32
+Fagus_sylvatica	14	2	TAAACCCTAAACCT	AAACCCTAAACCCT	0	0.0184	RARE	BLOCKY (longest run 2 units)	1.15
+Gnaphalium_supinum	13	3	TAAACCCTAAACC	TAAACCCTAAACC	1	0.0189	RARE	BLOCKY (longest run 2 units)	-1.86
+Euphorbia_amygdaloides	12	2	TAACCCTAACCT	AACCCTAACCCT	0	0.0195	RARE	BLOCKY (longest run 2 units)	0.81
+Heracleum_mantegazzianum	13	2	TAAACCCTAAACC	TAAACCCTAAACC	1	0.029	RARE	BLOCKY (longest run 2 units)	-1.95
+Myriophyllum_spicatum	14	2	CTAAACCCTAAACC	CTAAACCCTAAACC	1	0.0298	RARE	CLUSTERED (runs test, block 109, z=-18.8)	-18.78
+Myriophyllum_aquaticum	14	2	CTAAACCCTAAACC	CTAAACCCTAAACC	1	0.0332	RARE	CLUSTERED (runs test, block 160, z=-18.4)	-18.41
+Pulicaria_dysenterica	13	3	TAAACCCTAAACC	TAAACCCTAAACC	1	0.0337	RARE	CLUSTERED (runs test, block 4, z=-2.5)	-2.48
+Solidago_canadensis	13	8	TAAACCCTAAACC	TAAACCCTAAACC	1	0.0343	RARE	BLOCKY (longest run 2 units)	0.88
+Anchusa_arvensis	14	4	CTAAACCCTAAACC	CTAAACCCTAAACC	1	0.039	RARE	CLUSTERED (runs test, block 51, z=-12.3)	-12.3
+Saxifraga_cespitosa	14	3	AACCCTAAACCCTA	AACCCTAAACCCTA	1	0.05	RARE	ISOLATED (never adjacent to itself)	-0.71
+Hippuris_vulgaris	13	2	ACAACCCTAAACC	AAACCCTAAACCT	0	0.0556	RARE	ISOLATED (never adjacent to itself)	None
+Castanea_sativa	14	2	TAAACCCTAAACCT	AAACCCTAAACCCT	0	0.0689	RARE	BLOCKY (longest run 3 units)	0.14
+Carlina_vulgaris	11	3	AAACCGAACTG	AAACCGAACCG	0	0.1795	MINORITY	BLOCKY (longest run 3 units)	-0.58
+Hesperis_matronalis	14	2	CTAAACCCTAAACC	CTAAACCCTAAACC	1	0.2269	MINORITY	CLUSTERED (runs test, block 204, z=-18.6)	-18.63
+Salix_euxina	13	2	AAACCCTAAACCT	AAACCCTAAACCT	1	0.2727	MINORITY	BLOCKY (longest run 2 units)	-0.36
+Sedum_album	13	3	CTAAACCCTAAAA	CTAAACCCTAAAA	1	0.3333	MINORITY	BLOCKY (longest run 2 units)	None
+Ranunculus_sceleratus	15	2	CTAAACCCTAAACCT	CTAAACCCTAAACCT	1	0.3636	CO-DOMINANT/BALANCED	ISOLATED (never adjacent to itself)	None
+Salix_cinerea	13	4	AAACCCTAAACCT	AAACCCTAAACCT	1	0.4167	CO-DOMINANT/BALANCED	ISOLATED (never adjacent to itself)	1.41
+Salix_pentandra	13	2	AAACCCTAAACCT	AAACCCTAACCCT	0	0.4167	CO-DOMINANT/BALANCED	ISOLATED (never adjacent to itself)	None
+Sphagnum_papillosum	15	2	CTAAACCCTAAACCT	CTAAACCCTAAACCT	1	0.4167	CO-DOMINANT/BALANCED	BLOCKY (longest run 2 units)	None
+Epilobium_hirsutum	13	3	AAACCCTAAACCT	AAACCCTAACCCT	0	0.4286	CO-DOMINANT/BALANCED	BLOCKY (longest run 2 units)	None
+Polycarpon_tetraphyllum	13	2	AAACCCTAAACCT	AAACCCTAAACCT	1	0.4286	CO-DOMINANT/BALANCED	ISOLATED (never adjacent to itself)	None
+Sphagnum_russowii	15	2	CTAAACCCTAAACCT	CTAAACCCTAAACCT	1	0.4706	CO-DOMINANT/BALANCED	ISOLATED (never adjacent to itself)	1.41
+Lythrum_salicaria	13	3	AAACCCTAAACCT	AAACCCTAACCCT	0	0.5	CO-DOMINANT/BALANCED	BLOCKY (longest run 3 units)	0.35
+Salix_alba	13	2	AAACCCTAAACCT	AAACCCTAACCCT	0	0.5	CO-DOMINANT/BALANCED	BLOCKY (longest run 2 units)	None
