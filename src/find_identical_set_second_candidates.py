@@ -37,9 +37,12 @@ import csv
 import sys
 from pathlib import Path
 
+import tidk_io
+
 MAX_DIFF = 3  # tightened from an initial pass at 5, which let through obvious noise
               # (near-homopolymers, unrelated satellites within Hamming-ball-by-chance)
-MIN_SECOND_COUNT = 200  # tidk count_repeat_runs_gt_100 floor - not just noise
+MIN_SECOND_COUNT = 200  # tidk count floor - not just noise. Set on tidk 0.2.7's
+                        # count_repeat_runs_gt_100; 0.3.0 counts copies of the unit
 # NOTE: this is a coarse pre-filter only - tidk explore's candidate list is
 # terminal-proximal-restricted (--distance 0.01) but genome-wide across all
 # chromosome ends, so it can still include real-but-unrelated
@@ -62,15 +65,18 @@ def best_rotation(a, b):
 
 
 def load_tidk(path):
-    rows = []
-    with open(path) as fh:
-        header = fh.readline().rstrip("\n").split("\t")
-        for line in fh:
-            cols = line.rstrip("\n").split("\t")
-            if len(cols) < 2:
-                continue
-            rows.append((cols[0], int(cols[1])))
-    return rows
+    """(version, [(repeat, count), ...]) - see tidk_io.load_explore."""
+    return tidk_io.load_explore(path)
+
+
+def candidates_of_length(version, rows, length):
+    """Candidates the same length as the core. tidk 0.2.7 repeats are kmer
+    seeds, compared as they are. tidk 0.3.0 reports primitive units, so each
+    unit no longer than the core is tandemised to the core length, as the
+    0.2.7 seed of that length would have been."""
+    if version != "0.3":
+        return [(seq, c) for seq, c in rows if len(seq) == length]
+    return [(tidk_io.tandemise(u, length), c) for u, c in rows if len(u) <= length]
 
 
 def main():
@@ -86,11 +92,16 @@ def main():
     out_rows = []
     for r in identical:
         sp, length, dominant = r["species"], int(r["core_length"]), r["dominant"]
-        tidk_path = tidk_dir / f"{sp}.tidk.tsv"
+        tidk_path = tidk_io.tidk_path(sp, tidk_dir)
         if not tidk_path.exists():
             continue
-        candidates = load_tidk(tidk_path)
-        dom_count = next((c for seq, c in candidates if seq == dominant), 0)
+        version, rows = load_tidk(tidk_path)
+        candidates = candidates_of_length(version, rows, length)
+        if version == "0.3":
+            # tandemised windows can be any phase of the dominant's unit
+            dom_count = next((c for seq, c in candidates if best_rotation(dominant, seq)[0] == 0), 0)
+        else:
+            dom_count = next((c for seq, c in candidates if seq == dominant), 0)
 
         best = None
         for seq, count in candidates:

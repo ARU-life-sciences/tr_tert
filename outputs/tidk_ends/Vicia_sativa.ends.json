@@ -1,0 +1,20 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 1,
+  "not_terminal": [],
+  "one_end": 1,
+  "sequences": 6,
+  "t2t": 4,
+  "t2t_ids": [
+    "RL_6",
+    "RL_10",
+    "RL_12",
+    "RL_7"
+  ],
+  "tidk_version": "0.3.0",
+  "unit": "AAACCCT",
+  "window": 10000,
+  "wrong_strand": []
+}

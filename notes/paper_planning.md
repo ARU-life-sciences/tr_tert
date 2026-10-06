@@ -260,6 +260,22 @@ authors replied to an email summarising this project's findings (see
 ## What's needed before this is paper-ready
 
 **Cross-cutting, applies to all findings:**
+- **NEW (2026-10-06): tidk 0.2.7 bugs - rerun with tidk 0.3.0.** Every
+  `tidk explore` result used so far came from tidk 0.2.7, which reported
+  multimers as separate repeats and had a run-counting bug that put
+  low-complexity junk at the top of many lists. Rerun done for 702/703
+  species (`Viscum_album` pending), see `notes/tidk_v03_rerun.md`. Impact:
+  #2 Carlina - canonical absent from all 26 chromosome ends, so the claim
+  stands, but the telomere is a mixed `AAACCG`/`AAACTG`-family, not
+  `AAACTG` alone (reword). #3/#4 - template correlation agrees at 93% of
+  loci, positional confirmations unaffected (`tidk search`). #6 - control
+  group selection (`find_identical_set_second_candidates.py`) is
+  threshold-tuned to 0.2.7 counts and does not port directly: 196 vs 62
+  sets on 0.3.0 output. The published comparison stands (the decisive
+  step is the base-pair walk), but **decide whether to re-derive the
+  control group on 0.3.0 output** (recalibrate `MIN_SECOND_COUNT`/
+  `MAX_DIFF`, re-run the walk). Also new: T2T status for every assembly
+  (`outputs/tidk_v0.3/summary.tsv`) - useful context for absence claims.
 - Literature search started 2026-09-14 (see "Related work" above:
   Fajkus 2019, Kumawat 2025, Belyayev 2023) - still needed: Viscum/
   mistletoe telomerase loss precedent, Asteraceae telomere variation

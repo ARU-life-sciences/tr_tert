@@ -51,7 +51,12 @@ def load_genome_path(clade_name, species):
 
 
 def load_top_candidates(species, top_n):
-    tsv = CLADE_ROOT / "outputs" / "tidk" / f"{species}.tidk.tsv"
+    # tidk 0.3.0 output (<species>.explore.tsv, four columns) if present,
+    # else tidk 0.2.7 (<species>.tidk.tsv, two columns) - see ../src/tidk_io.py
+    tidk_dir = CLADE_ROOT / "outputs" / "tidk"
+    tsv = tidk_dir / f"{species}.explore.tsv"
+    if not tsv.exists():
+        tsv = tidk_dir / f"{species}.tidk.tsv"
     if not tsv.exists() or tsv.stat().st_size == 0:
         return []
     rows = []
@@ -59,7 +64,7 @@ def load_top_candidates(species, top_n):
         next(fh, None)  # header
         for line in fh:
             parts = line.rstrip("\n").split("\t")
-            if len(parts) == 2:
+            if len(parts) >= 2 and parts[1].isdigit():
                 rows.append((parts[0], int(parts[1])))
     rows.sort(key=lambda x: -x[1])
     return rows[:top_n]

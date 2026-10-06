@@ -1,0 +1,57 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 66,
+  "not_terminal": [
+    {
+      "id": "SUPER_5",
+      "offset": 1372,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_10",
+      "offset": 3444,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_11",
+      "offset": 6671,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_17",
+      "offset": 1876,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_30",
+      "offset": 1176,
+      "side": "end"
+    }
+  ],
+  "one_end": 25,
+  "sequences": 95,
+  "t2t": 4,
+  "t2t_ids": [
+    "SUPER_2",
+    "SUPER_8",
+    "SUPER_9",
+    "SUPER_13"
+  ],
+  "tidk_version": "0.3.0",
+  "unit": "AAACCCT",
+  "window": 10000,
+  "wrong_strand": [
+    {
+      "id": "SUPER_34",
+      "offset": 0,
+      "side": "end"
+    },
+    {
+      "id": "HAP1_SCAFFOLD_68",
+      "offset": 7,
+      "side": "end"
+    }
+  ]
+}

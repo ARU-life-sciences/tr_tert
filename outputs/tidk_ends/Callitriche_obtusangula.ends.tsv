@@ -1,0 +1,15 @@
+id	sequence_length	side	status	telomere_start	telomere_end	telomere_length	offset	strand	window_limited
+SUPER_1	443270436	start	absent	NA	NA	NA	NA	NA	NA
+SUPER_1	443270436	end	absent	NA	NA	NA	NA	NA	NA
+SUPER_2	309272705	start	absent	NA	NA	NA	NA	NA	NA
+SUPER_2	309272705	end	absent	NA	NA	NA	NA	NA	NA
+SUPER_3	285762089	start	absent	NA	NA	NA	NA	NA	NA
+SUPER_3	285762089	end	absent	NA	NA	NA	NA	NA	NA
+SUPER_4	276642383	start	absent	NA	NA	NA	NA	NA	NA
+SUPER_4	276642383	end	absent	NA	NA	NA	NA	NA	NA
+SUPER_5	234614135	start	absent	NA	NA	NA	NA	NA	NA
+SUPER_5	234614135	end	absent	NA	NA	NA	NA	NA	NA
+HAP1_SCAFFOLD_10	2840000	start	absent	NA	NA	NA	NA	NA	NA
+HAP1_SCAFFOLD_10	2840000	end	absent	NA	NA	NA	NA	NA	NA
+HAP1_SCAFFOLD_20	1023257	start	absent	NA	NA	NA	NA	NA	NA
+HAP1_SCAFFOLD_20	1023257	end	absent	NA	NA	NA	NA	NA	NA

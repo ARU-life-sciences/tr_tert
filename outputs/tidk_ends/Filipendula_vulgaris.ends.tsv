@@ -1,0 +1,15 @@
+id	sequence_length	side	status	telomere_start	telomere_end	telomere_length	offset	strand	window_limited
+SUPER_1_HAP1	76404967	start	present	0	889	889	0	C-rich	false
+SUPER_1_HAP1	76404967	end	present	76403686	76404967	1281	0	G-rich	false
+SUPER_2_HAP1	63925928	start	present	7	987	980	7	C-rich	false
+SUPER_2_HAP1	63925928	end	present	63924514	63925872	1358	56	G-rich	false
+SUPER_3_HAP1	60651738	start	present	0	1463	1463	0	C-rich	false
+SUPER_3_HAP1	60651738	end	present	60650695	60651738	1043	0	G-rich	false
+SUPER_4_HAP1	40029852	start	present	0	917	917	0	C-rich	false
+SUPER_4_HAP1	40029852	end	present	40027990	40029040	1050	812	G-rich	false
+SUPER_5_HAP1	37066245	start	present	0	1379	1379	0	C-rich	false
+SUPER_5_HAP1	37066245	end	present	37064964	37066238	1274	7	G-rich	false
+SUPER_6_HAP1	31249541	start	present	0	1302	1302	0	C-rich	false
+SUPER_6_HAP1	31249541	end	present	31248078	31249352	1274	189	G-rich	false
+SUPER_7_HAP1	31115469	start	present	0	1260	1260	0	C-rich	false
+SUPER_7_HAP1	31115469	end	present	31113894	31115469	1575	0	G-rich	false

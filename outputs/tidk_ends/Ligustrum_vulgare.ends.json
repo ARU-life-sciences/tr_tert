@@ -1,0 +1,56 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 2,
+  "not_terminal": [
+    {
+      "id": "SUPER_1",
+      "offset": 3276,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_4",
+      "offset": 3472,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_8",
+      "offset": 5418,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_18",
+      "offset": 1750,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_21",
+      "offset": 2009,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_23",
+      "offset": 5334,
+      "side": "start"
+    }
+  ],
+  "one_end": 12,
+  "sequences": 23,
+  "t2t": 9,
+  "t2t_ids": [
+    "SUPER_2",
+    "SUPER_3",
+    "SUPER_5",
+    "SUPER_6",
+    "SUPER_7",
+    "SUPER_12",
+    "SUPER_15",
+    "SUPER_17",
+    "SUPER_22"
+  ],
+  "tidk_version": "0.3.0",
+  "unit": "AAACCCT",
+  "window": 10000,
+  "wrong_strand": []
+}

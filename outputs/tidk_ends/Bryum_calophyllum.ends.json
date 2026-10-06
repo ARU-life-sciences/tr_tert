@@ -1,0 +1,31 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 5,
+  "not_terminal": [],
+  "one_end": 10,
+  "sequences": 30,
+  "t2t": 15,
+  "t2t_ids": [
+    "SUPER_2",
+    "SUPER_3",
+    "SUPER_6",
+    "SUPER_10",
+    "SUPER_11",
+    "SUPER_13",
+    "SUPER_15",
+    "SUPER_16",
+    "SUPER_18",
+    "SUPER_20",
+    "SUPER_21",
+    "SUPER_25",
+    "SUPER_26",
+    "SUPER_27",
+    "SUPER_28"
+  ],
+  "tidk_version": "0.3.0",
+  "unit": "AAACCCT",
+  "window": 10000,
+  "wrong_strand": []
+}

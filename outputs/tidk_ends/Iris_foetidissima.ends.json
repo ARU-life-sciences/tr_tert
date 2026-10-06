@@ -1,0 +1,28 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 38,
+  "not_terminal": [],
+  "one_end": 8,
+  "sequences": 58,
+  "t2t": 12,
+  "t2t_ids": [
+    "RL_2",
+    "RL_6",
+    "RL_8",
+    "RL_18",
+    "RL_24",
+    "RL_16",
+    "RL_20",
+    "RL_22",
+    "RL_26",
+    "RL_28",
+    "RL_36",
+    "RL_40"
+  ],
+  "tidk_version": "0.3.0",
+  "unit": "AACCCT",
+  "window": 10000,
+  "wrong_strand": []
+}

@@ -1,0 +1,89 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 8,
+  "not_terminal": [
+    {
+      "id": "SUPER_1",
+      "offset": 1729,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_3",
+      "offset": 1057,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_5",
+      "offset": 7805,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_7",
+      "offset": 2695,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_8",
+      "offset": 2009,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_8",
+      "offset": 1134,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_9",
+      "offset": 6797,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_13",
+      "offset": 3948,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_14",
+      "offset": 1792,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_14",
+      "offset": 2331,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_15",
+      "offset": 3444,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_16",
+      "offset": 7140,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_18",
+      "offset": 1617,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_18",
+      "offset": 4207,
+      "side": "end"
+    }
+  ],
+  "one_end": 8,
+  "sequences": 18,
+  "t2t": 2,
+  "t2t_ids": [
+    "SUPER_2",
+    "SUPER_6"
+  ],
+  "tidk_version": "0.3.0",
+  "unit": "AACCCCC",
+  "window": 10000,
+  "wrong_strand": []
+}

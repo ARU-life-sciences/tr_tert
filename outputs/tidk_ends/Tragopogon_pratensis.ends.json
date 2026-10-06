@@ -1,0 +1,31 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 8,
+  "not_terminal": [
+    {
+      "id": "HAP2_SCAFFOLD_1",
+      "offset": 1540,
+      "side": "start"
+    },
+    {
+      "id": "HAP2_SCAFFOLD_3",
+      "offset": 1036,
+      "side": "start"
+    },
+    {
+      "id": "HAP2_SCAFFOLD_6",
+      "offset": 6895,
+      "side": "end"
+    }
+  ],
+  "one_end": 0,
+  "sequences": 8,
+  "t2t": 0,
+  "t2t_ids": [],
+  "tidk_version": "0.3.0",
+  "unit": "AAACCCT",
+  "window": 10000,
+  "wrong_strand": []
+}

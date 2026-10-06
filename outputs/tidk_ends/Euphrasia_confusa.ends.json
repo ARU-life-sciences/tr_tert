@@ -1,0 +1,30 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 13,
+  "not_terminal": [
+    {
+      "id": "SUPER_17",
+      "offset": 1141,
+      "side": "start"
+    },
+    {
+      "id": "SCAFFOLD_36",
+      "offset": 4158,
+      "side": "start"
+    }
+  ],
+  "one_end": 9,
+  "sequences": 25,
+  "t2t": 3,
+  "t2t_ids": [
+    "SUPER_9",
+    "SUPER_12",
+    "SUPER_19"
+  ],
+  "tidk_version": "0.3.0",
+  "unit": "AAACCCT",
+  "window": 10000,
+  "wrong_strand": []
+}

@@ -1,0 +1,26 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 9,
+  "not_terminal": [
+    {
+      "id": "SUPER_6_unloc_1",
+      "offset": 1785,
+      "side": "end"
+    },
+    {
+      "id": "HAP1_SCAFFOLD_16",
+      "offset": 3136,
+      "side": "end"
+    }
+  ],
+  "one_end": 3,
+  "sequences": 12,
+  "t2t": 0,
+  "t2t_ids": [],
+  "tidk_version": "0.3.0",
+  "unit": "AAATAAT",
+  "window": 10000,
+  "wrong_strand": []
+}

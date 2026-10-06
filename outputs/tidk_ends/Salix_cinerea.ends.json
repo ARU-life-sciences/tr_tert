@@ -1,0 +1,22 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 26,
+  "not_terminal": [],
+  "one_end": 20,
+  "sequences": 52,
+  "t2t": 6,
+  "t2t_ids": [
+    "SUPER_Z",
+    "HAP1_SCAFFOLD_9",
+    "HAP1_SCAFFOLD_10",
+    "HAP1_SCAFFOLD_11",
+    "HAP1_SCAFFOLD_15",
+    "HAP2_SCAFFOLD_2"
+  ],
+  "tidk_version": "0.3.0",
+  "unit": "AAACCCT",
+  "window": 10000,
+  "wrong_strand": []
+}

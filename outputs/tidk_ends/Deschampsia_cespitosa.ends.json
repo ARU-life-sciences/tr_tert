@@ -1,0 +1,31 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 86,
+  "not_terminal": [
+    {
+      "id": "SUPER_5_HAP1",
+      "offset": 1050,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_6_HAP1",
+      "offset": 2205,
+      "side": "end"
+    }
+  ],
+  "one_end": 10,
+  "sequences": 100,
+  "t2t": 4,
+  "t2t_ids": [
+    "SUPER_2_HAP1",
+    "SUPER_3_HAP1",
+    "SUPER_7_HAP1",
+    "HAP1_SCAFFOLD_52"
+  ],
+  "tidk_version": "0.3.0",
+  "unit": "AAACCCT",
+  "window": 10000,
+  "wrong_strand": []
+}

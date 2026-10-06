@@ -31,3 +31,12 @@ __pycache__/
 # verbose cmsearch per-hit alignment output (MB-scale) - the structured
 # .tbl file has everything downstream steps actually use.
 /clade_discovery/outputs/snrna_search/*_snrna.log
+# pinned tool binaries (e.g. bin/tidk-0.3.0 used by src/run_tidk_v03.bash)
+/bin/
+# tidk 0.3.0 rerun (notes/tidk_v03_rerun.md): per-candidate tidk ends runs
+# are bulky (~40MB) and quick to regenerate with
+# src/run_tidk_ends_candidates.bash; the chosen candidate per species is
+# recorded in outputs/tidk_v0.3/summary.tsv. Per-job stderr logs likewise.
+/outputs/tidk_ends/candidates/
+/outputs/tidk_ends/*.err
+/outputs/tidk_v0.3/*.err

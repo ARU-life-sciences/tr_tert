@@ -1,0 +1,5 @@
+canonical_repeat_unit	copies	copies_as_unit	copies_as_revcomp
+AAACCCT	2535	1183	1352
+AAACCCTAAACCT	235	0	235
+AAACCCTAACCCT	130	130	0
+AAACCCCTAAACCCT	103	0	103

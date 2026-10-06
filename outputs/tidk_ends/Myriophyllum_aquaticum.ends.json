@@ -1,0 +1,25 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 17,
+  "not_terminal": [],
+  "one_end": 9,
+  "sequences": 35,
+  "t2t": 9,
+  "t2t_ids": [
+    "SUPER_1_HAP2",
+    "SUPER_5_HAP2",
+    "SUPER_6_HAP2",
+    "SUPER_8_HAP2",
+    "SUPER_9_HAP2",
+    "SUPER_10_HAP2",
+    "SUPER_12_HAP2",
+    "SUPER_15_HAP2",
+    "SUPER_17_HAP2"
+  ],
+  "tidk_version": "0.3.0",
+  "unit": "AAACCCT",
+  "window": 10000,
+  "wrong_strand": []
+}

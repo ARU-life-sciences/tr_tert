@@ -1,0 +1,37 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 1,
+  "not_terminal": [
+    {
+      "id": "SUPER_9",
+      "offset": 6706,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_17",
+      "offset": 4011,
+      "side": "start"
+    }
+  ],
+  "one_end": 6,
+  "sequences": 17,
+  "t2t": 10,
+  "t2t_ids": [
+    "SUPER_2",
+    "SUPER_3",
+    "SUPER_4",
+    "SUPER_5",
+    "SUPER_6",
+    "SUPER_7",
+    "SUPER_8",
+    "SUPER_10",
+    "SUPER_15",
+    "SUPER_16"
+  ],
+  "tidk_version": "0.3.0",
+  "unit": "AAACCCT",
+  "window": 10000,
+  "wrong_strand": []
+}

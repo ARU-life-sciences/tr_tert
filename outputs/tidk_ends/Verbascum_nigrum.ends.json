@@ -1,0 +1,26 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 0,
+  "not_terminal": [],
+  "one_end": 3,
+  "sequences": 13,
+  "t2t": 10,
+  "t2t_ids": [
+    "HAP2_SCAFFOLD_2",
+    "HAP2_SCAFFOLD_3",
+    "HAP2_SCAFFOLD_4",
+    "HAP2_SCAFFOLD_5",
+    "HAP2_SCAFFOLD_6",
+    "HAP2_SCAFFOLD_7",
+    "HAP2_SCAFFOLD_8",
+    "HAP2_SCAFFOLD_9",
+    "HAP2_SCAFFOLD_11",
+    "HAP2_SCAFFOLD_12"
+  ],
+  "tidk_version": "0.3.0",
+  "unit": "AAACCCT",
+  "window": 10000,
+  "wrong_strand": []
+}

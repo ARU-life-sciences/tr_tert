@@ -18,7 +18,9 @@ track point-mutation-level variation in the telomeric repeat itself.
 Inputs (already produced by the rest of the pipeline, no genome access
 needed - this is pure text-file analysis, hence no bsub variant):
   outputs/tr_template_loci/<species>.tsv   (src/extract_tr_template_all_loci.py)
-  outputs/tidk/<species>.tidk.tsv          (src/run_tidk.bash)
+  outputs/tidk/<species>.tidk.tsv          (src/run_tidk.bash, tidk 0.2.7), or
+  outputs/tidk_v0.3/<species>.explore.tsv  (src/run_tidk_v03.bash) with
+                                           TIDK_DIR=outputs/tidk_v0.3 (see src/tidk_io.py)
 
 Usage:
   tr_repeat_correlation.py <species> [n_shuffles]     # single species, prints TSV to stdout
@@ -33,9 +35,16 @@ import random
 import sys
 from pathlib import Path
 
+import tidk_io
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_DIR = PROJECT_ROOT / "outputs"
 MIN_MATCH_LEN = 6
+# tidk 0.3.0 reports primitive units (e.g. AAACCCT), not the tandemised
+# kmer seeds of 0.2.7, so units are tandemised to this length for matching:
+# the longest match searched (30) plus the longest unit explored (30), so a
+# match can start at any offset.
+TANDEM_LENGTH = 60
 DEFAULT_N_SHUFFLES = 200
 
 COMPLEMENT = str.maketrans("ACGT", "TGCA")
@@ -60,25 +69,21 @@ def load_loci(species):
 
 
 def load_tidk_repeats(species):
-    """[(repeat_string, count), ...] full list, ranked as tidk reported."""
-    path = OUTPUT_DIR / "tidk" / f"{species}.tidk.tsv"
-    repeats = []
-    if not path.exists():
-        return repeats
-    with open(path) as fh:
-        next(fh, None)
-        for line in fh:
-            parts = line.rstrip("\n").split("\t")
-            if len(parts) == 2 and parts[1].isdigit():
-                repeats.append((parts[0], int(parts[1])))
-    return repeats
+    """[(repeat_string, count, search_string), ...] full list, ranked as tidk
+    reported. Matching uses search_string: the repeat itself for tidk 0.2.7
+    output (already tandemised kmer seeds), or the 0.3.0 primitive unit
+    tandemised to TANDEM_LENGTH."""
+    version, rows = tidk_io.load_explore(tidk_io.tidk_path(species))
+    if version == "0.3":
+        return [(r, c, tidk_io.tandemise(r, TANDEM_LENGTH)) for r, c in rows]
+    return [(r, c, r) for r, c in rows]
 
 
 def best_match_for_query(query, tidk_repeats, min_len=MIN_MATCH_LEN):
     """Longest exact substring shared between `query` and any tidk repeat
-    string (checked at every rotation/offset within each repeat, since
-    tidk repeats are themselves already-tandemised strings e.g.
-    'AAACTGAAACTGAAACTG...'). Ties on length broken by higher tidk count
+    (checked at every rotation/offset within each repeat's search string,
+    which is tandemised, e.g. 'AAACTGAAACTGAAACTG...'; see
+    load_tidk_repeats). Ties on length broken by higher tidk count
     (prefer the more genome-abundant/terminal-enriched family). Returns
     (length, chunk, repeat, count) or None. Searches longest-first with
     early exit, since the common case (a real hit) resolves at a long
@@ -86,11 +91,11 @@ def best_match_for_query(query, tidk_repeats, min_len=MIN_MATCH_LEN):
     max_len = min(30, len(query))
     for length in range(max_len, min_len - 1, -1):
         best_here = None
-        for repeat, count in tidk_repeats:
-            if len(repeat) < length:
+        for repeat, count, search in tidk_repeats:
+            if len(search) < length:
                 continue
-            for start in range(len(repeat) - length + 1):
-                chunk = repeat[start:start + length]
+            for start in range(len(search) - length + 1):
+                chunk = search[start:start + length]
                 if chunk in query:
                     if best_here is None or count > best_here[2]:
                         best_here = (chunk, repeat, count)

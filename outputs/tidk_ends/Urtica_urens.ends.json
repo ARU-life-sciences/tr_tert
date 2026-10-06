@@ -1,0 +1,32 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 12,
+  "not_terminal": [
+    {
+      "id": "scaffold_21",
+      "offset": 2709,
+      "side": "start"
+    }
+  ],
+  "one_end": 2,
+  "sequences": 14,
+  "t2t": 0,
+  "t2t_ids": [],
+  "tidk_version": "0.3.0",
+  "unit": "AAAAAACGTACTTTAACTTGT",
+  "window": 10000,
+  "wrong_strand": [
+    {
+      "id": "SUPER_6",
+      "offset": 0,
+      "side": "start"
+    },
+    {
+      "id": "scaffold_19",
+      "offset": 189,
+      "side": "start"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 33,
+  "not_terminal": [
+    {
+      "id": "SUPER_6",
+      "offset": 3480,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_9",
+      "offset": 8580,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_15",
+      "offset": 4380,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_28",
+      "offset": 6588,
+      "side": "start"
+    }
+  ],
+  "one_end": 1,
+  "sequences": 34,
+  "t2t": 0,
+  "t2t_ids": [],
+  "tidk_version": "0.3.0",
+  "unit": "AACCATAGTGGT",
+  "window": 10000,
+  "wrong_strand": [
+    {
+      "id": "SUPER_3",
+      "offset": 756,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_9",
+      "offset": 84,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_18",
+      "offset": 0,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_19",
+      "offset": 0,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_21",
+      "offset": 0,
+      "side": "end"
+    }
+  ]
+}

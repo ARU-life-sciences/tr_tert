@@ -1,0 +1,49 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 9,
+  "not_terminal": [
+    {
+      "id": "HAP3_SUPER_11",
+      "offset": 1309,
+      "side": "start"
+    },
+    {
+      "id": "HAP4_SUPER_16",
+      "offset": 1435,
+      "side": "end"
+    }
+  ],
+  "one_end": 27,
+  "sequences": 58,
+  "t2t": 22,
+  "t2t_ids": [
+    "HAP2_SUPER_1",
+    "HAP2_SUPER_3",
+    "HAP2_SUPER_6",
+    "HAP2_SUPER_9",
+    "HAP2_SUPER_10",
+    "HAP2_SUPER_11",
+    "HAP2_SUPER_18",
+    "HAP2_SUPER_19",
+    "HAP3_SUPER_5",
+    "HAP3_SUPER_8",
+    "HAP3_SUPER_10",
+    "HAP3_SUPER_14",
+    "HAP3_SUPER_16",
+    "HAP3_SUPER_18",
+    "HAP3_SUPER_19",
+    "HAP4_SUPER_1",
+    "HAP4_SUPER_4",
+    "HAP4_SUPER_5",
+    "HAP4_SUPER_6",
+    "HAP4_SUPER_10",
+    "HAP4_SUPER_11",
+    "HAP4_SUPER_13"
+  ],
+  "tidk_version": "0.3.0",
+  "unit": "AAACCCT",
+  "window": 10000,
+  "wrong_strand": []
+}

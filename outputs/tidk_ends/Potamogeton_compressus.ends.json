@@ -1,0 +1,28 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 0,
+  "not_terminal": [
+    {
+      "id": "SUPER_4",
+      "offset": 2205,
+      "side": "end"
+    }
+  ],
+  "one_end": 8,
+  "sequences": 14,
+  "t2t": 6,
+  "t2t_ids": [
+    "SUPER_1",
+    "SUPER_2",
+    "SUPER_5",
+    "SUPER_6",
+    "SUPER_8",
+    "SUPER_11"
+  ],
+  "tidk_version": "0.3.0",
+  "unit": "AAACCCT",
+  "window": 10000,
+  "wrong_strand": []
+}

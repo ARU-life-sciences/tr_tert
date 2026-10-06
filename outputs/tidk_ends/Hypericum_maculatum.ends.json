@@ -1,0 +1,27 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 0,
+  "not_terminal": [
+    {
+      "id": "SUPER_7_HAP4",
+      "offset": 3598,
+      "side": "start"
+    }
+  ],
+  "one_end": 3,
+  "sequences": 8,
+  "t2t": 5,
+  "t2t_ids": [
+    "SUPER_1_HAP4",
+    "SUPER_2_HAP4",
+    "SUPER_4_HAP4",
+    "SUPER_5_HAP4",
+    "SUPER_8_HAP4"
+  ],
+  "tidk_version": "0.3.0",
+  "unit": "AAACCCT",
+  "window": 10000,
+  "wrong_strand": []
+}
