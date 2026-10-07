@@ -49,3 +49,7 @@ __pycache__/
 /outputs/tr_repeat_correlation/tidk_v03/per_species/
 /outputs/tr_repeat_correlation/tidk_v03/inputs/
 /outputs/tr_repeat_correlation/tidk_v03/logs/
+# clade_discovery tidk 0.3.0 rerun: same as the parent project's
+/clade_discovery/outputs/tidk_ends/candidates/
+/clade_discovery/outputs/tidk_ends/*.err
+/clade_discovery/outputs/tidk_v0.3/*.err

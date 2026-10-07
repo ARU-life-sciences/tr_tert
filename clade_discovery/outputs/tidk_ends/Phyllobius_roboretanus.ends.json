@@ -1,0 +1,26 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 12,
+  "not_terminal": [
+    {
+      "id": "SUPER_4_HAP1",
+      "offset": 2822,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_X_HAP1",
+      "offset": 3094,
+      "side": "end"
+    }
+  ],
+  "one_end": 0,
+  "sequences": 12,
+  "t2t": 0,
+  "t2t_ids": [],
+  "tidk_version": "0.3.0",
+  "unit": "AAAAATTCAATTTCGTC",
+  "window": 10000,
+  "wrong_strand": []
+}

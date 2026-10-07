@@ -199,6 +199,18 @@ enrichment, not real telomere biology - the same class of confound
 parent plant pipeline). **Needs an N-content-near-terminus sanity check
 before trusting any of these 4** - not yet done.
 
+## Stage 0 + 0.5 rerun with tidk 0.3.0 (2026-10-07)
+
+tidk 0.2.7, used for Stage 0, had multimer and counting bugs (see
+`../notes/tidk_v03_rerun.md`). Rerun with tidk 0.3.0 plus `tidk ends` on
+the top 5 candidates: see `notes/tidk_v03_rerun.md`. In short:
+Coleoptera telomere at chromosome ends in 159/166 species (Stage 0.5:
+106), with `AACCC` confirmed in 5 scarab/weevil species (balanced strands,
+HiFi-only assemblies, so not an ONT artefact) and a new `ACCTG`/`TCAGG`
+group of 16 species; **Araneae: no telomere at any chromosome end in any
+of the 18 species** - the 4 Stage 0.5 spider hits above were artefacts,
+resolving the N-content open item; Myriapoda `AACCT` in 4/4.
+
 ## Step 3, take 2: promoter-based anchoring (2026-09-22)
 
 Naive template-matching for candidate TR loci (first version of

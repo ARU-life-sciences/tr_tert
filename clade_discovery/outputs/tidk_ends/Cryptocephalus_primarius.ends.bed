@@ -1,0 +1,7 @@
+SUPER_X	33485606	33495590	end_present
+SUPER_9	15218043	15228003	end_present
+SUPER_12	12	9972	start_wrong_strand
+SUPER_17	48	9996	start_wrong_strand
+scaffold_22_1	48	1044	start_present
+scaffold_42	0	1104	start_wrong_strand
+scaffold_44	1106729	1116725	end_present

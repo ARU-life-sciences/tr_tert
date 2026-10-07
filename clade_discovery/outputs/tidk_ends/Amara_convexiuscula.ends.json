@@ -1,0 +1,31 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 25,
+  "not_terminal": [],
+  "one_end": 2,
+  "sequences": 27,
+  "t2t": 0,
+  "t2t_ids": [],
+  "tidk_version": "0.3.0",
+  "unit": "AAGT",
+  "window": 10000,
+  "wrong_strand": [
+    {
+      "id": "SUPER_X",
+      "offset": 0,
+      "side": "start"
+    },
+    {
+      "id": "HAP1_SCAFFOLD_49",
+      "offset": 0,
+      "side": "start"
+    },
+    {
+      "id": "HAP1_SCAFFOLD_49",
+      "offset": 4,
+      "side": "end"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+SCAFFOLD_360	0	9999	start_wrong_strand
+SCAFFOLD_360	1720895	1723955	end_not_terminal
+SCAFFOLD_39	0	9999	start_wrong_strand
+SCAFFOLD_39	1018001	1028000	end_wrong_strand

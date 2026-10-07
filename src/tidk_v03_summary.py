@@ -19,12 +19,23 @@ For each species in the assembly list:
     no ends, and flagged ends
 
 Usage:
-  tidk_v03_summary.py [outfile]    # default outputs/tidk_v0.3/summary.tsv
+  tidk_v03_summary.py [outfile]    # default <EXPLORE_DIR>/summary.tsv
+
+Paths default to the plant run; override with environment variables for
+other runs (e.g. clade_discovery):
+  ASSEMBLY_LIST  species<TAB>fasta list(s), colon-separated
+                 (default inputs/dtol_plant_paths.txt)
+  OLD_TIDK_DIR   tidk 0.2.7 results (default outputs/tidk)
+  EXPLORE_DIR    tidk 0.3.0 explore results (default outputs/tidk_v0.3)
+  ENDS_DIR       tidk ends results (default outputs/tidk_ends)
 
 Columns:
   species  v027_top  v027_top_unit  v03_top  v03_copies  v03_minor_strand
-  relation  telomere_unit  telomere_rank  sequences  t2t  one_end  no_ends
-  wrong_strand  not_terminal
+  relation  telomere_unit  telomere_rank  telomere_minor_strand  sequences
+  t2t  one_end  no_ends  wrong_strand  not_terminal
+
+v03_minor_strand is for the top explore unit, telomere_minor_strand for
+the telomere call (the same unit unless telomere_rank > 1).
 
 relation compares the top repeats of the two versions:
   same       the v0.2.7 top reduces to exactly the 0.3.0 unit (it only lost
@@ -35,6 +46,7 @@ relation compares the top repeats of the two versions:
   none       one of the versions found nothing
 """
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -42,6 +54,18 @@ import tidk_io
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_DIR = PROJECT_ROOT / "outputs"
+
+
+def env_path(name, default):
+    p = Path(os.environ.get(name, default))
+    return p if p.is_absolute() else PROJECT_ROOT / p
+
+
+ASSEMBLY_LISTS = [Path(l) if Path(l).is_absolute() else PROJECT_ROOT / l
+                  for l in os.environ.get("ASSEMBLY_LIST", "inputs/dtol_plant_paths.txt").split(":")]
+OLD_TIDK_DIR = env_path("OLD_TIDK_DIR", "outputs/tidk")
+EXPLORE_DIR = env_path("EXPLORE_DIR", "outputs/tidk_v0.3")
+ENDS_DIR = env_path("ENDS_DIR", "outputs/tidk_ends")
 
 COMPLEMENT = str.maketrans("ACGT", "TGCA")
 
@@ -75,21 +99,31 @@ def relation(old_top, new_top):
     return "different"
 
 
-def load_v03(species):
-    """(unit, copies, minor strand proportion) of the top 0.3.0 unit."""
-    path = OUTPUT_DIR / "tidk_v0.3" / f"{species}.explore.tsv"
+def load_explore_rows(species):
+    """{unit: (copies, minor strand proportion)} and the units in rank
+    order, from the 0.3.0 explore output; None if there isn't one."""
+    path = EXPLORE_DIR / f"{species}.explore.tsv"
     if not path.exists():
         return None
+    rows, order = {}, []
     with open(path) as fh:
         next(fh, None)
-        line = fh.readline().rstrip("\n")
-    if not line:
-        return ("", 0, None)
-    unit, copies, as_unit, as_revcomp = line.split("\t")[:4]
-    if as_unit == "NA":
-        return (unit, int(copies), None)
-    u, r = int(as_unit), int(as_revcomp)
-    return (unit, int(copies), min(u, r) / (u + r) if u + r else None)
+        for line in fh:
+            parts = line.rstrip("\n").split("\t")
+            if len(parts) < 4:
+                continue
+            unit, copies, as_unit, as_revcomp = parts[:4]
+            minor = None
+            if as_unit != "NA" and int(as_unit) + int(as_revcomp) > 0:
+                u, r = int(as_unit), int(as_revcomp)
+                minor = min(u, r) / (u + r)
+            rows[unit] = (int(copies), minor)
+            order.append(unit)
+    return rows, order
+
+
+def fmt_minor(minor):
+    return "NA" if minor is None else f"{minor:.3f}"
 
 
 def present_ends(ends):
@@ -101,32 +135,36 @@ def telomere_call(species):
     chromosome ends; ties go to the higher explore rank. Falls back to the
     main run's ends for the top explore unit."""
     cands = []
-    for path in (OUTPUT_DIR / "tidk_ends" / "candidates").glob(f"{species}.*.ends.json"):
+    for path in (ENDS_DIR / "candidates").glob(f"{species}.*.ends.json"):
         rank = path.name[len(species) + 1:].split(".")[0]
         if rank.isdigit():
             cands.append((int(rank), json.load(open(path))))
     if cands:
         return max(cands, key=lambda c: (present_ends(c[1]), -c[0]))
-    path = OUTPUT_DIR / "tidk_ends" / f"{species}.ends.json"
+    path = ENDS_DIR / f"{species}.ends.json"
     if path.exists():
         return (1, json.load(open(path)))
     return (None, {})
 
 
 def main():
-    outfile = sys.argv[1] if len(sys.argv) > 1 else OUTPUT_DIR / "tidk_v0.3" / "summary.tsv"
+    outfile = sys.argv[1] if len(sys.argv) > 1 else EXPLORE_DIR / "summary.tsv"
     cols = ["species", "v027_top", "v027_top_unit", "v03_top", "v03_copies",
-            "v03_minor_strand", "relation", "telomere_unit", "telomere_rank", "sequences", "t2t",
+            "v03_minor_strand", "relation", "telomere_unit", "telomere_rank",
+            "telomere_minor_strand", "sequences", "t2t",
             "one_end", "no_ends", "wrong_strand", "not_terminal"]
     rows = []
-    for line in open(PROJECT_ROOT / "inputs" / "dtol_plant_paths.txt"):
-        species = line.split("\t")[0].strip()
+    species_list = [line.split("\t")[0].strip() for l in ASSEMBLY_LISTS for line in open(l)]
+    for species in species_list:
         if not species:
             continue
-        v03 = load_v03(species)
-        if v03 is None:
+        explore = load_explore_rows(species)
+        if explore is None:
             continue
-        _, old = tidk_io.load_explore(OUTPUT_DIR / "tidk" / f"{species}.tidk.tsv")
+        rows_by_unit, order = explore
+        top = order[0] if order else ""
+        v03 = (top, *rows_by_unit[top]) if top else ("", 0, None)
+        _, old = tidk_io.load_explore(OLD_TIDK_DIR / f"{species}.tidk.tsv")
         old_top = old[0][0] if old else ""
         old_unit = primitive_unit(old_top) if old_top else ""
         rank, ends = telomere_call(species)
@@ -134,9 +172,10 @@ def main():
         rows.append(dict(
             species=species, v027_top=old_top, v027_top_unit=old_unit,
             v03_top=v03[0], v03_copies=v03[1],
-            v03_minor_strand="NA" if minor is None else f"{minor:.3f}",
+            v03_minor_strand=fmt_minor(minor),
             relation=relation(old_top, v03[0]),
             telomere_unit=ends.get("unit", ""), telomere_rank="" if rank is None else rank,
+            telomere_minor_strand=fmt_minor(rows_by_unit.get(ends.get("unit", ""), (0, None))[1]),
             sequences=ends.get("sequences", ""),
             t2t=ends.get("t2t", ""), one_end=ends.get("one_end", ""),
             no_ends=ends.get("no_ends", ""),

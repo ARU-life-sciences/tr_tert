@@ -1,0 +1,23 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 13,
+  "not_terminal": [
+    {
+      "id": "RL_18",
+      "offset": 2555,
+      "side": "start"
+    }
+  ],
+  "one_end": 4,
+  "sequences": 18,
+  "t2t": 1,
+  "t2t_ids": [
+    "RL_8"
+  ],
+  "tidk_version": "0.3.0",
+  "unit": "AACCT",
+  "window": 10000,
+  "wrong_strand": []
+}

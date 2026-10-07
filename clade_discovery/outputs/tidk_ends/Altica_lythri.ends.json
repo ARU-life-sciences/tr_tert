@@ -1,0 +1,37 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 27,
+  "not_terminal": [
+    {
+      "id": "SCAFFOLD_360",
+      "offset": 4347,
+      "side": "end"
+    }
+  ],
+  "one_end": 0,
+  "sequences": 27,
+  "t2t": 0,
+  "t2t_ids": [],
+  "tidk_version": "0.3.0",
+  "unit": "AACATCAAT",
+  "window": 10000,
+  "wrong_strand": [
+    {
+      "id": "SCAFFOLD_360",
+      "offset": 0,
+      "side": "start"
+    },
+    {
+      "id": "SCAFFOLD_39",
+      "offset": 0,
+      "side": "start"
+    },
+    {
+      "id": "SCAFFOLD_39",
+      "offset": 0,
+      "side": "end"
+    }
+  ]
+}

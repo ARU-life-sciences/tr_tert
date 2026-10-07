@@ -1,0 +1,39 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 3,
+  "not_terminal": [
+    {
+      "id": "SUPER_2_HAP2",
+      "offset": 2390,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_3_HAP2",
+      "offset": 3300,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_4_HAP2",
+      "offset": 5255,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_5_HAP2",
+      "offset": 5580,
+      "side": "end"
+    }
+  ],
+  "one_end": 6,
+  "sequences": 11,
+  "t2t": 2,
+  "t2t_ids": [
+    "SUPER_6_HAP2",
+    "SUPER_8_HAP2"
+  ],
+  "tidk_version": "0.3.0",
+  "unit": "AACCT",
+  "window": 10000,
+  "wrong_strand": []
+}

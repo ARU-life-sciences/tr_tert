@@ -1,0 +1,50 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 19,
+  "not_terminal": [
+    {
+      "id": "SUPER_4",
+      "offset": 4310,
+      "side": "start"
+    },
+    {
+      "id": "HAP1_SCAFFOLD_21",
+      "offset": 1960,
+      "side": "end"
+    },
+    {
+      "id": "HAP1_SCAFFOLD_23",
+      "offset": 6140,
+      "side": "end"
+    },
+    {
+      "id": "HAP1_SCAFFOLD_34",
+      "offset": 2720,
+      "side": "end"
+    },
+    {
+      "id": "HAP1_SCAFFOLD_35",
+      "offset": 2050,
+      "side": "start"
+    },
+    {
+      "id": "HAP1_SCAFFOLD_37",
+      "offset": 9420,
+      "side": "end"
+    }
+  ],
+  "one_end": 9,
+  "sequences": 31,
+  "t2t": 3,
+  "t2t_ids": [
+    "HAP1_SCAFFOLD_30",
+    "HAP1_SCAFFOLD_53",
+    "HAP1_SCAFFOLD_59"
+  ],
+  "tidk_version": "0.3.0",
+  "unit": "AAACGATAAT",
+  "window": 10000,
+  "wrong_strand": []
+}

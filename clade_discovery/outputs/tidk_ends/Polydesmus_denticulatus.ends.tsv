@@ -1,0 +1,11 @@
+id	sequence_length	side	status	telomere_start	telomere_end	telomere_length	offset	strand	window_limited
+SUPER_1	69187350	start	absent	NA	NA	NA	NA	NA	NA
+SUPER_1	69187350	end	absent	NA	NA	NA	NA	NA	NA
+SUPER_2	60545955	start	absent	NA	NA	NA	NA	NA	NA
+SUPER_2	60545955	end	absent	NA	NA	NA	NA	NA	NA
+SUPER_3	55135780	start	absent	NA	NA	NA	NA	NA	NA
+SUPER_3	55135780	end	absent	NA	NA	NA	NA	NA	NA
+SUPER_4	52999419	start	absent	NA	NA	NA	NA	NA	NA
+SUPER_4	52999419	end	absent	NA	NA	NA	NA	NA	NA
+SUPER_5	41441788	start	absent	NA	NA	NA	NA	NA	NA
+SUPER_5	41441788	end	absent	NA	NA	NA	NA	NA	NA

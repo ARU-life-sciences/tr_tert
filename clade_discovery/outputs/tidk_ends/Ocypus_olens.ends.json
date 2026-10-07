@@ -1,0 +1,141 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 12,
+  "not_terminal": [
+    {
+      "id": "SUPER_5",
+      "offset": 2955,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_X",
+      "offset": 3000,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_16",
+      "offset": 7395,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_16",
+      "offset": 8835,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_18",
+      "offset": 1095,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_18",
+      "offset": 4320,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_12",
+      "offset": 9720,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_12",
+      "offset": 3960,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_1",
+      "offset": 6945,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_1",
+      "offset": 1020,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_7",
+      "offset": 3795,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_2",
+      "offset": 1740,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_2",
+      "offset": 7395,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_15",
+      "offset": 3420,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_14",
+      "offset": 6330,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_4",
+      "offset": 1890,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_4",
+      "offset": 7215,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_8",
+      "offset": 8655,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_13",
+      "offset": 1245,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_13",
+      "offset": 7545,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_10",
+      "offset": 7680,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_10",
+      "offset": 7320,
+      "side": "end"
+    },
+    {
+      "id": "SUPER_9",
+      "offset": 4035,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_17",
+      "offset": 7980,
+      "side": "start"
+    },
+    {
+      "id": "SUPER_17",
+      "offset": 6945,
+      "side": "end"
+    }
+  ],
+  "one_end": 7,
+  "sequences": 19,
+  "t2t": 0,
+  "t2t_ids": [],
+  "tidk_version": "0.3.0",
+  "unit": "AAAACTGAGATTTAC",
+  "window": 10000,
+  "wrong_strand": []
+}

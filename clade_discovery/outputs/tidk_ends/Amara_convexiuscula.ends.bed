@@ -1,0 +1,5 @@
+SUPER_7	0	10000	start_present
+SUPER_X	0	10000	start_wrong_strand
+HAP1_SCAFFOLD_31	0	1132	start_present
+HAP1_SCAFFOLD_49	0	5140	start_wrong_strand
+HAP1_SCAFFOLD_49	1117524	1127520	end_wrong_strand

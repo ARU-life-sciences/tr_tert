@@ -1,0 +1,15 @@
+id	sequence_length	side	status	telomere_start	telomere_end	telomere_length	offset	strand	window_limited
+SUPER_1	113036716	start	absent	NA	NA	NA	NA	NA	NA
+SUPER_1	113036716	end	absent	NA	NA	NA	NA	NA	NA
+SUPER_2	58363273	start	present	40	6725	6685	40	C-rich	false
+SUPER_2	58363273	end	present	58357978	58363273	5295	0	G-rich	false
+SUPER_3	56020123	start	absent	NA	NA	NA	NA	NA	NA
+SUPER_3	56020123	end	present	56010123	56020123	10000	0	G-rich	true
+SUPER_4	52222768	start	present	0	8270	8270	0	C-rich	false
+SUPER_4	52222768	end	absent	NA	NA	NA	NA	NA	NA
+SUPER_5	47702603	start	present	0	9150	9150	0	C-rich	false
+SUPER_5	47702603	end	absent	NA	NA	NA	NA	NA	NA
+SUPER_6	40948776	start	present	0	5115	5115	0	C-rich	false
+SUPER_6	40948776	end	absent	NA	NA	NA	NA	NA	NA
+SUPER_X	35718676	start	present	5	10000	9995	5	C-rich	true
+SUPER_X	35718676	end	present	35714146	35718676	4530	0	G-rich	false

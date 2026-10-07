@@ -1,0 +1,56 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 29,
+  "not_terminal": [],
+  "one_end": 2,
+  "sequences": 31,
+  "t2t": 0,
+  "t2t_ids": [],
+  "tidk_version": "0.3.0",
+  "unit": "AAAGTTAAGGGGGATAACGAC",
+  "window": 10000,
+  "wrong_strand": [
+    {
+      "id": "HAP1_SCAFFOLD_22",
+      "offset": 0,
+      "side": "end"
+    },
+    {
+      "id": "HAP1_SCAFFOLD_34",
+      "offset": 0,
+      "side": "start"
+    },
+    {
+      "id": "HAP1_SCAFFOLD_39",
+      "offset": 0,
+      "side": "start"
+    },
+    {
+      "id": "HAP1_SCAFFOLD_39",
+      "offset": 0,
+      "side": "end"
+    },
+    {
+      "id": "HAP1_SCAFFOLD_43",
+      "offset": 0,
+      "side": "start"
+    },
+    {
+      "id": "HAP1_SCAFFOLD_43",
+      "offset": 0,
+      "side": "end"
+    },
+    {
+      "id": "HAP1_SCAFFOLD_46",
+      "offset": 0,
+      "side": "start"
+    },
+    {
+      "id": "HAP1_SCAFFOLD_49",
+      "offset": 0,
+      "side": "start"
+    }
+  ]
+}

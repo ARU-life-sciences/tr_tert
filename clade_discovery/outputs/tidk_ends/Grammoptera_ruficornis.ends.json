@@ -1,0 +1,44 @@
+{
+  "error_tolerant": true,
+  "max_offset": 1000,
+  "min_length": 200,
+  "no_ends": 3,
+  "not_terminal": [
+    {
+      "id": "HAP2_SCAFFOLD_5",
+      "offset": 8075,
+      "side": "end"
+    },
+    {
+      "id": "HAP2_SCAFFOLD_10",
+      "offset": 6145,
+      "side": "start"
+    },
+    {
+      "id": "HAP2_SCAFFOLD_11",
+      "offset": 8355,
+      "side": "start"
+    },
+    {
+      "id": "HAP2_SCAFFOLD_12",
+      "offset": 3435,
+      "side": "start"
+    }
+  ],
+  "one_end": 4,
+  "sequences": 14,
+  "t2t": 7,
+  "t2t_ids": [
+    "HAP2_SCAFFOLD_1",
+    "HAP2_SCAFFOLD_2",
+    "HAP2_SCAFFOLD_3",
+    "HAP2_SCAFFOLD_4",
+    "HAP2_SCAFFOLD_6",
+    "HAP2_SCAFFOLD_7",
+    "HAP2_SCAFFOLD_8"
+  ],
+  "tidk_version": "0.3.0",
+  "unit": "AACCT",
+  "window": 10000,
+  "wrong_strand": []
+}
