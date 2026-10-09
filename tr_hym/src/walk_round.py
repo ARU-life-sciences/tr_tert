@@ -19,6 +19,7 @@ Usage: walk_round.py <new_round_dir> <earlier round dir>...
   e.g. walk_round.py ../tr_hym_r2 ../tr_hym
 """
 import csv
+import os
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -76,8 +77,11 @@ def main():
     new = Path(sys.argv[1]).resolve()
     earlier = [Path(d).resolve() for d in sys.argv[2:]]
     base = earlier[0]  # tr_hym: published models and the full species list
+    # PUBLISHED_DIR: the published TRs by family (default base/models; the
+    # corrected grouping is tr_hym/models_published_v2, src/parse_table_s1.py)
+    published = Path(os.environ.get("PUBLISHED_DIR", base / "models")).resolve()
     groups = defaultdict(list)
-    for fa in sorted((base / "models").glob("*.fa")):
+    for fa in sorted(published.glob("*.fa")):
         if fa.name.startswith("all_") or fa.name.endswith(".aln.fa"):
             continue
         for h, s in read_fasta(fa):
@@ -88,7 +92,14 @@ def main():
     dtol = defaultdict(list)
     for sp, (fam, s) in sorted(acc.items()):
         dtol[fam].append((f"dtol|{sp}|{fam}", s))
+    # DToL family names are NCBI's; published groups may be superfamilies
+    # where Table S1 gives no family (Tenthredinoidea, Formicoidea, ...)
+    superfamily = {"Tenthredinidae": "Tenthredinoidea", "Diprionidae": "Tenthredinoidea",
+                   "Argidae": "Tenthredinoidea", "Athaliidae": "Tenthredinoidea",
+                   "Cimbicidae": "Tenthredinoidea", "Cephidae": "Cephoidea",
+                   "Formicidae": "Formicoidea", "Vespidae": "Vespoidea"}
     for fam, items in dtol.items():
+        fam = superfamily.get(fam, fam) if superfamily.get(fam) in groups else fam
         if fam in groups or len(items) >= 3:
             groups[fam] += items
         else:

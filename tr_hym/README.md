@@ -56,3 +56,27 @@ Xiphydriidae (sawfly families with no TR in any round, so no seed to walk
 from), and a cluster of AAAGAACCT ichneumonids (*Clistopyga*, *Perithous*,
 *Schizopyga*, *Cylloceria*, ...) despite *Pimpla* and *Allomacrus* seeds.
 Reaching these needs structure (a covariance model), not more sequence.
+
+## Correction: Table S1 family labels (2026-10-09)
+
+The first parse of Table S1 carried each rank forward independently, so
+rows of a new superfamily with a blank family inherited the previous
+family: the 12 sawfly TRs (*Athalia*, *Cephus*, *Orussus*, *Diprion*,
+*Neodiprion*, *Euura*, *Tenthredo*, ...) were filed under Ichneumonidae,
+and the "Ampulicidae" group of 76 was 56 ants, 19 vespoids and a
+pompilid. Template checks are unaffected (they don't depend on which
+model hit), but the published groups were wrong for rounds 1-4.
+`src/parse_table_s1.py` fixes it (a new superfamily resets lower ranks;
+every family gets its own group, singletons included) ->
+`models_published_v2/`, `../inputs/fajkus2023/table_s1_v2.tsv`.
+
+Round 5 (`../tr_hym_r5`, corrected groups + all DToL seeds,
+`PUBLISHED_DIR=tr_hym/models_published_v2`): +8 validated, including all
+four Cephidae (via *Cephus cinctus*, E 1e-11 to 1e-30) and two *Anoplius*
+(via the pompilid). Strongly called species with a validated TR:
+Ichneumonidae 36/55, sawflies 31/40, all Hymenoptera 141/188.
+
+*Athalia*: the *A. rosae* TR alone gives template-bearing (AACCT, 11-12
+nt) nhmmer hits in *A. cordata* (1, E 2.5e-10) and *A. circularis* (3,
+E 7e-6 to 5e-5), just below the walking cut-off; blastn finds nothing even
+between these congeners.

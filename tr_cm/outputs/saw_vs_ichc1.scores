@@ -1,0 +1,32 @@
+#                                                                                                                running time (s)                 
+#                                                                                                         -------------------------------          
+# idx  seq name                                        length  cm from    cm to  trunc    bit sc  avg pp  band calc  alignment      total  mem (Mb)
+# ---  ----------------------------------------------  ------  -------  -------  -----  --------  ------  ---------  ---------  ---------  --------
+    1  dtol|Ametastegia_carpini|Tenthredinidae            117        1      141     3'     45.34   0.916       0.00       0.03       0.03      2.10
+    2  dtol|Ametastegia_equiseti|Tenthredinidae           115        4      141     5'     33.73   0.758       0.00       0.03       0.03      2.36
+    3  dtol|Aneugmenus_padi|Tenthredinidae                125        3      142     5'     95.67   0.955       0.00       0.01       0.02      1.36
+    4  dtol|Aneugmenus_temporalis|Tenthredinidae          126        2      142     5'     98.82   0.952       0.00       0.01       0.02      1.38
+    5  dtol|Dolerus_asper|Tenthredinidae                  129        1      141     3'     89.37   0.915       0.00       0.01       0.02      1.47
+    6  dtol|Dolerus_haematodes|Tenthredinidae             129        1      141     3'     89.61   0.912       0.00       0.02       0.02      1.48
+    7  dtol|Dolerus_nigratus|Tenthredinidae               129        1      141     3'     87.49   0.919       0.00       0.01       0.02      1.53
+    8  dtol|Dolerus_triplicatus|Tenthredinidae            131        1      142     3'     87.81   0.899       0.00       0.01       0.02      1.42
+    9  dtol|Eutomostethus_luteiventris|Tenthredinidae     126        1      139     3'     68.47   0.894       0.00       0.02       0.02      1.69
+   10  dtol|Euura_bergmanni|Tenthredinidae                115       15      122     3'     80.30   0.888       0.00       0.01       0.01      1.17
+   11  dtol|Euura_tibialis|Tenthredinidae                 131       17      143     5'    114.74   0.995       0.00       0.01       0.01      1.06
+   12  dtol|Hoplocampa_crataegi|Tenthredinidae            141        1      140     3'     99.08   0.962       0.00       0.01       0.02      1.44
+   13  dtol|Macrophya_alboannulata|Tenthredinidae         129        1      140     3'     80.37   0.918       0.00       0.01       0.02      1.50
+   14  dtol|Macrophya_annulata|Tenthredinidae             133        1      143     3'     84.55   0.920       0.00       0.01       0.02      1.48
+   15  dtol|Macrophya_punctumalbum|Tenthredinidae         123        1      133     3'     81.46   0.914       0.00       0.01       0.01      1.32
+   16  dtol|Macrophya_ribis|Tenthredinidae                124        3      135     5'     72.01   0.909       0.00       0.01       0.02      1.45
+   17  dtol|Phymatocera_aterrima|Tenthredinidae           131        1      141     3'    107.56   0.943       0.00       0.01       0.02      1.27
+   18  dtol|Rhogogaster_chlorosoma|Tenthredinidae         135        1      143     3'    115.90   0.993       0.00       0.01       0.01      1.07
+   19  dtol|Selandria_serva|Tenthredinidae                125        1      137     3'     87.03   0.919       0.00       0.01       0.01      1.28
+   20  dtol|Stromboceros_delicatulus|Tenthredinidae       133        1      144     3'    107.95   0.961       0.00       0.01       0.01      1.33
+   21  dtol|Tenthredo_amoena|Tenthredinidae               138        1      145     3'     96.72   0.971       0.00       0.01       0.02      1.42
+   22  dtol|Tenthredo_arcuata|Tenthredinidae              133        1      141     3'    104.69   0.975       0.00       0.01       0.01      1.14
+   23  dtol|Tenthredo_distinguenda|Tenthredinidae         134        1      141     3'     93.60   0.971       0.00       0.01       0.01      1.32
+   24  dtol|Tenthredo_livida|Tenthredinidae               133        1      141     3'    110.46   0.993       0.00       0.01       0.01      1.09
+   25  dtol|Tenthredo_notha|Tenthredinidae                133        1      141     3'    101.79   0.970       0.00       0.01       0.01      1.22
+   26  dtol|Tenthredo_scrophulariae|Tenthredinidae        132        1      141     3'    123.78   0.991       0.00       0.01       0.01      1.08
+   27  dtol|Tenthredo_zona|Tenthredinidae                 134        1      141     3'     95.14   0.971       0.00       0.01       0.01      1.31
+   28  dtol|Gilpinia_frutetorum|Diprionidae               131        1      142     3'     92.82   0.961       0.00       0.01       0.01      1.20

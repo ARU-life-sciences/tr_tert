@@ -1,0 +1,295 @@
+superfamily	family	subfamily	tribe	species	assembly	motif	tr_accession	trfi	tr_template	type3_promoter
+Apoidea	Apidae	Apinae	Meliponini	Tetragonula carbonaria	GCA_010645115.1	TTTAGGTTAGG	BK062014	ok	ok	ok
+Apoidea	Apidae	Apinae	Meliponini	Tetragonula clypearis	GCA_010645135.1	TTTAGGTTAGG	BK062015	ok	ok	ok
+Apoidea	Apidae	Apinae	Meliponini	Tetragonula davenporti	GCA_010645165.1	TTTAGGTTAGG	BK062016	ok	ok	ok
+Apoidea	Apidae	Apinae	Meliponini	Tetragonula hockingsi	GCA_010645185.1	TTTAGGTTAGG	BK062017	ok	ok	ok
+Apoidea	Apidae	Apinae	Meliponini	Tetragonula mellipes	GCA_011634685.1	TTTAGGTTAGG	BK062018	ok	ok	ok
+Apoidea	Apidae	Apinae	Meliponini	Heterotrigona itama	GCA_903986555.1	TTTAGGTTAGG	BK062019	ok	ok	ok
+Apoidea	Apidae	Apinae	Meliponini	Lepidotrigona ventralis hoosana	GCA_002806875.1	TTTAGGTTAGG	BK062020	ok	ok	ok
+Apoidea	Apidae	Apinae	Meliponini	Frieseomelitta varia	GCF_011392965.1	TTAGGTTTGGG	BK062021	ok	ok	ok
+Apoidea	Apidae	Apinae	Meliponini	Melipona quadrifasciata	GCA_001276565.1	TTTAGGTTAGG	BK062022	ok	ok	ok
+Apoidea	Apidae	Apinae	Ctenoplectrini	Ctenoplectra terminalis	GCA_019453375.1	TTAGGTTGGGC	BK062023	NA	ok	ok
+Apoidea	Apidae	Apinae	Anthophorini	Habropoda laboriosa	GCF_001263275.1	TTAGG	BK062024	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus balteatus	GCA_019201815.1	TTAGGTTGGGG	BK062025	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus bifarius	GCF_011952205.1	TTAGGTTGGGG	BK062026	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus breviceps	GCA_014825925.1	TTAGGTTGGGG	BK062027	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus campestris	GCA_905333015.2	TTAGGTTGGGG	BK062028	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus confusus	GCA_014737475.1	TTAGGTTGGGG	BK062029	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus consobrinus	GCA_014737455.1	TTAGGTTGGGG	BK062030	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus cullumanus	GCA_014737535.1	TTAGGTTGGGG	BK062031	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus difficillimus	GCA_014737525.1	TTAGGTTGGGG	BK062032	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus haemorrhoidalis	GCA_014825975.1	TTAGGTTGGGG	BK062033	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus hortorum	GCA_905332935.1	TTAGGTTGGGG	BK062034	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus hypnorum	GCA_911387925.1	TTAGGTTGGGG	BK062035	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus ignitus	GCA_014825875.1	TTAGGTTGGGG	BK062036	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus impatiens	GCF_000188095.3	TTAGGTTGGGG	BK062037	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus opulentus	GCA_014737405.1	TTAGGTTGGGG	BK062038	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus pascuorum	GCA_905332965.1	TTAGGTTGGGG	BK062039	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus picipes	GCA_014737485.1	TTAGGTTGGGG	BK062040	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus polaris	GCA_014737335.1	TTAGGTTGGGG	BK062041	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus pratorum	GCA_930367275.1	TTAGGTTGGGG	BK062042	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus pyrosoma	GCF_014825855.1	TTAGGTTGGGG	BK062043	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus sibiricus	GCA_014737505.1	TTAGGTTGGGG	BK062044	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus skorikovi	GCA_014737355.1	TTAGGTTGGGG	BK062045	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus soroeensis	GCA_014737365.1	TTAGGTTGGGG	BK062046	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus superbus	GCA_014737385.1	TTAGGG	BK062047	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus sylvestris	GCA_911622165.1	TTAGGTTGGGC	BK062048	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus sylvicola	GCA_019677175.1	TTAGGTTGGGG	BK062049	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus terrestris	GCF_000214255.1	TTAGGTTGGGG	BK062050	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus turneri	GCA_014825825.1	TTAGGTTGGGG	BK062051	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus vancouverensis nearcticus	GCF_011952275.1	TTAGGTTGGGG	BK062052	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus vosnesenskii	GCF_011952255.1	TTAGGTTGGGG	BK062053	ok	ok	ok
+Apoidea	Apidae	Apinae	Bombini	Bombus waltoni	GCA_014737395.1	TTAGG	BK062054	ok	ok	ok
+Apoidea	Apidae	Apinae	Apini	Apis cerana	GCF_001442555.1	TTAGG	BK062055	ok	ok	ok
+Apoidea	Apidae	Apinae	Apini	Apis dorsata	GCF_000469605.1	TTAGG	BK062056	ok	ok	ok
+Apoidea	Apidae	Apinae	Apini	Apis florea	GCF_000184785.3	TTAGG	BK062057	ok	ok	ok
+Apoidea	Apidae	Apinae	Apini	Apis laboriosa	GCF_014066325.1	TTAGG	BK062058	ok	ok	ok
+Apoidea	Apidae	Apinae	Apini	Apis mellifera	GCF_003254395.2	TTAGG	BK062059	ok	ok	ok
+Apoidea	Apidae	Apinae	Euglossini	Euglossa dilemma	GCA_002201625.1	TTAGGTTTGGG	BK062060	NA	ok	ok
+Apoidea	Apidae	Apinae	Euglossini	Eufriesea mexicana	GCF_001483705.1	TTAGG	BK062061	ok	ok	ok
+Apoidea	Apidae	Xylocopinae		Ceratina calcarata	GCF_001652005.1	TTAGG	BK062062	ok	ok	ok
+Apoidea	Apidae	Xylocopinae		Ceratina japonica	GCA_019453355.1	TTAGG	BK062063	NA	ok	ok
+Apoidea	Apidae	Xylocopinae		Exoneura robusta	GCA_019453415.1	TTAGG	BK062064	NA	ok	ok
+Apoidea	Apidae	Xylocopinae		Exoneurella tridentata	GCA_019453975.1	TTAGG	BK062065	NA	ok	ok
+Apoidea	Apidae	Nomadinae		Nomada fabriciana	GCA_907165295.1	TTAGG	BK062066	ok	ok	ok
+Apoidea	Megachilidae			Osmia bicornis bicornis	GCF_907164935.1	TTAGG	BK062067	ok	ok	ok
+Apoidea	Megachilidae			Osmia lignaria	GCF_012274295.1	TTAGG	BK062068	ok	ok	ok
+Apoidea	Megachilidae			Anthidium xuezhongi	GCA_022405125.1	TTAGGG	BK062069	ok	ok	ok
+Apoidea	Megachilidae			Stelis phaeoptera	GCA_943735885.1	TTAGG(G)	BK062070	ok	ok	ok
+Apoidea	Megachilidae			Megachile rotundata	GCF_000220905.1	TTAGG	BK062071	ok	ok	ok
+Apoidea	Halictidae			Lasioglossum albipes	GCA_000346575.1	TTAGG	BK062072	ok	ok	ok
+Apoidea	Halictidae			Lasioglossum baleicum	GCA_022376115.1	TTAGG	BK062073	ok	ok	ok
+Apoidea	Halictidae			Lasioglossum lativentre	GCA_916610255.1	TTAGGTCTGGG	BK062074	ok	ok	ok
+Apoidea	Halictidae			Lasioglossum morio	GCA_916610235.2	TTAGG	BK062075	ok	ok	ok
+Apoidea	Halictidae			Lasioglossum pauxillum	GCA_933228785.1	TTAGG	BK062076	NA	ok	ok
+Apoidea	Halictidae			Megalopta genalis	GCF_011865705.1	TTATGTCAAGG	BK062077	ok	ok	ok
+Apoidea	Halictidae			Nomia melanderi	GCF_003710045.1	TTAGGTCTTGG	BK062078	ok	ok	ok
+Apoidea	Halictidae			Dufourea novaeangliae	GCF_001272555.1	TTAGGTCTGGG	BK062079	ok	ok	ok
+Apoidea	Halictidae			Seladonia tumulorum	GCA_913789895.3	TTAGGG	BK062080	ok	ok	ok
+Apoidea	Halictidae			Sphecodes monilicornis	GCA_913789915.3	TTAGGTCTGGG	BK062081	ok	ok	ok
+Apoidea	Colletidae			Colletes gigas	GCF_013123115.1	TTAGGTCTGGG	BK062082	ok	ok	ok
+Apoidea	Andrenidae			Andrena dorsata	GCA_929108735.1	TTAGTTTGGG	BK062083	ok	ok	ok
+Apoidea	Andrenidae			Andrena haemorrhoa	GCA_910592295.1	TTAGGTCTGGG	BK062084	ok	ok	ok
+Apoidea	Andrenidae			Andrena hattorfiana	GCA_944738655.1	TTAGTCTTGGG	BK062085	ok	ok	ok
+Apoidea	Andrenidae			Andrena minutula	GCA_929113495.1	TTAGGG	BK062086	ok	ok	ok
+Apoidea	Melittidae			Macropis europaea	GCA_916610135.2	TTAGGTTGGG	BK062087	ok	ok	ok
+Apoidea	Crabronidae			Pemphredon lugubris	GCA_933228935.1	TCTGGG	BK062088	ok	ok	ok
+Apoidea	Crabronidae			Mimumesa dahlbomi	GCA_917499265.2	TTAGG	BK062089	ok	ok	ok
+Apoidea	Crabronidae			Ectemnius continuus	GCA_910591665.1	TTAGGTCTGGG	BK062090	ok	ok	ok
+Apoidea	Crabronidae			Ectemnius lituratus	GCA_910593735.2	TTAGGTCTGGG	BK062091	ok	ok	ok
+Apoidea	Crabronidae			Nysson spinosus	GCA_910591585.1	TTAGGTCTGGG	BK062092	ok	ok	ok
+Apoidea	Crabronidae			Cerceris rybyensis	GCA_910591515.1	TTAGGTCTGGG	BK062093	ok	ok	ok
+Apoidea	Ampulicidae			Ampulex compressa	GCA_019049445.1	unknown		NA	NP	
+Formicoidea	Formicoidea			Acromyrmex charruanus	GCA_017607545.1	TTAGG	BK062219	ok	ok	ok
+Formicoidea	Formicoidea			Acromyrmex echinatior	GCA_000204515.1	TTAGG	BK062220	ok	ok	ok
+Formicoidea	Formicoidea			Acromyrmex heyeri	GCA_017607565.1	TTAGG	BK062221	ok	ok	ok
+Formicoidea	Formicoidea			Acromyrmex insinuator	GCA_017607455.1	TTAGG	BK062222	ok	ok	ok
+Formicoidea	Formicoidea			Aphaenogaster ashmeadi	GCA_003063805.1	TTAGG	BK062223	ok	ok	ok
+Formicoidea	Formicoidea			Aphaenogaster floridana	GCA_003063835.1	TTAGG	BK062224	ok	ok	ok
+Formicoidea	Formicoidea			Aphaenogaster fulva	GCA_003063765.1	TTAGG	BK062225	ok	ok	ok
+Formicoidea	Formicoidea			Aphaenogaster miamiana	GCA_003063725.1	TTAGG	BK062226	ok	ok	ok
+Formicoidea	Formicoidea			Aphaenogaster picea	GCA_003063865.1	TTAGG	BK062227	ok	ok	ok
+Formicoidea	Formicoidea			Aphaenogaster rudis	GCA_003063815.1	TTAGG	BK062228	ok	ok	ok
+Formicoidea	Formicoidea			Atta colombica	GCA_001594045.1	TTAGG	BK062229	ok	ok	ok
+Formicoidea	Formicoidea			Atta texana	GCA_004480015.1	TTAGG	BK062230	ok	ok	ok
+Formicoidea	Formicoidea			Camponotus floridanus	GCA_003227725.1	TTAGG	BK062231	ok	ok	ok
+Formicoidea	Formicoidea			Camponotus pennsylvanicus	GCA_023638675.1	TTAGG	BK062232	ok	ok	ok
+Formicoidea	Formicoidea			Cardiocondyla obscurior	GCA_019399895.1	TTAGG	BK062233	ok	ok	ok
+Formicoidea	Formicoidea			Cataglyphis hispanica	GCA_021464445.1	TTAGG	BK062234	ok	ok	ok
+Formicoidea	Formicoidea			Cataglyphis niger	GCA_004329405.1	TTAGG	BK062235	ok	ok	ok
+Formicoidea	Formicoidea			Crematogaster levior	GCA_901521435.1	TTAGG	BK062236	ok	ok	ok
+Formicoidea	Formicoidea			Cyphomyrmex costatus	GCA_001594065.1	TTAGG	BK062237	ok	ok	ok
+Formicoidea	Formicoidea			Dinoponera quadriceps	GCA_001313825.1	TTAGG	BK062238	ok	ok	ok
+Formicoidea	Formicoidea			Eciton burchellii	GCA_020341155.1	TTAGG	BK062239	ok	ok	ok
+Formicoidea	Formicoidea			Formica aquilonia x Formica polyctena	GCA_907163055.1	TTAGG	BK062240	ok	ok	ok
+Formicoidea	Formicoidea			Formica exsecta	GCA_003651465.1	TTAGG	BK062241	ok	ok	ok
+Formicoidea	Formicoidea			Formica selysi	GCA_009859135.1	TTAGG	BK062242	ok	ok	ok
+Formicoidea	Formicoidea			Harpegnathos saltator	GCA_003227715.2	TTAGG	BK062243	ok	ok	ok
+Formicoidea	Formicoidea			Lasius niger	GCA_001045655.1	TTAGG	BK062244	ok	ok	ok
+Formicoidea	Formicoidea			Linepithema humile	GCA_000217595.1	TTAGG	BK062245	ok	ok	ok
+Formicoidea	Formicoidea			Monomorium pharaonis	GCA_013373865.2	TTAGG	BK062246	ok	ok	ok
+Formicoidea	Formicoidea			Nylanderia fulva	GCA_005281655.2	TTAGG	BK062247	ok	ok	ok
+Formicoidea	Formicoidea			Odontomachus brunneus	GCA_010583005.1	TTAGG	BK062248	ok	ok	ok
+Formicoidea	Formicoidea			Ooceraea biroi	GCA_003672135.1	TTAGG	BK062249	ok	ok	ok
+Formicoidea	Formicoidea			Pogonomyrmex barbatus	GCA_000187915.1	TTAGG	BK062250	ok	ok	ok
+Formicoidea	Formicoidea			Pogonomyrmex californicus	GCA_024349325.1	TTAGG	BK062251	ok	ok	ok
+Formicoidea	Formicoidea			Pseudoatta argentina	GCA_017607525.1	TTAGG	BK062252	ok	ok	ok
+Formicoidea	Formicoidea			Pseudomyrmex concolor	GCA_014839585.1	TTAGG	BK062253	ok	ok	ok
+Formicoidea	Formicoidea			Pseudomyrmex cubaensis	GCA_014825685.1	TTAGG	BK062254	ok	ok	ok
+Formicoidea	Formicoidea			Pseudomyrmex dendroicus	GCA_014825645.1	TTAGG	BK062255	ok	ok	ok
+Formicoidea	Formicoidea			Pseudomyrmex elongatus	GCA_014825605.1	TTAGG	BK062256	ok	ok	ok
+Formicoidea	Formicoidea			Pseudomyrmex flavicornis	GCA_014825475.1	TTAGG	BK062257	ok	ok	ok
+Formicoidea	Formicoidea			Pseudomyrmex gracilis	GCA_002006095.1	TTAGG	BK062258	ok	ok	ok
+Formicoidea	Formicoidea			Pseudomyrmex pallidus	GCA_014825455.1	TTAGG	BK062259	ok	ok	ok
+Formicoidea	Formicoidea			Pseudomyrmex sp. PSW-54	GCA_014825495.1	TTAGG	BK062260	NA	ok	ok
+Formicoidea	Formicoidea			Solenopsis fugax	GCA_003595255.1	TTAGG	BK062261	NA	ok	ok
+Formicoidea	Formicoidea			Solenopsis invicta	GCA_016802725.1	TTAGG	BK062262	NP	ok	ok
+Formicoidea	Formicoidea			Temnothorax curvispinosus	GCA_003070985.1	TTAGG	BK062263	ok	ok	ok
+Formicoidea	Formicoidea			Temnothorax longispinosus	GCA_004794745.1	TTAGG	BK062264	ok	ok	ok
+Formicoidea	Formicoidea			Tetramorium alpestre	GCA_021460005.1	TTAGG	BK062265	ok	ok	ok
+Formicoidea	Formicoidea			Tetramorium bicarinatum	GCA_928718305.1	TTAGG	BK062266	ok	ok	ok
+Formicoidea	Formicoidea			Tetramorium immigrans	GCA_011636585.1	TTAGG	BK062267	ok	ok	ok
+Formicoidea	Formicoidea			Tetramorium parvispinum	GCA_011638315.1	TTAGG	BK062268	NA	ok	ok
+Formicoidea	Formicoidea			Tetramorium simillimum	GCA_011636635.1	TTAGG	BK062269	NA	ok	ok
+Formicoidea	Formicoidea			Trachymyrmex cornetzi	GCA_001594075.2	TTAGG	BK062270	ok	ok	ok
+Formicoidea	Formicoidea			Trachymyrmex septentrionalis	GCA_001594115.1	TTAGG	BK062271	ok	ok	ok
+Formicoidea	Formicoidea			Trachymyrmex zeteki	GCA_001594055.1	TTAGG	BK062272	ok	ok	ok
+Formicoidea	Formicoidea			Vollenhovia emeryi	GCA_000949405.1	TTAGG	BK062273	ok	ok	ok
+Formicoidea	Formicoidea			Wasmannia auropunctata	GCA_000956235.1	TTAGG	BK062274	ok	ok	ok
+Pompiloidea	Pompiloidea			Anoplius nigerrimus	GCA_914767735.1	TTAGGTCTGGG	BK062094	ok	ok	ok
+Vespoidea	Vespoidea			Ancistrocerus nigricornis	GCA_916049575.1	TTTGGGTCTGGG	BK062095	ok	ok	ok
+Vespoidea	Vespoidea			Dolichovespula media	GCA_911387685.1	TTGCGTCTGGG	BK062096	ok	ok	ok
+Vespoidea	Vespoidea			Dolichovespula saxonica	GCA_911387935.1	TTGCGTCTGGG	BK062097	ok	ok	ok
+Vespoidea	Vespoidea			Dolichovespula sylvestris	GCA_918808275.2	TTGCGTCTGGG	BK062098	NA	ok	ok
+Vespoidea	Vespoidea			Mischocyttarus mexicanus	GCA_023678845.1	TTGCGTCAGGG	BK062099	ok	ok	ok
+Vespoidea	Vespoidea			Metapolybia cingulata	GCA_020726625.1	TTGCGTCAGGG	BK062100	ok	ok	ok
+Vespoidea	Vespoidea			Polistes canadensis	GCF_001313835.1	TTGCGTCAGGG	BK062101	ok	ok	ok
+Vespoidea	Vespoidea			Polistes dominula	GCF_001465965.1	TTGCGTCAGGG	BK062102	ok	ok	ok
+Vespoidea	Vespoidea			Polistes exclamans	GCA_023678865.1	TTGCGTCAGGG	BK062103	ok	ok	ok
+Vespoidea	Vespoidea			Polistes dorsalis	GCA_010416905.1	TTGCGTCAGGG	BK062104	ok	ok	ok
+Vespoidea	Vespoidea			Polistes fuscatus	GCF_010416935.1	TTGCGTCAGGG	BK062105	ok	ok	ok
+Vespoidea	Vespoidea			Polistes metricus	GCA_010416925.1	TTGCGTCAGGG	BK062106	ok	ok	ok
+Vespoidea	Vespoidea			Polybia occidentalis	GCA_020726605.1	TTGCGTCAGGG	BK062107	NA	ok	ok
+Vespoidea	Vespoidea			Vespa crabro	GCF_910589235.1	TTGCGTCAGGG	BK062108	ok	ok	ok
+Vespoidea	Vespoidea			Vespa mandarinia	GCF_014083535.2	TTGCGTCAGGG	BK062109	NA	ok	ok
+Vespoidea	Vespoidea			Vespa velutina	GCF_912470025.1	TTGCGTCTGGG	BK062110	ok	ok	ok
+Vespoidea	Vespoidea			Vespula germanica	GCA_905340365.1	TTGCGTCTGGG	BK062111	ok	ok	ok
+Vespoidea	Vespoidea			Vespula pensylvanica	GCF_014466175.1	TTGCGTCTGGG	BK062112	ok	ok	ok
+Vespoidea	Vespoidea			Vespula vulgaris	GCA_905475345.1	TTGCGTCTGGG	BK062113	ok	ok	ok
+Platygastroidea	Scelionidae			Aneuroscelio sp. ZL-2020	GCA_022817765.1	TTTTGTTAG	BK062114	ok	ok	ok
+Platygastroidea	Scelionidae			Aradophagus sp. ZL-2020	GCA_022817685.1	TTTAG	BK062115	ok	ok	ok
+Platygastroidea	Scelionidae			Archaeoteleia sp. ZL-2020	GCA_022817725.1	TTCGTTAGG	BK062116	ok	ok	ok
+Platygastroidea	Scelionidae			Axea sp. ZL-2020	GCA_022817665.1	TTTTGTTAG	BK062117	ok	ok	ok
+Platygastroidea	Scelionidae			Baryconus sp. ZL-2020	GCA_022817705.1	TTTTGTTAG/TTTTTAA	BK062118	ok	ok	ok
+Platygastroidea	Scelionidae			Calliscelio sp. ZL-2020	GCA_022817625.1	TTTTGTTAG	BK062119	ok	ok	NA
+Platygastroidea	Scelionidae			Calotelea sp. ZL-2020	GCA_022817605.1	TTTTGTTAG		ok	NP	
+Platygastroidea	Scelionidae			Ceratoteleas bidentatus	GCA_022817645.1	TTTTGTTAG	BK062120	ok	ok	ok
+Platygastroidea	Scelionidae			Chromoteleia sp. ZL-2020	GCA_022817565.1	TTTTGTTAG	BK062122	ok	ok	ok
+Platygastroidea	Scelionidae			Cremastobaeus sp. ZL-2020	GCA_022817545.1	TTTTGTTAG	BK062123	ok	ok	ok
+Platygastroidea	Scelionidae			Dichoteleas sp. ZL-2020	GCA_022817525.1	TTTTGTTAG		ok	NP	
+Platygastroidea	Scelionidae			Dicroscelio sp. ZL-2020	GCA_022817505.1	TTTTGTTAG	BK062124	ok	ok	NA
+Platygastroidea	Scelionidae			Elgonia sp. ZL-2020	GCA_022817485.1	TTTTGTTAG	BK062125	ok	ok	ok
+Platygastroidea	Scelionidae			Embidobia sp. ZL-2020	GCA_022817465.1	TTTTGTTAG	BK062126	ok	ok	ok
+Platygastroidea	Scelionidae			Gryon sp. ZL-2020	GCA_022817425.1	TTTTGTTAG	BK062127	ok	ok	ok
+Platygastroidea	Scelionidae			Habroteleia sp. ZL-2020	GCA_022817445.1	TTTTGTTAG	BK062128	ok	ok	ok
+Platygastroidea	Scelionidae			Heptascelio sp. ZL-2020	GCA_022817405.1	TTTTGTTAG	BK062129	ok	ok	ok
+Platygastroidea	Scelionidae			Idris sp. 1 HC-2018	GCA_022817325.1	TTTTGTTAG	BK062130	ok	ok	ok
+Platygastroidea	Scelionidae			Leptoteleia sp. ZL-2020	GCA_022817305.1	TTTCGTTAG	BK062131	ok	ok	ok
+Platygastroidea	Scelionidae			Macroteleia sp. ZL-2020	GCA_022817385.1	unknown		NP	NP	
+Platygastroidea	Scelionidae			Mallateleia sp. ZL-2020	GCA_022817365.1	TTTTGTTAG	BK062132	ok	ok	ok
+Platygastroidea	Scelionidae			Masnerella sp. ZL-2020	GCA_022817265.1	TTTTGTTAG	BK062133	ok	ok	ok
+Platygastroidea	Scelionidae			Neoscelio sp. ZL-2020	GCA_022817345.1	TTTCGTTAG	BK062134	ok	ok	ok
+Platygastroidea	Scelionidae			Neuroscelio doddi	GCA_022817285.1	TTTGG	BK062136	ok	ok	ok
+Platygastroidea	Scelionidae			Nixonia krombeini	GCA_022817245.1	TTAGG	BK062137	ok	ok	ok
+Platygastroidea	Scelionidae			Nyleta sp. ZL-2020	GCA_022817225.1	TTTTGTTAG	BK062138	ok	ok	NA
+Platygastroidea	Scelionidae			Oxyscelio sp. ZL-2020	GCA_022817185.1	TTTTGTTAG		ok	NP	
+Platygastroidea	Scelionidae			Oxyteleia sp. ZL-2020	GCA_022817205.1	TTTTGTTAG	BK062139	ok	ok	ok
+Platygastroidea	Scelionidae			Palpoteleia sp. ZL-2020	GCA_022817145.1	TTTTGTTAG	BK062140	ok	ok	NA
+Platygastroidea	Scelionidae			Phoenoteleia sp. ZL-2020	GCA_022817165.1	TTTTGTTAG		ok	NP	
+Platygastroidea	Scelionidae			Platyscelio sp. ZL-2020	GCA_022817125.1	TTTTGTTAG	BK062141	ok	ok	ok
+Platygastroidea	Scelionidae			Probaryconus sp. ZL-2020	GCA_022817065.1	TTTTGTTAG	BK062142	ok	ok	ok
+Platygastroidea	Scelionidae			Pseudanteris insignis	GCA_022817105.1	TTTTGTTAG	BK062143	ok	ok	ok
+Platygastroidea	Scelionidae			Psilanteris sp. ZL-2020	GCA_022817085.1	TTTTGTTAG	BK062144	ok	ok	ok
+Platygastroidea	Scelionidae			Psix sp. ZL-2020	GCA_022817045.1	TTTTGTTAG	BK062146	ok	ok	ok
+Platygastroidea	Scelionidae			Scelio sp. ZL-2020	GCA_022816985.1	unknown		NP	NP	
+Platygastroidea	Scelionidae			Sceliomorpha sp. ZL-2020	GCA_022817025.1	TTAGG	BK062148	ok	ok	ok
+Platygastroidea	Scelionidae			Scelioninae gen. 1 sp. ZL-2020	GCA_022817745.1	TTTTGTTAG	BK062149	ok	ok	ok
+Platygastroidea	Scelionidae			Scelioninae gen. 2 sp. ZL-2020	GCA_022817585.1	TTTTGTTAG	BK062150	ok	ok	ok
+Platygastroidea	Scelionidae			Sparasion cullaris	GCA_022817005.1	TTAGG	BK062151	ok	ok	ok
+Platygastroidea	Scelionidae			Tanaodytes sp. ZL-2020	GCA_022816965.1	unknown		NP	NP	
+Platygastroidea	Scelionidae			Telenomus remus	GCA_020615435.1	TTTTTGTTA	BK062152	ok	ok	ok
+Platygastroidea	Scelionidae			Trimorus sp. ZL-2020	GCA_022816905.1	TTTTTGTTA		ok	NP	
+Platygastroidea	Scelionidae			Trissoscelio sp. ZL-2020	GCA_022816885.1	TTTCGTTAG	BK062153	ok	ok	ok
+Platygastroidea	Scelionidae			Triteleia sp. ZL-2020	GCA_022816945.1	unknown		NP	NP	
+Platygastroidea	Platygastridae			Amitus sp. ZL-2020	GCA_022817785.1	TTACGG	BK062155	ok	ok	ok
+Platygastroidea	Platygastridae			Trichacis sp. ZL-2020	GCA_022816925.1	TTAGG		ok	NP	
+Platygastroidea	Platygastridae			Zelostemma sp. ZL-2020	GCA_022816865.1	TTAGG	BK062156	ok	ok	ok
+Chalcidoidea	Aphelinidae			Aphelinus atriplicis	GCA_020882685.1	TTATTTGGG	BK062157	ok	ok	ok
+Chalcidoidea	Aphelinidae			Aphelinus certus	GCA_020882725.1	TTATTTGGG	BK062158	ok	ok	ok
+Chalcidoidea	Encyrtidae			Copidosoma floridanum	GCF_000648655.2	TTATTGGG	BK062159	ok	ok	ok
+Chalcidoidea	Eupelmidae			Eupelmus annulatus	GCA_900480025.1	TTATTGGG	BK062160	ok	ok	ok
+Chalcidoidea	Eupelmidae			Eupelmus urozonus	GCA_900480035.1	TTATTGGG	BK062161	ok	ok	ok
+Chalcidoidea	Eupelmidae			Anastatus disparis	GCA_017163975.1	TTATTGGG	BK062162	NA	ok	ok
+Chalcidoidea	Eulophidae			Phymastichus_coffea	GCA_024137745.1	TTATTGGG	BK062163	NA	ok	ok
+Chalcidoidea	Eurytomidae			Eurytoma adleriae	GCA_900480045.1	TTATTGGG	BK062164	ok	ok	ok
+Chalcidoidea	Eurytomidae			Eurytoma brunniventris	GCA_900475205.1	TTATTGGG	BK062165	ok	ok	ok
+Chalcidoidea	Eurytomidae			Sycophila sp. Sp_5	GCA_018906775.1	TTATTGGG	BK062166	NA	ok	ok
+Chalcidoidea	Mymaridae			Anagrus nilaparvatae	GCA_022575985.1	TTAGG	BK062167	NA	ok	ok
+Chalcidoidea	Agaonidae			Ceratosolen fusciceps	GCA_018883505.1	TTATTGGGG	BK062168	NA	ok	ok
+Chalcidoidea	Agaonidae			Ceratosolen solmsi marchali	GCF_000503995.1	TTATTGGGG	BK062169	ok	ok	ok
+Chalcidoidea	Agaonidae			Dolichoris vasculosae	GCA_018907195.1	TTATTGGG	BK062170	NA	ok	ok
+Chalcidoidea	Agaonidae			Eupristina koningsbergeri	GCA_018907245.1	TTATTGGG	BK062171	NA	ok	ok
+Chalcidoidea	Agaonidae			Platyscapa corneri	GCA_018907185.1	TTATTGGG	BK062172	NA	ok	ok
+Chalcidoidea	Agaonidae			Pleistodontes nigriventris	GCA_903653215.1	TTATTGGG	BK062173	ok	ok	ok
+Chalcidoidea	Agaonidae			Kradibia gibbosae	GCA_018907135.1	TTATTGGG	BK062174	NA	ok	ok
+Chalcidoidea	Agaonidae			Sycophaga agraensis	GCA_018906755.1	unknown		NA	NP	
+Chalcidoidea	Agaonidae			Wiebesia pumilae	GCA_018907045.1	TTATTGGG	BK062175	NA	ok	ok
+Chalcidoidea	Megastigmidae			Megastigmus dorsalis	GCA_900490025.1	TTATTGGG	BK062176	ok	ok	ok
+Chalcidoidea	Megastigmidae			Megastigmus stigmatizans	GCA_900490015.1	TTATTGGG	BK062177	ok	ok	ok
+Chalcidoidea	Ormyridae			Ormyrus nitidulus	GCA_900474335.1	TTATTGGG	BK062178	ok	ok	ok
+Chalcidoidea	Ormyridae			Ormyrus pomaceus	GCA_900474385.1	TTATTGGG	BK062179	NA	ok	ok
+Chalcidoidea	Pteromalidae			Apocrypta bakeri	GCA_018906985.1	TTATTGGG	BK062180	NA	ok	ok
+Chalcidoidea	Pteromalidae			Cecidostiba fungosa	GCA_900474305.1	TTATTGGG	BK062181	ok	ok	ok
+Chalcidoidea	Pteromalidae			Cecidostiba semifascia	GCA_900474235.1	TTATTGGG	BK062182	ok	ok	ok
+Chalcidoidea	Pteromalidae			Sycobia sp. Sy_11	GCA_018907035.1	TTATTGGG	BK062183	NA	ok	ok
+Chalcidoidea	Pteromalidae			Muscidifurax raptorellus	GCA_020010945.1	TTATTGGG	BK062184	NA	ok	ok
+Chalcidoidea	Pteromalidae			Nasonia giraulti	GCA_016647725.1	TTATTGGG	BK062185	ok	ok	ok
+Chalcidoidea	Pteromalidae			Nasonia longicornis	GCA_000004795.1	TTATTGGG	BK062186	ok	ok	ok
+Chalcidoidea	Pteromalidae			Nasonia vitripennis	GCF_009193385.2	TTATTGGG	BK062187	ok	ok	ok
+Chalcidoidea	Pteromalidae			Pteromalus puparum	GCA_012977825.2	TTATTGGG	BK062188	ok	ok	ok
+Chalcidoidea	Pteromalidae			Trichomalopsis sarcophagae	GCA_002249905.1	TTATTGGG	BK062189	NA	ok	ok
+Chalcidoidea	Pteromalidae			Philotrypesis tridentata	GCA_018906965.1	TTATAGGG	BK062190	NA	ok	ok
+Chalcidoidea	Torymidae			Torymus auratus	GCA_900474315.1	TTATTGGG	BK062191	ok	ok	ok
+Chalcidoidea	Torymidae			Torymus geranii	GCA_900474355.1	TTATTGGG		ok	NP	
+Chalcidoidea	Trichogrammatidae			Trichogramma brassicae	GCA_902806795.1	TTACTTGGG	BK062192	NA	ok	ok
+Chalcidoidea	Trichogrammatidae			Trichogramma evanescens	GCA_902732785.1	TTACTTGGG	BK062193	NA	ok	ok
+Chalcidoidea	Trichogrammatidae			Trichogramma pretiosum	GCF_000599845.2	TTACTTGGG	BK062194	ok	ok	ok
+Chalcidoidea	Trichogrammatidae			Megaphragma amalphitanum	GCA_023091795.1	TTATGGGG	BK062195	ok	ok	ok
+Ichneumonoidea	Braconidae			Aleiodes sp. PSUC_FEM 10030003	GCA_018902275.1	unknown		NP	NP	
+Ichneumonoidea	Braconidae			Aphidius ervi	GCA_015776835.1	unknown		NP	NP	
+Ichneumonoidea	Braconidae			Aphidius gifuensis	GCF_014905175.1	unknown		NP	NP	
+Ichneumonoidea	Braconidae			Asobara japonica	GCA_017141405.1	unknown		NP	NP	
+Ichneumonoidea	Braconidae			Chelonus insularis	GCF_013357705.1	unknown		NP	NP	
+Ichneumonoidea	Braconidae			Cotesia chilonis	GCA_018835575.1	unknown		NP	NP	
+Ichneumonoidea	Braconidae			Cotesia congregata	GCA_905319865.3	unknown		NP	NP	
+Ichneumonoidea	Braconidae			Cotesia glomerata	GCF_020080835.1	unknown		NP	NP	
+Ichneumonoidea	Braconidae			Cotesia typhae	GCA_013202065.2	unknown		NP	NP	
+Ichneumonoidea	Braconidae			Cotesia vestalis	GCA_000956155.1	unknown		NP	NP	
+Ichneumonoidea	Braconidae			Diachasma alloeum	GCF_001412515.2	unknown		NP	NP	
+Ichneumonoidea	Braconidae			Dinocampus coccinellae	GCA_022537945.1	unknown		NA	NP	
+Ichneumonoidea	Braconidae			Eumacrocentrus americanus	GCA_018902335.1	unknown		NP	NP	
+Ichneumonoidea	Braconidae			Fopius arisanus	GCF_000806365.1	unknown		NP	NP	
+Ichneumonoidea	Braconidae			Lysiphlebus fabarum	GCA_011426435.1	unknown		NP	NP	
+Ichneumonoidea	Braconidae			Macrocentrus cingulum	GCA_002156465.1	unknown		NA	NP	
+Ichneumonoidea	Braconidae			Meteorus sp. PSUC_FEM 10030008	GCA_018881525.1	TTTTGTTTAACC	BK062196	ok	ok	ok
+Ichneumonoidea	Braconidae			Microplitis demolitor	GCF_000572035.2	unknown		NP	NP	
+Ichneumonoidea	Braconidae			Microplitis mediator	GCA_021733165.1	unknown		NP	NP	
+Ichneumonoidea	Braconidae			Microctonus brassicae	GCA_940306215.1	unknown		NP	NP	
+Ichneumonoidea	Braconidae			Phanerotoma sp. PSUC_FEM 10030009	GCA_018906915.1	unknown		NP	NP	
+Ichneumonoidea	Ichneumonidae			Adelognathus sp. PSUC_FEM 10030001	GCA_018812205.1	unknown		NP	NP	
+Ichneumonoidea	Ichneumonidae			Amblyteles armatorius	GCA_933228735.1	unknown		NP	NP	
+Ichneumonoidea	Ichneumonidae			Anoncus sp. PSUC_FEM 10030000	GCA_018902145.1	TTCGTTTGGG/TTGGG	BK062197	ok	ok	ok
+Ichneumonoidea	Ichneumonidae			Buathra laborator	GCA_934046635.1	unknown		NP	NP	
+Ichneumonoidea	Ichneumonidae			Campoletis sonorensis	GCA_013761285.1	TTTGTTTGGG	BK062198	ok	ok	ok
+Ichneumonoidea	Ichneumonidae			Diadegma semiclausum	GCA_011421695.1	TTTGTTTGGG	BK062199	ok	ok	ok
+Ichneumonoidea	Ichneumonidae			Diadromus collaris	GCA_009394715.1	unknown		NP	NP	
+Ichneumonoidea	Ichneumonidae			Dolichomitus sp. PSUC_FEM 10030005	GCA_018492975.1	TTTAGGTTC	BK062200	ok	ok	ok
+Ichneumonoidea	Ichneumonidae			Dusona sp. PSUC_FEM 10030013	GCA_018902295.1	TTTGTTTGGG	BK062201	ok	ok	ok
+Ichneumonoidea	Ichneumonidae			Ichneumon xanthorius	GCA_917499995.1	unknown		NP	NP	
+Ichneumonoidea	Ichneumonidae			Lissonota sp. PSUC_FEM 10030012	GCA_018491695.1	TTTGGTGTATGTTGGG/TTTGGG	BK062202	ok	ok	ok
+Ichneumonoidea	Ichneumonidae			Mesochorus sp. PSUC_FEM 10030011	GCA_018906735.1	TTTGTTTGGG	BK062203	ok	ok	ok
+Ichneumonoidea	Ichneumonidae			Ophion luteus	GCA_944452715.1	TTTGTTTGGG	BK062204	NA	ok	ok
+Ichneumonoidea	Ichneumonidae			Odontocolon sp. PSUC_FEM 10030002	GCA_018906895.1	TTAGTTTGGG	BK062205	ok	ok	NA
+Ichneumonoidea	Ichneumonidae			Venturia canescens	GCF_019457755.1	TTTGTTTGGG	BK062206	ok	ok	ok
+Orussoidea	Orussoidea			Orussus abietinus	GCF_000612105.2	TTAGG	BK062207	ok	ok	ok
+Cephoidea	Cephoidea			Cephus cinctus	GCF_000341935.1	TTAGG	BK062208	ok	ok	ok
+Tenthredinoidea	Tenthredinoidea			Athalia rosae	GCF_000344095.2	TTAGG	BK062209	ok	ok	ok
+Tenthredinoidea	Tenthredinoidea			Diprion similis	GCF_021155765.1	TTAGG	BK062210	ok	ok	ok
+Tenthredinoidea	Tenthredinoidea			Euura lappo	GCA_018257835.1	TTAGG	BK062211	ok	ok	ok
+Tenthredinoidea	Tenthredinoidea			Euura saliciscinereae	GCA_018420115.1	TTAGG	BK062212	ok	ok	ok
+Tenthredinoidea	Tenthredinoidea			Neodiprion fabricii	GCF_021155785.1	TTAGG	BK062213	NA	ok	ok
+Tenthredinoidea	Tenthredinoidea			Neodiprion lecontei	GCF_021901455.1	TTAGG	BK062214	ok	ok	ok
+Tenthredinoidea	Tenthredinoidea			Neodiprion pinetum	GCF_021155775.1	TTAGG	BK062215	NA	ok	ok
+Tenthredinoidea	Tenthredinoidea			Neodiprion virginiana	GCF_021901495.1	TTAGG	BK062216	NA	ok	ok
+Tenthredinoidea	Tenthredinoidea			Rhogogaster chlorosoma	GCA_944452935.1	TTAGG	BK062217	NA	ok	ok
+Tenthredinoidea	Tenthredinoidea			Tenthredo notha	GCA_914767705.2	TTAGG	BK062218	ok	ok	ok

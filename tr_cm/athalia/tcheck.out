@@ -1,0 +1,47 @@
+Athalia_cordata SUPER_1 40834659 40834515 AACCT match 12 | CCTAACCTAAC in hit: True
+Athalia_circularis SUPER_2 23309504 23309364 AACCT match 12 | CCTAACCTAAC in hit: True
+Athalia_circularis SUPER_4 5800804 5800681 AACCT match 12 | CCTAACCTAAC in hit: True
+Athalia_circularis SUPER_1 28333578 28333708 AACCT match 11 | CCTAACCTAAC in hit: True
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@node-13-07>
+Subject: Job 680303: <athcheck> in cluster <farm22> Done
+
+Job <athcheck> was submitted from host <farm22-agentic1> by user <mb39> in cluster <farm22> at Fri Oct  9 20:53:43 2026
+Job was executed on host(s) <node-13-07>, in queue <normal>, as user <mb39> in cluster <farm22> at Fri Oct  9 20:53:43 2026
+</nfs/users/nfs_m/mb39> was used as the home directory.
+</lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/tr_cm/athalia> was used as the working directory.
+Started at Fri Oct  9 20:53:43 2026
+Terminated at Fri Oct  9 20:53:47 2026
+Results reported at Fri Oct  9 20:53:47 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python3 tcheck.py /data/tol/data/darwin/insects/Athalia_cordata/assembly/curated/iyAthCord1.1/iyAthCord1.1.primary.fa.gz /data/tol/data/darwin/insects/Athalia_circularis/assembly/curated/iyAthCirc1.1/iyAthCirc1.1.primary.fa.gz
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3.87 sec.
+    Max Memory :                                 63 MB
+    Average Memory :                             63.00 MB
+    Total Requested Memory :                     8000.00 MB
+    Delta Memory :                               7937.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   6 sec.
+    Turnaround time :                            4 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <tcheck.err> for stderr output of this job.
+
