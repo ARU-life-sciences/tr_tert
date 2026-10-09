@@ -1,0 +1,13 @@
+#target name                accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#-------------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+SUPER_2:31460656-31460662:+ -         tenthredinoidea_tr   -          cm        1      130      268      303      +    no    1 0.56   0.0    9.9         7 ?   -
+#
+# Program:         cmsearch
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../tr_cm/models/tenthredinoidea_tr.cm
+# Target file:     outputs/Aproceros_ranked.fa
+# Option settings: /software/team301/infernal-1.1.4-linux-intel-gcc/binaries/cmsearch --tblout outputs/Aproceros_ranked.cm.tbl -E 10 --cpu 4 ../tr_cm/models/tenthredinoidea_tr.cm outputs/Aproceros_ranked.fa 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/denovo
+# Date:            Fri Oct  9 23:24:41 2026
+# [ok]

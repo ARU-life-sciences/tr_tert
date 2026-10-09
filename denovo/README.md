@@ -164,3 +164,15 @@ in pimplines the functional (template-bearing) copy is one of several
 (`../tr_pimpl`), with the ancestral position empty rather than decayed.
 That fits TR genes spreading by copying (retroposition?) with the
 functional copy changing over time.
+
+## Argidae: conservation mode (2026-10-09)
+
+`covariation.py` with unit_A == unit_B keeps candidates whose aligned
+window in B retains the template (`pairs_argidae.tsv`, all 6 directed
+pairs of *Arge ochropus*, *A. ustulata*, *Aproceros leucopoda*, AACCC).
+With a 5-nt unit this is far too permissive: 875-2,391 loci per species
+keep an AACCC template-like 7-mer in both relatives. Scoring *Aproceros*'s
+875 (conserved in both *Arge*) with the Tenthredinoidea CM and the TR HMM
+library (`src/rank_candidates.py`): 9 hit anything, best E 0.09 - chance
+level. Argidae remain without a TR: no model reaches them, synteny can't
+place them, and template conservation of a short unit is uninformative.
