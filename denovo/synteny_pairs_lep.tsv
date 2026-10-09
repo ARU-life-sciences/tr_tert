@@ -1,0 +1,10 @@
+distance	A	B
+genus	Vanessa_atalanta	Vanessa_cardui
+genus	Pieris_rapae	Pieris_brassicae
+tribe (Satyrinae)	Maniola_jurtina	Pararge_aegeria
+subfamily (Nymphalidae)	Vanessa_atalanta	Maniola_jurtina
+family (butterflies)	Vanessa_atalanta	Pieris_rapae
+superfamily	Vanessa_atalanta	Noctua_pronuba
+superfamily (moths)	Noctua_pronuba	Biston_betularia
+Ditrysia	Vanessa_atalanta	Plutella_xylostella
+Ditrysia	Vanessa_atalanta	Tinea_trinotella

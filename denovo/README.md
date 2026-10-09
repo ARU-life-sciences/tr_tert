@@ -53,3 +53,25 @@ Hymenoptera models do in `../tr_hym`.
 - The short-unit pairs wrote tens of GB each (218 GB in all) before the
   script deleted its intermediates; 11 unfinished pairs were stopped and
   removed, including six *Nomada flava*/*panzeri* pairs worth rerunning.
+
+## Synteny-anchored search (2026-10-09)
+
+`src/synteny_test.py`: 2 kb chunks from 100 kb either side of species A's
+known TR mapped to B (minimap2 asm20); the anchors nearest A's TR give an
+interval in B, searched for B's template. Tested on pairs with both TRs
+known (`src/run_synteny_tests.bash` -> `outputs/synteny_tests*.tsv`):
+
+| clade | B's TR inside the interval | interval |
+|---|---|---|
+| Hymenoptera | genus (*Bombus*) only; 0/7 beyond | 7 kb, 1 window = the TR |
+| Lepidoptera | 7/9: genus to superfamily (butterflies vs *Noctua*); not Ditrysia-deep (too few anchors) | 8-10 kb (genus), 30-60 kb (family+) |
+
+- In Lepidoptera the TR stays in place across families (stable
+  chromosomes), so synteny cuts a genome to tens of kb. But the interval
+  still holds 35-150 AACCT-like windows, so a second signal is needed
+  inside it (local alignment of the TR body, or a model).
+- In crabronids it fails for a biological reason: *Cerceris* and
+  *Mimumesa* each have one validated TR, but each sits in a neighbourhood
+  whose orthologue in the other species has none (both directions
+  checked: flanks map cleanly to *Mimumesa* SUPER_15 / *Cerceris*
+  SUPER_13). The TR gene has moved between these subfamilies.

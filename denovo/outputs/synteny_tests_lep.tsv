@@ -1,0 +1,10 @@
+distance	A	B	anchors	B_seq	interval	interval_kb	B_TR_inside	windows	B_TR_window
+genus	Vanessa_atalanta	Vanessa_cardui	81	SUPER_8	6433938-6444423	10.5	yes	14	6
+genus	Pieris_rapae	Pieris_brassicae	83	SUPER_2	18640036-18647883	7.8	yes	5	5
+tribe (Satyrinae)	Maniola_jurtina	Pararge_aegeria	31	SUPER_11	6925821-6935437	9.6	yes	14	5
+subfamily (Nymphalidae)	Vanessa_atalanta	Maniola_jurtina	9	SUPER_11	9789090-9851903	62.8	yes	55	6
+family (butterflies)	Vanessa_atalanta	Pieris_rapae	3	SUPER_9	4179582-4227630	48.0	yes	35	5
+superfamily	Vanessa_atalanta	Noctua_pronuba	5	SUPER_11	11673930-11722009	48.1	yes	40	5
+superfamily (moths)	Noctua_pronuba	Biston_betularia	8	SUPER_7	10472570-10504550	32.0	yes	147	0
+Ditrysia	Vanessa_atalanta	Plutella_xylostella	2	SUPER_12	10040550-10088598	48.0	no	41	0
+Ditrysia	Vanessa_atalanta	Tinea_trinotella	1	SUPER_2	9619742-9744268	124.5	no	120	0

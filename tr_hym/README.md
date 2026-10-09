@@ -34,3 +34,25 @@ AACCCCAACCT).
 - *Andrena denticulata* hung in nhmmer twice and was stopped (not run).
 - nhmmer needs `--dna`: T2T assemblies can start with kilobases of G-free
   telomere, which defeats its alphabet guess (79 species failed without it).
+
+## Model walking (2026-10-09)
+
+`src/walk_round.py`: each round adds every DToL TR accepted so far (hit
+E <= 1e-10 and a template that supports the species' own tidk call, so
+the telomere validates each seed) to its family's sequences, rebuilds the
+models and searches the species still without one (`../tr_hym_r2` ...
+`../tr_hym_r4`; run with `CLADE_DIR` as for the first round).
+
+| strongly called species with a validated TR | round 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
+| Ichneumonidae (55) | 22 | 32 | 36 | 36 |
+| sawflies (40) | 21 | 25 | 26 | 27 |
+| all Hymenoptera (188) | 109 | 130 | 135 | 136 |
+
+Seeds grew from 256 published TRs to 256 + 172 DToL TRs, with new
+Tenthredinidae, Formicidae and Vespidae models. Converged by round 4.
+Still none: Cephidae, Argidae, Athaliidae, Cimbicidae, Siricidae and
+Xiphydriidae (sawfly families with no TR in any round, so no seed to walk
+from), and a cluster of AAAGAACCT ichneumonids (*Clistopyga*, *Perithous*,
+*Schizopyga*, *Cylloceria*, ...) despite *Pimpla* and *Allomacrus* seeds.
+Reaching these needs structure (a covariance model), not more sequence.
