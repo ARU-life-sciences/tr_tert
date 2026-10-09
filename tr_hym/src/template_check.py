@@ -22,10 +22,11 @@ Output: outputs/template_check.tsv
   tidk_match template_unit template_match agrees
 """
 import csv
+import os
 import re
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(os.environ.get("CLADE_DIR", Path(__file__).resolve().parent.parent))
 KNOWN = ROOT.parent.parent / "inputs" / "known_telomere_units.tsv"
 MIN_EXTRA = 2
 MAX_EVALUE = 1e-10

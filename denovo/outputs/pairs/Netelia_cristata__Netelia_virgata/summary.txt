@@ -1,0 +1,2 @@
+A unit AAACCAAACCC: 441 template-like candidates; 255 with a blastn hit in B
+B unit AAACC: 58 co-varying candidates

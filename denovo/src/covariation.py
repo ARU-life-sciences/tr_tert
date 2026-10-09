@@ -25,8 +25,9 @@ Usage (on a node with ~16 GB; makeblastdb on B):
 known_tr.tsv: optional seq<TAB>start<TAB>end of A's known TR, to report
 whether (and at what rank) the known locus is recovered.
 
-Outputs in outdir: candidates.fa, blast.tsv, covarying.tsv (ranked by
-blast bitscore), summary.txt
+Outputs in outdir: covarying.tsv (ranked by blast bitscore) and
+summary.txt; the candidates, blast hits and B's database are deleted at the
+end (tens of GB for short units).
 """
 import gzip
 import re
@@ -170,7 +171,12 @@ def main():
                if q.split(":")[0] == kseq and ks - 300 <= int(q.split(":")[1].split("-")[0]) <= ke + 300]
         lines.append(f"known TR {kseq}:{ks}-{ke}: " + (f"recovered at rank {hit[0]}" if hit else "not recovered"))
     (out / "summary.txt").write_text("\n".join(lines) + "\n")
-    dbfa.unlink()
+    # B's blast database and the raw candidates/hits are regenerable and
+    # large (tens of GB for short units): keep only the results
+    for f in out.glob("B.*"):
+        f.unlink()
+    for name in ("candidates.fa", "blast.tsv"):
+        (out / name).unlink(missing_ok=True)
     print("\n".join(lines))
 
 

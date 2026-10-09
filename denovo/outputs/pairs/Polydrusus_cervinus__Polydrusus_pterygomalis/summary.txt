@@ -1,0 +1,2 @@
+A unit AACAGACCCG: 2006 template-like candidates; 703 with a blastn hit in B
+B unit AAACCCGAAC: 10 co-varying candidates

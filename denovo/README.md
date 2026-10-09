@@ -36,3 +36,20 @@ close relatives, so the method needs a repeat change between congeners
 *Hypericum*, *Lysimachia*, *Potentilla*). A TR found this way seeds a
 profile model (HMM/CM) to search the rest of its clade, as the
 Hymenoptera models do in `../tr_hym`.
+
+## The 84-pair run (2026-10-09)
+
+`src/make_pairs.py` -> `pairs.tsv` (84 pairs, 23 genera), `src/worker_pair.bash`
+-> `outputs/pairs/<A>__<B>/{covarying.tsv,summary.txt}`; 73 finished.
+- *Bombus sylvestris* against each of three congeners: 1 candidate each
+  time, the published TR.
+- Elsewhere tens to thousands of candidates, and the known TR (where
+  `../tr_hym` has one) mostly not recovered: *Nomada* ranks 6 and 13,
+  *Andrena* and *Lasioglossum* not at all. Requiring co-variation against
+  every partner with another unit cuts the lists (*Nomada* 5-33) but lost
+  the known TR in *N. goodeniana*. Pairs of short or one-base-different
+  units (*Hypericum*, *Lythrum*, *Mechanitis*, *Tiphia*) are dominated by
+  chance matches.
+- The short-unit pairs wrote tens of GB each (218 GB in all) before the
+  script deleted its intermediates; 11 unfinished pairs were stopped and
+  removed, including six *Nomada flava*/*panzeri* pairs worth rerunning.
