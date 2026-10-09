@@ -15,3 +15,19 @@
 - `src/run_sawfly_cm.bash`: CM from all 39 Tenthredinoidea TRs (cmalign to
   the seed, cmbuild, cmcalibrate), searched in the 9 sawflies still without
   a TR -> `outputs/sawfly_cm/`.
+
+### Result: the Tenthredinoidea CM on the 9 remaining sawflies
+
+| species | family | CM hit | template (tidk unit) |
+|---|---|---|---|
+| *Allantus rufocinctus* | Tenthredinidae | E 6.9e-11 | AACCT 11 nt: validated |
+| *Athalia circularis* | Athaliidae | E 1.7e-5 | AACCT 12 nt |
+| *Athalia cordata* | Athaliidae | E 3.8e-4 | AACCT 12 nt |
+| *Abia aenea* | Cimbicidae | E 2.1e-5 | AACCT 14 nt |
+| *Arge ustulata* | Argidae | E 9.9e-5 | no AACCC template: not a TR |
+| *Aproceros*, *Arge ochropus*, *Urocerus*, *Xiphydria* | | none | |
+
+The *Athalia* CM hits are the same loci as the *A. rosae* profile hits
+(SUPER_2:23.31 Mb, SUPER_1:40.83 Mb): two independent models plus a
+template make them good candidates despite weak E-values. Still no TR in
+Argidae (whose telomere is AACCC, a shift), Siricidae or Xiphydriidae.

@@ -10,6 +10,7 @@ CONS     yes
 MAP      yes
 DATE     Fri Oct  9 20:54:25 2026
 COM      [1] /software/team301/infernal-1.1.4-linux-intel-gcc/binaries/cmbuild -F -n tenthredinoidea_tr tenthredinoidea_tr.cm tenthredinoidea_all.sto
+COM      [2] /software/team301/infernal-1.1.4-linux-intel-gcc/binaries/cmcalibrate --cpu 8 tenthredinoidea_tr.cm
 PBEGIN   0.05
 PEND     0.05
 WBETA    1e-07
@@ -23,6 +24,10 @@ EFFN     2.613647
 CKSUM    921831684
 NULL     0.000  0.000  0.000  0.000 
 EFP7GF   -6.9481 0.71829
+ECMLC    0.65836    -7.99887     0.73260     1600000      376443  0.003188
+ECMGC    0.37914   -17.90134    -7.91256     1600000       17652  0.022660
+ECMLI    0.59335    -6.47890     2.59548     1600000      261542  0.004588
+ECMGI    0.42270    -9.83899    -0.83770     1600000       17968  0.022262
 CM
                                              [ ROOT    0 ]      -      - - - - -
      S     0    -1 0     1     4     0     1   468   924  -7.204  -7.411  -0.270  -2.661                 
