@@ -1,0 +1,330 @@
+species	role	lineage	unit	order	family	call	source	best_query	best_cover	frameshifts_stops	hmm_rbd_evalue
+Anaspis_maculata	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Scraptiidae	found	miniprot round2	Anaspis_maculata	1.00	0	
+Anthocomus_fasciatus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Melyridae	found	miniprot round2	Tillus_elongatus	1.00	0	
+Betulapion_simile	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Brentidae	found	miniprot round3	Oxystoma_pomonae	1.00	0	
+Biphyllus_lunatus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Biphyllidae	found	miniprot round2	Tillus_elongatus	1.00	0	
+Cis_bilamellatus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Ciidae	found_fs	miniprot round2	Cis_bilamellatus	1.00	1	
+Coccidula_rufa	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Coccinellidae	found	miniprot round2	Coccidula_rufa	1.00	0	
+Crepidodera_aurea	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Chrysomelidae	found_fs	miniprot round2	Crepidodera_aurea	1.00	1	
+Crepidodera_fulvicornis	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Chrysomelidae	found_fs	miniprot round2	Crepidodera_fulvicornis	1.00	1	
+Diaperis_boleti	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Tenebrionidae	found_fs	miniprot round2	Diaperis_boleti	1.00	1	
+Eulagius_filicornis	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Mycetophagidae	found	miniprot round2	Mycetophagus_quadripustulatus	0.94	0	
+Lagria_hirta	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Tenebrionidae	found	miniprot round2	Bitoma_crenata	1.00	0	
+Metoecus_paradoxus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Ripiphoridae	found	miniprot round2	Metoecus_paradoxus	1.00	0	
+Mycetophagus_atomarius	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Mycetophagidae	found_fs	miniprot round2	Mycetophagus_atomarius	1.00	1	
+Mycetophagus_piceus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Mycetophagidae	found_fs	miniprot round2	Mycetophagus_piceus	1.00	1	
+Mycetophagus_quadripustulatus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Mycetophagidae	found_fs	miniprot round2	Mycetophagus_quadripustulatus	1.00	1	
+Nacerdes_melanura	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Oedemeridae	found	miniprot round2	Nacerdes_melanura	1.00	0	
+Nalassus_laevioctostriatus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Tenebrionidae	found_fs	miniprot round2	Nalassus_laevioctostriatus	1.00	1	
+Omonadus_floralis	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Anthicidae	found	miniprot round2	Omonadus_floralis	1.00	0	
+Opilo_mollis	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Cleridae	found	miniprot round2	Opilo_mollis	1.00	0	
+Osphya_bipunctata	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Melandryidae	found_fs	miniprot round2	Osphya_bipunctata	1.00	1	
+Prionychus_ater	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Tenebrionidae	found_fs	miniprot round2	Prionychus_ater	1.00	1	
+Pycnomerus_fuliginosus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Zopheridae	found_fs	miniprot round2	Pycnomerus_fuliginosus	1.00	1	
+Salpingus_planirostris	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Salpingidae	found	miniprot round2	Salpingus_planirostris	1.00	0	
+Thanasimus_formicarius	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Cleridae	found	miniprot round2	Thanasimus_formicarius	1.00	0	
+Tillus_elongatus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Cleridae	found	miniprot round2	Tillus_elongatus	1.00	0	
+Vincenzellus_ruficollis	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Salpingidae	found_fs	miniprot round2	Vincenzellus_ruficollis	1.00	1	
+Xestobium_rufovillosum	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Ptinidae	found_fs	miniprot round2	Cantharis_flavilabris	0.91	1	
+Adalia_bipunctata	control	Coleoptera:ACCTG	AACCT	Coleoptera	Coccinellidae	found	miniprot round2	Anisosticta_novemdecimpunctata	1.00	0	
+Adalia_decempunctata	control	Coleoptera:ACCTG	AACCT	Coleoptera	Coccinellidae	found	miniprot round2	Anisosticta_novemdecimpunctata	1.00	0	
+Agelastica_alni	control	Coleoptera:ACCTG	AACCT	Coleoptera	Chrysomelidae	found_fs	miniprot round2	Agelastica_alni	1.00	1	
+Anisosticta_novemdecimpunctata	control	Coleoptera:ACCTG	AACCT	Coleoptera	Coccinellidae	found	miniprot round2	Anisosticta_novemdecimpunctata	1.00	0	
+Anobium_punctatum	control	Coleoptera:ACCTG	AACCT	Coleoptera	Ptinidae	found_fs	miniprot round2	Attagenus_pellio	1.00	1	
+Andrena_haemorrhoa	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Andrenidae	found	miniprot round2	Andrena_flavipes	1.00	0	
+Cerceris_rybyensis	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	found	miniprot round2	Cerceris_rybyensis	1.00	0	
+Colletes_cunicularius	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Colletidae	found_fs	miniprot round2	Colletes_cunicularius	1.00	1	
+Crabro_cribrarius	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	found_fs	miniprot round2	Rhopalum_coarctatum	1.00	2	
+Crossocerus_annulipes	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	found_fs	miniprot round2	Rhopalum_coarctatum	1.00	2	
+Ectemnius_cavifrons	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	found	miniprot round2	Ectemnius_continuus	1.00	0	
+Ectemnius_continuus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	found	miniprot round2	Ectemnius_continuus	1.00	0	
+Ectemnius_lituratus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	found_fs	miniprot round2	Ectemnius_continuus	0.96	1	
+Gorytes_laticinctus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	found	miniprot round2	Macropis_europaea	0.87	0	
+Hylaeus_dilatatus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Colletidae	found	miniprot round2	Hylaeus_dilatatus	1.00	0	
+Hylaeus_hyalinatus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Colletidae	found_fs	miniprot round2	Hylaeus_dilatatus	1.00	2	
+Hylaeus_signatus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Colletidae	found	miniprot round2	Hylaeus_signatus	1.00	0	
+Lasioglossum_lativentre	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Halictidae	found	miniprot round2	Sphecodes_monilicornis	1.00	0	
+Nysson_spinosus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	found	miniprot round2	Nysson_spinosus	1.00	0	
+Nysson_trimaculatus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	found	miniprot round2	Nysson_trimaculatus	1.00	0	
+Rhopalum_coarctatum	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	found	miniprot round2	Rhopalum_coarctatum	1.00	0	
+Sphecodes_crassus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Halictidae	found	miniprot round2	Sphecodes_crassus	1.00	0	
+Sphecodes_ephippius	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Halictidae	found	miniprot round2	Sphecodes_ephippius	1.00	0	
+Sphecodes_longulus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Halictidae	found	miniprot round2	Sphecodes_longulus	1.00	0	
+Sphecodes_monilicornis	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Halictidae	found	miniprot round2	Sphecodes_monilicornis	1.00	0	
+Sphecodes_pellucidus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Halictidae	found	miniprot round2	Sphecodes_pellucidus	1.00	0	
+Sphecodes_puncticeps	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Halictidae	found	miniprot round2	Sphecodes_ephippius	1.00	0	
+Sphecodes_scabricollis	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Halictidae	found	miniprot round2	Sphecodes_scabricollis	1.00	0	
+Andrena_angustior	control	Hymenoptera:AACCCAGACCT	AACCT	Hymenoptera	Andrenidae	found	miniprot round2	Andrena_angustior	1.00	0	
+Crossocerus_cetratus	control	Hymenoptera:AACCCAGACCT	AACCT	Hymenoptera	Crabronidae	found_fs	miniprot round2	Rhopalum_coarctatum	1.00	3	
+Lasioglossum_pauxillum	control	Hymenoptera:AACCCAGACCT	AACCT	Hymenoptera	Halictidae	found	miniprot round2	Lasioglossum_pauxillum	1.00	0	
+Mimumesa_dahlbomi	control	Hymenoptera:AACCCAGACCT	AACCT	Hymenoptera	Crabronidae	found	miniprot round2	Mimumesa_dahlbomi	1.00	0	
+Abia_aenea	control	Hymenoptera:AACCCAGACCT	AACCT	Hymenoptera	Cimbicidae	found_fs	miniprot round2	Abia_aenea	1.00	1	
+Aelia_acuminata	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Pentatomidae	found_fs	miniprot round2	A0A9P0HFI8	1.00	2	
+Anthocoris_nemoralis	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Anthocoridae	found_fs	miniprot round2	A0A8I6SSG7	0.96	2	
+Berytinus_minor	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Berytidae	found	miniprot round2	Berytinus_minor	1.00	0	
+Dicranocephalus_agilis	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Stenocephalidae	found	miniprot round2	Dicranocephalus_agilis	1.00	0	
+Gonocerus_acuteangulatus	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Coreidae	found	miniprot round2	Gonocerus_acuteangulatus	1.00	0	
+Grypocoris_stysi	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	found	miniprot round2	Grypocoris_stysi	1.00	0	
+Harpocera_thoracica	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	found	miniprot round2	Harpocera_thoracica	1.00	0	
+Heterotoma_planicornis	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	found	miniprot round2	Heterotoma_planicornis	1.00	0	
+Ischnodemus_sabuleti	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Blissidae	found	miniprot round2	Ischnodemus_sabuleti	1.00	0	
+Leptopterna_dolabrata	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	found	miniprot round2	Leptopterna_dolabrata	1.00	0	
+Miris_striatus	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	found	miniprot round2	Miris_striatus	1.00	0	
+Neottiglossa_pusilla	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Pentatomidae	found_fs	miniprot round2	A0A9P0HFI8	1.00	2	
+Pilophorus_perplexus	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	found	miniprot round2	Pilophorus_perplexus	1.00	0	
+Pithanus_maerkelii	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	found	miniprot round2	Pithanus_maerkelii	1.00	0	
+Psallus_varians	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	found	miniprot round2	Psallus_varians	1.00	0	
+Stenodema_calcarata	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	found	miniprot round2	Stenodema_calcarata	1.00	0	
+Stenodema_holsata	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	found	miniprot round2	Stenodema_holsata	1.00	0	
+Acericerus_heydenii	control	Hemiptera:AACCATCCCT	AACCT	Hemiptera	Cicadellidae	found_hmm	miniprot + HMM				7.6e-18
+Allygidius_commutatus	control	Hemiptera:AACCATCCCT	AACCT	Hemiptera	Cicadellidae	not_found	miniprot + HMM				6.1e-04
+Allygus_modestus	control	Hemiptera:AACCATCCCT	AACCT	Hemiptera	Cicadellidae	not_found	miniprot + HMM				
+Arthaldeus_pascuellus	control	Hemiptera:AACCATCCCT	AACCT	Hemiptera	Cicadellidae	found_hmm	miniprot + HMM				4.2e-05
+Balanococcus_diminutus	control	Hemiptera:AACCATCCCT	AACCT	Hemiptera	Pseudococcidae	found_hmm	miniprot + HMM				7.3e-18
+Acrodactyla_quadrisculpta	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	found_fs	miniprot round2	Scambus_brevicornis	1.00	1	
+Allomacrus_arcticus	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	found_fs	miniprot round2	Rhyssella_approximator	0.92	1	
+Clistopyga_incitator	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	found	miniprot round2	Scambus_brevicornis	1.00	0	
+Collyria_trichophthalma	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	found_fs	miniprot round2	Rhyssella_approximator	0.93	1	
+Cylloceria_caligata	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	found_fs	miniprot round2	Rhyssella_approximator	0.95	1	
+Dreisbachia_pictifrons	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	found_fs	miniprot round2	Scambus_brevicornis	1.00	2	
+Endromopoda_detrita	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	found	miniprot round2	Scambus_brevicornis	1.00	0	
+Endromopoda_phragmitidis	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	found_fs	miniprot round2	Scambus_brevicornis	1.00	1	
+Ephialtes_manifestator	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	found_fs	miniprot round2	Scambus_brevicornis	1.00	1	
+Paraperithous_gnathaulax	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	found	miniprot round2	Scambus_brevicornis	1.00	0	
+Perithous_albicinctus	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	found	miniprot round2	Rhyssella_approximator	0.93	0	
+Perithous_divinator	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	found	miniprot round2	Rhyssella_approximator	1.00	0	
+Rhyssella_approximator	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	found	miniprot round2	Rhyssella_approximator	1.00	0	
+Scambus_brevicornis	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	found	miniprot round2	Scambus_brevicornis	1.00	0	
+Schizopyga_frigida	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	found	miniprot round2	Schizopyga_frigida	1.00	0	
+Tromatobia_lineatoria	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	found_fs	miniprot round2	Scambus_brevicornis	1.00	1	
+Allantus_rufocinctus	control	Hymenoptera:AAAGAACCT	AACCT	Hymenoptera	Tenthredinidae	found_fs	miniprot round2	Ametastegia_carpini	1.00	3	
+Ametastegia_carpini	control	Hymenoptera:AAAGAACCT	AACCT	Hymenoptera	Tenthredinidae	found	miniprot round2	Ametastegia_carpini	1.00	0	
+Ametastegia_equiseti	control	Hymenoptera:AAAGAACCT	AACCT	Hymenoptera	Tenthredinidae	found	miniprot round2	Ametastegia_equiseti	1.00	0	
+Aneugmenus_padi	control	Hymenoptera:AAAGAACCT	AACCT	Hymenoptera	Tenthredinidae	found	miniprot round2	Aneugmenus_padi	1.00	0	
+Aneugmenus_temporalis	control	Hymenoptera:AAAGAACCT	AACCT	Hymenoptera	Tenthredinidae	found	miniprot round2	Aneugmenus_temporalis	1.00	0	
+Agrypon_flaveolatum	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	found_fs	miniprot round2	Hellwigia_obscura	1.00	1	
+Campoletis_raptor	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	found_fs	miniprot round2	Hellwigia_obscura	1.00	2	
+Hellwigia_obscura	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	found	miniprot round2	Hellwigia_obscura	1.00	0	
+Hyposoter_dolosus	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	found_fs	miniprot round2	Hellwigia_obscura	1.00	1	
+Ophion_confusus	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	found	miniprot round2	Hellwigia_obscura	1.00	0	
+Ophion_costatus	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	found_fs	miniprot round2	Hellwigia_obscura	1.00	1	
+Ophion_ellenae	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	found_fs	miniprot round2	Hellwigia_obscura	1.00	1	
+Ophion_forticornis	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	found	miniprot round2	Hellwigia_obscura	1.00	0	
+Ophion_obscuratus	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	found_fs	miniprot round2	Hellwigia_obscura	1.00	1	
+Ophion_slaviceki	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	found	miniprot round2	Hellwigia_obscura	1.00	0	
+Ophion_variegatus	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	found_fs	miniprot round2	Hellwigia_obscura	1.00	1	
+Ophion_ventricosus	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	found_fs	miniprot round2	Hellwigia_obscura	1.00	1	
+Ophion_wuestneii	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	found_fs	miniprot round2	Hellwigia_obscura	1.00	1	
+Tranosemella_praerogator	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	found_fs	miniprot round2	Hellwigia_obscura	1.00	2	
+Venturia_canescens	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	found_fs	miniprot round2	Hellwigia_obscura	1.00	1	
+Apis_mellifera	control	Hymenoptera:AAACAAACCC	AACCT	Hymenoptera	Apidae	found_fs	miniprot round2	Apis_mellifera	1.00	1	
+Athalia_circularis	control	Hymenoptera:AAACAAACCC	AACCT	Hymenoptera	Athaliidae	found	miniprot round2	Athalia_circularis	1.00	0	
+Athalia_cordata	control	Hymenoptera:AAACAAACCC	AACCT	Hymenoptera	Athaliidae	found	miniprot round2	Athalia_cordata	1.00	0	
+Calameuta_filiformis	control	Hymenoptera:AAACAAACCC	AACCT	Hymenoptera	Cephidae	found	miniprot round2	Calameuta_filiformis	1.00	0	
+Calameuta_pallipes	control	Hymenoptera:AAACAAACCC	AACCT	Hymenoptera	Cephidae	found	miniprot round2	Calameuta_filiformis	1.00	0	
+Bombus_campestris	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	found	miniprot round2	Bombus_campestris	1.00	0	
+Bombus_distinguendus	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	found	miniprot round2	Bombus_distinguendus	1.00	0	
+Bombus_hortorum	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	found	miniprot round2	Bombus_hortorum	1.00	0	
+Bombus_hypnorum	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	found	miniprot round2	Bombus_hypnorum	1.00	0	
+Bombus_jonellus	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	found	miniprot round2	Bombus_jonellus	1.00	0	
+Bombus_lapidarius	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	found	miniprot round2	Bombus_jonellus	1.00	0	
+Bombus_lucorum	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	found	miniprot round2	Bombus_lucorum	1.00	0	
+Bombus_monticola	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	found	miniprot round2	Bombus_monticola	1.00	0	
+Bombus_muscorum	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	found	miniprot round2	Bombus_muscorum	1.00	0	
+Bombus_pascuorum	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	found	miniprot round2	Bombus_pascuorum	1.00	0	
+Bombus_pratorum	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	found	miniprot round2	Bombus_pratorum	1.00	0	
+Bombus_vestalis	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	found	miniprot round2	Bombus_vestalis	1.00	0	
+Dasypoda_hirtipes	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Melittidae	found	miniprot round2	Dasypoda_hirtipes	1.00	0	
+Nomada_ferruginata	control	Hymenoptera:AACCCCAACCT	AACCT	Hymenoptera	Apidae	found	miniprot round2	Nomada_ferruginata	1.00	0	
+Nomada_hirtipes	control	Hymenoptera:AACCCCAACCT	AACCT	Hymenoptera	Apidae	found	miniprot round2	Nomada_hirtipes	1.00	0	
+Cephus_pygmeus	control	Hymenoptera:AACCCCAACCT	AACCT	Hymenoptera	Cephidae	found	miniprot round2	Cephus_spinipes	0.95	0	
+Cephus_spinipes	control	Hymenoptera:AACCCCAACCT	AACCT	Hymenoptera	Cephidae	found	miniprot round2	Cephus_spinipes	1.00	0	
+Dolerus_asper	control	Hymenoptera:AACCCCAACCT	AACCT	Hymenoptera	Tenthredinidae	found	miniprot round2	Dolerus_asper	1.00	0	
+Aegialia_arenaria	shift	Coleoptera:AACCC	AACCC	Coleoptera	Scarabaeidae	found	miniprot round2	Aegialia_arenaria	1.00	0	
+Aphodius_sticticus	shift	Coleoptera:AACCC	AACCC	Coleoptera	Scarabaeidae	found_fs	miniprot round2	Aegialia_arenaria	0.98	1	
+Apoderus_coryli	shift	Coleoptera:AACCC	AACCC	Coleoptera	Attelabidae	found_fs	miniprot round2	Pycnomerus_fuliginosus	1.00	1	
+Bruchidius_varius	shift	Coleoptera:AACCC	AACCC	Coleoptera	Chrysomelidae	found_fs	miniprot round2	Bruchidius_varius	1.00	1	
+Curculio_glandium	shift	Coleoptera:AACCC	AACCC	Coleoptera	Curculionidae	found	miniprot round2	Curculio_glandium	1.00	0	
+Dorcus_parallelipipedus	shift	Coleoptera:AACCC	AACCC	Coleoptera	Lucanidae	found_fs	miniprot round2	Cantharis_lateralis	0.95	3	
+Melolontha_melolontha	shift	Coleoptera:AACCC	AACCC	Coleoptera	Scarabaeidae	found	miniprot round2	Chaetocnema_hortensis	0.99	0	
+Oxystoma_pomonae	shift	Coleoptera:AACCC	AACCC	Coleoptera	Brentidae	found	miniprot round2	Leiosoma_deflexum	0.99	0	
+Rhizotrogus_aestivus	shift	Coleoptera:AACCC	AACCC	Coleoptera	Scarabaeidae	found	miniprot round3	Melolontha_melolontha	1.00	0	
+Aphthona_nonstriata	control	Coleoptera:AACCC	AACCT	Coleoptera	Chrysomelidae	found_fs	miniprot round2	Aphthona_nonstriata	1.00	1	
+Bruchidius_siliquastri	control	Coleoptera:AACCC	AACCT	Coleoptera	Chrysomelidae	found_fs	miniprot round2	Bruchidius_siliquastri	1.00	1	
+Bruchidius_villosus	control	Coleoptera:AACCC	AACCT	Coleoptera	Chrysomelidae	found_fs	miniprot round2	Bruchidius_villosus	1.00	1	
+Bruchus_rufimanus	control	Coleoptera:AACCC	AACCT	Coleoptera	Chrysomelidae	found_fs	miniprot round2	Bruchus_rufimanus	1.00	1	
+Chaetocnema_hortensis	control	Coleoptera:AACCC	AACCT	Coleoptera	Chrysomelidae	found_fs	miniprot round2	Chaetocnema_hortensis	1.00	1	
+Hylobius_abietis	shift	Coleoptera:AAACTAACCC	AAACTAACCC	Coleoptera	Curculionidae	found	miniprot round2	Hylobius_abietis	1.00	0	
+Larinus_planus	shift	Coleoptera:AAACTAACCC	AAACTAACCC	Coleoptera	Curculionidae	found	miniprot round2	Larinus_planus	1.00	0	
+Leiosoma_deflexum	shift	Coleoptera:AAACTAACCC	AAACTAACCC	Coleoptera	Curculionidae	found	miniprot round2	Leiosoma_deflexum	1.00	0	
+Mononychus_punctumalbum	shift	Coleoptera:AAACTAACCC	AAACTAACCC	Coleoptera	Curculionidae	found	miniprot round2	Leiosoma_deflexum	1.00	0	
+Orchestes_rusci	shift	Coleoptera:AAACTAACCC	AAACTAACCC	Coleoptera	Curculionidae	found	miniprot round2	Leiosoma_deflexum	1.00	0	
+Stenocarus_ruficornis	shift	Coleoptera:AAACTAACCC	AAACTAACCC	Coleoptera	Curculionidae	found	miniprot round2	Leiosoma_deflexum	1.00	0	
+Cryptorhynchus_lapathi	control	Coleoptera:AAACTAACCC	AACCT	Coleoptera	Curculionidae	found	miniprot round2	Leiosoma_deflexum	1.00	0	
+Ips_sexdentatus	control	Coleoptera:AAACTAACCC	AACCT	Coleoptera	Curculionidae	found	miniprot round2	Ips_sexdentatus	1.00	0	
+Otiorhynchus_rugosostriatus	control	Coleoptera:AAACTAACCC	AACCT	Coleoptera	Curculionidae	found_fs	miniprot round2	Otiorhynchus_rugosostriatus	1.00	1	
+Phyllobius_roboretanus	control	Coleoptera:AAACTAACCC	AACCT	Coleoptera	Curculionidae	found	miniprot round2	Polydrusus_tereticollis	1.00	0	
+Phyllobius_virideaeris	control	Coleoptera:AAACTAACCC	AACCT	Coleoptera	Curculionidae	found	miniprot round2	Polydrusus_tereticollis	1.00	0	
+Dyspetes_luteomarginatus	shift	Hymenoptera:AAACCC	AAACCC	Hymenoptera	Ichneumonidae	found	miniprot round2	Dyspetes_luteomarginatus	1.00	0	
+Netelia_fuscicornis	shift	Hymenoptera:AAACCC	AAACCC	Hymenoptera	Ichneumonidae	found	miniprot round2	Dyspetes_luteomarginatus	1.00	0	
+Netelia_melanura	shift	Hymenoptera:AAACCC	AAACCC	Hymenoptera	Ichneumonidae	found	miniprot round2	Dyspetes_luteomarginatus	1.00	0	
+Polyblastus_varitarsus	shift	Hymenoptera:AAACCC	AAACCC	Hymenoptera	Ichneumonidae	found	miniprot round2	Dyspetes_luteomarginatus	1.00	0	
+Stilbops_ruficornis	shift	Hymenoptera:AAACCC	AAACCC	Hymenoptera	Ichneumonidae	found	miniprot round2	Dyspetes_luteomarginatus	1.00	0	
+Syrphoctonus_tarsatorius	shift	Hymenoptera:AAACCC	AAACCC	Hymenoptera	Ichneumonidae	found	miniprot round2	Rhyssella_approximator	0.93	0	
+Dolerus_haematodes	control	Hymenoptera:AAACCC	AACCT	Hymenoptera	Tenthredinidae	found	miniprot round2	Dolerus_haematodes	1.00	0	
+Dolerus_triplicatus	control	Hymenoptera:AAACCC	AACCT	Hymenoptera	Tenthredinidae	found	miniprot round2	Dolerus_triplicatus	1.00	0	
+Eutomostethus_luteiventris	control	Hymenoptera:AAACCC	AACCT	Hymenoptera	Tenthredinidae	found	miniprot round2	Eutomostethus_luteiventris	1.00	0	
+Euura_bergmanni	control	Hymenoptera:AAACCC	AACCT	Hymenoptera	Tenthredinidae	found_fs	miniprot round2	Euura_bergmanni	1.00	1	
+Euura_tibialis	control	Hymenoptera:AAACCC	AACCT	Hymenoptera	Tenthredinidae	found_fs	miniprot round2	Euura_tibialis	1.00	1	
+Andrena_flavipes	shift	Hymenoptera:AACCCT	AACCCT	Hymenoptera	Andrenidae	found	miniprot round2	Andrena_flavipes	1.00	0	
+Andrena_nitida	shift	Hymenoptera:AACCCT	AACCCT	Hymenoptera	Andrenidae	found_fs	miniprot round2	Andrena_flavipes	1.00	1	
+Anthidium_manicatum	shift	Hymenoptera:AACCCT	AACCCT	Hymenoptera	Megachilidae	found	miniprot round2	Anthidium_manicatum	1.00	0	
+Seladonia_tumulorum	shift	Hymenoptera:AACCCT	AACCCT	Hymenoptera	Halictidae	found	miniprot round2	Seladonia_tumulorum	1.00	0	
+Stelis_phaeoptera	shift	Hymenoptera:AACCCT	AACCCT	Hymenoptera	Megachilidae	found	miniprot round2	Stelis_phaeoptera	1.00	0	
+Tiphia_femorata	shift	Hymenoptera:AACCCT	AACCCT	Hymenoptera	Tiphiidae	found	miniprot round2	Tiphia_minuta	1.00	0	
+Heriades_truncorum	control	Hymenoptera:AACCCT	AACCT	Hymenoptera	Megachilidae	found	miniprot round2	Heriades_truncorum	1.00	0	
+Megachile_ligniseca	control	Hymenoptera:AACCCT	AACCT	Hymenoptera	Megachilidae	found	miniprot round2	Megachile_ligniseca	1.00	0	
+Osmia_bicornis_bicornis	control	Hymenoptera:AACCCT	AACCT	Hymenoptera	Megachilidae	found	miniprot round2	Osmia_bicornis_bicornis	1.00	0	
+Tiphia_minuta	control	Hymenoptera:AACCCT	AACCT	Hymenoptera	Tiphiidae	found	miniprot round2	Tiphia_minuta	1.00	0	
+Formica_rufa	control	Hymenoptera:AACCCT	AACCT	Hymenoptera	Formicidae	found	miniprot round2	Sphecodes_scabricollis	0.61	0	
+Bugula_neritina	shift	Cheilostomatida:AAACCCC	AAACCCC	Cheilostomatida	Bugulidae	found_fs	miniprot round2	Bugula_neritina	1.00	1	
+Bugulina_stolonifera	shift	Cheilostomatida:AAACCCC	AAACCCC	Cheilostomatida	Bugulidae	found	miniprot round2	Bugulina_stolonifera	1.00	0	
+Cryptosula_pallasiana	shift	Cheilostomatida:AAACCCC	AAACCCC	Cheilostomatida	Cryptosulidae	found	miniprot round2	Cryptosula_pallasiana	1.00	0	
+Membranipora_membranacea	shift	Cheilostomatida:AAACCCC	AAACCCC	Cheilostomatida	Membraniporidae	found	miniprot round2	Cryptosula_pallasiana	0.93	0	
+Watersipora_subatra	shift	Cheilostomatida:AAACCCC	AAACCCC	Cheilostomatida	Watersiporidae	found	miniprot round2	Cryptosula_pallasiana	1.00	0	
+Aproceros_leucopoda	shift	Hymenoptera:AACCC	AACCC	Hymenoptera	Argidae	found	miniprot round2	Dolerus_haematodes	1.00	0	
+Arge_ochropus	shift	Hymenoptera:AACCC	AACCC	Hymenoptera	Argidae	found	miniprot round2	Dolerus_haematodes	0.99	0	
+Arge_ustulata	shift	Hymenoptera:AACCC	AACCC	Hymenoptera	Argidae	found	miniprot round2	Dolerus_asper	0.99	0	
+Eremotylus_marginatus	shift	Hymenoptera:AACCC	AACCC	Hymenoptera	Ichneumonidae	found_fs	miniprot round2	Hellwigia_obscura	1.00	2	
+Macropis_europaea	shift	Hymenoptera:AACCC	AACCC	Hymenoptera	Melittidae	found	miniprot round2	Macropis_europaea	1.00	0	
+Gilpinia_frutetorum	control	Hymenoptera:AACCC	AACCT	Hymenoptera	Diprionidae	found_fs	miniprot round2	Gilpinia_frutetorum	1.00	1	
+Hoplocampa_crataegi	control	Hymenoptera:AACCC	AACCT	Hymenoptera	Tenthredinidae	found	miniprot round2	Hoplocampa_crataegi	1.00	0	
+Lasius_brunneus	control	Hymenoptera:AACCC	AACCT	Hymenoptera	Formicidae	found	miniprot round2	Sphecodes_scabricollis	0.61	0	
+Lasius_flavus	control	Hymenoptera:AACCC	AACCT	Hymenoptera	Formicidae	found	miniprot round2	Sphecodes_scabricollis	0.61	0	
+Lasius_fuliginosus	control	Hymenoptera:AACCC	AACCT	Hymenoptera	Formicidae	found_fs	miniprot round3	Lasius_flavus	1.00	1	
+Dolichovespula_media	shift	Hymenoptera:AACCCAGACGC	AACCCAGACGC	Hymenoptera	Vespidae	found_fs	miniprot round2	A0A834J8V0	0.89	2	
+Dolichovespula_sylvestris	shift	Hymenoptera:AACCCAGACGC	AACCCAGACGC	Hymenoptera	Vespidae	found_fs	miniprot round2	A0A834J8V0	0.89	1	
+Symmorphus_gracilis	shift	Hymenoptera:AACCCAGACGC	AACCCAGACGC	Hymenoptera	Vespidae	found	miniprot round2	Symmorphus_gracilis	1.00	0	
+Vespula_germanica	shift	Hymenoptera:AACCCAGACGC	AACCCAGACGC	Hymenoptera	Vespidae	found_fs	miniprot round2	Vespula_germanica	1.00	1	
+Vespula_vulgaris	shift	Hymenoptera:AACCCAGACGC	AACCCAGACGC	Hymenoptera	Vespidae	found_fs	miniprot round2	Vespula_vulgaris	1.00	1	
+Lasius_platythorax	control	Hymenoptera:AACCCAGACGC	AACCT	Hymenoptera	Formicidae	found_fs	miniprot round3	Lasius_flavus	1.00	1	
+Macrophya_alboannulata	control	Hymenoptera:AACCCAGACGC	AACCT	Hymenoptera	Tenthredinidae	found	miniprot round2	Macrophya_annulata	0.99	0	
+Macrophya_annulata	control	Hymenoptera:AACCCAGACGC	AACCT	Hymenoptera	Tenthredinidae	found	miniprot round2	Macrophya_annulata	1.00	0	
+Macrophya_punctumalbum	control	Hymenoptera:AACCCAGACGC	AACCT	Hymenoptera	Tenthredinidae	found	miniprot round2	Macrophya_punctumalbum	1.00	0	
+Macrophya_ribis	control	Hymenoptera:AACCCAGACGC	AACCT	Hymenoptera	Tenthredinidae	found	miniprot round2	Macrophya_annulata	0.99	0	
+Grypus_equiseti	shift	Coleoptera:AAACC	AAACC	Coleoptera	Erirhinidae	found	miniprot round2	Larinus_planus	1.00	0	
+Magdalis_cerasi	shift	Coleoptera:AAACC	AAACC	Coleoptera	Curculionidae	found	miniprot round2	Hylobius_abietis	1.00	0	
+Platypus_cylindrus	shift	Coleoptera:AAACC	AAACC	Coleoptera	Curculionidae	found_fs	miniprot round2	Platypus_cylindrus	1.00	1	
+Sphaeridium_bipustulatum	shift	Coleoptera:AAACC	AAACC	Coleoptera	Hydrophilidae	found	miniprot round2	Sphaeridium_bipustulatum	1.00	0	
+Abax_parallelepipedus	control	Coleoptera:AAACC	AACCT	Coleoptera	Carabidae	found_fs	miniprot round2	Amara_convexiuscula	0.99	1	
+Acupalpus_dubius	control	Coleoptera:AAACC	AACCT	Coleoptera	Carabidae	found	miniprot round2	Amara_convexiuscula	0.99	0	
+Acupalpus_parvulus	control	Coleoptera:AAACC	AACCT	Coleoptera	Carabidae	found_fs	miniprot round2	Amara_convexiuscula	0.99	2	
+Agonum_muelleri	control	Coleoptera:AAACC	AACCT	Coleoptera	Carabidae	found_fs	miniprot round2	Amara_convexiuscula	1.00	2	
+Agonum_viduum	control	Coleoptera:AAACC	AACCT	Coleoptera	Carabidae	found	miniprot round2	Amara_convexiuscula	1.00	0	
+Nomada_flava	shift	Hymenoptera:AAACCTAACCC	AAACCTAACCC	Hymenoptera	Apidae	found	miniprot round2	Nomada_flava	1.00	0	
+Nomada_fucata	shift	Hymenoptera:AAACCTAACCC	AAACCTAACCC	Hymenoptera	Apidae	found	miniprot round2	Nomada_goodeniana	1.00	0	
+Nomada_goodeniana	shift	Hymenoptera:AAACCTAACCC	AAACCTAACCC	Hymenoptera	Apidae	found	miniprot round2	Nomada_goodeniana	1.00	0	
+Nomada_panzeri	shift	Hymenoptera:AAACCTAACCC	AAACCTAACCC	Hymenoptera	Apidae	found	miniprot round2	Nomada_panzeri	1.00	0	
+Monostegia_abdominalis	control	Hymenoptera:AAACCTAACCC	AACCT	Hymenoptera	Tenthredinidae	found	miniprot round2	Monostegia_abdominalis	1.00	0	
+Rhogogaster_chlorosoma	control	Hymenoptera:AAACCTAACCC	AACCT	Hymenoptera	Tenthredinidae	found	miniprot round2	Rhogogaster_chlorosoma	1.00	0	
+Selandria_serva	control	Hymenoptera:AAACCTAACCC	AACCT	Hymenoptera	Tenthredinidae	found	miniprot round2	Selandria_serva	1.00	0	
+Stromboceros_delicatulus	control	Hymenoptera:AAACCTAACCC	AACCT	Hymenoptera	Tenthredinidae	found	miniprot round2	Dolerus_triplicatus	1.00	0	
+Tenthredo_amoena	control	Hymenoptera:AAACCTAACCC	AACCT	Hymenoptera	Tenthredinidae	found	miniprot round2	Tenthredo_amoena	1.00	0	
+Ceriagrion_tenellum	shift	Odonata:AACCC	AACCC	Odonata	Coenagrionidae	found_hmm	miniprot + HMM				2.9e-08
+Coenagrion_pulchellum	shift	Odonata:AACCC	AACCC	Odonata	Coenagrionidae	found_hmm	miniprot + HMM				2.1e-08
+Platycnemis_pennipes	shift	Odonata:AACCC	AACCC	Odonata	Platycnemididae	found_hmm	miniprot + HMM				1.1e-10
+Pyrrhosoma_nymphula	shift	Odonata:AACCC	AACCC	Odonata	Coenagrionidae	found_hmm	miniprot + HMM				1.3e-08
+Hypera_postica	shift	Coleoptera:AAAACTAACC	AAAACTAACC	Coleoptera	Curculionidae	found	miniprot round2	Hylobius_abietis	1.00	0	
+Hypera_rumicis	shift	Coleoptera:AAAACTAACC	AAAACTAACC	Coleoptera	Curculionidae	found	miniprot round2	Polydrusus_tereticollis	1.00	0	
+Sitona_cylindricollis	shift	Coleoptera:AAAACTAACC	AAAACTAACC	Coleoptera	Curculionidae	found	miniprot round2	Barypeithes_pellucidus	1.00	0	
+Agrilus_biguttatus	control	Coleoptera:AAAACTAACC	AACCT	Coleoptera	Buprestidae	found	miniprot round2	Agrilus_biguttatus	1.00	0	
+Agrilus_cyanescens	control	Coleoptera:AAAACTAACC	AACCT	Coleoptera	Buprestidae	found_fs	miniprot round2	Agrilus_cyanescens	1.00	1	
+Agrypnus_murinus	control	Coleoptera:AAAACTAACC	AACCT	Coleoptera	Elateridae	found	miniprot round2	Agrypnus_murinus	1.00	0	
+Aleochara_curtula	control	Coleoptera:AAAACTAACC	AACCT	Coleoptera	Staphylinidae	found_fs	miniprot round2	Agrypnus_murinus	0.92	1	
+Amara_aenea	control	Coleoptera:AAAACTAACC	AACCT	Coleoptera	Carabidae	found_fs	miniprot round2	Amara_convexiuscula	1.00	2	
+Barypeithes_pellucidus	shift	Coleoptera:AAACCCGAAC	AAACCCGAAC	Coleoptera	Curculionidae	found	miniprot round2	Barypeithes_pellucidus	1.00	0	
+Pachyrhinus_lethierryi	shift	Coleoptera:AAACCCGAAC	AAACCCGAAC	Coleoptera	Curculionidae	found	miniprot round2	Barypeithes_pellucidus	1.00	0	
+Polydrusus_pterygomalis	shift	Coleoptera:AAACCCGAAC	AAACCCGAAC	Coleoptera	Curculionidae	found	miniprot round2	Barypeithes_pellucidus	1.00	0	
+Amara_convexiuscula	control	Coleoptera:AAACCCGAAC	AACCT	Coleoptera	Carabidae	found	miniprot round2	Amara_convexiuscula	1.00	0	
+Amara_familiaris	control	Coleoptera:AAACCCGAAC	AACCT	Coleoptera	Carabidae	found	miniprot round2	Amara_convexiuscula	1.00	0	
+Amara_ovata	control	Coleoptera:AAACCCGAAC	AACCT	Coleoptera	Carabidae	found_fs	miniprot round2	Amara_convexiuscula	1.00	2	
+Amara_plebeja	control	Coleoptera:AAACCCGAAC	AACCT	Coleoptera	Carabidae	found_fs	miniprot round2	Amara_convexiuscula	1.00	3	
+Amara_tibialis	control	Coleoptera:AAACCCGAAC	AACCT	Coleoptera	Carabidae	found_hmm	miniprot + HMM				3.6e-07
+Otiorhynchus_armadillo	shift	Coleoptera:AACCTGAACT	AACCTGAACT	Coleoptera	Curculionidae	found	miniprot round2	Polydrusus_tereticollis	1.00	0	
+Polydrusus_tereticollis	shift	Coleoptera:AACCTGAACT	AACCTGAACT	Coleoptera	Curculionidae	found	miniprot round2	Polydrusus_tereticollis	1.00	0	
+Taphrorychus_bicolor	shift	Coleoptera:AACCTGAACT	AACCTGAACT	Coleoptera	Curculionidae	found	miniprot round2	Leiosoma_deflexum	1.00	0	
+Anaglyptus_mysticus	control	Coleoptera:AACCTGAACT	AACCT	Coleoptera	Cerambycidae	found_fs	miniprot round2	Anaglyptus_mysticus	1.00	1	
+Aplotarsus_incanus	control	Coleoptera:AACCTGAACT	AACCT	Coleoptera	Elateridae	found	miniprot round2	Aplotarsus_incanus	1.00	0	
+Arhopalus_rusticus	control	Coleoptera:AACCTGAACT	AACCT	Coleoptera	Cerambycidae	found_fs	miniprot round2	Arhopalus_rusticus	1.00	1	
+Aromia_moschata	control	Coleoptera:AACCTGAACT	AACCT	Coleoptera	Cerambycidae	found_fs	miniprot round2	A0AAV8ZA90	1.00	1	
+Attagenus_pellio	control	Coleoptera:AACCTGAACT	AACCT	Coleoptera	Dermestidae	found	miniprot round2	Attagenus_pellio	1.00	0	
+Carabus_intricatus	shift	Coleoptera:ACCCT	ACCCT	Coleoptera	Carabidae	found_fs	miniprot round2	Amara_convexiuscula	0.97	1	
+Carabus_nemoralis	shift	Coleoptera:ACCCT	ACCCT	Coleoptera	Carabidae	found_fs	miniprot round2	Amara_convexiuscula	0.99	2	
+Carabus_problematicus	shift	Coleoptera:ACCCT	ACCCT	Coleoptera	Carabidae	found_fs	miniprot round2	Amara_convexiuscula	0.97	2	
+Calathus_fuscipes	control	Coleoptera:ACCCT	AACCT	Coleoptera	Carabidae	found_fs	miniprot round2	Amara_convexiuscula	0.99	1	
+Calathus_melanocephalus	control	Coleoptera:ACCCT	AACCT	Coleoptera	Carabidae	found_fs	miniprot round2	Amara_convexiuscula	0.99	1	
+Dromius_quadrimaculatus	control	Coleoptera:ACCCT	AACCT	Coleoptera	Carabidae	found_fs	miniprot round2	Amara_convexiuscula	1.00	1	
+Harpalus_anxius	control	Coleoptera:ACCCT	AACCT	Coleoptera	Carabidae	found_fs	miniprot round2	Amara_convexiuscula	0.98	1	
+Leistus_rufomarginatus	control	Coleoptera:ACCCT	AACCT	Coleoptera	Carabidae	found_hmm	miniprot + HMM				1.0e-08
+Chrysis_angustula	shift	Hymenoptera:AACCCACTCT	AACCCACTCT	Hymenoptera	Chrysididae	not_found	miniprot + HMM				
+Hedychridium_cupreum	shift	Hymenoptera:AACCCACTCT	AACCCACTCT	Hymenoptera	Chrysididae	found	miniprot round2	Hedychridium_cupreum	1.00	0	
+Hedychridium_roseum	shift	Hymenoptera:AACCCACTCT	AACCCACTCT	Hymenoptera	Chrysididae	found	miniprot round2	Hedychridium_roseum	1.00	0	
+Tenthredo_arcuata	control	Hymenoptera:AACCCACTCT	AACCT	Hymenoptera	Tenthredinidae	found	miniprot round2	Tenthredo_arcuata	1.00	0	
+Tenthredo_distinguenda	control	Hymenoptera:AACCCACTCT	AACCT	Hymenoptera	Tenthredinidae	found	miniprot round2	Tenthredo_distinguenda	1.00	0	
+Tenthredo_livida	control	Hymenoptera:AACCCACTCT	AACCT	Hymenoptera	Tenthredinidae	found	miniprot round2	Tenthredo_livida	1.00	0	
+Tenthredo_notha	control	Hymenoptera:AACCCACTCT	AACCT	Hymenoptera	Tenthredinidae	found	miniprot round2	Tenthredo_notha	1.00	0	
+Tenthredo_scrophulariae	control	Hymenoptera:AACCCACTCT	AACCT	Hymenoptera	Tenthredinidae	found	miniprot round2	Tenthredo_scrophulariae	1.00	0	
+Aspidapion_aeneum	shift	Coleoptera:AACCG	AACCG	Coleoptera	Brentidae	found	miniprot round3	Oxystoma_pomonae	1.00	0	
+Taeniapion_urticarium	shift	Coleoptera:AACCG	AACCG	Coleoptera	Brentidae	found	miniprot round3	Oxystoma_pomonae	1.00	0	
+Bitoma_crenata	control	Coleoptera:AACCG	AACCT	Coleoptera	Zopheridae	found_fs	miniprot round2	Bitoma_crenata	1.00	1	
+Calvia_quattuordecimguttata	control	Coleoptera:AACCG	AACCT	Coleoptera	Coccinellidae	found	miniprot round2	Anisosticta_novemdecimpunctata	1.00	0	
+Cantharis_flavilabris	control	Coleoptera:AACCG	AACCT	Coleoptera	Cantharidae	found_fs	miniprot round2	Cantharis_flavilabris	1.00	1	
+Cantharis_lateralis	control	Coleoptera:AACCG	AACCT	Coleoptera	Cantharidae	found_fs	miniprot round2	Cantharis_lateralis	1.00	1	
+Cantharis_pellucida	control	Coleoptera:AACCG	AACCT	Coleoptera	Cantharidae	found_fs	miniprot round2	Cantharis_flavilabris	1.00	1	
+Alydus_calcaratus	shift	Hemiptera:AACCACCCCT	AACCACCCCT	Hemiptera	Alydidae	found	miniprot round2	Alydus_calcaratus	1.00	0	
+Rhaphigaster_nebulosa	shift	Hemiptera:AACCACCCCT	AACCACCCCT	Hemiptera	Pentatomidae	found_fs	miniprot round2	A0A9P0HFI8	1.00	2	
+Cicadella_lasiocarpae	control	Hemiptera:AACCACCCCT	AACCT	Hemiptera	Cicadellidae	found_hmm	miniprot + HMM				2.6e-15
+Conomelus_anceps	control	Hemiptera:AACCACCCCT	AACCT	Hemiptera	Delphacidae	found	miniprot round3	A0A482X284	0.94	0	
+Drepanosiphum_platanoidis	control	Hemiptera:AACCACCCCT	AACCT	Hemiptera	Aphididae	found_fs	miniprot round2	G4XRL2	1.00	1	
+Eurhadina_loewii	control	Hemiptera:AACCACCCCT	AACCT	Hemiptera	Cicadellidae	found_hmm	miniprot + HMM				2.6e-14
+Lamprotettix_nitidulus	control	Hemiptera:AACCACCCCT	AACCT	Hemiptera	Cicadellidae	not_found	miniprot + HMM				
+Netelia_virgata	shift	Hymenoptera:AAACC	AAACC	Hymenoptera	Ichneumonidae	found_fs	miniprot round2	Hellwigia_obscura	1.00	1	
+Oxytorus_armatus	shift	Hymenoptera:AAACC	AAACC	Hymenoptera	Ichneumonidae	found_fs	miniprot round2	Hellwigia_obscura	1.00	1	
+Tenthredo_zona	control	Hymenoptera:AAACC	AACCT	Hymenoptera	Tenthredinidae	found	miniprot round2	Tenthredo_zona	1.00	0	
+Urocerus_augur	control	Hymenoptera:AAACC	AACCT	Hymenoptera	Siricidae	found	miniprot round2	Urocerus_augur	1.00	0	
+Xiphydria_camelus	control	Hymenoptera:AAACC	AACCT	Hymenoptera	Xiphydriidae	found	miniprot round2	Cephus_spinipes	0.88	0	
+Diplazon_laetatorius	shift	Hymenoptera:AAAGAACCC	AAAGAACCC	Hymenoptera	Ichneumonidae	found_fs	miniprot round2	Rhyssella_approximator	0.92	1	
+Zaglyptus_varipes	shift	Hymenoptera:AAAGAACCC	AAAGAACCC	Hymenoptera	Ichneumonidae	found_fs	miniprot round2	Scambus_brevicornis	1.00	1	
+Chalcis_sispes	shift	Hymenoptera:AACCCAAT	AACCCAAT	Hymenoptera	Chalcididae	found	miniprot round2	Chalcis_sispes	1.00	0	
+Ormyrus_nitidulus	shift	Hymenoptera:AACCCAAT	AACCCAAT	Hymenoptera	Ormyridae	found	miniprot round2	Chalcis_sispes	1.00	0	
+Tryphon_signator	shift	Hymenoptera:AACCCC	AACCCC	Hymenoptera	Ichneumonidae	found	miniprot round2	Dyspetes_luteomarginatus	1.00	0	
+Tryphon_thomsoni	shift	Hymenoptera:AACCCC	AACCCC	Hymenoptera	Ichneumonidae	found	miniprot round2	Dyspetes_luteomarginatus	1.00	0	
+Trypoxylon_attenuatum	shift	Hymenoptera:ACCTG	ACCTG	Hymenoptera	Crabronidae	found_fs	miniprot round2	Rhopalum_coarctatum	1.00	1	
+Trypoxylon_clavicerum	shift	Hymenoptera:ACCTG	ACCTG	Hymenoptera	Crabronidae	found	miniprot round2	Ectemnius_continuus	0.95	0	
+Biston_betularia	shift	Lepidoptera:ACCT	ACCT	Lepidoptera	Geometridae	found	miniprot round2	Biston_betularia	1.00	0	
+Catocala_promissa	shift	Lepidoptera:ACCT	ACCT	Lepidoptera	Erebidae	found_fs	miniprot round2	Catocala_promissa	1.00	1	
+Abraxas_sylvata	control	Lepidoptera:ACCT	AACCT	Lepidoptera	Geometridae	found	miniprot round2	Abraxas_sylvata	1.00	0	
+Acasis_viretata	control	Lepidoptera:ACCT	AACCT	Lepidoptera	Geometridae	found	miniprot round2	Acasis_viretata	1.00	0	
+Agriopis_aurantiaria	control	Lepidoptera:ACCT	AACCT	Lepidoptera	Geometridae	found	miniprot round2	Agriopis_aurantiaria	1.00	0	
+Agriopis_leucophaearia	control	Lepidoptera:ACCT	AACCT	Lepidoptera	Geometridae	found	miniprot round2	Agriopis_leucophaearia	1.00	0	
+Agriopis_marginaria	control	Lepidoptera:ACCT	AACCT	Lepidoptera	Geometridae	found	miniprot round2	Agriopis_marginaria	1.00	0	
+Caenorhabditis_monodelphis	shift	Rhabditida:AAGCCT	AAGCCT	Rhabditida	Rhabditidae	not_found	miniprot + HMM				
+Trichostrongylus_colubriformis	shift	Rhabditida:AAGCCT	AAGCCT	Rhabditida	Trichostrongylidae	found	miniprot round2	Trichostrongylus_colubriformis	1.00	0	
+Cylindromyia_interrupta	test	Diptera:test	AAGCTCACCCACT	Diptera	Tachinidae	not_found	miniprot + HMM				
+Baccha_elongata	test	Diptera:test	AACACC	Diptera	Syrphidae	not_found	miniprot + HMM				
+Lonchoptera_lutea	test	Diptera:test	AAACTC	Diptera	Lonchopteridae	not_found	miniprot + HMM				
+Dioctria_baumhaueri	test	Diptera:test	AACT	Diptera	Asilidae	not_found	miniprot + HMM				
+Clusia_tigrina	test	Diptera:test	AATAGTGTATAGTGTAG	Diptera	Clusiidae	not_found	miniprot + HMM				
+Microphor_holosericeus	test	Diptera:test	AAGGTC	Diptera	Empididae	not_found	miniprot + HMM				
+Eratigena_atrica	test	Araneae:test	ACACACACACATATATAT	Araneae	Agelenidae	not_found	miniprot + HMM				
+Amaurobius_ferox	test	Araneae:test	AATATATATAT	Araneae	Amaurobiidae	not_found	miniprot + HMM				
+Araneus_angulatus	test	Araneae:test	AAGCACTCTGACCGCTGTAATTGGATGC	Araneae	Araneidae	not_found	miniprot + HMM				
+Araneus_marmoreus	test	Araneae:test	AACCTCGATAATCCG	Araneae	Araneidae	not_found	miniprot + HMM				
+Linyphia_triangularis	test	Araneae:test	AGAT	Araneae	Linyphiidae	not_found	miniprot + HMM				3.3e+03
+Segestria_senoculata	test	Araneae:test	AGATCTCATGCGC	Araneae	Segestriidae	not_found	miniprot + HMM				
+Ecdyonurus_torrentis	test	Ephemeroptera:test	AAAG	Ephemeroptera	Heptageniidae	found_hmm	miniprot + HMM				5.3e-08
+Siphlonurus_alternatus	test	Ephemeroptera:test	AACCAGGCC	Ephemeroptera	Siphlonuridae	not_found	miniprot + HMM				
+Serratella_ignita	test	Ephemeroptera:test	AAAT	Ephemeroptera	Ephemerellidae	found_hmm	miniprot + HMM				1.9e-05
+Ephemera_vulgata	test	Ephemeroptera:test	AAATGCCC	Ephemeroptera	Ephemeridae	found_hmm	miniprot + HMM				3.1e-06
+Procloeon_bifidum	test	Ephemeroptera:test	AAAAATTTAGTACCAACTGGTGCT	Ephemeroptera	Baetidae	found	miniprot round2	Procloeon_bifidum	1.00	0	
+Cloeon_dipterum	test	Ephemeroptera:test	ACCGCATGACGCTACTGCAGT	Ephemeroptera	Baetidae	found_fs	miniprot round2	Cloeon_dipterum	1.00	1	

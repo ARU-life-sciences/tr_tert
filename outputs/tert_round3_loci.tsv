@@ -1,0 +1,8 @@
+species	locus	best_query	cover	positives	frameshifts	stops	protein_length	queries_aligned
+Betulapion_simile	SUPER_1:56503665-56579368:-	Oxystoma_pomonae	1.00	423	0	0	625	2
+Rhizotrogus_aestivus	SUPER_2:78198722-78253104:-	Melolontha_melolontha	1.00	433	0	0	576	1
+Lasius_fuliginosus	SUPER_3:1072991-1074932:-	Lasius_flavus	1.00	521	0	1	538	11
+Lasius_platythorax	SUPER_6:19773236-19775177:+	Lasius_flavus	1.00	527	0	1	538	11
+Aspidapion_aeneum	SUPER_1:33014860-33048770:-	Oxystoma_pomonae	1.00	396	0	0	637	1
+Taeniapion_urticarium	SUPER_1:28759522-28784009:-	Oxystoma_pomonae	1.00	399	0	0	634	1
+Conomelus_anceps	SUPER_7:34894602-34916059:-	A0A482X284	0.94	694	0	0	916	1
