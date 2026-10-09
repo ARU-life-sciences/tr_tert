@@ -75,3 +75,33 @@ known (`src/run_synteny_tests.bash` -> `outputs/synteny_tests*.tsv`):
   whose orthologue in the other species has none (both directions
   checked: flanks map cleanly to *Mimumesa* SUPER_15 / *Cerceris*
   SUPER_13). The TR gene has moved between these subfamilies.
+
+## Synteny in sawflies (2026-10-09)
+
+`src/run_synteny_explicit.bash` with `synteny_pairs_sawfly*.tsv`: A's TR
+flanks -> interval in B (densest collinear anchor block, split at gaps >
+200 kb; nearest-anchor-per-side alone stretched some intervals to Mb),
+then nhmmer of the family TR HMM in the interval (the second signal).
+
+| pair | level | interval | B's TR inside | best HMM hit in interval |
+|---|---|---|---|---|
+| *Tenthredo livida* / *T. notha* | genus | 7 kb | yes | the TR (E 5e-31) |
+| *Cephus pygmeus* / *C. spinipes* | genus | 7 kb | yes | the TR (E 3e-45) |
+| *Cephus* / *Calameuta* | Cephidae | 7 kb | yes | the TR (E 9e-42) |
+| *Tenthredo* / *Dolerus* | subfamily | 19 kb | yes | the TR (E 3e-33) |
+| *Tenthredo* / *Gilpinia* | family (Diprionidae) | 8 kb | yes | the TR (E 5e-30) |
+| *Tenthredo* / *Euura* | subfamily | 8 kb | no (other chromosome) | - |
+| *Tenthredo* / *Cephus* | superfamily | 1 anchor | no | - |
+
+Wherever B's TR is inside the interval, the best HMM hit there is the TR:
+synteny + a local profile picks it out of 7-19 kb. Applied to the
+candidates:
+- *Abia aenea* (Cimbicidae): the CM candidate is in the interval and is
+  the best HMM hit (E 3.9e-10, template): confirmed.
+- *Athalia cordata* (Athaliidae): likewise (E 1.3e-10): confirmed.
+- *Athalia circularis*: of three template-bearing candidates on different
+  chromosomes, projections from *A. cordata* (98 anchors) and *Tenthredo*
+  (13) both pick SUPER_4:5800695 (E 1.6e-9): its TR.
+- *Urocerus* (80 kb interval from *Cephus*) and *Xiphydria* (64 kb): no HMM
+  hit; a CM search of the interval finds a hit in *Urocerus* (E 1.7e-5)
+  but with no template (6 nt AACCT, need 7): not a TR. Argidae: 1 anchor.

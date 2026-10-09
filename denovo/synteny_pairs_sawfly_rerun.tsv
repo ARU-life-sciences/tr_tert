@@ -1,0 +1,5 @@
+distance	A	A_TR	B	unit_B	B_TR	hmm
+subfamily (test)	Tenthredo_notha	SUPER_2:5211311-5211179	Euura_tibialis	AACCT	SUPER_7:3667223-3667353	../tr_hym_r6/models/Tenthredinoidea.hmm
+family (test)	Tenthredo_notha	SUPER_2:5211311-5211179	Gilpinia_frutetorum	AACCT	SUPER_2:45052955-45053085	../tr_hym_r6/models/Tenthredinoidea.hmm
+check: candidate	Tenthredo_notha	SUPER_2:5211311-5211179	Athalia_cordata	AACCT	SUPER_1:40834657-40834534	../tr_hym_r6/models/Tenthredinoidea.hmm
+project	Cephus_pygmeus	SUPER_1:3069878-3069733	Xiphydria_camelus	AACCT	none	../tr_hym_r6/models/Cephoidea.hmm

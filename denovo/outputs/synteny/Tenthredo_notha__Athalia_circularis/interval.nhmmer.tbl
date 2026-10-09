@@ -1,0 +1,15 @@
+# target name        accession  query name           accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+SUPER_4:5799053      -          TR_Tenthredinoidea   -               43     115    1711    1642    1731    1637    8060    -     1.9e-09   29.5   1.4  -
+SUPER_4:5799053      -          TR_Tenthredinoidea   -               22     119    1390    1306    1407    1301    8060    -     2.1e-06   19.6   0.6  -
+SUPER_4:5799053      -          TR_Tenthredinoidea   -              102     123    1407    1386    1416    1384    8060    -         6.4   -1.3   2.2  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../tr_hym_r6/models/Tenthredinoidea.hmm
+# Target file:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/denovo/outputs/synteny/Tenthredo_notha__Athalia_circularis/interval.fa
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/denovo/outputs/synteny/Tenthredo_notha__Athalia_circularis/interval.nhmmer.tbl -E 10 --dna ../tr_hym_r6/models/Tenthredinoidea.hmm /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/denovo/outputs/synteny/Tenthredo_notha__Athalia_circularis/interval.fa 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/denovo
+# Date:            Fri Oct  9 22:24:31 2026
+# [ok]

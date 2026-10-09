@@ -1,0 +1,13 @@
+# target name        accession  query name           accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+SUPER_9:2931832      -          TR_Cephoidea         -                2     146    4129    3990    4130    3990    6758    -     9.1e-42  134.6   4.6  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../tr_hym_r6/models/Cephoidea.hmm
+# Target file:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/denovo/outputs/synteny/Cephus_pygmeus__Calameuta_pallipes/interval.fa
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/denovo/outputs/synteny/Cephus_pygmeus__Calameuta_pallipes/interval.nhmmer.tbl -E 10 --dna ../tr_hym_r6/models/Cephoidea.hmm /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/denovo/outputs/synteny/Cephus_pygmeus__Calameuta_pallipes/interval.fa 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/denovo
+# Date:            Fri Oct  9 22:19:30 2026
+# [ok]

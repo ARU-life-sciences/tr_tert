@@ -1,0 +1,19 @@
+# target name         accession  query name           accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+# ------------------- ---------- -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+SUPER_1_HAP2:39359458 -          TR_Tenthredinoidea   -               20      94  165760  165671  165778  165650  244475    -      0.0075   13.0   1.1  -
+SUPER_1_HAP2:39359458 -          TR_Tenthredinoidea   -               40      90   68072   68007   68094   67986  244475    -       0.035   10.8   1.7  -
+SUPER_1_HAP2:39359458 -          TR_Tenthredinoidea   -               41      97  125969  126029  125943  126049  244475    +        0.19    8.4   4.3  -
+SUPER_1_HAP2:39359458 -          TR_Tenthredinoidea   -               44      82  170752  170721  170760  170701  244475    -        0.34    7.6   4.2  -
+SUPER_1_HAP2:39359458 -          TR_Tenthredinoidea   -               75     105  160591  160622  160571  160642  244475    +        0.62    6.7   4.4  -
+SUPER_1_HAP2:39359458 -          TR_Tenthredinoidea   -               74     120   55665   55624   55685   55620  244475    -         2.8    4.7   7.8  -
+SUPER_1_HAP2:39359458 -          TR_Tenthredinoidea   -               85     115  221259  221229  221265  221222  244475    -         6.5    3.4   5.6  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../tr_hym_r6/models/Tenthredinoidea.hmm
+# Target file:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/denovo/outputs/synteny/Tenthredo_notha__Arge_ustulata/interval.fa
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/denovo/outputs/synteny/Tenthredo_notha__Arge_ustulata/interval.nhmmer.tbl -E 10 --dna ../tr_hym_r6/models/Tenthredinoidea.hmm /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/denovo/outputs/synteny/Tenthredo_notha__Arge_ustulata/interval.fa 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/denovo
+# Date:            Fri Oct  9 22:21:10 2026
+# [ok]

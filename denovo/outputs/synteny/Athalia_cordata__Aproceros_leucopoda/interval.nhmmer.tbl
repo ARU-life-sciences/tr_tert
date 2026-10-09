@@ -1,0 +1,12 @@
+# target name        accession  query name           accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../tr_hym_r6/models/Tenthredinoidea.hmm
+# Target file:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/denovo/outputs/synteny/Athalia_cordata__Aproceros_leucopoda/interval.fa
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/denovo/outputs/synteny/Athalia_cordata__Aproceros_leucopoda/interval.nhmmer.tbl -E 10 --dna ../tr_hym_r6/models/Tenthredinoidea.hmm /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/denovo/outputs/synteny/Athalia_cordata__Aproceros_leucopoda/interval.fa 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/denovo
+# Date:            Fri Oct  9 22:25:17 2026
+# [ok]
