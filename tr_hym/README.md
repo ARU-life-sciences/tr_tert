@@ -80,3 +80,16 @@ Ichneumonidae 36/55, sawflies 31/40, all Hymenoptera 141/188.
 nt) nhmmer hits in *A. cordata* (1, E 2.5e-10) and *A. circularis* (3,
 E 7e-6 to 5e-5), just below the walking cut-off; blastn finds nothing even
 between these congeners.
+
+Round 6 (`../tr_hym_r6`, seeds now include the four DToL Cephidae): +2,
+including *Urocerus augur* (Siricidae) via the Cephoidea model (5 TRs:
+*Cephus cinctus* + 4 DToL), E 8e-15, AACCT template 12 nt. It is on
+SUPER_18, not in the SUPER_7 interval that synteny projected from *Cephus*
+(5 anchors): the TR has moved, or 5 anchors were too few.
+
+Totals, strongly called species with a TR (walking rounds 1-6, plus the
+CM/synteny-confirmed *Allantus*, *Abia*, *Athalia cordata*, *A.
+circularis*; `../tr_cm`, `../denovo`): Ichneumonidae 36/55, sawflies
+36/40, all Hymenoptera 146/188. Sawflies still without: Argidae
+(*Aproceros*, *Arge ochropus*, *A. ustulata*; telomere AACCC) and
+*Xiphydria camelus*.
