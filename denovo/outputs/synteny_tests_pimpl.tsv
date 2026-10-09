@@ -1,0 +1,5 @@
+distance	A	B	anchors	B_seq	interval	interval_kb	B_TR_inside	windows	B_TR_window	hmm_best	hmm_best_template
+pimplines (test)	Ephialtes_manifestator	Scambus_brevicornis	54	SUPER_6_HAP1	1335278-1336963	1.7	no	0	0	-	-
+pimplines (test)	Ephialtes_manifestator	Dolichomitus_mesocentrus	57	SUPER_10	20776216-20778266	2.0	no	0	0	-	-
+pimplines (test)	Ephialtes_manifestator	Acrodactyla_quadrisculpta	33	SUPER_5_HAP1	56150115-56187018	36.9	no	0	0	-	-
+pimplines (test)	Scambus_brevicornis	Dolichomitus_mesocentrus	36	SUPER_4	64875780-64885405	9.6	no	0	0	-	-

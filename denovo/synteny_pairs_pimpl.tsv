@@ -1,0 +1,5 @@
+distance	A	A_TR	B	unit_B	B_TR	hmm
+pimplines (test)	Ephialtes_manifestator	SUPER_4:17132943-17133066	Scambus_brevicornis	AAAGAACCT	SUPER_5_HAP1:11237379-11237255	../tr_hym_r6/models/Ichneumonidae.hmm
+pimplines (test)	Ephialtes_manifestator	SUPER_4:17132943-17133066	Dolichomitus_mesocentrus	AAAGAACCT	SUPER_9:18125049-18124919	../tr_hym_r6/models/Ichneumonidae.hmm
+pimplines (test)	Ephialtes_manifestator	SUPER_4:17132943-17133066	Acrodactyla_quadrisculpta	AAAGAACCT	SUPER_1_HAP1:66872131-66872249	../tr_hym_r6/models/Ichneumonidae.hmm
+pimplines (test)	Scambus_brevicornis	SUPER_5_HAP1:11237379-11237255	Dolichomitus_mesocentrus	AAAGAACCT	SUPER_9:18125049-18124919	../tr_hym_r6/models/Ichneumonidae.hmm

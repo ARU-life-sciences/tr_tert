@@ -105,3 +105,33 @@ candidates:
 - *Urocerus* (80 kb interval from *Cephus*) and *Xiphydria* (64 kb): no HMM
   hit; a CM search of the interval finds a hit in *Urocerus* (E 1.7e-5)
   but with no template (6 nt AACCT, need 7): not a TR. Argidae: 1 anchor.
+
+## BUSCO-anchored synteny, and TR relocation in Hymenoptera (2026-10-09)
+
+`src/busco_synteny.py` (`src/run_busco_synteny.bash`, `busco_pairs.tsv` ->
+`outputs/busco_synteny.tsv`): the 3 complete BUSCOs (hymenoptera_odb12)
+nearest A's TR on each side, located in B; B's interval between the
+nearest bracketing genes in the densest collinear block (gaps <= 1 Mb);
+then nhmmer (+ CM) and template check in the interval. BUSCO tables are
+ToL's (`<species>/assembly/release/reference/analysis/pipelines/busco`,
+INSDC names mapped to SUPER_* via name_mapping.tsv); assemblies without
+one (recent releases, e.g. *Cephus pygmeus*) get a table from miniprot of
+*Xiphydria*'s 5,782 single-copy BUSCO proteins
+(`inputs/busco_ref/`, cached in `outputs/busco_tables/`).
+
+- Where nucleotide anchors also work, both put the interval in the same
+  place (pimplines below), so BUSCO anchors are sound, if coarser (they
+  missed *Gilpinia*, which nucleotide anchors placed in 8 kb).
+- **Pimplines: the TR is not syntenic even between genera.** *Ephialtes*
+  -> *Scambus*, *Dolichomitus*, *Acrodactyla*, and *Scambus* ->
+  *Dolichomitus*: nucleotide anchors (33-57 per pair) and BUSCO anchors
+  agree on B's orthologous interval (as small as 1.7 kb), and B's TR is
+  on another chromosome every time. The sequence around A's TR is
+  conserved; the TR is not in it.
+- With *Cerceris*/*Mimumesa* (crabronid subfamilies), *Euura* (vs
+  *Tenthredo*) and *Urocerus* (vs *Cephus*), TR relocation is common in
+  Hymenoptera, while in Lepidoptera the TR stays put from genus to
+  superfamily (7/9). Synteny cannot find Hymenoptera TRs beyond close
+  relatives, and an empty projected interval says little: the Argidae
+  intervals (25-32 kb, identical from *Athalia* and *Tenthredo*) and
+  *Xiphydria* hold no template-bearing TR hit.
