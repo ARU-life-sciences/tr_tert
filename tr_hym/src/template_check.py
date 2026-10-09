@@ -30,6 +30,9 @@ ROOT = Path(os.environ.get("CLADE_DIR", Path(__file__).resolve().parent.parent))
 KNOWN = ROOT.parent.parent / "inputs" / "known_telomere_units.tsv"
 MIN_EXTRA = 2
 MAX_EVALUE = 1e-10
+# PICK_TEMPLATE=1: the TR is the best hit with a supporting template, not
+# simply the best hit (see main)
+PICK_TEMPLATE = os.environ.get("PICK_TEMPLATE", "0") == "1"
 
 
 def longest_tandem_match(seq, unit):
@@ -75,12 +78,23 @@ def main():
             row["tr_locus"] = "not_run"
             rows.append(row)
             continue
-        hits = [h for h in read_hits(path) if h[0] <= MAX_EVALUE]
+        hits = read_hits(path)
+        if PICK_TEMPLATE and s["unit"]:
+            # genomes can hold several TR-like copies, most with a decayed
+            # template (pimplines: 3-7 copies, one with a template): take
+            # the best hit whose template supports the tidk call, whatever
+            # its E (still reported; validated only at E <= MAX_EVALUE)
+            with_t = [h for h in hits if longest_tandem_match(h[3], s["unit"]) >= len(s["unit"]) + MIN_EXTRA]
+            hits = with_t or [h for h in hits if h[0] <= MAX_EVALUE]
+        else:
+            hits = [h for h in hits if h[0] <= MAX_EVALUE]
         if not hits:
             row["tr_locus"] = "none"
             rows.append(row)
             continue
         evalue, locus, model, seq = hits[0]
+        row["tr_copies"] = len({h[1].rsplit(":", 1)[0] + ":" + str(int(h[1].rsplit(":", 1)[1].split("-")[0]) // 2000)
+                                for h in read_hits(path)})
         row.update(tr_locus=locus, tr_model=model, tr_evalue=f"{evalue:.1e}")
         units = list(dict.fromkeys(([s["unit"]] if s["unit"] else []) + known))
         matches = {u: longest_tandem_match(seq, u) for u in units}
@@ -97,7 +111,7 @@ def main():
                 row["agrees"] = "no_template"
         rows.append(row)
     cols = ["species", "family", "tidk_unit", "tidk_support", "tr_locus", "tr_model",
-            "tr_evalue", "tidk_match", "template_unit", "template_match", "agrees"]
+            "tr_evalue", "tidk_match", "template_unit", "template_match", "agrees", "tr_copies"]
     with open(ROOT / "outputs" / "template_check.tsv", "w") as fh:
         print("\t".join(cols), file=fh)
         for r in rows:

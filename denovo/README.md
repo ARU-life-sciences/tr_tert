@@ -135,3 +135,32 @@ one (recent releases, e.g. *Cephus pygmeus*) get a table from miniprot of
   relatives, and an empty projected interval says little: the Argidae
   intervals (25-32 kb, identical from *Athalia* and *Tenthredo*) and
   *Xiphydria* hold no template-bearing TR hit.
+
+## TR-synteny survey (2026-10-09)
+
+`src/survey_pairs.py` -> `survey_pairs.tsv`: 25 random pairs per clade and
+level (lowest shared NCBI rank) from all template-validated TR loci
+(Lepidoptera 800+, Hymenoptera ~190). `src/worker_survey.bash`: is B's TR
+inside the interval projected from A's TR, by nucleotide or BUSCO-gene
+anchors (lepidoptera_odb12 / hymenoptera_odb12)? `src/summarise_survey.py`
+-> `outputs/survey_summary.tsv`, `outputs/survey_pairs_result.tsv`.
+Conserved: inside by either; moved: not, with >= 10 nucleotide or >= 3
+gene anchors; else undetermined.
+
+| TR position conserved (of determined pairs) | genus | subfamily | family | superfamily | order |
+|---|---|---|---|---|---|
+| Lepidoptera | 25/25 | 23/24 | 22/25 | 14/21 | 14/23 |
+| Hymenoptera | 16/25 | 7/25 | 4/24 | 8/23 | 0/12 |
+
+TR-like copies per genome (distinct loci, one search each: Lepidoptera
+family HMMs, Hymenoptera round 1): mean 1.24 vs 3.27, >= 3 copies 3% vs
+29% at E <= 1e-5 (Mann-Whitney p = 3e-22); 1.21 vs 3.11 at E <= 1e-10
+(p = 5e-6). Caveat: the two clades' models differ in breadth.
+
+So the Hymenoptera TR moves often - already in a third of congeneric
+pairs, in most pairs beyond - while the Lepidoptera TR mostly stays put up
+to superfamily level; Hymenoptera genomes carry more TR-like copies, and
+in pimplines the functional (template-bearing) copy is one of several
+(`../tr_pimpl`), with the ancestral position empty rather than decayed.
+That fits TR genes spreading by copying (retroposition?) with the
+functional copy changing over time.

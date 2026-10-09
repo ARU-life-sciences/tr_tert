@@ -19,7 +19,8 @@ sequence names, mapped to the curated SUPER_* names with the release's
 name_mapping.tsv.
 
 Usage: busco_synteny.py <fasta_A> <A_TR seq:from-to> <fasta_B> <unit_B> <B_TR seq:from-to | none>
-                        <outdir> <tr.hmm> [tr.cm] [lineage=hymenoptera_odb12]
+                        <outdir> <tr.hmm | -> [tr.cm | -] [lineage=hymenoptera_odb12]
+  (tr.hmm "-": interval only, no search)
 Prints one tab-separated line:
   anchors  B_seq  interval  interval_kb  B_TR_inside  best_hit  best_E  best_template  n_hits_with_template
 """
@@ -209,7 +210,10 @@ def main():
     if locB != "none":
         sB, b0, b1 = parse_locus(locB)
         inside = "yes" if (sB == bseq and lo <= b0 and b1 <= hi) else "no"
-    best, e, ok, n = search(B, lo, hi, bseq, unitB, hmm, cm, out)
+    if hmm == "-":  # position only (the TR-synteny survey)
+        best, e, ok, n = "-", "-", "-", 0
+    else:
+        best, e, ok, n = search(B, lo, hi, bseq, unitB, hmm, cm, out)
     print(f"{len(on)}\t{bseq}\t{lo}-{hi}\t{(hi - lo) / 1000:.1f}\t{inside}\t{best}\t{e}\t{ok}\t{n}")
 
 

@@ -1,0 +1,10 @@
+species	family	tidk_unit	tidk_support	tr_locus	tr_model	tr_evalue	tidk_match	template_unit	template_match	agrees	tr_copies
+Clistopyga_incitator	Ichneumonidae	AAAGAACCT	strong	SUPER_9:2395031-2394930	TR_Pimplinae	9.5e-06	15	AAAGAACCT	15	yes	3
+Perithous_albicinctus	Ichneumonidae	AAAGAACCT	strong	SUPER_3:14141844-14141996	TR_Pimplinae	3.6e-17	6			no_template	7
+Perithous_divinator	Ichneumonidae	AAAGAACCT	strong	SUPER_7:22149933-22150015	TR_Pimplinae	1.3e-08	12	AAAGAACCT	12	yes	6
+Schizopyga_frigida	Ichneumonidae	AAAGAACCT	strong	SUPER_3:13963183-13963061	TR_Pimplinae	1.0e-14	15	AAAGAACCT	15	yes	3
+Zaglyptus_varipes	Ichneumonidae	AAAGAACCC	strong	SUPER_17_HAP1:4490582-4490468	TR_Pimplinae	2.0e-14	13	AAAGAACCC	13	yes	3
+Paraperithous_gnathaulax	Ichneumonidae	AAAGAACCT	strong	SUPER_5:29813396-29813514	TR_Pimplinae	1.4e-17	18	AAAGAACCT	18	yes	6
+Dreisbachia_pictifrons	Ichneumonidae	AAAGAACCT	strong	SUPER_4:41053696-41053818	TR_Pimplinae	3.7e-18	18	AAAGAACCT	18	yes	4
+Cylloceria_caligata	Ichneumonidae	AAAGAACCT	strong	SUPER_2:78178125-78178231	TR_Pimplinae	1.4e-13	17	AAAGAACCT	17	yes	3
+Collyria_trichophthalma	Ichneumonidae	AAAGAACCT	strong	SUPER_11:5376966-5376863	TR_Pimplinae	1.7e-08	16	AAAGAACCT	16	yes	3
