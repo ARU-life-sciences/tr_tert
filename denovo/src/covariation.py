@@ -19,6 +19,12 @@ Steps:
      a co-varying candidate if B's window matches unit_B (>= len(unit_B) +
      MIN_EXTRA) and not unit_A (< len(unit_A) + MIN_EXTRA)
 
+If unit_A == unit_B (no shift between the two species), step 3 instead
+keeps candidates whose aligned window in B still matches the unit: a TR
+keeps its template, so loci conserved with the template intact across
+several species of a group are TR candidates (conservation mode; weaker
+than co-variation, as any conserved template-like sequence passes).
+
 Usage (on a node with ~16 GB; makeblastdb on B):
   covariation.py <genome_A> <unit_A> <genome_B> <unit_B> <outdir> [known_tr.tsv]
 
@@ -151,7 +157,10 @@ def main():
         lo, hi = max(0, start_col - 8), min(len(sseq), end_col + 9)
         bwin = sseq[lo:hi].replace("-", "")
         mB, mA = tandem_match(bwin, uB), tandem_match(bwin, uA)
-        if mB >= wB and mA < wA:
+        # same unit in both species: conservation mode, the template must be
+        # retained; different units: co-variation, it must have changed
+        keep = mB >= wB if uA == uB else (mB >= wB and mA < wA)
+        if keep:
             key = q
             score = float(f[9])
             if key not in cov or score > cov[key][0]:

@@ -112,7 +112,8 @@ def main():
         rows.append(row)
     cols = ["species", "family", "tidk_unit", "tidk_support", "tr_locus", "tr_model",
             "tr_evalue", "tidk_match", "template_unit", "template_match", "agrees", "tr_copies"]
-    with open(ROOT / "outputs" / "template_check.tsv", "w") as fh:
+    # TC_OUT: output name, so a copy-aware rerun doesn't replace a round's table
+    with open(ROOT / "outputs" / os.environ.get("TC_OUT", "template_check.tsv"), "w") as fh:
         print("\t".join(cols), file=fh)
         for r in rows:
             print("\t".join(str(r.get(c, "")) for c in cols), file=fh)

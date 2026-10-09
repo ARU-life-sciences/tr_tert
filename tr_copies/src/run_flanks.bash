@@ -1,0 +1,1 @@
+while IFS=$'\t' read -r sp fa hits; do python3 /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/tr_copies/src/flanks.py "$sp" "$fa" "/lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/$hits"; done < "$1"
