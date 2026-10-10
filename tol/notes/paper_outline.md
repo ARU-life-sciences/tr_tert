@@ -38,8 +38,19 @@ Data: tidk 0.3.0 calls checked at chromosome ends, 3,422 DToL species
 - **Rates and patterns on the tree.** Number of independent changes,
   reversals, direction, repeated targets (`AACCC`, `ACCTG` in several beetle
   and wasp lineages). Needs a ToL species tree.
-- **Mixed and compound telomeres** as lineages in transition (two working
-  templates).
+- **Mixed telomeres as transition states** (B5,
+  `repeat_evolution/mixed_telomeres.py`): 18 species have two telomere-like
+  units (<= 12 nt, C-run) at the same chromosome ends, mostly one step apart:
+  `AACCT`+`AACCC` (*Bruchidius villosus*, *Oxystoma pomonae*, the ghost moth
+  *Korscheltellus lupulinus*), `AACCT`+`AAACC` (*Protonemura*),
+  `AACCCACTCT`+`AACCCAGTCT` (*Hedychridium*), `AAACCCT`+`AACCCCT`
+  (*Arctium* x2), `AAACCCT`+`AAACCCG` (*Epilobium hirsutum*),
+  `AACCCTG`+`AAACCCT` (*Hypericum hirsutum*). Like *Mimulus lewisii* (two TR
+  paralogs, mixed telomere; Kumawat 2023). To do: do these species have two
+  TR copies, one templating each unit? Caveats: "compound" second units
+  (one unit within the other's tandem; 1,280 species) are mostly variant
+  repeats inside ordinary telomeres, and many "mixed" second units are
+  satellites next to the telomere.
 - **Predictors:** holocentric chromosomes (Hemiptera diverse vs Lepidoptera
   uniform), genome size, GC, karyotype change, TERT/TR copy state.
 
