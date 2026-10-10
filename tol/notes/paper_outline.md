@@ -25,7 +25,16 @@ Data: tidk 0.3.0 calls checked at chromosome ends, 3,422 DToL species
   Most large changes contain the ancestral repeat plus an insertion.
   To do: per-lineage (not per-species) counts; test against TR copy state.
   Caveat: these counts only included units containing `CC` (as the first
-  G-run count did); redo without that filter (B2).
+  G-run count did). **Per lineage** (B1/B2, `repeat_evolution/transitions.py`:
+  Fitch parsimony on the Open Tree topology, no unit filter): 158
+  transitions to telomere-like units among 2,253 strongly called species -
+  76 one edit, 20 two, 7 three, 55 four or more (18 of these expansions
+  containing the old unit). Repeated paths: `AAACCCT->AACCCT` x13 (plants),
+  `AACCT->AACCC` x8, `AACCT->ACCTG` x7, `AAACCCT->AACCCTG` x4,
+  `AACCT->AAACC` x4. Caveats: topology only, alphabetical tie-breaking (some
+  deep inferences and a beetle "reversal" in a polytomy are artefacts);
+  Diptera satellite calls to exclude. Next: Mk likelihood with branch
+  lengths (B4).
 - **G-triplet enrichment** (B3, `repeat_evolution/grun_null.py`). Of 86
   distinct derived telomeric units, 56% have a `GGG` run on the G-rich strand,
   against 26% for the same units shuffled (same length and composition) and
@@ -118,16 +127,16 @@ Core = needed for the paper; optional = section 4 or a later paper.
 - [ ] A1 Finish the ToL TR search (round-2/3 stragglers, literature-seeded run) and merge into **one TR table**: species, TR locus, template, copies, model, support
 - [ ] A2 TR search for the 7 genomes left out (2 out of memory, 5 too large)
 - [ ] A3 Physical consolidation (`tol_telomeres` -> `tr_tert/tol`, `tol_run/`) and path fixes
-- [ ] A4 **Species tree** for the 3,422 species: Open Tree of Life synthetic topology + TimeTree dates; BUSCO-based trees for key clades if needed
+- [x] A4 **Species tree** (topology): Open Tree of Life induced subtree, 3,363 tips (`tree/species_tree_clean.nwk`); dates still to add - for the 3,422 species: Open Tree of Life synthetic topology + TimeTree dates; BUSCO-based trees for key clades if needed
 - [ ] A5 **Final repeat-state table**: canonical unit, support, compound/mixed flag, curated exceptions (*Andrena* dual repeats, satellite calls, *Aphodius*)
 - [ ] A6 (optional) Refresh the assembly list; add ERGA/EBP
 
 **B. Section 1, repeat evolution**
-- [ ] B1 Ancestral-state reconstruction on the tree; transitions counted per lineage, not per species
-- [ ] B2 Classify transitions: edit distance, "contains ancestral", route 1 vs 2, against a null
-- [ ] B3 G-run constraint against a null (random units of matched length/composition; non-telomeric tandem repeats from the same genomes)
+- [~] B1 Ancestral-state reconstruction on the tree; transitions counted per lineage, not per species
+- [~] B2 Classify transitions: edit distance, "contains ancestral", route 1 vs 2, against a null
+- [x] B3 G-run constraint against a null (random units of matched length/composition; non-telomeric tandem repeats from the same genomes)
 - [ ] B4 Transition rates (Mk models), repeated targets, reversals
-- [ ] B5 Mixed/compound telomeres: second unit at chromosome ends, per species
+- [x] B5 Mixed/compound telomeres: second unit at chromosome ends, per species
 - [ ] B6 Predictors (phylogenetic regression): holocentricity (literature list), genome size, GC, chromosome number, TR copy state
 
 **C. Section 2, TR mechanism**
