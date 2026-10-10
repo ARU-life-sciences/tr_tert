@@ -17,7 +17,7 @@ export MAFFT_BINARIES=/software/team301/mafft-7.525-with-extensions/binaries
 HMMBUILD=/software/team301/hmmer-3.4/src/hmmbuild
 : > ${MODEL_NAME:-hymenoptera_tr}.hmm
 for fa in *.fa; do
-    [[ "$fa" == all_*.fa ]] && continue
+    [[ "$fa" == all_*.fa || "$fa" == *.aln.fa ]] && continue
     g="${fa%.fa}"
     "$MAFFT" --auto --quiet --thread 4 "$fa" > "${g}.aln.fa"
     "$HMMBUILD" --dna -n "TR_${g}" "${g}.hmm" "${g}.aln.fa" > /dev/null
