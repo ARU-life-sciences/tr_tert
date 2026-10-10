@@ -1,10 +1,43 @@
-# TR/TERT Plant Genome Scanner
+# tr_tert: telomerase RNA and TERT across the Tree of Life
 
-A bioinformatics pipeline for identifying telomerase RNA (TR) genes, Telomerase Reverse Transcriptase (TERT) genes, and telomeric repeat motifs across plant genome assemblies from the Darwin Tree of Life (DToL) project.
+Telomerase biology for the Darwin Tree of Life genomes: where the
+telomerase RNA (TR) and its reverse transcriptase (TERT) are, and whether
+the TR template explains each species' telomeric repeat. Started as a
+plant project (`tr_tert_plants`); renamed in 2026-10 once the plant question
+was answered (confirmed with Fajkus colleagues) and the work moved to the
+whole tree.
 
-## Overview
+## What's here
 
-The pipeline processes ~488 plant species assemblies and uses three complementary approaches:
+| part | what | write-up |
+|---|---|---|
+| top level (`src/`, `inputs/`, `outputs/`, `notes/`) | the original **plant pipeline**: TR (nhmmer) and TERT (HMM + tblastn) in ~700 DToL plants, TR templates against the telomeric repeats | this README (below), `notes/paper_planning.md` |
+| `clade_discovery/` | an early de novo TR search in beetles, spiders and myriapods (promoter + template anchoring); superseded by `tol/` | `clade_discovery/notes/plan.md` |
+| `tol/` | the **ToL-wide** work: TERT in telomeric-repeat shift lineages, TR models and template checks (Hymenoptera, Lepidoptera, vertebrates), model walking, covariance models, synteny, template co-variation, TR copy analysis, and the ToL-wide TR search (`tol/tr_tol`) | `tol/TR.md`, `tol/notes/tert.md`, `tol/tr_hym/README.md`, `tol/denovo/README.md`, `tol/tr_copies/README.md` |
+| `santalales/` | a collaborator request: TERT and other telomere genes in non-*Viscum* Santalales, and their synteny into mistletoe | (set up; not yet run) |
+
+`tol/` came from the `tol_telomeres` workspace with its history (git
+subtree); its large per-species outputs are gitignored and stay on lustre.
+
+## Related repositories
+
+- [tolkit/telomeric-identifier](https://github.com/tolkit/telomeric-identifier)
+  (tidk): the tool that finds the telomeric repeats. Its `ROADMAP.md` is the
+  overall project plan; phase 4 is the comparative paper this repository
+  feeds.
+- [tolkit/a-telomeric-repeat-database](https://github.com/tolkit/a-telomeric-repeat-database):
+  the telomere calls for every DToL species (tidk 0.3.0, checked at
+  chromosome ends, NCBI taxonomy). `tol_run/` there is the pipeline that
+  produced them; they are the input to `tol/` here.
+
+Flow: tidk -> `tol_run/` (database repo: telomere calls) -> `tol/` (this
+repo: TERT, TR and their templates against those calls) -> phase 4 of the
+tidk roadmap.
+
+## The plant pipeline (original scope)
+
+The pipeline processes ~700 DToL plant assemblies and uses three
+complementary approaches:
 
 - **TR detection** — HMM profile search (nhmmer)
 - **TERT detection** — HMM profile search + protein BLAST (tblastn)
@@ -31,6 +64,9 @@ outputs/
   tidk/        # Telomeric repeat results
 src/           # Pipeline scripts
 notes/         # Write-ups of individual findings that came out of the pipeline
+clade_discovery/  # early non-plant de novo TR search (see above)
+tol/           # ToL-wide TERT/TR work (see above)
+santalales/    # Santalales/mistletoe telomere genes (see above)
 ```
 
 ## Usage
