@@ -21,18 +21,9 @@ subtree); its large per-species outputs are gitignored and stay on lustre.
 
 ## Related repositories
 
-- [tolkit/telomeric-identifier](https://github.com/tolkit/telomeric-identifier)
-  (tidk): the tool that finds the telomeric repeats. Its `ROADMAP.md` is the
-  overall project plan; phase 4 is the comparative paper this repository
-  feeds.
-- [tolkit/a-telomeric-repeat-database](https://github.com/tolkit/a-telomeric-repeat-database):
-  the telomere calls for every DToL species (tidk 0.3.0, checked at
-  chromosome ends, NCBI taxonomy). `tol_run/` there is the pipeline that
-  produced them; they are the input to `tol/` here.
-
-Flow: tidk -> `tol_run/` (database repo: telomere calls) -> `tol/` (this
-repo: TERT, TR and their templates against those calls) -> phase 4 of the
-tidk roadmap.
+How this repository fits with tidk and the telomeric repeat database:
+see "How the repositories fit together" in the
+[tidk roadmap](https://github.com/tolkit/telomeric-identifier/blob/main/ROADMAP.md) (phase 4).
 
 ## The plant pipeline (original scope)
 
