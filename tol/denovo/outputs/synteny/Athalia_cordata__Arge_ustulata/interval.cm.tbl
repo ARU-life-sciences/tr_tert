@@ -1,0 +1,18 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+SUPER_6_HAP2:5757029 -         tenthredinoidea_tr   -          cm        1      130    51527    51681      +    no    1 0.35   0.0   15.4     0.039 ?   -
+SUPER_6_HAP2:5757029 -         tenthredinoidea_tr   -          cm        1      130      537      449      -    no    1 0.30   0.1   11.8      0.34 ?   -
+SUPER_6_HAP2:5757029 -         tenthredinoidea_tr   -          cm       85      110    19673    19698      +    no    1 0.23   0.0   11.6      0.37 ?   -
+SUPER_6_HAP2:5757029 -         tenthredinoidea_tr   -          cm        1      130    29025    28903      -    no    1 0.27   4.5    9.7       1.2 ?   -
+SUPER_6_HAP2:5757029 -         tenthredinoidea_tr   -          cm        1      130     5224     5313      +    no    1 0.27   1.5    9.0       1.7 ?   -
+SUPER_6_HAP2:5757029 -         tenthredinoidea_tr   -          cm       88      107    37628    37645      +    no    1 0.11   0.0    6.1       9.8 ?   -
+#
+# Program:         cmsearch
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../../tr_cm/models/tenthredinoidea_tr.cm
+# Target file:     Athalia_cordata__Arge_ustulata/interval.fa
+# Option settings: /software/team301/infernal-1.1.4-linux-intel-gcc/binaries/cmsearch --tblout Athalia_cordata__Arge_ustulata/interval.cm.tbl -E 10 --cpu 2 ../../../tr_cm/models/tenthredinoidea_tr.cm Athalia_cordata__Arge_ustulata/interval.fa 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/denovo/outputs/synteny
+# Date:            Fri Oct  9 22:26:30 2026
+# [ok]

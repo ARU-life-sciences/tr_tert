@@ -1,0 +1,15 @@
+distance	A	A_TR	B	unit_B	B_TR	hmm
+genus (test)	Tenthredo_livida	SUPER_1:18906830-18906962	Tenthredo_notha	AACCT	SUPER_2:5211311-5211179	../tr_hym_r6/models/Tenthredinoidea.hmm
+genus (test)	Cephus_pygmeus	SUPER_1:3069878-3069733	Cephus_spinipes	AACCT	SUPER_1:31555480-31555624	../tr_hym_r6/models/Cephoidea.hmm
+genus, Cephidae (test)	Cephus_pygmeus	SUPER_1:3069878-3069733	Calameuta_pallipes	AACCT	SUPER_9:2935962-2935822	../tr_hym_r6/models/Cephoidea.hmm
+subfamily (test)	Tenthredo_notha	SUPER_2:5211311-5211179	Dolerus_asper	AACCT	SUPER_2:16766458-16766586	../tr_hym_r6/models/Tenthredinoidea.hmm
+subfamily (test)	Tenthredo_notha	SUPER_2:5211311-5211179	Euura_tibialis	AACCT	SUPER_7:3667223-3667353	../tr_hym_r6/models/Tenthredinoidea.hmm
+family (test)	Tenthredo_notha	SUPER_2:5211311-5211179	Gilpinia_frutetorum	AACCT	SUPER_2:45052955-45053085	../tr_hym_r6/models/Tenthredinoidea.hmm
+superfamily (test)	Tenthredo_notha	SUPER_2:5211311-5211179	Cephus_pygmeus	AACCT	SUPER_1:3069878-3069733	../tr_hym_r6/models/Cephoidea.hmm
+check: candidate	Tenthredo_notha	SUPER_2:5211311-5211179	Athalia_cordata	AACCT	SUPER_1:40834657-40834534	../tr_hym_r6/models/Tenthredinoidea.hmm
+check: candidate	Tenthredo_notha	SUPER_2:5211311-5211179	Abia_aenea	AACCT	SUPER_7:6670205-6670081	../tr_hym_r6/models/Tenthredinoidea.hmm
+project	Tenthredo_notha	SUPER_2:5211311-5211179	Arge_ochropus	AACCC	none	../tr_hym_r6/models/Tenthredinoidea.hmm
+project	Tenthredo_notha	SUPER_2:5211311-5211179	Arge_ustulata	AACCC	none	../tr_hym_r6/models/Tenthredinoidea.hmm
+project	Cephus_pygmeus	SUPER_1:3069878-3069733	Urocerus_augur	AACCT	none	../tr_hym_r6/models/Cephoidea.hmm
+project	Cephus_pygmeus	SUPER_1:3069878-3069733	Xiphydria_camelus	AACCT	none	../tr_hym_r6/models/Cephoidea.hmm
+project	Tenthredo_notha	SUPER_2:5211311-5211179	Urocerus_augur	AACCT	none	../tr_hym_r6/models/Tenthredinoidea.hmm

@@ -1,0 +1,2 @@
+A unit AAACCCT: 88853 template-like candidates; 2358 with a blastn hit in B
+B unit AACCCT: 64 co-varying candidates

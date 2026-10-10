@@ -1,0 +1,12 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+#
+# Program:         cmsearch
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../tr_cm/models/tenthredinoidea_tr.cm
+# Target file:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/denovo/outputs/busco_synteny/Tenthredo_notha__Arge_ochropus/interval.fa
+# Option settings: /software/team301/infernal-1.1.4-linux-intel-gcc/binaries/cmsearch --tblout /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/denovo/outputs/busco_synteny/Tenthredo_notha__Arge_ochropus/interval.cm.tbl -E 10 ../tr_cm/models/tenthredinoidea_tr.cm /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/denovo/outputs/busco_synteny/Tenthredo_notha__Arge_ochropus/interval.fa 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/denovo
+# Date:            Fri Oct  9 22:37:29 2026
+# [ok]

@@ -1,0 +1,330 @@
+species	role	lineage	unit	order	family	status	tert_loci	rt_like_loci	best_query	best_cover	best_positives	frameshifts	stops	locus
+Anaspis_maculata	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Scraptiidae	not_run								
+Anthocomus_fasciatus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Melyridae	not_run								
+Betulapion_simile	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Brentidae	present	1	4	Oxystoma_pomonae	1.00	423	0	0	SUPER_1:56503665-56579368:-
+Biphyllus_lunatus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Biphyllidae	not_run								
+Cis_bilamellatus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Ciidae	not_run								
+Coccidula_rufa	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Coccinellidae	not_run								
+Crepidodera_aurea	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Chrysomelidae	not_run								
+Crepidodera_fulvicornis	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Chrysomelidae	not_run								
+Diaperis_boleti	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Tenebrionidae	not_run								
+Eulagius_filicornis	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Mycetophagidae	not_run								
+Lagria_hirta	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Tenebrionidae	not_run								
+Metoecus_paradoxus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Ripiphoridae	not_run								
+Mycetophagus_atomarius	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Mycetophagidae	not_run								
+Mycetophagus_piceus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Mycetophagidae	not_run								
+Mycetophagus_quadripustulatus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Mycetophagidae	not_run								
+Nacerdes_melanura	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Oedemeridae	not_run								
+Nalassus_laevioctostriatus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Tenebrionidae	not_run								
+Omonadus_floralis	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Anthicidae	not_run								
+Opilo_mollis	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Cleridae	not_run								
+Osphya_bipunctata	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Melandryidae	not_run								
+Prionychus_ater	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Tenebrionidae	not_run								
+Pycnomerus_fuliginosus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Zopheridae	not_run								
+Salpingus_planirostris	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Salpingidae	not_run								
+Thanasimus_formicarius	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Cleridae	not_run								
+Tillus_elongatus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Cleridae	not_run								
+Vincenzellus_ruficollis	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Salpingidae	not_run								
+Xestobium_rufovillosum	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Ptinidae	not_run								
+Adalia_bipunctata	control	Coleoptera:ACCTG	AACCT	Coleoptera	Coccinellidae	not_run								
+Adalia_decempunctata	control	Coleoptera:ACCTG	AACCT	Coleoptera	Coccinellidae	not_run								
+Agelastica_alni	control	Coleoptera:ACCTG	AACCT	Coleoptera	Chrysomelidae	not_run								
+Anisosticta_novemdecimpunctata	control	Coleoptera:ACCTG	AACCT	Coleoptera	Coccinellidae	not_run								
+Anobium_punctatum	control	Coleoptera:ACCTG	AACCT	Coleoptera	Ptinidae	not_run								
+Andrena_haemorrhoa	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Andrenidae	not_run								
+Cerceris_rybyensis	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	not_run								
+Colletes_cunicularius	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Colletidae	not_run								
+Crabro_cribrarius	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	not_run								
+Crossocerus_annulipes	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	not_run								
+Ectemnius_cavifrons	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	not_run								
+Ectemnius_continuus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	not_run								
+Ectemnius_lituratus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	not_run								
+Gorytes_laticinctus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	not_run								
+Hylaeus_dilatatus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Colletidae	not_run								
+Hylaeus_hyalinatus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Colletidae	not_run								
+Hylaeus_signatus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Colletidae	not_run								
+Lasioglossum_lativentre	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Halictidae	not_run								
+Nysson_spinosus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	not_run								
+Nysson_trimaculatus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	not_run								
+Rhopalum_coarctatum	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	not_run								
+Sphecodes_crassus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Halictidae	not_run								
+Sphecodes_ephippius	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Halictidae	not_run								
+Sphecodes_longulus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Halictidae	not_run								
+Sphecodes_monilicornis	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Halictidae	not_run								
+Sphecodes_pellucidus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Halictidae	not_run								
+Sphecodes_puncticeps	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Halictidae	not_run								
+Sphecodes_scabricollis	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Halictidae	not_run								
+Andrena_angustior	control	Hymenoptera:AACCCAGACCT	AACCT	Hymenoptera	Andrenidae	not_run								
+Crossocerus_cetratus	control	Hymenoptera:AACCCAGACCT	AACCT	Hymenoptera	Crabronidae	not_run								
+Lasioglossum_pauxillum	control	Hymenoptera:AACCCAGACCT	AACCT	Hymenoptera	Halictidae	not_run								
+Mimumesa_dahlbomi	control	Hymenoptera:AACCCAGACCT	AACCT	Hymenoptera	Crabronidae	not_run								
+Abia_aenea	control	Hymenoptera:AACCCAGACCT	AACCT	Hymenoptera	Cimbicidae	not_run								
+Aelia_acuminata	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Pentatomidae	not_run								
+Anthocoris_nemoralis	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Anthocoridae	not_run								
+Berytinus_minor	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Berytidae	not_run								
+Dicranocephalus_agilis	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Stenocephalidae	not_run								
+Gonocerus_acuteangulatus	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Coreidae	not_run								
+Grypocoris_stysi	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	not_run								
+Harpocera_thoracica	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	not_run								
+Heterotoma_planicornis	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	not_run								
+Ischnodemus_sabuleti	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Blissidae	not_run								
+Leptopterna_dolabrata	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	not_run								
+Miris_striatus	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	not_run								
+Neottiglossa_pusilla	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Pentatomidae	not_run								
+Pilophorus_perplexus	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	not_run								
+Pithanus_maerkelii	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	not_run								
+Psallus_varians	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	not_run								
+Stenodema_calcarata	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	not_run								
+Stenodema_holsata	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	not_run								
+Acericerus_heydenii	control	Hemiptera:AACCATCCCT	AACCT	Hemiptera	Cicadellidae	absent	0	2						
+Allygidius_commutatus	control	Hemiptera:AACCATCCCT	AACCT	Hemiptera	Cicadellidae	absent	0	3						
+Allygus_modestus	control	Hemiptera:AACCATCCCT	AACCT	Hemiptera	Cicadellidae	absent	0	1						
+Arthaldeus_pascuellus	control	Hemiptera:AACCATCCCT	AACCT	Hemiptera	Cicadellidae	absent	0	6						
+Balanococcus_diminutus	control	Hemiptera:AACCATCCCT	AACCT	Hemiptera	Pseudococcidae	absent	0	2						
+Acrodactyla_quadrisculpta	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	not_run								
+Allomacrus_arcticus	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	not_run								
+Clistopyga_incitator	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	not_run								
+Collyria_trichophthalma	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	not_run								
+Cylloceria_caligata	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	not_run								
+Dreisbachia_pictifrons	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	not_run								
+Endromopoda_detrita	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	not_run								
+Endromopoda_phragmitidis	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	not_run								
+Ephialtes_manifestator	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	not_run								
+Paraperithous_gnathaulax	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	not_run								
+Perithous_albicinctus	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	not_run								
+Perithous_divinator	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	not_run								
+Rhyssella_approximator	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	not_run								
+Scambus_brevicornis	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	not_run								
+Schizopyga_frigida	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	not_run								
+Tromatobia_lineatoria	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	not_run								
+Allantus_rufocinctus	control	Hymenoptera:AAAGAACCT	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Ametastegia_carpini	control	Hymenoptera:AAAGAACCT	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Ametastegia_equiseti	control	Hymenoptera:AAAGAACCT	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Aneugmenus_padi	control	Hymenoptera:AAAGAACCT	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Aneugmenus_temporalis	control	Hymenoptera:AAAGAACCT	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Agrypon_flaveolatum	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	not_run								
+Campoletis_raptor	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	not_run								
+Hellwigia_obscura	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	not_run								
+Hyposoter_dolosus	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	not_run								
+Ophion_confusus	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	not_run								
+Ophion_costatus	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	not_run								
+Ophion_ellenae	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	not_run								
+Ophion_forticornis	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	not_run								
+Ophion_obscuratus	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	not_run								
+Ophion_slaviceki	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	not_run								
+Ophion_variegatus	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	not_run								
+Ophion_ventricosus	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	not_run								
+Ophion_wuestneii	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	not_run								
+Tranosemella_praerogator	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	not_run								
+Venturia_canescens	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	not_run								
+Apis_mellifera	control	Hymenoptera:AAACAAACCC	AACCT	Hymenoptera	Apidae	not_run								
+Athalia_circularis	control	Hymenoptera:AAACAAACCC	AACCT	Hymenoptera	Athaliidae	not_run								
+Athalia_cordata	control	Hymenoptera:AAACAAACCC	AACCT	Hymenoptera	Athaliidae	not_run								
+Calameuta_filiformis	control	Hymenoptera:AAACAAACCC	AACCT	Hymenoptera	Cephidae	not_run								
+Calameuta_pallipes	control	Hymenoptera:AAACAAACCC	AACCT	Hymenoptera	Cephidae	not_run								
+Bombus_campestris	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	not_run								
+Bombus_distinguendus	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	not_run								
+Bombus_hortorum	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	not_run								
+Bombus_hypnorum	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	not_run								
+Bombus_jonellus	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	not_run								
+Bombus_lapidarius	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	not_run								
+Bombus_lucorum	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	not_run								
+Bombus_monticola	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	not_run								
+Bombus_muscorum	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	not_run								
+Bombus_pascuorum	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	not_run								
+Bombus_pratorum	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	not_run								
+Bombus_vestalis	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	not_run								
+Dasypoda_hirtipes	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Melittidae	not_run								
+Nomada_ferruginata	control	Hymenoptera:AACCCCAACCT	AACCT	Hymenoptera	Apidae	not_run								
+Nomada_hirtipes	control	Hymenoptera:AACCCCAACCT	AACCT	Hymenoptera	Apidae	not_run								
+Cephus_pygmeus	control	Hymenoptera:AACCCCAACCT	AACCT	Hymenoptera	Cephidae	not_run								
+Cephus_spinipes	control	Hymenoptera:AACCCCAACCT	AACCT	Hymenoptera	Cephidae	not_run								
+Dolerus_asper	control	Hymenoptera:AACCCCAACCT	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Aegialia_arenaria	shift	Coleoptera:AACCC	AACCC	Coleoptera	Scarabaeidae	not_run								
+Aphodius_sticticus	shift	Coleoptera:AACCC	AACCC	Coleoptera	Scarabaeidae	not_run								
+Apoderus_coryli	shift	Coleoptera:AACCC	AACCC	Coleoptera	Attelabidae	not_run								
+Bruchidius_varius	shift	Coleoptera:AACCC	AACCC	Coleoptera	Chrysomelidae	not_run								
+Curculio_glandium	shift	Coleoptera:AACCC	AACCC	Coleoptera	Curculionidae	not_run								
+Dorcus_parallelipipedus	shift	Coleoptera:AACCC	AACCC	Coleoptera	Lucanidae	not_run								
+Melolontha_melolontha	shift	Coleoptera:AACCC	AACCC	Coleoptera	Scarabaeidae	not_run								
+Oxystoma_pomonae	shift	Coleoptera:AACCC	AACCC	Coleoptera	Brentidae	not_run								
+Rhizotrogus_aestivus	shift	Coleoptera:AACCC	AACCC	Coleoptera	Scarabaeidae	present	1	7	Melolontha_melolontha	1.00	433	0	0	SUPER_2:78198722-78253104:-
+Aphthona_nonstriata	control	Coleoptera:AACCC	AACCT	Coleoptera	Chrysomelidae	not_run								
+Bruchidius_siliquastri	control	Coleoptera:AACCC	AACCT	Coleoptera	Chrysomelidae	not_run								
+Bruchidius_villosus	control	Coleoptera:AACCC	AACCT	Coleoptera	Chrysomelidae	not_run								
+Bruchus_rufimanus	control	Coleoptera:AACCC	AACCT	Coleoptera	Chrysomelidae	not_run								
+Chaetocnema_hortensis	control	Coleoptera:AACCC	AACCT	Coleoptera	Chrysomelidae	not_run								
+Hylobius_abietis	shift	Coleoptera:AAACTAACCC	AAACTAACCC	Coleoptera	Curculionidae	not_run								
+Larinus_planus	shift	Coleoptera:AAACTAACCC	AAACTAACCC	Coleoptera	Curculionidae	not_run								
+Leiosoma_deflexum	shift	Coleoptera:AAACTAACCC	AAACTAACCC	Coleoptera	Curculionidae	not_run								
+Mononychus_punctumalbum	shift	Coleoptera:AAACTAACCC	AAACTAACCC	Coleoptera	Curculionidae	not_run								
+Orchestes_rusci	shift	Coleoptera:AAACTAACCC	AAACTAACCC	Coleoptera	Curculionidae	not_run								
+Stenocarus_ruficornis	shift	Coleoptera:AAACTAACCC	AAACTAACCC	Coleoptera	Curculionidae	not_run								
+Cryptorhynchus_lapathi	control	Coleoptera:AAACTAACCC	AACCT	Coleoptera	Curculionidae	not_run								
+Ips_sexdentatus	control	Coleoptera:AAACTAACCC	AACCT	Coleoptera	Curculionidae	not_run								
+Otiorhynchus_rugosostriatus	control	Coleoptera:AAACTAACCC	AACCT	Coleoptera	Curculionidae	not_run								
+Phyllobius_roboretanus	control	Coleoptera:AAACTAACCC	AACCT	Coleoptera	Curculionidae	not_run								
+Phyllobius_virideaeris	control	Coleoptera:AAACTAACCC	AACCT	Coleoptera	Curculionidae	not_run								
+Dyspetes_luteomarginatus	shift	Hymenoptera:AAACCC	AAACCC	Hymenoptera	Ichneumonidae	not_run								
+Netelia_fuscicornis	shift	Hymenoptera:AAACCC	AAACCC	Hymenoptera	Ichneumonidae	not_run								
+Netelia_melanura	shift	Hymenoptera:AAACCC	AAACCC	Hymenoptera	Ichneumonidae	not_run								
+Polyblastus_varitarsus	shift	Hymenoptera:AAACCC	AAACCC	Hymenoptera	Ichneumonidae	not_run								
+Stilbops_ruficornis	shift	Hymenoptera:AAACCC	AAACCC	Hymenoptera	Ichneumonidae	not_run								
+Syrphoctonus_tarsatorius	shift	Hymenoptera:AAACCC	AAACCC	Hymenoptera	Ichneumonidae	not_run								
+Dolerus_haematodes	control	Hymenoptera:AAACCC	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Dolerus_triplicatus	control	Hymenoptera:AAACCC	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Eutomostethus_luteiventris	control	Hymenoptera:AAACCC	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Euura_bergmanni	control	Hymenoptera:AAACCC	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Euura_tibialis	control	Hymenoptera:AAACCC	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Andrena_flavipes	shift	Hymenoptera:AACCCT	AACCCT	Hymenoptera	Andrenidae	not_run								
+Andrena_nitida	shift	Hymenoptera:AACCCT	AACCCT	Hymenoptera	Andrenidae	not_run								
+Anthidium_manicatum	shift	Hymenoptera:AACCCT	AACCCT	Hymenoptera	Megachilidae	not_run								
+Seladonia_tumulorum	shift	Hymenoptera:AACCCT	AACCCT	Hymenoptera	Halictidae	not_run								
+Stelis_phaeoptera	shift	Hymenoptera:AACCCT	AACCCT	Hymenoptera	Megachilidae	not_run								
+Tiphia_femorata	shift	Hymenoptera:AACCCT	AACCCT	Hymenoptera	Tiphiidae	not_run								
+Heriades_truncorum	control	Hymenoptera:AACCCT	AACCT	Hymenoptera	Megachilidae	not_run								
+Megachile_ligniseca	control	Hymenoptera:AACCCT	AACCT	Hymenoptera	Megachilidae	not_run								
+Osmia_bicornis_bicornis	control	Hymenoptera:AACCCT	AACCT	Hymenoptera	Megachilidae	not_run								
+Tiphia_minuta	control	Hymenoptera:AACCCT	AACCT	Hymenoptera	Tiphiidae	not_run								
+Formica_rufa	control	Hymenoptera:AACCCT	AACCT	Hymenoptera	Formicidae	not_run								
+Bugula_neritina	shift	Cheilostomatida:AAACCCC	AAACCCC	Cheilostomatida	Bugulidae	not_run								
+Bugulina_stolonifera	shift	Cheilostomatida:AAACCCC	AAACCCC	Cheilostomatida	Bugulidae	not_run								
+Cryptosula_pallasiana	shift	Cheilostomatida:AAACCCC	AAACCCC	Cheilostomatida	Cryptosulidae	not_run								
+Membranipora_membranacea	shift	Cheilostomatida:AAACCCC	AAACCCC	Cheilostomatida	Membraniporidae	not_run								
+Watersipora_subatra	shift	Cheilostomatida:AAACCCC	AAACCCC	Cheilostomatida	Watersiporidae	not_run								
+Aproceros_leucopoda	shift	Hymenoptera:AACCC	AACCC	Hymenoptera	Argidae	not_run								
+Arge_ochropus	shift	Hymenoptera:AACCC	AACCC	Hymenoptera	Argidae	not_run								
+Arge_ustulata	shift	Hymenoptera:AACCC	AACCC	Hymenoptera	Argidae	not_run								
+Eremotylus_marginatus	shift	Hymenoptera:AACCC	AACCC	Hymenoptera	Ichneumonidae	not_run								
+Macropis_europaea	shift	Hymenoptera:AACCC	AACCC	Hymenoptera	Melittidae	not_run								
+Gilpinia_frutetorum	control	Hymenoptera:AACCC	AACCT	Hymenoptera	Diprionidae	not_run								
+Hoplocampa_crataegi	control	Hymenoptera:AACCC	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Lasius_brunneus	control	Hymenoptera:AACCC	AACCT	Hymenoptera	Formicidae	not_run								
+Lasius_flavus	control	Hymenoptera:AACCC	AACCT	Hymenoptera	Formicidae	not_run								
+Lasius_fuliginosus	control	Hymenoptera:AACCC	AACCT	Hymenoptera	Formicidae	disrupted	1	1	Lasius_flavus	1.00	521	0	1	SUPER_3:1072991-1074932:-
+Dolichovespula_media	shift	Hymenoptera:AACCCAGACGC	AACCCAGACGC	Hymenoptera	Vespidae	not_run								
+Dolichovespula_sylvestris	shift	Hymenoptera:AACCCAGACGC	AACCCAGACGC	Hymenoptera	Vespidae	not_run								
+Symmorphus_gracilis	shift	Hymenoptera:AACCCAGACGC	AACCCAGACGC	Hymenoptera	Vespidae	not_run								
+Vespula_germanica	shift	Hymenoptera:AACCCAGACGC	AACCCAGACGC	Hymenoptera	Vespidae	not_run								
+Vespula_vulgaris	shift	Hymenoptera:AACCCAGACGC	AACCCAGACGC	Hymenoptera	Vespidae	not_run								
+Lasius_platythorax	control	Hymenoptera:AACCCAGACGC	AACCT	Hymenoptera	Formicidae	disrupted	1	3	Lasius_flavus	1.00	527	0	1	SUPER_6:19773236-19775177:+
+Macrophya_alboannulata	control	Hymenoptera:AACCCAGACGC	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Macrophya_annulata	control	Hymenoptera:AACCCAGACGC	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Macrophya_punctumalbum	control	Hymenoptera:AACCCAGACGC	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Macrophya_ribis	control	Hymenoptera:AACCCAGACGC	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Grypus_equiseti	shift	Coleoptera:AAACC	AAACC	Coleoptera	Erirhinidae	not_run								
+Magdalis_cerasi	shift	Coleoptera:AAACC	AAACC	Coleoptera	Curculionidae	not_run								
+Platypus_cylindrus	shift	Coleoptera:AAACC	AAACC	Coleoptera	Curculionidae	not_run								
+Sphaeridium_bipustulatum	shift	Coleoptera:AAACC	AAACC	Coleoptera	Hydrophilidae	not_run								
+Abax_parallelepipedus	control	Coleoptera:AAACC	AACCT	Coleoptera	Carabidae	not_run								
+Acupalpus_dubius	control	Coleoptera:AAACC	AACCT	Coleoptera	Carabidae	not_run								
+Acupalpus_parvulus	control	Coleoptera:AAACC	AACCT	Coleoptera	Carabidae	not_run								
+Agonum_muelleri	control	Coleoptera:AAACC	AACCT	Coleoptera	Carabidae	not_run								
+Agonum_viduum	control	Coleoptera:AAACC	AACCT	Coleoptera	Carabidae	not_run								
+Nomada_flava	shift	Hymenoptera:AAACCTAACCC	AAACCTAACCC	Hymenoptera	Apidae	not_run								
+Nomada_fucata	shift	Hymenoptera:AAACCTAACCC	AAACCTAACCC	Hymenoptera	Apidae	not_run								
+Nomada_goodeniana	shift	Hymenoptera:AAACCTAACCC	AAACCTAACCC	Hymenoptera	Apidae	not_run								
+Nomada_panzeri	shift	Hymenoptera:AAACCTAACCC	AAACCTAACCC	Hymenoptera	Apidae	not_run								
+Monostegia_abdominalis	control	Hymenoptera:AAACCTAACCC	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Rhogogaster_chlorosoma	control	Hymenoptera:AAACCTAACCC	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Selandria_serva	control	Hymenoptera:AAACCTAACCC	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Stromboceros_delicatulus	control	Hymenoptera:AAACCTAACCC	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Tenthredo_amoena	control	Hymenoptera:AAACCTAACCC	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Ceriagrion_tenellum	shift	Odonata:AACCC	AACCC	Odonata	Coenagrionidae	absent	0	2						
+Coenagrion_pulchellum	shift	Odonata:AACCC	AACCC	Odonata	Coenagrionidae	absent	0	4						
+Platycnemis_pennipes	shift	Odonata:AACCC	AACCC	Odonata	Platycnemididae	absent	0	3						
+Pyrrhosoma_nymphula	shift	Odonata:AACCC	AACCC	Odonata	Coenagrionidae	absent	0	0						
+Hypera_postica	shift	Coleoptera:AAAACTAACC	AAAACTAACC	Coleoptera	Curculionidae	not_run								
+Hypera_rumicis	shift	Coleoptera:AAAACTAACC	AAAACTAACC	Coleoptera	Curculionidae	not_run								
+Sitona_cylindricollis	shift	Coleoptera:AAAACTAACC	AAAACTAACC	Coleoptera	Curculionidae	not_run								
+Agrilus_biguttatus	control	Coleoptera:AAAACTAACC	AACCT	Coleoptera	Buprestidae	not_run								
+Agrilus_cyanescens	control	Coleoptera:AAAACTAACC	AACCT	Coleoptera	Buprestidae	not_run								
+Agrypnus_murinus	control	Coleoptera:AAAACTAACC	AACCT	Coleoptera	Elateridae	not_run								
+Aleochara_curtula	control	Coleoptera:AAAACTAACC	AACCT	Coleoptera	Staphylinidae	not_run								
+Amara_aenea	control	Coleoptera:AAAACTAACC	AACCT	Coleoptera	Carabidae	not_run								
+Barypeithes_pellucidus	shift	Coleoptera:AAACCCGAAC	AAACCCGAAC	Coleoptera	Curculionidae	not_run								
+Pachyrhinus_lethierryi	shift	Coleoptera:AAACCCGAAC	AAACCCGAAC	Coleoptera	Curculionidae	not_run								
+Polydrusus_pterygomalis	shift	Coleoptera:AAACCCGAAC	AAACCCGAAC	Coleoptera	Curculionidae	not_run								
+Amara_convexiuscula	control	Coleoptera:AAACCCGAAC	AACCT	Coleoptera	Carabidae	not_run								
+Amara_familiaris	control	Coleoptera:AAACCCGAAC	AACCT	Coleoptera	Carabidae	not_run								
+Amara_ovata	control	Coleoptera:AAACCCGAAC	AACCT	Coleoptera	Carabidae	not_run								
+Amara_plebeja	control	Coleoptera:AAACCCGAAC	AACCT	Coleoptera	Carabidae	not_run								
+Amara_tibialis	control	Coleoptera:AAACCCGAAC	AACCT	Coleoptera	Carabidae	absent	0	2						
+Otiorhynchus_armadillo	shift	Coleoptera:AACCTGAACT	AACCTGAACT	Coleoptera	Curculionidae	not_run								
+Polydrusus_tereticollis	shift	Coleoptera:AACCTGAACT	AACCTGAACT	Coleoptera	Curculionidae	not_run								
+Taphrorychus_bicolor	shift	Coleoptera:AACCTGAACT	AACCTGAACT	Coleoptera	Curculionidae	not_run								
+Anaglyptus_mysticus	control	Coleoptera:AACCTGAACT	AACCT	Coleoptera	Cerambycidae	not_run								
+Aplotarsus_incanus	control	Coleoptera:AACCTGAACT	AACCT	Coleoptera	Elateridae	not_run								
+Arhopalus_rusticus	control	Coleoptera:AACCTGAACT	AACCT	Coleoptera	Cerambycidae	not_run								
+Aromia_moschata	control	Coleoptera:AACCTGAACT	AACCT	Coleoptera	Cerambycidae	not_run								
+Attagenus_pellio	control	Coleoptera:AACCTGAACT	AACCT	Coleoptera	Dermestidae	not_run								
+Carabus_intricatus	shift	Coleoptera:ACCCT	ACCCT	Coleoptera	Carabidae	not_run								
+Carabus_nemoralis	shift	Coleoptera:ACCCT	ACCCT	Coleoptera	Carabidae	not_run								
+Carabus_problematicus	shift	Coleoptera:ACCCT	ACCCT	Coleoptera	Carabidae	not_run								
+Calathus_fuscipes	control	Coleoptera:ACCCT	AACCT	Coleoptera	Carabidae	not_run								
+Calathus_melanocephalus	control	Coleoptera:ACCCT	AACCT	Coleoptera	Carabidae	not_run								
+Dromius_quadrimaculatus	control	Coleoptera:ACCCT	AACCT	Coleoptera	Carabidae	not_run								
+Harpalus_anxius	control	Coleoptera:ACCCT	AACCT	Coleoptera	Carabidae	not_run								
+Leistus_rufomarginatus	control	Coleoptera:ACCCT	AACCT	Coleoptera	Carabidae	absent	0	1						
+Chrysis_angustula	shift	Hymenoptera:AACCCACTCT	AACCCACTCT	Hymenoptera	Chrysididae	absent	0	2						
+Hedychridium_cupreum	shift	Hymenoptera:AACCCACTCT	AACCCACTCT	Hymenoptera	Chrysididae	not_run								
+Hedychridium_roseum	shift	Hymenoptera:AACCCACTCT	AACCCACTCT	Hymenoptera	Chrysididae	not_run								
+Tenthredo_arcuata	control	Hymenoptera:AACCCACTCT	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Tenthredo_distinguenda	control	Hymenoptera:AACCCACTCT	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Tenthredo_livida	control	Hymenoptera:AACCCACTCT	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Tenthredo_notha	control	Hymenoptera:AACCCACTCT	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Tenthredo_scrophulariae	control	Hymenoptera:AACCCACTCT	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Aspidapion_aeneum	shift	Coleoptera:AACCG	AACCG	Coleoptera	Brentidae	present	1	5	Oxystoma_pomonae	1.00	396	0	0	SUPER_1:33014860-33048770:-
+Taeniapion_urticarium	shift	Coleoptera:AACCG	AACCG	Coleoptera	Brentidae	present	1	4	Oxystoma_pomonae	1.00	399	0	0	SUPER_1:28759522-28784009:-
+Bitoma_crenata	control	Coleoptera:AACCG	AACCT	Coleoptera	Zopheridae	not_run								
+Calvia_quattuordecimguttata	control	Coleoptera:AACCG	AACCT	Coleoptera	Coccinellidae	not_run								
+Cantharis_flavilabris	control	Coleoptera:AACCG	AACCT	Coleoptera	Cantharidae	not_run								
+Cantharis_lateralis	control	Coleoptera:AACCG	AACCT	Coleoptera	Cantharidae	not_run								
+Cantharis_pellucida	control	Coleoptera:AACCG	AACCT	Coleoptera	Cantharidae	not_run								
+Alydus_calcaratus	shift	Hemiptera:AACCACCCCT	AACCACCCCT	Hemiptera	Alydidae	not_run								
+Rhaphigaster_nebulosa	shift	Hemiptera:AACCACCCCT	AACCACCCCT	Hemiptera	Pentatomidae	not_run								
+Cicadella_lasiocarpae	control	Hemiptera:AACCACCCCT	AACCT	Hemiptera	Cicadellidae	absent	0	16						
+Conomelus_anceps	control	Hemiptera:AACCACCCCT	AACCT	Hemiptera	Delphacidae	present	1	6	A0A482X284	0.94	694	0	0	SUPER_7:34894602-34916059:-
+Drepanosiphum_platanoidis	control	Hemiptera:AACCACCCCT	AACCT	Hemiptera	Aphididae	not_run								
+Eurhadina_loewii	control	Hemiptera:AACCACCCCT	AACCT	Hemiptera	Cicadellidae	absent	0	4						
+Lamprotettix_nitidulus	control	Hemiptera:AACCACCCCT	AACCT	Hemiptera	Cicadellidae	absent	0	3						
+Netelia_virgata	shift	Hymenoptera:AAACC	AAACC	Hymenoptera	Ichneumonidae	not_run								
+Oxytorus_armatus	shift	Hymenoptera:AAACC	AAACC	Hymenoptera	Ichneumonidae	not_run								
+Tenthredo_zona	control	Hymenoptera:AAACC	AACCT	Hymenoptera	Tenthredinidae	not_run								
+Urocerus_augur	control	Hymenoptera:AAACC	AACCT	Hymenoptera	Siricidae	not_run								
+Xiphydria_camelus	control	Hymenoptera:AAACC	AACCT	Hymenoptera	Xiphydriidae	not_run								
+Diplazon_laetatorius	shift	Hymenoptera:AAAGAACCC	AAAGAACCC	Hymenoptera	Ichneumonidae	not_run								
+Zaglyptus_varipes	shift	Hymenoptera:AAAGAACCC	AAAGAACCC	Hymenoptera	Ichneumonidae	not_run								
+Chalcis_sispes	shift	Hymenoptera:AACCCAAT	AACCCAAT	Hymenoptera	Chalcididae	not_run								
+Ormyrus_nitidulus	shift	Hymenoptera:AACCCAAT	AACCCAAT	Hymenoptera	Ormyridae	not_run								
+Tryphon_signator	shift	Hymenoptera:AACCCC	AACCCC	Hymenoptera	Ichneumonidae	not_run								
+Tryphon_thomsoni	shift	Hymenoptera:AACCCC	AACCCC	Hymenoptera	Ichneumonidae	not_run								
+Trypoxylon_attenuatum	shift	Hymenoptera:ACCTG	ACCTG	Hymenoptera	Crabronidae	not_run								
+Trypoxylon_clavicerum	shift	Hymenoptera:ACCTG	ACCTG	Hymenoptera	Crabronidae	not_run								
+Biston_betularia	shift	Lepidoptera:ACCT	ACCT	Lepidoptera	Geometridae	not_run								
+Catocala_promissa	shift	Lepidoptera:ACCT	ACCT	Lepidoptera	Erebidae	not_run								
+Abraxas_sylvata	control	Lepidoptera:ACCT	AACCT	Lepidoptera	Geometridae	not_run								
+Acasis_viretata	control	Lepidoptera:ACCT	AACCT	Lepidoptera	Geometridae	not_run								
+Agriopis_aurantiaria	control	Lepidoptera:ACCT	AACCT	Lepidoptera	Geometridae	not_run								
+Agriopis_leucophaearia	control	Lepidoptera:ACCT	AACCT	Lepidoptera	Geometridae	not_run								
+Agriopis_marginaria	control	Lepidoptera:ACCT	AACCT	Lepidoptera	Geometridae	not_run								
+Caenorhabditis_monodelphis	shift	Rhabditida:AAGCCT	AAGCCT	Rhabditida	Rhabditidae	absent	0	0						
+Trichostrongylus_colubriformis	shift	Rhabditida:AAGCCT	AAGCCT	Rhabditida	Trichostrongylidae	not_run								
+Cylindromyia_interrupta	test	Diptera:test	AAGCTCACCCACT	Diptera	Tachinidae	absent	0	4						
+Baccha_elongata	test	Diptera:test	AACACC	Diptera	Syrphidae	absent	0	3						
+Lonchoptera_lutea	test	Diptera:test	AAACTC	Diptera	Lonchopteridae	absent	0	4						
+Dioctria_baumhaueri	test	Diptera:test	AACT	Diptera	Asilidae	absent	0	7						
+Clusia_tigrina	test	Diptera:test	AATAGTGTATAGTGTAG	Diptera	Clusiidae	absent	0	3						
+Microphor_holosericeus	test	Diptera:test	AAGGTC	Diptera	Empididae	absent	0	5						
+Eratigena_atrica	test	Araneae:test	ACACACACACATATATAT	Araneae	Agelenidae	absent	0	5						
+Amaurobius_ferox	test	Araneae:test	AATATATATAT	Araneae	Amaurobiidae	absent	0	8						
+Araneus_angulatus	test	Araneae:test	AAGCACTCTGACCGCTGTAATTGGATGC	Araneae	Araneidae	absent	0	8						
+Araneus_marmoreus	test	Araneae:test	AACCTCGATAATCCG	Araneae	Araneidae	absent	0	2						
+Linyphia_triangularis	test	Araneae:test	AGAT	Araneae	Linyphiidae	absent	0	1						
+Segestria_senoculata	test	Araneae:test	AGATCTCATGCGC	Araneae	Segestriidae	absent	0	8						
+Ecdyonurus_torrentis	test	Ephemeroptera:test	AAAG	Ephemeroptera	Heptageniidae	absent	0	2						
+Siphlonurus_alternatus	test	Ephemeroptera:test	AACCAGGCC	Ephemeroptera	Siphlonuridae	absent	0	3						
+Serratella_ignita	test	Ephemeroptera:test	AAAT	Ephemeroptera	Ephemerellidae	absent	0	2						
+Ephemera_vulgata	test	Ephemeroptera:test	AAATGCCC	Ephemeroptera	Ephemeridae	absent	0	3						
+Procloeon_bifidum	test	Ephemeroptera:test	AAAAATTTAGTACCAACTGGTGCT	Ephemeroptera	Baetidae	not_run								
+Cloeon_dipterum	test	Ephemeroptera:test	ACCGCATGACGCTACTGCAGT	Ephemeroptera	Baetidae	not_run								

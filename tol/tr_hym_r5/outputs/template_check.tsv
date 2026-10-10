@@ -1,0 +1,122 @@
+species	family	tidk_unit	tidk_support	tr_locus	tr_model	tr_evalue	tidk_match	template_unit	template_match	agrees
+Andrena_apicata	Andrenidae	AAAAAAAATTTTTTCTAAC	weak	SUPER_1_HAP2:13227157-13226965	TR_Andrenidae	1.2e-47	11	AACCT	9	no
+Andrena_barbilabris	Andrenidae	AACCCTAACCT	strong	SUPER_6:33708632-33708389	TR_Andrenidae	1.7e-46	12	AAAGAACCT	12	no
+Andrena_bicolor	Andrenidae	AACCT	weak	SUPER_2:26708842-26709055	TR_Andrenidae	3.1e-42	5	AAGCCT	8	no
+Andrena_bucephala	Andrenidae	AACACTAACCC	strong	SUPER_1:79337317-79337614	TR_Andrenidae	1.7e-45	7	AAACCCC	10	no
+Andrena_chrysosceles	Andrenidae	ACTCAT	weak	SUPER_1:102915478-102915689	TR_Andrenidae	8.4e-44	6	AACCT	14	no
+Andrena_denticulata	Andrenidae	AACCTGATACT	weak	not_run						
+Andrena_flavipes	Andrenidae	AACCCT	strong	SUPER_1:6779016-6779227	TR_Andrenidae	6.5e-32	5	AAACC	7	no
+Andrena_florea	Andrenidae	ACGACGAGGACGAGG	weak	SUPER_3_HAP1:32487332-32487585	TR_Andrenidae	7.6e-42	6	AACCT	9	no
+Andrena_helvola	Andrenidae	AAAAAACTCAG	weak	SUPER_1:91324530-91324722	TR_Andrenidae	8.2e-48	10	AACCT	8	no
+Andrena_nitidiuscula	Andrenidae	AAGT	weak	SUPER_2:58051263-58051050	TR_Andrenidae	7.3e-43	5	AACCT	14	no
+Andrena_trimmerana	Andrenidae	ACCAGTG	weak	SUPER_1:44196171-44195887	TR_Andrenidae	8.1e-46	6	AAACCCC	10	no
+Aproceros_leucopoda	Argidae	AACCC	strong	none						
+Arge_berberidis	Argidae	AACCC	weak	none						
+Arge_ochropus	Argidae	AACCC	strong	none						
+Arge_pagana	Argidae	AACCC	weak	none						
+Arge_ustulata	Argidae	AACCC	strong	not_run						
+Athalia_circularis	Athaliidae	AACCT	strong	none						
+Athalia_cordata	Athaliidae	AACCT	strong	none						
+Athalia_rosae	Athaliidae		none	SUPER_1:13437025-13437146	TR_Tenthredinoidea	4.3e-13		AACCT	11	no
+Aleiodes_alternator	Braconidae	AGAGAGAGAGGC	none	none						
+Aleiodes_circumscriptus	Braconidae	AAGAGTAT	none	none						
+Aleiodes_coxalis	Braconidae	AGAGAGAGAGGC	weak	none						
+Aleiodes_gastritor	Braconidae	AAAATCGAATTCTGTAGCCTATAGGCTATG	none	none						
+Aleiodes_leptofemur	Braconidae		none	none						
+Aleiodes_praetor	Braconidae	AAAT	none	none						
+Aleiodes_rugulosus	Braconidae	AAAT	none	none						
+Aleiodes_similis	Braconidae	AAAAAGTGAAAGC	none	none						
+Aleiodes_testaceus	Braconidae	AAAGTAT	none	none						
+Aleiodes_unipunctator	Braconidae	AAACTTG	weak	none						
+Alysia_alticola	Braconidae	ACCCAGAG	strong	none						
+Dinocampus_coccinellae	Braconidae	AAGATTGACCAGCAGCTG	none	none						
+Meteorus_filator	Braconidae	AAGCCC	none	SUPER_9:4840492-4840357	TR_Braconidae	2.9e-12	4	AACCG	8	no
+Meteorus_ictericus	Braconidae	ACAT	none	none						
+Meteorus_pendulus	Braconidae		none	SUPER_9:5844905-5844757	TR_Braconidae	4.2e-22				no_template
+Meteorus_rubens	Braconidae	ACAT	none	none						
+Microplitis_deprimator	Braconidae	AAACGGTTGCTATGG	none	none						
+Polemochartus_liparae	Braconidae		none	none						
+Therophilus_tumidulus	Braconidae	AGAT	none	none						
+Zele_albiditarsus	Braconidae		none	SUPER_9:5975066-5975203	TR_Braconidae	4.8e-12				no_template
+Zele_chlorophthalmus	Braconidae	ACCATC	none	SUPER_9:5333777-5333914	TR_Braconidae	2.7e-11	7			no_template
+Calameuta_filiformis	Cephidae	AACCT	strong	SUPER_6:8730262-8730121	TR_Cephoidea	3.5e-11	10	AACCT	10	yes
+Calameuta_pallipes	Cephidae	AACCT	strong	SUPER_9:2935962-2935822	TR_Cephoidea	1.3e-14	11	AACCT	11	yes
+Cephus_pygmeus	Cephidae	AACCT	strong	SUPER_1:3069878-3069733	TR_Cephoidea	2.5e-30	10	AACCT	10	yes
+Cephus_spinipes	Cephidae	AACCT	strong	SUPER_1:31555480-31555624	TR_Cephoidea	2.1e-25	10	AACCT	10	yes
+Chrysis_angustula	Chrysididae	AACCCACTCT	strong	none						
+Hedychridium_cupreum	Chrysididae	AACCCACTCT	strong	none						
+Hedychridium_roseum	Chrysididae	AACCCACTCT	strong	none						
+Abia_aenea	Cimbicidae	AACCT	strong	none						
+Abia_candens	Cimbicidae	AACCT	weak	none						
+Crossocerus_annulipes	Crabronidae	AACCCAGACCT	strong	none						
+Crossocerus_cetratus	Crabronidae	AACCT	strong	none						
+Pemphredon_inornata	Crabronidae	ACCAGACCTAG	strong	none						
+Trypoxylon_attenuatum	Crabronidae	ACCTG	strong	none						
+Trypoxylon_clavicerum	Crabronidae	ACCTG	strong	none						
+Diastrophus_rubi	Cynipidae	AAAT	weak	none						
+Gasteruption_assectator	Gasteruptiidae	AAAACCCTAAC	strong	none						
+Gasteruption_jaculator	Gasteruptiidae	AAAACCCTAGC	strong	none						
+Lasioglossum_morio	Halictidae	AACGTAT	weak	SUPER_11:8298825-8298632	TR_Halictidae	1.8e-41	8	AACCT	12	no
+Aethecerus_discolor	Ichneumonidae	AAAACCCCAATCC	weak	SUPER_3:18795024-18795197	TR_Ichneumonidae	1.9e-21	7			no_template
+Agrothereutes_abbreviatus	Ichneumonidae	AATGG	none	SUPER_10:14542208-14542385	TR_Ichneumonidae	1.7e-16	6			no_template
+Agrypon_varitarsum	Ichneumonidae	AAACAAACCCAAACCC	strong	SUPER_6:10268153-10267950	TR_Ichneumonidae	2.0e-19	16	AAACAAACCC	16	no
+Alloplasta_piceator	Ichneumonidae	AACCTCAATAACTGC	strong	SUPER_1:22358963-22359138	TR_Ichneumonidae	2.8e-22	11			no_template
+Alomya_debellator	Ichneumonidae	AGGCG	none	SUPER_3:19040408-19040582	TR_Ichneumonidae	2.9e-18	6			no_template
+Amblyjoppa_fuscipennis	Ichneumonidae	ACACGC	none	SUPER_7:13892199-13892369	TR_Ichneumonidae	4.6e-20	5			no_template
+Amblyjoppa_proteus	Ichneumonidae	AGCC	none	SUPER_8:9745643-9745474	TR_Ichneumonidae	3.6e-19	6	AGCC	6	yes
+Amblyteles_armatorius	Ichneumonidae	ACGGCAGCG	weak	SUPER_7:16234520-16234349	TR_Ichneumonidae	9.5e-18	6			no_template
+Apaeleticus_inimicus	Ichneumonidae	ACTGCT	none	SUPER_5:15781191-15781370	TR_Ichneumonidae	2.1e-19	5			no_template
+Barichneumon_chionomus	Ichneumonidae	ACAG	strong	SUPER_10:19161289-19161116	TR_Ichneumonidae	1.1e-22	4	ACCCT	9	no
+Barycnemis_harpura	Ichneumonidae	AAACAGACGCAGACAGACGC	weak	none						
+Bathythrix_pellucidator	Ichneumonidae	AAAGAAGAAG	none	none						
+Buathra_laborator	Ichneumonidae	AGCCAGGG	weak	SUPER_2:1721130-1720957	TR_Ichneumonidae	3.0e-18	6	AACCG	7	no
+Clistopyga_incitator	Ichneumonidae	AAAGAACCT	strong	SUPER_16:7469649-7469823	TR_Ichneumonidae	9.2e-21	5			no_template
+Coelichneumon_leucocerus	Ichneumonidae	AGGATCC	weak	SUPER_6:28867183-28867355	TR_Ichneumonidae	6.2e-23	6			no_template
+Collyria_trichophthalma	Ichneumonidae	AAAGAACCT	strong	SUPER_17:5197127-5197302	TR_Ichneumonidae	2.7e-19	6	AACCT	7	no
+Cryptus_armator	Ichneumonidae	ATGCC	weak	SUPER_5:23196178-23196351	TR_Ichneumonidae	1.5e-18	6	AACCG	7	no
+Cryptus_viduatorius	Ichneumonidae	AAAGTCGTCGAATTTGTCC	strong	SUPER_1:20682783-20682611	TR_Ichneumonidae	9.7e-19	8	AACCG	7	no
+Cylloceria_caligata	Ichneumonidae	AAAGAACCT	strong	SUPER_3:14197875-14198043	TR_Ichneumonidae	3.0e-16	5	AACCG	10	no
+Exephanes_ischioxanthus	Ichneumonidae	AAAAGCCTTT	weak	SUPER_11:8745132-8744960	TR_Ichneumonidae	8.6e-23	6	AAACC	7	no
+Hoplismenus_bidentatus	Ichneumonidae	ACACGC	none	SUPER_1:11852572-11852734	TR_Ichneumonidae	1.9e-21	5			no_template
+Dreisbachia_pictifrons	Ichneumonidae	AAAGAACCT	strong	SUPER_7:1979038-1979211	TR_Ichneumonidae	1.2e-21	5			no_template
+Ichneumon_extensorius	Ichneumonidae	ACACGC	weak	SUPER_7_HAP1:32826393-32826565	TR_Ichneumonidae	6.7e-23	5	ACCTG	7	no
+Ichneumon_xanthorius	Ichneumonidae	AAAACGCCTT	none	SUPER_5:94728-94557	TR_Ichneumonidae	3.1e-23	6			no_template
+Ischnus_inquisitorius	Ichneumonidae	ACGATG	none	SUPER_1:697009-697183	TR_Ichneumonidae	5.2e-18	6			no_template
+Itoplectis_maculator	Ichneumonidae	AGCAGCGGC	weak	SUPER_3:2674580-2674742	TR_Ichneumonidae	2.1e-19	7			no_template
+Netelia_cristata	Ichneumonidae	AAACCAAACCC	strong	SUPER_1_HAP1:24775886-24775744	TR_Ichneumonidae	4.7e-22	11	AAACCC	14	no
+Netelia_fuscicornis	Ichneumonidae	AAACCC	strong	not_run						
+Oxytorus_armatus	Ichneumonidae	AAACC	strong	SUPER_13:6251766-6251856	TR_Ichneumonidae	1.9e-13	5	AACCT	7	no
+Paraperithous_gnathaulax	Ichneumonidae	AAAGAACCT	strong	SUPER_8:29963036-29963200	TR_Ichneumonidae	1.2e-21	6			no_template
+Perithous_albicinctus	Ichneumonidae	AAAGAACCT	strong	SUPER_3:14141830-14141998	TR_Ichneumonidae	5.7e-20	6			no_template
+Perithous_divinator	Ichneumonidae	AAAGAACCT	strong	SUPER_3:21728269-21728446	TR_Ichneumonidae	3.9e-21	6	AAACC	8	no
+Pimpla_rufipes	Ichneumonidae	AAAGT	none	SUPER_8:23140981-23141145	TR_Ichneumonidae	3.2e-22	6			no_template
+Pimpla_turionellae	Ichneumonidae	ACGC	none	SUPER_8_HAP1:15597603-15597768	TR_Ichneumonidae	9.1e-23	4	AACCC	8	no
+Schizopyga_frigida	Ichneumonidae	AAAGAACCT	strong	SUPER_3:18871938-18871763	TR_Ichneumonidae	6.5e-19	7	AACCT	8	no
+Stenichneumon_culpator	Ichneumonidae	ACACGC	none	SUPER_10:9850884-9851056	TR_Ichneumonidae	7.3e-24	6			no_template
+Sussaba_pulchella	Ichneumonidae	AATTC	weak	SUPER_13:948313-948500	TR_Ichneumonidae	4.0e-16	6	AACCG	8	no
+Syrphoctonus_tarsatorius	Ichneumonidae	AAACCC	strong	SUPER_12_HAP1:16881015-16880829	TR_Ichneumonidae	6.7e-13	6			no_template
+Trychosis_tristator	Ichneumonidae	AAAATTG	none	SUPER_8_HAP1:2334104-2333929	TR_Ichneumonidae	1.3e-17	7	AACCG	7	no
+Tryphon_signator	Ichneumonidae	AACCCC	strong	SUPER_7:2198199-2198383	TR_Ichneumonidae	1.7e-21	7			no_template
+Tryphon_thomsoni	Ichneumonidae	AACCCC	strong	SUPER_3_HAP1:46271748-46271564	TR_Ichneumonidae	1.6e-21	7			no_template
+Virgichneumon_dumeticola	Ichneumonidae	ACGC	none	SUPER_8:19294846-19295018	TR_Ichneumonidae	3.5e-23	5	AACCC	7	no
+Virgichneumon_maculicauda	Ichneumonidae	ACGACGACTGGG	weak	SUPER_10:17020258-17020430	TR_Ichneumonidae	2.7e-23	6	AAACCC	8	no
+Vulgichneumon_bimaculatus	Ichneumonidae	ACACGC	none	SUPER_10:2585211-2585383	TR_Ichneumonidae	6.7e-23	5			no_template
+Vulgichneumon_saturatorius	Ichneumonidae	ACGATG	none	SUPER_4:15631426-15631598	TR_Ichneumonidae	9.6e-23	6			no_template
+Zaglyptus_varipes	Ichneumonidae	AAAGAACCC	strong	SUPER_21_HAP1:5450687-5450509	TR_Ichneumonidae	7.6e-22	5	AAACC	7	no
+Anoplius_caviventris	Pompilidae	AACCCAGACCT	weak	SUPER_4_HAP1:24912138-24912423	TR_Pompiloidea	3.6e-47	16	AACCCAGACCT	16	yes
+Anoplius_nigerrimus	Pompilidae	AACCCAGACCT	weak	SUPER_2:11116329-11116611	TR_Pompiloidea	3.6e-83	16	AACCCAGACCT	16	yes
+Priocnemis_perturbator	Pompilidae	AACCCAGACCT	weak	none						
+Gastracanthus_pulcherrimus	Pteromalidae	ACAG	weak	SUPER_3:130071452-130071646	TR_Pteromalidae	5.5e-24	5	AACCC	7	no
+Sapyga_quinquepunctata	Sapygidae	AACCCAGAACT	strong	none						
+Urocerus_augur	Siricidae	AACCT	strong	none						
+Ammophila_pubescens	Sphecidae	AACTCACT	strong	none						
+Ammophila_sabulosa	Sphecidae	ACAGCGTAGCCATAGCC	weak	none						
+Allantus_rufocinctus	Tenthredinidae	AACCT	strong	none						
+Dolerus_madidus	Tenthredinidae	ACCTG	weak	SUPER_1_HAP1:34883521-34883393	TR_Tenthredinoidea	3.3e-28	5	AACCT	12	no
+Tenthredo_mesomela	Tenthredinidae	AGGGATATC	weak	none						
+Tiphia_femorata	Tiphiidae	AACCCT	strong	none						
+Tiphia_minuta	Tiphiidae	AACCT	strong	none						
+Ancistrocerus_nigricornis	Vespidae	AACCCAGACCC	strong	SUPER_5:2778863-2779110	TR_Vespoidea	3.0e-17	17	AACCCAGACCC	17	yes
+Symmorphus_gracilis	Vespidae	AACCCAGACGC	strong	none						
+Vespa_crabro	Vespidae	AACAATAAT	weak	SUPER_1:3791549-3791303	TR_Vespoidea	1.8e-54	7	ACCCT	7	no
+Xiphydria_camelus	Xiphydriidae	AACCT	strong	none						

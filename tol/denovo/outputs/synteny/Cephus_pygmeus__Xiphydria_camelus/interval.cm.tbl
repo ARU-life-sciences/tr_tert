@@ -1,0 +1,13 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+SUPER_1:9432606      -         tenthredinoidea_tr   -          cm        1      130    59191    59278      +    no    1 0.34   0.0   12.1      0.35 ?   -
+#
+# Program:         cmsearch
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../../../tr_cm/models/tenthredinoidea_tr.cm
+# Target file:     Cephus_pygmeus__Xiphydria_camelus/interval.fa
+# Option settings: /software/team301/infernal-1.1.4-linux-intel-gcc/binaries/cmsearch --tblout Cephus_pygmeus__Xiphydria_camelus/interval.cm.tbl -E 10 --cpu 2 ../../../tr_cm/models/tenthredinoidea_tr.cm Cephus_pygmeus__Xiphydria_camelus/interval.fa 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/denovo/outputs/synteny
+# Date:            Fri Oct  9 22:26:26 2026
+# [ok]

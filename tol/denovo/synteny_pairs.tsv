@@ -1,0 +1,9 @@
+distance	A	B
+genus	Bombus_sylvestris	Bombus_pratorum
+subfamily	Cerceris_rybyensis	Mimumesa_dahlbomi
+family (Apoidea)	Bombus_pratorum	Andrena_haemorrhoa
+family (Apoidea)	Andrena_haemorrhoa	Lasioglossum_lativentre
+family (Apoidea)	Bombus_pratorum	Cerceris_rybyensis
+superfamily (Aculeata)	Bombus_pratorum	Formica_rufa
+infraorder (Apocrita)	Bombus_pratorum	Campoletis_raptor
+suborder (Symphyta)	Bombus_pratorum	Aneugmenus_padi

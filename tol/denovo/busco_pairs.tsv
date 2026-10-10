@@ -1,0 +1,38 @@
+distance	A	A_TR	B	unit_B	B_TR	hmm	cm
+family (test)	Tenthredo_notha	SUPER_2:5211311-5211179	Gilpinia_frutetorum	AACCT	SUPER_2:45052955-45053085	../tr_hym_r6/models/Tenthredinoidea.hmm	../tr_cm/models/tenthredinoidea_tr.cm
+family (test)	Tenthredo_notha	SUPER_2:5211311-5211179	Athalia_cordata	AACCT	SUPER_1:40834657-40834534	../tr_hym_r6/models/Tenthredinoidea.hmm	../tr_cm/models/tenthredinoidea_tr.cm
+subfamily (test; moved?)	Tenthredo_notha	SUPER_2:5211311-5211179	Euura_tibialis	AACCT	SUPER_7:3667223-3667353	../tr_hym_r6/models/Tenthredinoidea.hmm	../tr_cm/models/tenthredinoidea_tr.cm
+superfamily (test)	Tenthredo_notha	SUPER_2:5211311-5211179	Cephus_pygmeus	AACCT	SUPER_1:3069878-3069733	../tr_hym_r6/models/Cephoidea.hmm	-
+superfamily (test)	Cephus_pygmeus	SUPER_1:3069878-3069733	Urocerus_augur	AACCT	SUPER_18:2202060-2202195	../tr_hym_r6/models/Cephoidea.hmm	-
+superfamily (test)	Athalia_cordata	SUPER_1:40834657-40834534	Cephus_pygmeus	AACCT	SUPER_1:3069878-3069733	../tr_hym_r6/models/Cephoidea.hmm	-
+project	Athalia_cordata	SUPER_1:40834657-40834534	Arge_ochropus	AACCC	none	../tr_hym_r6/models/Tenthredinoidea.hmm	../tr_cm/models/tenthredinoidea_tr.cm
+project	Tenthredo_notha	SUPER_2:5211311-5211179	Arge_ochropus	AACCC	none	../tr_hym_r6/models/Tenthredinoidea.hmm	../tr_cm/models/tenthredinoidea_tr.cm
+project	Athalia_cordata	SUPER_1:40834657-40834534	Arge_ustulata	AACCC	none	../tr_hym_r6/models/Tenthredinoidea.hmm	../tr_cm/models/tenthredinoidea_tr.cm
+project	Tenthredo_notha	SUPER_2:5211311-5211179	Arge_ustulata	AACCC	none	../tr_hym_r6/models/Tenthredinoidea.hmm	../tr_cm/models/tenthredinoidea_tr.cm
+project	Athalia_cordata	SUPER_1:40834657-40834534	Aproceros_leucopoda	AACCC	none	../tr_hym_r6/models/Tenthredinoidea.hmm	../tr_cm/models/tenthredinoidea_tr.cm
+project	Tenthredo_notha	SUPER_2:5211311-5211179	Aproceros_leucopoda	AACCC	none	../tr_hym_r6/models/Tenthredinoidea.hmm	../tr_cm/models/tenthredinoidea_tr.cm
+project	Urocerus_augur	SUPER_18:2202060-2202195	Xiphydria_camelus	AACCT	none	../tr_hym_r6/models/Cephoidea.hmm	-
+project	Cephus_pygmeus	SUPER_1:3069878-3069733	Xiphydria_camelus	AACCT	none	../tr_hym_r6/models/Cephoidea.hmm	-
+pimplines (test)	Ephialtes_manifestator	SUPER_4:17132943-17133066	Dolichomitus_mesocentrus	AAAGAACCT	SUPER_9:18125049-18124919	../tr_hym_r6/models/Ichneumonidae.hmm	-
+pimplines (test)	Ephialtes_manifestator	SUPER_4:17132943-17133066	Scambus_brevicornis	AAAGAACCT	SUPER_5_HAP1:11237379-11237255	../tr_hym_r6/models/Ichneumonidae.hmm	-
+pimplines (test)	Ephialtes_manifestator	SUPER_4:17132943-17133066	Acrodactyla_quadrisculpta	AAAGAACCT	SUPER_1_HAP1:66872131-66872249	../tr_hym_r6/models/Ichneumonidae.hmm	-
+subfamily (test)	Ephialtes_manifestator	SUPER_4:17132943-17133066	Allomacrus_arcticus	AAAGAACCT	SUPER_1_HAP1:6285720-6285866	../tr_hym_r6/models/Ichneumonidae.hmm	-
+subfamily (test)	Ephialtes_manifestator	SUPER_4:17132943-17133066	Diplazon_laetatorius	AAAGAACCC	SUPER_9:8136096-8136221	../tr_hym_r6/models/Ichneumonidae.hmm	-
+project	Ephialtes_manifestator	SUPER_4:17132943-17133066	Clistopyga_incitator	AAAGAACCT	none	../tr_hym_r6/models/Ichneumonidae.hmm	-
+project	Scambus_brevicornis	SUPER_5_HAP1:11237379-11237255	Clistopyga_incitator	AAAGAACCT	none	../tr_hym_r6/models/Ichneumonidae.hmm	-
+project	Ephialtes_manifestator	SUPER_4:17132943-17133066	Perithous_albicinctus	AAAGAACCT	none	../tr_hym_r6/models/Ichneumonidae.hmm	-
+project	Scambus_brevicornis	SUPER_5_HAP1:11237379-11237255	Perithous_albicinctus	AAAGAACCT	none	../tr_hym_r6/models/Ichneumonidae.hmm	-
+project	Ephialtes_manifestator	SUPER_4:17132943-17133066	Perithous_divinator	AAAGAACCT	none	../tr_hym_r6/models/Ichneumonidae.hmm	-
+project	Scambus_brevicornis	SUPER_5_HAP1:11237379-11237255	Perithous_divinator	AAAGAACCT	none	../tr_hym_r6/models/Ichneumonidae.hmm	-
+project	Ephialtes_manifestator	SUPER_4:17132943-17133066	Schizopyga_frigida	AAAGAACCT	none	../tr_hym_r6/models/Ichneumonidae.hmm	-
+project	Scambus_brevicornis	SUPER_5_HAP1:11237379-11237255	Schizopyga_frigida	AAAGAACCT	none	../tr_hym_r6/models/Ichneumonidae.hmm	-
+project	Ephialtes_manifestator	SUPER_4:17132943-17133066	Zaglyptus_varipes	AAAGAACCC	none	../tr_hym_r6/models/Ichneumonidae.hmm	-
+project	Scambus_brevicornis	SUPER_5_HAP1:11237379-11237255	Zaglyptus_varipes	AAAGAACCC	none	../tr_hym_r6/models/Ichneumonidae.hmm	-
+project	Ephialtes_manifestator	SUPER_4:17132943-17133066	Paraperithous_gnathaulax	AAAGAACCT	none	../tr_hym_r6/models/Ichneumonidae.hmm	-
+project	Scambus_brevicornis	SUPER_5_HAP1:11237379-11237255	Paraperithous_gnathaulax	AAAGAACCT	none	../tr_hym_r6/models/Ichneumonidae.hmm	-
+project	Ephialtes_manifestator	SUPER_4:17132943-17133066	Dreisbachia_pictifrons	AAAGAACCT	none	../tr_hym_r6/models/Ichneumonidae.hmm	-
+project	Scambus_brevicornis	SUPER_5_HAP1:11237379-11237255	Dreisbachia_pictifrons	AAAGAACCT	none	../tr_hym_r6/models/Ichneumonidae.hmm	-
+project	Ephialtes_manifestator	SUPER_4:17132943-17133066	Cylloceria_caligata	AAAGAACCT	none	../tr_hym_r6/models/Ichneumonidae.hmm	-
+project	Scambus_brevicornis	SUPER_5_HAP1:11237379-11237255	Cylloceria_caligata	AAAGAACCT	none	../tr_hym_r6/models/Ichneumonidae.hmm	-
+project	Ephialtes_manifestator	SUPER_4:17132943-17133066	Collyria_trichophthalma	AAAGAACCT	none	../tr_hym_r6/models/Ichneumonidae.hmm	-
+project	Scambus_brevicornis	SUPER_5_HAP1:11237379-11237255	Collyria_trichophthalma	AAAGAACCT	none	../tr_hym_r6/models/Ichneumonidae.hmm	-

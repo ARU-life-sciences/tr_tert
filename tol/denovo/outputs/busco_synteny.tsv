@@ -1,0 +1,38 @@
+distance	A	B	anchors	B_seq	interval	interval_kb	B_TR_inside	best_hit	best_E	best_template	n_hits_with_template
+family (test)	Tenthredo_notha	Gilpinia_frutetorum	3	SUPER_2	40569613-40588667	19.1	no	SUPER_2:40586708-40586735(hmm)	3.3e-01	no	2
+family (test)	Tenthredo_notha	Athalia_cordata	3	SUPER_1	40821087-40867297	46.2	yes	SUPER_1:40834540-40834655(hmm)	7.6e-10	yes	4
+subfamily (test; moved?)	Tenthredo_notha	Euura_tibialis	4	SUPER_10	6592038-6638624	46.6	no	SUPER_10:6613253-6613274(cm)	1.1e+00	no	0
+superfamily (test)	Tenthredo_notha	Cephus_pygmeus	5	SUPER_4	253041-718206	465.2	no	-	-	-	0
+superfamily (test)	Cephus_pygmeus	Urocerus_augur	4	SUPER_13	3695121-3867282	172.2	no	SUPER_13:3850619-3850663(hmm)	2.1e-01	no	0
+superfamily (test)	Athalia_cordata	Cephus_pygmeus	3	SUPER_4	253041-718206	465.2	no	-	-	-	0
+project	Athalia_cordata	Arge_ochropus	3	SUPER_7	262040-290438	28.4	-	-	-	-	0
+project	Tenthredo_notha	Arge_ochropus	5	SUPER_7	262040-290438	28.4	-	-	-	-	0
+project	Athalia_cordata	Arge_ustulata	3	SUPER_10_HAP2	486905-518664	31.8	-	-	-	-	0
+project	Tenthredo_notha	Arge_ustulata	5	SUPER_10_HAP2	486905-518664	31.8	-	-	-	-	0
+project	Athalia_cordata	Aproceros_leucopoda	3	SUPER_5	14312979-14337616	24.6	-	-	-	-	0
+project	Tenthredo_notha	Aproceros_leucopoda	5	SUPER_5	14312979-14337616	24.6	-	-	-	-	0
+project	Urocerus_augur	Xiphydria_camelus	2	SUPER_9	21008076-21161531	153.5	-	-	-	-	0
+project	Cephus_pygmeus	Xiphydria_camelus	3	SUPER_8	3722913-4168878	446.0	-	SUPER_8:3991852-3991895(hmm)	5.4e+00	no	0
+pimplines (test)	Ephialtes_manifestator	Dolichomitus_mesocentrus	6	SUPER_10	20756953-20783836	26.9	no	-	-	-	0
+pimplines (test)	Ephialtes_manifestator	Scambus_brevicornis	6	SUPER_6_HAP1	1323149-1340737	17.6	no	-	-	-	0
+pimplines (test)	Ephialtes_manifestator	Acrodactyla_quadrisculpta	3	SUPER_5_HAP1	54912324-54924953	12.6	no	-	-	-	0
+subfamily (test)	Ephialtes_manifestator	Allomacrus_arcticus	5	SUPER_8_HAP1	13367631-13380960	13.3	no	-	-	-	0
+subfamily (test)	Ephialtes_manifestator	Diplazon_laetatorius	3	SUPER_10	7648693-8238452	589.8	no	-	-	-	0
+project	Ephialtes_manifestator	Clistopyga_incitator	6	SUPER_15	9697816-9708585	10.8	-	-	-	-	0
+project	Scambus_brevicornis	Clistopyga_incitator	6	SUPER_16	6872915-6913695	40.8	-	-	-	-	0
+project	Ephialtes_manifestator	Perithous_albicinctus	5	SUPER_4	15319205-15346576	27.4	-	-	-	-	0
+project	Scambus_brevicornis	Perithous_albicinctus	4	SUPER_11	17100455-18053291	952.8	-	-	-	-	0
+project	Ephialtes_manifestator	Perithous_divinator	3	SUPER_1	13393781-13415635	21.9	-	-	-	-	0
+project	Scambus_brevicornis	Perithous_divinator	4	SUPER_3	22159928-22945638	785.7	-	-	-	-	0
+project	Ephialtes_manifestator	Schizopyga_frigida	6	SUPER_10	13541830-13558206	16.4	-	-	-	-	0
+project	Scambus_brevicornis	Schizopyga_frigida	6	SUPER_2	35163968-35280190	116.2	-	-	-	-	0
+project	Ephialtes_manifestator	Zaglyptus_varipes	6	SUPER_2_HAP1	12274450-12289945	15.5	-	-	-	-	0
+project	Scambus_brevicornis	Zaglyptus_varipes	6	SUPER_21_HAP1	6762312-7211024	448.7	-	SUPER_21_HAP1:7028652-7028717(hmm)	8.7e+00	no	0
+project	Ephialtes_manifestator	Paraperithous_gnathaulax	6	SUPER_9	13333243-13353515	20.3	-	-	-	-	0
+project	Scambus_brevicornis	Paraperithous_gnathaulax	3	SUPER_3	7377964-7386084	8.1	-	SUPER_3:7385001-7385067(hmm)	1.4e-02	yes	1
+project	Ephialtes_manifestator	Dreisbachia_pictifrons	6	SUPER_9	27513509-27536177	22.7	-	-	-	-	0
+project	Scambus_brevicornis	Dreisbachia_pictifrons	6	SUPER_7	3122424-3232644	110.2	-	SUPER_7:3218997-3219043(hmm)	2.9e-03	no	0
+project	Ephialtes_manifestator	Cylloceria_caligata	5	SUPER_6	39825768-39843968	18.2	-	-	-	-	0
+project	Scambus_brevicornis	Cylloceria_caligata	3	SUPER_3	15714486-15720421	5.9	-	-	-	-	0
+project	Ephialtes_manifestator	Collyria_trichophthalma	5	SUPER_2	9416070-9445857	29.8	-	-	-	-	0
+project	Scambus_brevicornis	Collyria_trichophthalma	3	SUPER_17	5960107-5967595	7.5	-	-	-	-	0

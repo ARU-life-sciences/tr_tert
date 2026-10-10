@@ -1,0 +1,11 @@
+clade	level	pairs	conserved	moved	undetermined	conserved_of_determined
+Lepidoptera	genus	25	25	0	0	1.00
+Lepidoptera	subfamily	25	23	1	1	0.96
+Lepidoptera	family	25	22	3	0	0.88
+Lepidoptera	superfamily	25	14	7	4	0.67
+Lepidoptera	order	25	14	9	2	0.61
+Hymenoptera	genus	25	16	9	0	0.64
+Hymenoptera	subfamily	25	7	18	0	0.28
+Hymenoptera	family	25	4	20	1	0.17
+Hymenoptera	superfamily	25	8	15	2	0.35
+Hymenoptera	order	25	0	12	13	0.00

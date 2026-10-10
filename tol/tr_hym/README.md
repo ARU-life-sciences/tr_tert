@@ -1,0 +1,95 @@
+# TR in Hymenoptera: does the template encode the telomere? (2026-10-09)
+
+Published Hymenoptera TRs (Fajkus et al. 2023, NAR, 10.1093/nar/gkac1202:
+256 TRs, Table S1 GenBank accessions; supplement in
+`../inputs/fajkus2023/`, fetched from Europe PMC) -> per-family DNA
+profile HMMs (`src/build_models.bash`, 14 models) -> nhmmer against all
+298 Hymenoptera in the ToL-wide run (`src/worker_search.bash`) -> the
+template in each species' best hit (E <= 1e-10) tested against the tidk
+call (`src/template_check.py` -> `outputs/template_check.tsv`).
+
+A template supports a unit if it exactly matches >= len(unit) + 2 nt of
+its tandem (templates are often ~1.2 units: *Bombus*, 13 nt of
+AACCCCAACCT).
+
+| tidk call | TR found, template = tidk call | TR found, other | no TR hit |
+|---|---|---|---|
+| strong (>= 25% of ends) | **110** | 5 | 74 |
+| weak | 26 | 11 | 31 |
+
+- **Where a TR is found, its template encodes the repeat at the chromosome
+  ends in 110/115 strongly called species**, across every shift lineage:
+  AACCCAGACCT (24), AAACAAACCC (17), AAAGAACCT, AACCCCAACCT, AACCCAGACGC,
+  AAACCTAACCC, ... The 5 others: *Agrypon varitarsum* (tidk called the
+  doubled unit, AAACAAACCCAAACCC; the template is AAACAAACCC), three
+  *Andrena* with unusual calls (the genus has 7 different units in 8
+  species), and *Alloplasta piceator* (no template-like match).
+- The published repeats agree with the tidk calls where they overlap:
+  TTAGGTCTGGG = AACCCAGACCT, TTAGGTTGGGG = AACCCCAACCT, TTTGTTTGGG =
+  AAACAAACCC.
+- No TR hit: mostly families with few or no published TRs - sawflies
+  (Tenthredinidae 7, Cephidae 4, Argidae 3, Athaliidae 2, ...),
+  Ichneumonidae (31 of ~60; 22 published TRs), Vespidae, Chrysididae.
+  Next: add the found DToL TRs to the models and search again, as for TERT.
+- *Andrena denticulata* hung in nhmmer twice and was stopped (not run).
+- nhmmer needs `--dna`: T2T assemblies can start with kilobases of G-free
+  telomere, which defeats its alphabet guess (79 species failed without it).
+
+## Model walking (2026-10-09)
+
+`src/walk_round.py`: each round adds every DToL TR accepted so far (hit
+E <= 1e-10 and a template that supports the species' own tidk call, so
+the telomere validates each seed) to its family's sequences, rebuilds the
+models and searches the species still without one (`../tr_hym_r2` ...
+`../tr_hym_r4`; run with `CLADE_DIR` as for the first round).
+
+| strongly called species with a validated TR | round 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
+| Ichneumonidae (55) | 22 | 32 | 36 | 36 |
+| sawflies (40) | 21 | 25 | 26 | 27 |
+| all Hymenoptera (188) | 109 | 130 | 135 | 136 |
+
+Seeds grew from 256 published TRs to 256 + 172 DToL TRs, with new
+Tenthredinidae, Formicidae and Vespidae models. Converged by round 4.
+Still none: Cephidae, Argidae, Athaliidae, Cimbicidae, Siricidae and
+Xiphydriidae (sawfly families with no TR in any round, so no seed to walk
+from), and a cluster of AAAGAACCT ichneumonids (*Clistopyga*, *Perithous*,
+*Schizopyga*, *Cylloceria*, ...) despite *Pimpla* and *Allomacrus* seeds.
+Reaching these needs structure (a covariance model), not more sequence.
+
+## Correction: Table S1 family labels (2026-10-09)
+
+The first parse of Table S1 carried each rank forward independently, so
+rows of a new superfamily with a blank family inherited the previous
+family: the 12 sawfly TRs (*Athalia*, *Cephus*, *Orussus*, *Diprion*,
+*Neodiprion*, *Euura*, *Tenthredo*, ...) were filed under Ichneumonidae,
+and the "Ampulicidae" group of 76 was 56 ants, 19 vespoids and a
+pompilid. Template checks are unaffected (they don't depend on which
+model hit), but the published groups were wrong for rounds 1-4.
+`src/parse_table_s1.py` fixes it (a new superfamily resets lower ranks;
+every family gets its own group, singletons included) ->
+`models_published_v2/`, `../inputs/fajkus2023/table_s1_v2.tsv`.
+
+Round 5 (`../tr_hym_r5`, corrected groups + all DToL seeds,
+`PUBLISHED_DIR=tr_hym/models_published_v2`): +8 validated, including all
+four Cephidae (via *Cephus cinctus*, E 1e-11 to 1e-30) and two *Anoplius*
+(via the pompilid). Strongly called species with a validated TR:
+Ichneumonidae 36/55, sawflies 31/40, all Hymenoptera 141/188.
+
+*Athalia*: the *A. rosae* TR alone gives template-bearing (AACCT, 11-12
+nt) nhmmer hits in *A. cordata* (1, E 2.5e-10) and *A. circularis* (3,
+E 7e-6 to 5e-5), just below the walking cut-off; blastn finds nothing even
+between these congeners.
+
+Round 6 (`../tr_hym_r6`, seeds now include the four DToL Cephidae): +2,
+including *Urocerus augur* (Siricidae) via the Cephoidea model (5 TRs:
+*Cephus cinctus* + 4 DToL), E 8e-15, AACCT template 12 nt. It is on
+SUPER_18, not in the SUPER_7 interval that synteny projected from *Cephus*
+(5 anchors): the TR has moved, or 5 anchors were too few.
+
+Totals, strongly called species with a TR (walking rounds 1-6, plus the
+CM/synteny-confirmed *Allantus*, *Abia*, *Athalia cordata*, *A.
+circularis*; `../tr_cm`, `../denovo`): Ichneumonidae 36/55, sawflies
+36/40, all Hymenoptera 146/188. Sawflies still without: Argidae
+(*Aproceros*, *Arge ochropus*, *A. ustulata*; telomere AACCC) and
+*Xiphydria camelus*.

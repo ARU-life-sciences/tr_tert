@@ -1,0 +1,13 @@
+#                                                                                                                                  running time (s)                 
+#                                                                                                                           -------------------------------          
+# idx  seq name                                                          length  cm from    cm to  trunc    bit sc  avg pp  band calc  alignment      total  mem (Mb)
+# ---  ----------------------------------------------------------------  ------  -------  -------  -----  --------  ------  ---------  ---------  ---------  --------
+    1  BK062197|Anoncus_sp._PSUC_FEM_10030000|TTCGTTTGGG/TTGGG              186       16       80     3'    -18.34   0.800       0.00       2.22       2.23    179.28
+    2  BK062198|Campoletis_sonorensis|TTTGTTTGGG                            206       15      123     5'    -19.88   0.674       0.00       2.44       2.44    176.77
+    3  BK062199|Diadegma_semiclausum|TTTGTTTGGG                             145       25      116     5'      0.73   0.732       0.00       0.50       0.50     29.96
+    4  BK062200|Dolichomitus_sp._PSUC_FEM_10030005|TTTAGGTTC                175        4       94     3'    -18.59   0.763       0.01       1.57       1.58    121.26
+    5  BK062201|Dusona_sp._PSUC_FEM_10030013|TTTGTTTGGG                     160       26      129     5'    -13.48   0.764       0.00       1.35       1.35    106.72
+    6  BK062202|Lissonota_sp._PSUC_FEM_10030012|TTTGGTGTATGTTGGG/TTTGGG     196       20      130     5'     -7.87   0.815       0.00       2.11       2.11    160.67
+    7  BK062203|Mesochorus_sp._PSUC_FEM_10030011|TTTGTTTGGG                 169       18      130     5'     -6.88   0.735       0.00       1.47       1.47    117.60
+    8  BK062204|Ophion_luteus|TTTGTTTGGG                                    194        9       90     3'    -12.54   0.839       0.00       1.25       1.25     97.38
+    9  BK062206|Venturia_canescens|TTTGTTTGGG                               154       13       92     3'    -11.14   0.660       0.00       0.95       0.95     79.55

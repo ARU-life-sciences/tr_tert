@@ -1,0 +1,2 @@
+rank	candidate_A	bitscore	seq_B	start_B	end_B	pident	window_B	unit_B_match
+1	SUPER_9:7604020-7604032:+	383.0	SUPER_14	5638287	5638563	91.786	ACCGTTGAAACCTAACCCCAATCTAGTTT	13

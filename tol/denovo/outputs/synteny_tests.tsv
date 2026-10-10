@@ -1,0 +1,9 @@
+distance	A	B	anchors	B_seq	interval	interval_kb	B_TR_inside	windows	B_TR_window
+genus	Bombus_sylvestris	Bombus_pratorum	97	SUPER_15	6426770-6434018	7.2	yes	1	1
+subfamily	Cerceris_rybyensis	Mimumesa_dahlbomi	48	SUPER_15	8516169-8542675	26.5	no	9	0
+family (Apoidea)	Bombus_pratorum	Andrena_haemorrhoa	13	SUPER_2	46956104-46986410	30.3	no	0	0
+family (Apoidea)	Andrena_haemorrhoa	Lasioglossum_lativentre	13	SUPER_9	13390988-13400630	9.6	no	0	0
+family (Apoidea)	Bombus_pratorum	Cerceris_rybyensis	6	SUPER_13	2758283-2775448	17.2	no	0	0
+superfamily (Aculeata)	Bombus_pratorum	Formica_rufa	1	SUPER_19	8368454-8528528	160.1	no	43	0
+infraorder (Apocrita)	Bombus_pratorum	Campoletis_raptor	0	-	-	-	no_anchors	-	-
+suborder (Symphyta)	Bombus_pratorum	Aneugmenus_padi	0	-	-	-	no_anchors	-	-

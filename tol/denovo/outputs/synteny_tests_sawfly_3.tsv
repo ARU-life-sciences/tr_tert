@@ -1,0 +1,7 @@
+distance	A	B	anchors	B_seq	interval	interval_kb	B_TR_inside	windows	B_TR_window	hmm_best	hmm_best_template
+check: 3 candidates	Athalia_cordata	Athalia_circularis	98	SUPER_4	5796942-5803820	6.9	no	9	0	SUPER_4:5800695-5800764 E=1.6e-09	yes
+check: 3 candidates	Tenthredo_notha	Athalia_circularis	13	SUPER_4	5799053-5807113	8.1	no	9	0	SUPER_4:5800695-5800764 E=1.9e-09	yes
+project	Athalia_cordata	Arge_ochropus	1	SUPER_7	268015-276522	8.5	-	3	0	-	-
+project	Athalia_cordata	Arge_ustulata	1	SUPER_6_HAP2	5757029-5809186	52.2	-	12	0	SUPER_6_HAP2:5762283-5762319 E=4.6e-01	no
+project	Athalia_cordata	Aproceros_leucopoda	1	SUPER_4	9010146-9326236	316.1	-	121	0	-	-
+project	Cephus_pygmeus	Urocerus_augur	5	SUPER_7	11167110-11247157	80.0	-	66	0	-	-

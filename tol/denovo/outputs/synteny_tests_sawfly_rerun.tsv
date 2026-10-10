@@ -1,0 +1,5 @@
+distance	A	B	anchors	B_seq	interval	interval_kb	B_TR_inside	windows	B_TR_window	hmm_best	hmm_best_template
+subfamily (test)	Tenthredo_notha	Euura_tibialis	14	SUPER_10	6617798-6625865	8.1	no	4	0	-	-
+family (test)	Tenthredo_notha	Gilpinia_frutetorum	11	SUPER_2	45046094-45054183	8.1	yes	10	8	SUPER_2:45052959-45053083 E=4.6e-30	yes
+check: candidate	Tenthredo_notha	Athalia_cordata	16	SUPER_1	40832869-40840929	8.1	yes	12	6	SUPER_1:40834540-40834655 E=1.3e-10	yes
+project	Cephus_pygmeus	Xiphydria_camelus	6	SUPER_1	9432606-9496661	64.1	-	20	0	-	-

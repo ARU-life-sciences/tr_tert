@@ -1,0 +1,21 @@
+# target name        accession  query name           accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+SUPER_3:27851204-27851210:- -          hym_TR_Aphelinidae   -               91     141     267     319     247     329     407    +       0.097    9.8   2.5  -
+SUPER_7:17795531-17795537:- -          hym_TR_Crabronidae   -              122     182     134     191     117     211     407    +         4.9    3.1   3.5  -
+SUPER_2:9591444-9591450:-   -          hym_TR_Tenthredinoidea -               42      60     157     139     185     117     407    -       0.092   10.0   0.4  -
+SUPER_1:6950954-6950960:-   -          hym_TR_Tenthredinoidea -               17      65     202     155     213     135     407    -        0.25    8.6   1.9  -
+SUPER_7:3155363-3155369:-   -          hym_TR_Tenthredinoidea -               26      60      92     126      72     146     407    +        0.97    6.6   3.7  -
+SUPER_3:17623015-17623021:- -          lep_TR_Crambidae     -               88     141      12      66       6      88     407    +        0.32    8.0   3.8  -
+SUPER_3:17623015-17623021:- -          lep_TR_Drepanidae    -              104     137      29      62      14      84     407    +        0.14    9.2   3.1  -
+SUPER_2:4063168-4063174:-   -          lep_TR_Drepanidae    -               87     130      85      44      97      24     407    -        0.18    8.9   1.3  -
+SUPER_7:4450783-4450789:- -          lep_TR_Geometridae   -              101     144     247     293     242     314     407    +        0.18    8.7   1.6  -
+#
+# Program:         nhmmer
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ../tr_tol/models/library.hmm
+# Target file:     outputs/Aproceros_ranked.fa
+# Option settings: /software/team301/hmmer-3.4/src/nhmmer --tblout outputs/Aproceros_ranked.hmm.tbl -E 10 --dna --cpu 4 ../tr_tol/models/library.hmm outputs/Aproceros_ranked.fa 
+# Current dir:     /lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts/denovo
+# Date:            Fri Oct  9 23:24:42 2026
+# [ok]

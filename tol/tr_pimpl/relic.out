@@ -1,0 +1,46 @@
+Scambus_brevicornis SUPER_6_HAP1:1330278-1341963 (11.7 kb): no hit at E<=10
+Dolichomitus_mesocentrus SUPER_10:20771216-20783266 (12.1 kb): no hit at E<=10
+Acrodactyla_quadrisculpta SUPER_5_HAP1:56145115-56192018 (46.9 kb): no hit at E<=10
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@node-13-12>
+Subject: Job 694645: <relic> in cluster <farm22> Done
+
+Job <relic> was submitted from host <farm22-agentic1> by user <mb39> in cluster <farm22> at Fri Oct  9 22:55:09 2026
+Job was executed on host(s) <node-13-12>, in queue <normal>, as user <mb39> in cluster <farm22> at Fri Oct  9 22:55:10 2026
+</nfs/users/nfs_m/mb39> was used as the home directory.
+</lustre/scratch122/tol/teams/blaxter/users/mb39/tol_telomeres/shifts> was used as the working directory.
+Started at Fri Oct  9 22:55:10 2026
+Terminated at Fri Oct  9 22:55:21 2026
+Results reported at Fri Oct  9 22:55:21 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python3 tr_pimpl/relic.py
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   10.25 sec.
+    Max Memory :                                 94 MB
+    Average Memory :                             74.50 MB
+    Total Requested Memory :                     8000.00 MB
+    Delta Memory :                               7906.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   11 sec.
+    Turnaround time :                            12 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <tr_pimpl/relic.err> for stderr output of this job.
+

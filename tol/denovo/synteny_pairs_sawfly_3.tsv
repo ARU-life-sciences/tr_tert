@@ -1,0 +1,7 @@
+distance	A	A_TR	B	unit_B	B_TR	hmm
+check: 3 candidates	Athalia_cordata	SUPER_1:40834657-40834534	Athalia_circularis	AACCT	SUPER_2:23309502-23309379	../tr_hym_r6/models/Tenthredinoidea.hmm
+check: 3 candidates	Tenthredo_notha	SUPER_2:5211311-5211179	Athalia_circularis	AACCT	SUPER_2:23309502-23309379	../tr_hym_r6/models/Tenthredinoidea.hmm
+project	Athalia_cordata	SUPER_1:40834657-40834534	Arge_ochropus	AACCC	none	../tr_hym_r6/models/Tenthredinoidea.hmm
+project	Athalia_cordata	SUPER_1:40834657-40834534	Arge_ustulata	AACCC	none	../tr_hym_r6/models/Tenthredinoidea.hmm
+project	Athalia_cordata	SUPER_1:40834657-40834534	Aproceros_leucopoda	AACCC	none	../tr_hym_r6/models/Tenthredinoidea.hmm
+project	Cephus_pygmeus	SUPER_1:3069878-3069733	Urocerus_augur	AACCT	none	../tr_hym_r6/models/Cephoidea.hmm

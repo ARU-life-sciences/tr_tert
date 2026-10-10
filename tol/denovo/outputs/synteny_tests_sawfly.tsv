@@ -1,0 +1,15 @@
+distance	A	B	anchors	B_seq	interval	interval_kb	B_TR_inside	windows	B_TR_window	hmm_best	hmm_best_template
+genus (test)	Tenthredo_livida	Tenthredo_notha	88	SUPER_2	5208516-5215542	7.0	yes	9	7	SUPER_2:5211179-5211310 E=4.9e-31	yes
+genus (test)	Cephus_pygmeus	Cephus_spinipes	98	SUPER_1	31552485-31559666	7.2	yes	6	4	SUPER_1:31555480-31555624 E=2.8e-45	yes
+genus, Cephidae (test)	Cephus_pygmeus	Calameuta_pallipes	98	SUPER_9	2931832-2938590	6.8	yes	9	5	SUPER_9:2935822-2935961 E=9.1e-42	yes
+subfamily (test)	Tenthredo_notha	Dolerus_asper	41	SUPER_2	16763656-16782790	19.1	yes	14	5	SUPER_2:16766458-16766586 E=3.2e-33	yes
+subfamily (test)	Tenthredo_notha	Euura_tibialis	14	SUPER_10	6617798-6625865	8.1	no	4	0	-	-
+family (test)	Tenthredo_notha	Gilpinia_frutetorum	16	SUPER_2	40560366-45050183	4489.8	no	1559	0	SUPER_2:40655939-40655987 E=7.6e-02	yes
+superfamily (test)	Tenthredo_notha	Cephus_pygmeus	1	SUPER_3	682341-726397	44.1	no	12	0	-	-
+check: candidate	Tenthredo_notha	Athalia_cordata	19	SUPER_1	40836869-44763906	3927.0	no	1316	0	SUPER_1:44641444-44641477 E=2.5e-02	no
+check: candidate	Tenthredo_notha	Abia_aenea	14	SUPER_7	6657632-6678696	21.1	yes	13	8	SUPER_7:6670084-6670203 E=3.9e-10	yes
+project	Tenthredo_notha	Arge_ochropus	2	SUPER_3	11648388-11892828	244.4	-	100	0	SUPER_3:11667664-11667701 E=4.5e-01	no
+project	Tenthredo_notha	Arge_ustulata	2	SUPER_1_HAP2	39359458-39603933	244.5	-	121	0	SUPER_1_HAP2:39525129-39525218 E=7.5e-03	yes
+project	Cephus_pygmeus	Urocerus_augur	5	SUPER_7	11167110-11247157	80.0	-	66	0	-	-
+project	Cephus_pygmeus	Xiphydria_camelus	8	SUPER_1	4338836-9464661	5125.8	-	1434	0	SUPER_1:9291321-9291352 E=2.1e+00	no
+project	Tenthredo_notha	Urocerus_augur	0	-	-	-	no_anchors	-	-	-	-

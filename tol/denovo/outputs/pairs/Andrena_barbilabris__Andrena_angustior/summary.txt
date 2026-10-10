@@ -1,0 +1,3 @@
+A unit AACCCTAACCT: 432 template-like candidates; 235 with a blastn hit in B
+B unit AACCT: 78 co-varying candidates
+known TR SUPER_6:33708388-33708629: not recovered

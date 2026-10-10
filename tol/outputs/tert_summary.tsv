@@ -1,0 +1,330 @@
+species	role	lineage	unit	order	family	status	tert_loci	rt_like_loci	best_query	best_cover	best_positives	frameshifts	stops	locus
+Anaspis_maculata	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Scraptiidae	present	1	0	Q0QHL8	0.99	371	0	0	SUPER_1:100536245-100538123:-
+Anthocomus_fasciatus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Melyridae	absent	0	1						
+Betulapion_simile	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Brentidae	absent	0	0						
+Biphyllus_lunatus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Biphyllidae	absent	0	0						
+Cis_bilamellatus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Ciidae	present	1	0	Q0QHL8	1.00	391	0	0	SUPER_9:12547630-12549430:-
+Coccidula_rufa	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Coccinellidae	present	1	0	A0AAV8ZA90	0.94	303	0	0	SUPER_2:81841525-81843262:+
+Crepidodera_aurea	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Chrysomelidae	present	1	1	A0AAV8ZA90	0.89	335	0	0	SUPER_5:2180710-2187040:-
+Crepidodera_fulvicornis	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Chrysomelidae	present	1	1	A0AAV8ZA90	0.89	348	0	0	SUPER_1:26813393-26833344:-
+Diaperis_boleti	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Tenebrionidae	present	1	0	Q0QHL8	0.99	391	0	0	SUPER_5:36796131-36797949:+
+Eulagius_filicornis	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Mycetophagidae	absent	0	0						
+Lagria_hirta	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Tenebrionidae	absent	0	0						
+Metoecus_paradoxus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Ripiphoridae	present	1	2	A0AAV8ZA90	1.00	345	0	0	SUPER_5:2820431-2822207:-
+Mycetophagus_atomarius	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Mycetophagidae	present	1	0	Q0QHL8	0.95	336	0	0	SUPER_1:26453275-26454994:+
+Mycetophagus_piceus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Mycetophagidae	present	1	1	A0AAV8ZA90	0.89	301	0	0	SUPER_1:3374873-3376493:-
+Mycetophagus_quadripustulatus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Mycetophagidae	present	1	0	Q0QHL8	0.99	343	0	0	SUPER_1_HAP1:23023650-23025456:+
+Nacerdes_melanura	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Oedemeridae	present	1	0	A0A6J2YV67	0.88	287	0	0	SUPER_6:24539181-24540855:+
+Nalassus_laevioctostriatus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Tenebrionidae	present	2	0	Q0QHL8	0.99	407	0	0	SUPER_4:48473669-48475487:+
+Omonadus_floralis	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Anthicidae	present	1	0	Q0QHL8	0.99	357	0	0	SUPER_2:53068571-53070380:+
+Opilo_mollis	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Cleridae	present	1	2	Q0QHL8	0.99	349	0	0	SUPER_7:57238753-57240583:-
+Osphya_bipunctata	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Melandryidae	present	2	1	Q0QHL8	0.99	375	0	0	SUPER_3_HAP1:226317486-226319334:+
+Prionychus_ater	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Tenebrionidae	present	1	0	Q0QHL8	0.99	393	0	0	SUPER_12:10247631-10249452:-
+Pycnomerus_fuliginosus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Zopheridae	present	2	0	Q0QHL8	1.00	398	0	0	SUPER_4:6101766-6103566:+
+Salpingus_planirostris	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Salpingidae	present	1	0	Q0QHL8	0.99	363	0	0	SUPER_11:2533277-2535116:+
+Thanasimus_formicarius	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Cleridae	present	1	3	Q0QHL8	0.99	357	0	0	SUPER_8_HAP1:94552478-94554287:-
+Tillus_elongatus	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Cleridae	present	1	2	Q0QHL8	0.99	356	0	0	SUPER_2:176854231-176856067:+
+Vincenzellus_ruficollis	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Salpingidae	present	1	0	Q0QHL8	1.00	364	0	0	SUPER_4:21833193-21835050:+
+Xestobium_rufovillosum	shift	Coleoptera:ACCTG	ACCTG	Coleoptera	Ptinidae	absent	0	0						
+Adalia_bipunctata	control	Coleoptera:ACCTG	AACCT	Coleoptera	Coccinellidae	absent	0	0						
+Adalia_decempunctata	control	Coleoptera:ACCTG	AACCT	Coleoptera	Coccinellidae	absent	0	0						
+Agelastica_alni	control	Coleoptera:ACCTG	AACCT	Coleoptera	Chrysomelidae	present	1	0	A0AAV8ZA90	1.00	359	0	0	SUPER_4:37444090-37455077:+
+Anisosticta_novemdecimpunctata	control	Coleoptera:ACCTG	AACCT	Coleoptera	Coccinellidae	present	1	0	A0AAV8ZA90	0.91	296	0	0	SUPER_7:27317959-27319648:-
+Anobium_punctatum	control	Coleoptera:ACCTG	AACCT	Coleoptera	Ptinidae	disrupted	1	0	A0A5N4A3Y7	0.98	349	2	1	SUPER_6:29848967-29851675:+
+Andrena_haemorrhoa	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Andrenidae	disrupted	1	0	A0A7M6UMK9	1.00	541	1	0	SUPER_4:22441788-22445104:-
+Cerceris_rybyensis	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	present	1	0	A0A7M6UMK9	0.99	505	0	0	SUPER_14:6947542-6952024:-
+Colletes_cunicularius	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Colletidae	present	1	0	A0A7M6UMK9	0.87	479	0	0	SUPER_13_HAP1:2680428-2683498:+
+Crabro_cribrarius	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	disrupted	1	0	A0A7M6UMK9	0.78	339	1	0	SUPER_9_HAP1:1039037-1041907:-
+Crossocerus_annulipes	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	partial	1	0	A0A7M7PUD8	0.59	205	0	0	SUPER_1:10255624-10257524:-
+Ectemnius_cavifrons	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	absent	0	0						
+Ectemnius_continuus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	present	1	1	A0A7M7PUD8	0.76	269	0	0	SUPER_13:1040640-1047568:+
+Ectemnius_lituratus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	absent	0	1						
+Gorytes_laticinctus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	absent	0	1						
+Hylaeus_dilatatus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Colletidae	present	1	0	A0A7M6UMK9	0.99	537	0	0	SUPER_1:19131098-19134262:-
+Hylaeus_hyalinatus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Colletidae	disrupted	1	0	A0A7M6UMK9	0.99	533	1	1	SUPER_1:5885516-5888560:+
+Hylaeus_signatus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Colletidae	present	1	1	A0A7M6UMK9	0.99	528	0	0	SUPER_7:33176112-33179276:-
+Lasioglossum_lativentre	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Halictidae	disrupted	1	0	A0A7M6UMK9	1.00	550	1	0	SUPER_1:39932540-39935785:-
+Nysson_spinosus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	present	1	0	A0A7M6UMK9	0.99	461	0	0	SUPER_15:1469872-1477289:-
+Nysson_trimaculatus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	present	1	0	A0A7M6UMK9	1.00	461	0	0	SUPER_15:6316934-6320960:-
+Rhopalum_coarctatum	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Crabronidae	present	1	0	A0A7M7PUD8	0.70	239	0	0	SUPER_13:2748784-2750747:+
+Sphecodes_crassus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Halictidae	present	1	0	A0A7M6UMK9	1.00	542	0	0	SUPER_10:12863383-12866635:+
+Sphecodes_ephippius	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Halictidae	present	1	0	A0A7M6UMK9	1.00	545	0	0	SUPER_6:22896571-22899793:-
+Sphecodes_longulus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Halictidae	present	1	0	A0A7M6UMK9	1.00	536	0	0	SUPER_10:1115938-1119175:+
+Sphecodes_monilicornis	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Halictidae	present	1	0	A0A7M6UMK9	1.00	545	0	0	SUPER_12:2377829-2381088:-
+Sphecodes_pellucidus	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Halictidae	present	1	0	A0A7M6UMK9	1.00	544	0	0	SUPER_2_HAP1:22251845-22255091:-
+Sphecodes_puncticeps	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Halictidae	disrupted	1	0	A0A7M6UMK9	1.00	541	1	0	SUPER_16_HAP1:1278933-1282179:-
+Sphecodes_scabricollis	shift	Hymenoptera:AACCCAGACCT	AACCCAGACCT	Hymenoptera	Halictidae	present	1	0	A0A7M6UMK9	1.00	554	0	0	SUPER_7:17110722-17113896:+
+Andrena_angustior	control	Hymenoptera:AACCCAGACCT	AACCT	Hymenoptera	Andrenidae	present	1	0	A0A7M6UMK9	0.87	487	0	0	SUPER_1:106715372-106718477:-
+Crossocerus_cetratus	control	Hymenoptera:AACCCAGACCT	AACCT	Hymenoptera	Crabronidae	absent	0	0						
+Lasioglossum_pauxillum	control	Hymenoptera:AACCCAGACCT	AACCT	Hymenoptera	Halictidae	present	1	0	A0A7M6UMK9	1.00	519	0	0	SUPER_7:26186127-26189364:-
+Mimumesa_dahlbomi	control	Hymenoptera:AACCCAGACCT	AACCT	Hymenoptera	Crabronidae	present	1	0	A0A7M6UMK9	0.99	509	0	0	SUPER_18:2182932-2186688:+
+Abia_aenea	control	Hymenoptera:AACCCAGACCT	AACCT	Hymenoptera	Cimbicidae	present	1	0	A0A6J0BAA1	1.00	591	0	0	SUPER_14:5635407-5639179:+
+Aelia_acuminata	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Pentatomidae	disrupted	1	0	A0A9P0HFI8	1.00	695	2	0	SUPER_4:29664249-29673158:+
+Anthocoris_nemoralis	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Anthocoridae	disrupted	1	1	A0A8I6SSG7	0.96	483	2	0	SUPER_X:44810302-44813054:+
+Berytinus_minor	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Berytidae	present	1	0	A0A9P0HFI8	0.99	477	0	0	SUPER_19:24158196-24175858:+
+Dicranocephalus_agilis	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Stenocephalidae	present	1	1	A0A9P0HFI8	0.92	468	0	0	SUPER_1_HAP1:234772088-234808968:+
+Gonocerus_acuteangulatus	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Coreidae	present	1	1	A0A9P0HFI8	0.96	494	0	0	SUPER_2:11930251-11973415:+
+Grypocoris_stysi	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	present	1	0	A0A8S9XBG4	0.86	578	0	0	SUPER_8:2578198-2600313:-
+Harpocera_thoracica	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	present	1	0	A0A8S9XBG4	0.82	489	0	0	SUPER_6:57375476-57390488:-
+Heterotoma_planicornis	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	present	1	0	A0A8S9XBG4	0.84	459	0	0	SUPER_6_HAP1:20369328-20379646:+
+Ischnodemus_sabuleti	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Blissidae	present	1	0	A0A9P0HFI8	0.95	471	0	0	SUPER_2:124337608-124401271:+
+Leptopterna_dolabrata	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	present	1	0	A0A8S9XBG4	0.84	567	0	0	SUPER_8:28477835-28484715:+
+Miris_striatus	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	present	1	0	A0A8S9XBG4	0.84	603	0	0	SUPER_7_HAP1:21453780-21463441:-
+Neottiglossa_pusilla	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Pentatomidae	disrupted	1	0	A0A9P0HFI8	1.00	702	1	1	SUPER_4_HAP1:23253916-23262096:+
+Pilophorus_perplexus	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	present	1	0	A0A8S9XBG4	0.86	477	0	0	SUPER_9:9577606-9581203:-
+Pithanus_maerkelii	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	present	1	0	A0A8S9XBG4	0.84	556	0	0	SUPER_7:7622479-7631546:-
+Psallus_varians	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	present	1	1	A0A8S9XBG4	0.86	500	0	0	SUPER_7:28386282-28393550:+
+Stenodema_calcarata	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	present	1	1	A0A8S9XBG4	0.84	563	0	0	SUPER_9:6957065-6962850:-
+Stenodema_holsata	shift	Hemiptera:AACCATCCCT	AACCATCCCT	Hemiptera	Miridae	present	1	0	A0A8S9XBG4	0.84	559	0	0	SUPER_8:21994633-22005504:-
+Acericerus_heydenii	control	Hemiptera:AACCATCCCT	AACCT	Hemiptera	Cicadellidae	absent	0	0						
+Allygidius_commutatus	control	Hemiptera:AACCATCCCT	AACCT	Hemiptera	Cicadellidae	absent	0	0						
+Allygus_modestus	control	Hemiptera:AACCATCCCT	AACCT	Hemiptera	Cicadellidae	absent	0	0						
+Arthaldeus_pascuellus	control	Hemiptera:AACCATCCCT	AACCT	Hemiptera	Cicadellidae	absent	0	1						
+Balanococcus_diminutus	control	Hemiptera:AACCATCCCT	AACCT	Hemiptera	Pseudococcidae	absent	0	0						
+Acrodactyla_quadrisculpta	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	absent	0	1						
+Allomacrus_arcticus	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	absent	0	0						
+Clistopyga_incitator	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	absent	0	1						
+Collyria_trichophthalma	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	absent	0	0						
+Cylloceria_caligata	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	absent	0	0						
+Dreisbachia_pictifrons	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	absent	0	0						
+Endromopoda_detrita	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	disrupted	1	0	A0A7M6UMK9	1.00	409	0	1	SUPER_2:31796147-31804492:-
+Endromopoda_phragmitidis	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	disrupted	1	0	A0A7M6UMK9	1.00	414	0	1	SUPER_2_HAP1:7051965-7062249:-
+Ephialtes_manifestator	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	absent	0	0						
+Paraperithous_gnathaulax	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	absent	0	0						
+Perithous_albicinctus	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	absent	0	1						
+Perithous_divinator	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	absent	0	0						
+Rhyssella_approximator	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	present	1	0	A0A7M6UMK9	0.85	352	0	0	SUPER_4_HAP1:6162981-6175170:-
+Scambus_brevicornis	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	present	1	0	A0A7M6UMK9	0.80	338	0	0	SUPER_2_HAP1:28708687-28716215:-
+Schizopyga_frigida	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	present	1	0	A0A7M6UMK9	0.77	331	0	0	SUPER_12:1571071-1577000:+
+Tromatobia_lineatoria	shift	Hymenoptera:AAAGAACCT	AAAGAACCT	Hymenoptera	Ichneumonidae	absent	0	0						
+Allantus_rufocinctus	control	Hymenoptera:AAAGAACCT	AACCT	Hymenoptera	Tenthredinidae	disrupted	1	0	A0A6J0BAA1	0.99	569	1	0	SUPER_3:28898152-28902221:+
+Ametastegia_carpini	control	Hymenoptera:AAAGAACCT	AACCT	Hymenoptera	Tenthredinidae	present	1	0	A0A6J0BAA1	0.99	648	0	0	SUPER_5:5132787-5141504:-
+Ametastegia_equiseti	control	Hymenoptera:AAAGAACCT	AACCT	Hymenoptera	Tenthredinidae	present	1	1	A0A6J0BAA1	0.99	646	0	0	SUPER_6:16649502-16655837:+
+Aneugmenus_padi	control	Hymenoptera:AAAGAACCT	AACCT	Hymenoptera	Tenthredinidae	present	1	0	A0A6J0BAA1	1.00	663	0	0	SUPER_2_HAP2:30102878-30106665:+
+Aneugmenus_temporalis	control	Hymenoptera:AAAGAACCT	AACCT	Hymenoptera	Tenthredinidae	present	1	0	A0A6J0BAA1	1.00	665	0	0	SUPER_3_HAP1:7041852-7045628:-
+Agrypon_flaveolatum	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	absent	0	1						
+Campoletis_raptor	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	absent	0	0						
+Hellwigia_obscura	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	present	1	0	A0A7M6UMK9	0.79	338	0	0	SUPER_7:13857562-13861761:+
+Hyposoter_dolosus	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	absent	0	0						
+Ophion_confusus	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	absent	0	0						
+Ophion_costatus	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	absent	0	0						
+Ophion_ellenae	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	absent	0	0						
+Ophion_forticornis	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	absent	0	0						
+Ophion_obscuratus	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	absent	0	0						
+Ophion_slaviceki	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	absent	0	0						
+Ophion_variegatus	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	absent	0	0						
+Ophion_ventricosus	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	absent	0	0						
+Ophion_wuestneii	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	absent	0	0						
+Tranosemella_praerogator	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	disrupted	1	0	A0A7M6UMK9	0.91	369	1	0	SUPER_4:3606777-3609967:-
+Venturia_canescens	shift	Hymenoptera:AAACAAACCC	AAACAAACCC	Hymenoptera	Ichneumonidae	disrupted	1	0	A0A7M6UMK9	0.72	313	0	1	SUPER_3:4637209-4639869:+
+Apis_mellifera	control	Hymenoptera:AAACAAACCC	AACCT	Hymenoptera	Apidae	present	1	0	A0A7M6UMK9	1.00	800	0	0	SUPER_4:2114003-2117250:+
+Athalia_circularis	control	Hymenoptera:AAACAAACCC	AACCT	Hymenoptera	Athaliidae	present	1	0	A0A6J0BAA1	1.00	583	0	0	SUPER_4:18693130-18697064:+
+Athalia_cordata	control	Hymenoptera:AAACAAACCC	AACCT	Hymenoptera	Athaliidae	present	1	0	A0A6J0BAA1	1.00	582	0	0	SUPER_3:596992-600844:+
+Calameuta_filiformis	control	Hymenoptera:AAACAAACCC	AACCT	Hymenoptera	Cephidae	present	1	0	A0A7M6UMK9	0.81	388	0	0	SUPER_1:12033138-12045368:-
+Calameuta_pallipes	control	Hymenoptera:AAACAAACCC	AACCT	Hymenoptera	Cephidae	partial	1	0	A0A7M6UMK9	0.34	164	0	0	SUPER_2:1174425-1175945:-
+Bombus_campestris	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	present	1	0	A0A7M6UMK9	0.87	499	0	0	SUPER_23:1637360-1642847:-
+Bombus_distinguendus	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	present	1	0	A0A7M6UMK9	0.94	524	0	0	SUPER_14:5294588-5307574:+
+Bombus_hortorum	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	present	1	0	A0A7M6UMK9	0.87	498	0	0	SUPER_17:3583362-3592233:+
+Bombus_hypnorum	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	present	1	0	A0A7M6UMK9	0.87	501	0	0	SUPER_2:22985932-22989502:-
+Bombus_jonellus	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	present	1	0	A0A7M6UMK9	0.87	501	0	0	SUPER_17:3074697-3078248:-
+Bombus_lapidarius	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	present	1	0	A0A7M6UMK9	0.87	498	0	0	SUPER_17:4555592-4561119:-
+Bombus_lucorum	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	present	1	0	A0A7M6UMK9	0.87	501	0	0	SUPER_15:7772320-7777838:+
+Bombus_monticola	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	present	1	0	A0A7M6UMK9	0.87	502	0	0	SUPER_16:5168973-5172538:-
+Bombus_muscorum	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	present	1	0	A0A7M6UMK9	0.87	498	0	0	SUPER_4:15875959-15881508:+
+Bombus_pascuorum	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	present	1	0	A0A7M6UMK9	0.87	494	0	0	SUPER_16:4773407-4778608:-
+Bombus_pratorum	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	present	1	1	A0A7M6UMK9	0.87	502	0	0	SUPER_17:4461910-4465473:+
+Bombus_vestalis	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Apidae	present	2	0	A0A7M6UMK9	0.87	499	0	0	SUPER_11:6928878-6934363:+
+Dasypoda_hirtipes	shift	Hymenoptera:AACCCCAACCT	AACCCCAACCT	Hymenoptera	Melittidae	present	1	0	A0A7M6UMK9	1.00	531	0	0	SUPER_5:14408644-14411804:+
+Nomada_ferruginata	control	Hymenoptera:AACCCCAACCT	AACCT	Hymenoptera	Apidae	present	1	0	A0A7M6UMK9	1.00	550	0	0	SUPER_4:15469570-15472765:-
+Nomada_hirtipes	control	Hymenoptera:AACCCCAACCT	AACCT	Hymenoptera	Apidae	present	1	0	A0A7M6UMK9	1.00	544	0	0	SUPER_7:12526642-12529829:-
+Cephus_pygmeus	control	Hymenoptera:AACCCCAACCT	AACCT	Hymenoptera	Cephidae	present	1	0	A0A8B0H871	0.74	284	0	0	SUPER_2:5764239-5783143:+
+Cephus_spinipes	control	Hymenoptera:AACCCCAACCT	AACCT	Hymenoptera	Cephidae	present	1	0	A0A834Y692	0.87	392	0	0	SUPER_3:21048636-21101344:-
+Dolerus_asper	control	Hymenoptera:AACCCCAACCT	AACCT	Hymenoptera	Tenthredinidae	present	1	0	A0A6J0BAA1	1.00	698	0	0	SUPER_6:4018322-4023290:+
+Aegialia_arenaria	shift	Coleoptera:AACCC	AACCC	Coleoptera	Scarabaeidae	present	1	0	Q0QHL8	0.94	295	0	0	SUPER_1:71946755-71969110:+
+Aphodius_sticticus	shift	Coleoptera:AACCC	AACCC	Coleoptera	Scarabaeidae	disrupted	1	0	A0AAV8ZA90	0.91	314	1	0	SUPER_1:23846850-23861639:+
+Apoderus_coryli	shift	Coleoptera:AACCC	AACCC	Coleoptera	Attelabidae	absent	0	0						
+Bruchidius_varius	shift	Coleoptera:AACCC	AACCC	Coleoptera	Chrysomelidae	present	1	0	A0AAV8ZA90	1.00	335	0	0	SUPER_7:59532953-59537256:-
+Curculio_glandium	shift	Coleoptera:AACCC	AACCC	Coleoptera	Curculionidae	present	1	0	A0A6J2YV67	0.97	362	0	0	SUPER_7:43920613-43936505:+
+Dorcus_parallelipipedus	shift	Coleoptera:AACCC	AACCC	Coleoptera	Lucanidae	disrupted	1	1	A0A5N4A3Y7	1.00	354	2	1	SUPER_5:23641440-23645571:-
+Melolontha_melolontha	shift	Coleoptera:AACCC	AACCC	Coleoptera	Scarabaeidae	absent	0	0						
+Oxystoma_pomonae	shift	Coleoptera:AACCC	AACCC	Coleoptera	Brentidae	absent	0	0						
+Rhizotrogus_aestivus	shift	Coleoptera:AACCC	AACCC	Coleoptera	Scarabaeidae	absent	0	1						
+Aphthona_nonstriata	control	Coleoptera:AACCC	AACCT	Coleoptera	Chrysomelidae	present	1	0	A0AAV8ZA90	0.89	348	0	0	SUPER_1:26596650-26600398:-
+Bruchidius_siliquastri	control	Coleoptera:AACCC	AACCT	Coleoptera	Chrysomelidae	present	1	0	A0AAV8ZA90	1.00	356	0	0	SUPER_8:12638072-12640084:-
+Bruchidius_villosus	control	Coleoptera:AACCC	AACCT	Coleoptera	Chrysomelidae	present	1	0	A0AAV8ZA90	1.00	348	0	0	SUPER_6:62946441-62954841:+
+Bruchus_rufimanus	control	Coleoptera:AACCC	AACCT	Coleoptera	Chrysomelidae	present	1	2	A0AAV8ZA90	1.00	354	0	0	SUPER_5:1217972-1220143:-
+Chaetocnema_hortensis	control	Coleoptera:AACCC	AACCT	Coleoptera	Chrysomelidae	present	1	0	A0AAV8ZA90	0.90	320	0	0	SUPER_1:47632835-47634530:+
+Hylobius_abietis	shift	Coleoptera:AAACTAACCC	AAACTAACCC	Coleoptera	Curculionidae	present	1	1	A0A6J2YV67	0.98	363	0	0	SUPER_2_HAP1:128029057-128055325:-
+Larinus_planus	shift	Coleoptera:AAACTAACCC	AAACTAACCC	Coleoptera	Curculionidae	present	1	0	A0A6J2YV67	0.98	369	0	0	SUPER_1:8364654-8381312:-
+Leiosoma_deflexum	shift	Coleoptera:AAACTAACCC	AAACTAACCC	Coleoptera	Curculionidae	present	1	0	A0A6J2YV67	0.98	373	0	0	SUPER_10:23609336-23613288:-
+Mononychus_punctumalbum	shift	Coleoptera:AAACTAACCC	AAACTAACCC	Coleoptera	Curculionidae	absent	0	0						
+Orchestes_rusci	shift	Coleoptera:AAACTAACCC	AAACTAACCC	Coleoptera	Curculionidae	absent	0	2						
+Stenocarus_ruficornis	shift	Coleoptera:AAACTAACCC	AAACTAACCC	Coleoptera	Curculionidae	absent	0	1						
+Cryptorhynchus_lapathi	control	Coleoptera:AAACTAACCC	AACCT	Coleoptera	Curculionidae	absent	0	0						
+Ips_sexdentatus	control	Coleoptera:AAACTAACCC	AACCT	Coleoptera	Curculionidae	present	1	1	A0A6J2YV67	0.98	355	0	0	SUPER_4:2547501-2560136:-
+Otiorhynchus_rugosostriatus	control	Coleoptera:AAACTAACCC	AACCT	Coleoptera	Curculionidae	present	1	1	A0A7E5VNM5	1.00	575	0	0	SUPER_22:7657126-7659262:-
+Phyllobius_roboretanus	control	Coleoptera:AAACTAACCC	AACCT	Coleoptera	Curculionidae	absent	0	1						
+Phyllobius_virideaeris	control	Coleoptera:AAACTAACCC	AACCT	Coleoptera	Curculionidae	absent	0	0						
+Dyspetes_luteomarginatus	shift	Hymenoptera:AAACCC	AAACCC	Hymenoptera	Ichneumonidae	present	1	0	A0A834Y692	0.65	288	0	0	SUPER_7:14452112-14455159:-
+Netelia_fuscicornis	shift	Hymenoptera:AAACCC	AAACCC	Hymenoptera	Ichneumonidae	absent	0	0						
+Netelia_melanura	shift	Hymenoptera:AAACCC	AAACCC	Hymenoptera	Ichneumonidae	absent	0	1						
+Polyblastus_varitarsus	shift	Hymenoptera:AAACCC	AAACCC	Hymenoptera	Ichneumonidae	absent	0	0						
+Stilbops_ruficornis	shift	Hymenoptera:AAACCC	AAACCC	Hymenoptera	Ichneumonidae	absent	0	0						
+Syrphoctonus_tarsatorius	shift	Hymenoptera:AAACCC	AAACCC	Hymenoptera	Ichneumonidae	absent	0	0						
+Dolerus_haematodes	control	Hymenoptera:AAACCC	AACCT	Hymenoptera	Tenthredinidae	present	1	0	A0A6J0BAA1	1.00	692	0	0	SUPER_8_HAP1:6207742-6212737:-
+Dolerus_triplicatus	control	Hymenoptera:AAACCC	AACCT	Hymenoptera	Tenthredinidae	present	1	0	A0A6J0BAA1	1.00	704	0	0	SUPER_3:6120085-6125277:-
+Eutomostethus_luteiventris	control	Hymenoptera:AAACCC	AACCT	Hymenoptera	Tenthredinidae	present	1	0	A0A6J0BAA1	1.00	638	0	0	SUPER_3:17203957-17208756:-
+Euura_bergmanni	control	Hymenoptera:AAACCC	AACCT	Hymenoptera	Tenthredinidae	present	1	0	A0A6J0BAA1	1.00	605	0	0	SUPER_4_HAP1:24697059-24701500:+
+Euura_tibialis	control	Hymenoptera:AAACCC	AACCT	Hymenoptera	Tenthredinidae	present	1	1	A0A6J0BAA1	1.00	618	0	0	SUPER_11:5792025-5795627:-
+Andrena_flavipes	shift	Hymenoptera:AACCCT	AACCCT	Hymenoptera	Andrenidae	present	1	0	A0A7M6UMK9	1.00	536	0	0	SUPER_4:55821318-55824558:+
+Andrena_nitida	shift	Hymenoptera:AACCCT	AACCCT	Hymenoptera	Andrenidae	disrupted	1	0	A0A7M6UMK9	1.00	534	0	1	SUPER_4:33321314-33324586:-
+Anthidium_manicatum	shift	Hymenoptera:AACCCT	AACCCT	Hymenoptera	Megachilidae	present	1	0	A0A7M6UMK9	1.00	537	0	0	SUPER_6:13733769-13736833:+
+Seladonia_tumulorum	shift	Hymenoptera:AACCCT	AACCCT	Hymenoptera	Halictidae	present	1	0	A0A7M6UMK9	0.99	527	0	0	SUPER_6:20124352-20127557:-
+Stelis_phaeoptera	shift	Hymenoptera:AACCCT	AACCCT	Hymenoptera	Megachilidae	present	1	1	A0A7M6UMK9	1.00	529	0	0	SUPER_3:8705916-8709006:+
+Tiphia_femorata	shift	Hymenoptera:AACCCT	AACCCT	Hymenoptera	Tiphiidae	absent	0	1						
+Heriades_truncorum	control	Hymenoptera:AACCCT	AACCT	Hymenoptera	Megachilidae	present	1	0	A0A7M6UMK9	1.00	534	0	0	SUPER_13_HAP2:9805879-9808893:-
+Megachile_ligniseca	control	Hymenoptera:AACCCT	AACCT	Hymenoptera	Megachilidae	present	1	0	A0A7M6UMK9	1.00	556	0	0	SUPER_2:4573290-4576319:+
+Osmia_bicornis_bicornis	control	Hymenoptera:AACCCT	AACCT	Hymenoptera	Megachilidae	present	1	0	A0A7M6UMK9	1.00	535	0	0	SUPER_12:801175-804163:+
+Tiphia_minuta	control	Hymenoptera:AACCCT	AACCT	Hymenoptera	Tiphiidae	present	1	0	A0A8I6SSG7	0.67	238	0	0	SUPER_10:11495553-11497427:-
+Formica_rufa	control	Hymenoptera:AACCCT	AACCT	Hymenoptera	Formicidae	absent	0	0						
+Bugula_neritina	shift	Cheilostomatida:AAACCCC	AAACCCC	Cheilostomatida	Bugulidae	present	1	0	A0A7J7IUN8	1.00	866	0	0	SUPER_4:17754410-17764249:-
+Bugulina_stolonifera	shift	Cheilostomatida:AAACCCC	AAACCCC	Cheilostomatida	Bugulidae	present	1	1	A0A7J7IUN8	0.94	599	0	0	SUPER_2:13875216-13883938:-
+Cryptosula_pallasiana	shift	Cheilostomatida:AAACCCC	AAACCCC	Cheilostomatida	Cryptosulidae	present	1	0	A0A7J7IUN8	0.99	546	0	0	SUPER_1:28654011-28718214:-
+Membranipora_membranacea	shift	Cheilostomatida:AAACCCC	AAACCCC	Cheilostomatida	Membraniporidae	disrupted	1	0	A0A7J7IUN8	0.93	515	1	0	SUPER_6:7868644-7879347:+
+Watersipora_subatra	shift	Cheilostomatida:AAACCCC	AAACCCC	Cheilostomatida	Watersiporidae	disrupted	1	0	A0A7J7IUN8	0.95	532	0	1	SUPER_7:43996643-44045930:-
+Aproceros_leucopoda	shift	Hymenoptera:AACCC	AACCC	Hymenoptera	Argidae	absent	0	0						
+Arge_ochropus	shift	Hymenoptera:AACCC	AACCC	Hymenoptera	Argidae	partial	1	0	A0A834J8V0	0.53	263	0	0	SUPER_5:12168563-12171185:+
+Arge_ustulata	shift	Hymenoptera:AACCC	AACCC	Hymenoptera	Argidae	absent	0	0						
+Eremotylus_marginatus	shift	Hymenoptera:AACCC	AACCC	Hymenoptera	Ichneumonidae	absent	0	0						
+Macropis_europaea	shift	Hymenoptera:AACCC	AACCC	Hymenoptera	Melittidae	present	1	0	A0A7M6UMK9	1.00	555	0	0	SUPER_7:21190067-21193607:-
+Gilpinia_frutetorum	control	Hymenoptera:AACCC	AACCT	Hymenoptera	Diprionidae	present	1	0	A0A6J0BAA1	1.00	788	0	0	SUPER_7:24248623-24252683:+
+Hoplocampa_crataegi	control	Hymenoptera:AACCC	AACCT	Hymenoptera	Tenthredinidae	present	1	0	A0A6J0BAA1	1.00	629	0	0	SUPER_8_HAP1:4683149-4686858:-
+Lasius_brunneus	control	Hymenoptera:AACCC	AACCT	Hymenoptera	Formicidae	absent	0	0						
+Lasius_flavus	control	Hymenoptera:AACCC	AACCT	Hymenoptera	Formicidae	absent	0	0						
+Lasius_fuliginosus	control	Hymenoptera:AACCC	AACCT	Hymenoptera	Formicidae	absent	0	1						
+Dolichovespula_media	shift	Hymenoptera:AACCCAGACGC	AACCCAGACGC	Hymenoptera	Vespidae	disrupted	2	0	A0A834J8V0	0.89	757	2	0	SUPER_20:4792284-4797319:-
+Dolichovespula_sylvestris	shift	Hymenoptera:AACCCAGACGC	AACCCAGACGC	Hymenoptera	Vespidae	disrupted	1	0	A0A834J8V0	0.89	768	1	0	SUPER_20:901628-906739:+
+Symmorphus_gracilis	shift	Hymenoptera:AACCCAGACGC	AACCCAGACGC	Hymenoptera	Vespidae	present	1	0	A0A834J8V0	0.82	535	0	0	SUPER_4:26788233-26791273:+
+Vespula_germanica	shift	Hymenoptera:AACCCAGACGC	AACCCAGACGC	Hymenoptera	Vespidae	present	1	0	A0A834J8V0	1.00	910	0	0	SUPER_19:4330117-4339593:+
+Vespula_vulgaris	shift	Hymenoptera:AACCCAGACGC	AACCCAGACGC	Hymenoptera	Vespidae	present	1	1	A0A834J8V0	1.00	922	0	0	SUPER_18:4295631-4305064:+
+Lasius_platythorax	control	Hymenoptera:AACCCAGACGC	AACCT	Hymenoptera	Formicidae	absent	0	0						
+Macrophya_alboannulata	control	Hymenoptera:AACCCAGACGC	AACCT	Hymenoptera	Tenthredinidae	disrupted	1	1	A0A6J0BAA1	0.99	664	0	1	SUPER_2:29336896-29342884:+
+Macrophya_annulata	control	Hymenoptera:AACCCAGACGC	AACCT	Hymenoptera	Tenthredinidae	present	1	1	A0A6J0BAA1	1.00	686	0	0	SUPER_1:21233701-21239992:+
+Macrophya_punctumalbum	control	Hymenoptera:AACCCAGACGC	AACCT	Hymenoptera	Tenthredinidae	present	1	0	A0A6J0BAA1	0.99	668	0	0	SUPER_9:14415167-14425306:-
+Macrophya_ribis	control	Hymenoptera:AACCCAGACGC	AACCT	Hymenoptera	Tenthredinidae	disrupted	1	0	A0A6J0BAA1	0.99	664	0	1	SUPER_8:4474082-4480072:+
+Grypus_equiseti	shift	Coleoptera:AAACC	AAACC	Coleoptera	Erirhinidae	absent	0	0						
+Magdalis_cerasi	shift	Coleoptera:AAACC	AAACC	Coleoptera	Curculionidae	absent	0	0						
+Platypus_cylindrus	shift	Coleoptera:AAACC	AAACC	Coleoptera	Curculionidae	present	1	0	A0A6J2YV67	1.00	374	0	0	SUPER_1:10557753-10559658:+
+Sphaeridium_bipustulatum	shift	Coleoptera:AAACC	AAACC	Coleoptera	Hydrophilidae	present	1	0	Q0QHL8	0.90	286	0	0	SUPER_2:17982143-17984133:-
+Abax_parallelepipedus	control	Coleoptera:AAACC	AACCT	Coleoptera	Carabidae	absent	0	0						
+Acupalpus_dubius	control	Coleoptera:AAACC	AACCT	Coleoptera	Carabidae	absent	0	0						
+Acupalpus_parvulus	control	Coleoptera:AAACC	AACCT	Coleoptera	Carabidae	absent	0	1						
+Agonum_muelleri	control	Coleoptera:AAACC	AACCT	Coleoptera	Carabidae	absent	0	2						
+Agonum_viduum	control	Coleoptera:AAACC	AACCT	Coleoptera	Carabidae	absent	0	1						
+Nomada_flava	shift	Hymenoptera:AAACCTAACCC	AAACCTAACCC	Hymenoptera	Apidae	present	1	0	A0A7M6UMK9	1.00	548	0	0	SUPER_4:16900056-16903252:-
+Nomada_fucata	shift	Hymenoptera:AAACCTAACCC	AAACCTAACCC	Hymenoptera	Apidae	disrupted	1	0	A0A7M6UMK9	1.00	544	0	1	SUPER_3:8364247-8367433:+
+Nomada_goodeniana	shift	Hymenoptera:AAACCTAACCC	AAACCTAACCC	Hymenoptera	Apidae	present	1	0	A0A7M6UMK9	1.00	540	0	0	SUPER_5:18188688-18191871:-
+Nomada_panzeri	shift	Hymenoptera:AAACCTAACCC	AAACCTAACCC	Hymenoptera	Apidae	present	1	0	A0A7M6UMK9	1.00	548	0	0	SUPER_9:13991775-13994971:-
+Monostegia_abdominalis	control	Hymenoptera:AAACCTAACCC	AACCT	Hymenoptera	Tenthredinidae	present	1	0	A0A6J0BAA1	1.00	621	0	0	SUPER_5:3912534-3917736:-
+Rhogogaster_chlorosoma	control	Hymenoptera:AAACCTAACCC	AACCT	Hymenoptera	Tenthredinidae	present	1	0	A0A6J0BAA1	0.99	683	0	0	SUPER_10:10700471-10704454:+
+Selandria_serva	control	Hymenoptera:AAACCTAACCC	AACCT	Hymenoptera	Tenthredinidae	present	1	0	A0A6J0BAA1	1.00	624	0	0	SUPER_5:2093528-2096992:+
+Stromboceros_delicatulus	control	Hymenoptera:AAACCTAACCC	AACCT	Hymenoptera	Tenthredinidae	disrupted	1	0	A0A6J0BAA1	1.00	671	0	1	SUPER_7:6395090-6398670:+
+Tenthredo_amoena	control	Hymenoptera:AAACCTAACCC	AACCT	Hymenoptera	Tenthredinidae	present	1	0	A0A6J0BAA1	0.99	691	0	0	SUPER_15:2023937-2027959:+
+Ceriagrion_tenellum	shift	Odonata:AACCC	AACCC	Odonata	Coenagrionidae	absent	0	1						
+Coenagrion_pulchellum	shift	Odonata:AACCC	AACCC	Odonata	Coenagrionidae	absent	0	0						
+Platycnemis_pennipes	shift	Odonata:AACCC	AACCC	Odonata	Platycnemididae	absent	0	0						
+Pyrrhosoma_nymphula	shift	Odonata:AACCC	AACCC	Odonata	Coenagrionidae	absent	0	0						
+Hypera_postica	shift	Coleoptera:AAAACTAACC	AAAACTAACC	Coleoptera	Curculionidae	absent	0	0						
+Hypera_rumicis	shift	Coleoptera:AAAACTAACC	AAAACTAACC	Coleoptera	Curculionidae	absent	0	0						
+Sitona_cylindricollis	shift	Coleoptera:AAAACTAACC	AAAACTAACC	Coleoptera	Curculionidae	absent	0	0						
+Agrilus_biguttatus	control	Coleoptera:AAAACTAACC	AACCT	Coleoptera	Buprestidae	present	1	0	A0A7F5R7N7	0.98	498	0	0	SUPER_2:24181678-24183577:-
+Agrilus_cyanescens	control	Coleoptera:AAAACTAACC	AACCT	Coleoptera	Buprestidae	present	1	0	A0A7F5R7N7	0.98	453	0	0	SUPER_2:12516055-12517942:+
+Agrypnus_murinus	control	Coleoptera:AAAACTAACC	AACCT	Coleoptera	Elateridae	present	1	0	A0A5N4A3Y7	0.97	412	0	0	SUPER_4:20753182-20767204:+
+Aleochara_curtula	control	Coleoptera:AAAACTAACC	AACCT	Coleoptera	Staphylinidae	absent	0	1						
+Amara_aenea	control	Coleoptera:AAAACTAACC	AACCT	Coleoptera	Carabidae	absent	0	0						
+Barypeithes_pellucidus	shift	Coleoptera:AAACCCGAAC	AAACCCGAAC	Coleoptera	Curculionidae	present	1	0	A0A6J2YV67	0.98	354	0	0	SUPER_1:54136291-54154363:+
+Pachyrhinus_lethierryi	shift	Coleoptera:AAACCCGAAC	AAACCCGAAC	Coleoptera	Curculionidae	absent	0	0						
+Polydrusus_pterygomalis	shift	Coleoptera:AAACCCGAAC	AAACCCGAAC	Coleoptera	Curculionidae	absent	0	1						
+Amara_convexiuscula	control	Coleoptera:AAACCCGAAC	AACCT	Coleoptera	Carabidae	present	1	0	A0A6J2YV67	0.94	271	0	0	SUPER_10:27525029-27534689:+
+Amara_familiaris	control	Coleoptera:AAACCCGAAC	AACCT	Coleoptera	Carabidae	absent	0	0						
+Amara_ovata	control	Coleoptera:AAACCCGAAC	AACCT	Coleoptera	Carabidae	absent	0	1						
+Amara_plebeja	control	Coleoptera:AAACCCGAAC	AACCT	Coleoptera	Carabidae	absent	0	1						
+Amara_tibialis	control	Coleoptera:AAACCCGAAC	AACCT	Coleoptera	Carabidae	absent	0	0						
+Otiorhynchus_armadillo	shift	Coleoptera:AACCTGAACT	AACCTGAACT	Coleoptera	Curculionidae	absent	0	0						
+Polydrusus_tereticollis	shift	Coleoptera:AACCTGAACT	AACCTGAACT	Coleoptera	Curculionidae	present	1	0	A0A6J2YV67	0.98	363	0	0	SUPER_1:153979628-154011439:-
+Taphrorychus_bicolor	shift	Coleoptera:AACCTGAACT	AACCTGAACT	Coleoptera	Curculionidae	absent	0	1						
+Anaglyptus_mysticus	control	Coleoptera:AACCTGAACT	AACCT	Coleoptera	Cerambycidae	present	1	0	A0AAV8ZA90	1.00	489	0	0	SUPER_5:4064442-4066476:-
+Aplotarsus_incanus	control	Coleoptera:AACCTGAACT	AACCT	Coleoptera	Elateridae	present	1	0	A0A5N4A3Y7	0.97	404	0	0	SUPER_8:25683464-25695198:-
+Arhopalus_rusticus	control	Coleoptera:AACCTGAACT	AACCT	Coleoptera	Cerambycidae	present	1	0	A0AAV8ZA90	1.00	462	0	0	SUPER_3:44723806-44729208:+
+Aromia_moschata	control	Coleoptera:AACCTGAACT	AACCT	Coleoptera	Cerambycidae	disrupted	1	0	A0AAV8ZA90	1.00	610	1	0	SUPER_2:15087316-15089613:-
+Attagenus_pellio	control	Coleoptera:AACCTGAACT	AACCT	Coleoptera	Dermestidae	present	1	0	Q0QHL8	0.94	334	0	0	SUPER_2:32855857-32861760:-
+Carabus_intricatus	shift	Coleoptera:ACCCT	ACCCT	Coleoptera	Carabidae	absent	0	0						
+Carabus_nemoralis	shift	Coleoptera:ACCCT	ACCCT	Coleoptera	Carabidae	absent	0	0						
+Carabus_problematicus	shift	Coleoptera:ACCCT	ACCCT	Coleoptera	Carabidae	absent	0	0						
+Calathus_fuscipes	control	Coleoptera:ACCCT	AACCT	Coleoptera	Carabidae	absent	0	1						
+Calathus_melanocephalus	control	Coleoptera:ACCCT	AACCT	Coleoptera	Carabidae	absent	0	1						
+Dromius_quadrimaculatus	control	Coleoptera:ACCCT	AACCT	Coleoptera	Carabidae	absent	0	0						
+Harpalus_anxius	control	Coleoptera:ACCCT	AACCT	Coleoptera	Carabidae	absent	0	1						
+Leistus_rufomarginatus	control	Coleoptera:ACCCT	AACCT	Coleoptera	Carabidae	absent	0	0						
+Chrysis_angustula	shift	Hymenoptera:AACCCACTCT	AACCCACTCT	Hymenoptera	Chrysididae	absent	0	0						
+Hedychridium_cupreum	shift	Hymenoptera:AACCCACTCT	AACCCACTCT	Hymenoptera	Chrysididae	present	1	0	A0A7M6UMK9	0.84	371	0	0	SUPER_16_HAP1:2089855-2094214:+
+Hedychridium_roseum	shift	Hymenoptera:AACCCACTCT	AACCCACTCT	Hymenoptera	Chrysididae	present	1	0	A0A7M6UMK9	0.84	378	0	0	SUPER_16:1551436-1556001:+
+Tenthredo_arcuata	control	Hymenoptera:AACCCACTCT	AACCT	Hymenoptera	Tenthredinidae	present	1	1	A0A6J0BAA1	0.99	679	0	0	SUPER_11:3710246-3714268:-
+Tenthredo_distinguenda	control	Hymenoptera:AACCCACTCT	AACCT	Hymenoptera	Tenthredinidae	present	1	0	A0A6J0BAA1	0.99	691	0	0	SUPER_7:3989291-3993299:-
+Tenthredo_livida	control	Hymenoptera:AACCCACTCT	AACCT	Hymenoptera	Tenthredinidae	present	1	0	A0A6J0BAA1	0.99	684	0	0	SUPER_3:36220817-36224637:+
+Tenthredo_notha	control	Hymenoptera:AACCCACTCT	AACCT	Hymenoptera	Tenthredinidae	present	1	0	A0A6J0BAA1	0.99	682	0	0	SUPER_14:4495819-4499834:+
+Tenthredo_scrophulariae	control	Hymenoptera:AACCCACTCT	AACCT	Hymenoptera	Tenthredinidae	present	1	0	A0A6J0BAA1	0.99	691	0	0	SUPER_6:16250698-16254639:+
+Aspidapion_aeneum	shift	Coleoptera:AACCG	AACCG	Coleoptera	Brentidae	absent	0	0						
+Taeniapion_urticarium	shift	Coleoptera:AACCG	AACCG	Coleoptera	Brentidae	absent	0	0						
+Bitoma_crenata	control	Coleoptera:AACCG	AACCT	Coleoptera	Zopheridae	present	1	0	Q0QHL8	0.99	390	0	0	SUPER_1:19563524-19565357:-
+Calvia_quattuordecimguttata	control	Coleoptera:AACCG	AACCT	Coleoptera	Coccinellidae	absent	0	0						
+Cantharis_flavilabris	control	Coleoptera:AACCG	AACCT	Coleoptera	Cantharidae	present	1	0	A0A5N4A3Y7	1.00	403	0	0	SUPER_5:7820762-7823509:+
+Cantharis_lateralis	control	Coleoptera:AACCG	AACCT	Coleoptera	Cantharidae	present	1	0	A0A5N4A3Y7	0.99	403	0	0	SUPER_4:4652658-4655291:+
+Cantharis_pellucida	control	Coleoptera:AACCG	AACCT	Coleoptera	Cantharidae	disrupted	1	0	Q0QHL8	0.89	311	1	1	SUPER_5:11050820-11053147:+
+Alydus_calcaratus	shift	Hemiptera:AACCACCCCT	AACCACCCCT	Hemiptera	Alydidae	present	1	0	A0A9P0HFI8	0.95	454	0	0	SUPER_5:28491595-28504512:-
+Rhaphigaster_nebulosa	shift	Hemiptera:AACCACCCCT	AACCACCCCT	Hemiptera	Pentatomidae	disrupted	1	0	A0A9P0HFI8	1.00	719	2	0	SUPER_4:118677339-118690807:-
+Cicadella_lasiocarpae	control	Hemiptera:AACCACCCCT	AACCT	Hemiptera	Cicadellidae	absent	0	0						
+Conomelus_anceps	control	Hemiptera:AACCACCCCT	AACCT	Hemiptera	Delphacidae	absent	0	1						
+Drepanosiphum_platanoidis	control	Hemiptera:AACCACCCCT	AACCT	Hemiptera	Aphididae	disrupted	1	0	G4XRL2	1.00	595	1	0	SUPER_5:2995885-2998410:-
+Eurhadina_loewii	control	Hemiptera:AACCACCCCT	AACCT	Hemiptera	Cicadellidae	absent	0	2						
+Lamprotettix_nitidulus	control	Hemiptera:AACCACCCCT	AACCT	Hemiptera	Cicadellidae	absent	0	0						
+Netelia_virgata	shift	Hymenoptera:AAACC	AAACC	Hymenoptera	Ichneumonidae	absent	0	0						
+Oxytorus_armatus	shift	Hymenoptera:AAACC	AAACC	Hymenoptera	Ichneumonidae	absent	0	0						
+Tenthredo_zona	control	Hymenoptera:AAACC	AACCT	Hymenoptera	Tenthredinidae	present	1	0	A0A6J0BAA1	0.99	683	0	0	SUPER_5_HAP1:4052542-4057216:-
+Urocerus_augur	control	Hymenoptera:AAACC	AACCT	Hymenoptera	Siricidae	present	1	0	A0A7M6UMK9	0.98	440	0	0	SUPER_11:3943267-3946405:-
+Xiphydria_camelus	control	Hymenoptera:AAACC	AACCT	Hymenoptera	Xiphydriidae	absent	0	0						
+Diplazon_laetatorius	shift	Hymenoptera:AAAGAACCC	AAAGAACCC	Hymenoptera	Ichneumonidae	absent	0	0						
+Zaglyptus_varipes	shift	Hymenoptera:AAAGAACCC	AAAGAACCC	Hymenoptera	Ichneumonidae	absent	0	0						
+Chalcis_sispes	shift	Hymenoptera:AACCCAAT	AACCCAAT	Hymenoptera	Chalcididae	present	1	0	A0A7M7PUD8	0.96	413	0	0	SUPER_6:26534716-26537302:-
+Ormyrus_nitidulus	shift	Hymenoptera:AACCCAAT	AACCCAAT	Hymenoptera	Ormyridae	absent	0	0						
+Tryphon_signator	shift	Hymenoptera:AACCCC	AACCCC	Hymenoptera	Ichneumonidae	absent	0	0						
+Tryphon_thomsoni	shift	Hymenoptera:AACCCC	AACCCC	Hymenoptera	Ichneumonidae	absent	0	0						
+Trypoxylon_attenuatum	shift	Hymenoptera:ACCTG	ACCTG	Hymenoptera	Crabronidae	absent	0	0						
+Trypoxylon_clavicerum	shift	Hymenoptera:ACCTG	ACCTG	Hymenoptera	Crabronidae	absent	0	0						
+Biston_betularia	shift	Lepidoptera:ACCT	ACCT	Lepidoptera	Geometridae	present	1	0	A0A7E5VNM5	1.00	559	0	0	SUPER_23:4837325-4839461:-
+Catocala_promissa	shift	Lepidoptera:ACCT	ACCT	Lepidoptera	Erebidae	present	1	0	A0A7E5VNM5	1.00	573	0	0	SUPER_10:605982-608112:+
+Abraxas_sylvata	control	Lepidoptera:ACCT	AACCT	Lepidoptera	Geometridae	present	1	0	A0A7E5VNM5	1.00	552	0	0	SUPER_22:5645976-5648103:-
+Acasis_viretata	control	Lepidoptera:ACCT	AACCT	Lepidoptera	Geometridae	present	1	0	A0A7E5VNM5	1.00	540	0	0	SUPER_11:13336706-13338821:-
+Agriopis_aurantiaria	control	Lepidoptera:ACCT	AACCT	Lepidoptera	Geometridae	present	1	0	A0A7E5VNM5	1.00	562	0	0	SUPER_23:6273990-6276129:-
+Agriopis_leucophaearia	control	Lepidoptera:ACCT	AACCT	Lepidoptera	Geometridae	present	1	0	A0A7E5VNM5	1.00	559	0	0	SUPER_22:6123227-6125375:+
+Agriopis_marginaria	control	Lepidoptera:ACCT	AACCT	Lepidoptera	Geometridae	present	1	0	A0A7E5VNM5	1.00	557	0	0	SUPER_1:6426569-6428708:+
+Caenorhabditis_monodelphis	shift	Rhabditida:AAGCCT	AAGCCT	Rhabditida	Rhabditidae	absent	0	0						
+Trichostrongylus_colubriformis	shift	Rhabditida:AAGCCT	AAGCCT	Rhabditida	Trichostrongylidae	present	1	0	A0A158QQX1	0.60	373	0	0	SUPER_5:21887991-21912197:-
+Cylindromyia_interrupta	test	Diptera:test	AAGCTCACCCACT	Diptera	Tachinidae	absent	0	0						
+Baccha_elongata	test	Diptera:test	AACACC	Diptera	Syrphidae	absent	0	0						
+Lonchoptera_lutea	test	Diptera:test	AAACTC	Diptera	Lonchopteridae	absent	0	0						
+Dioctria_baumhaueri	test	Diptera:test	AACT	Diptera	Asilidae	absent	0	1						
+Clusia_tigrina	test	Diptera:test	AATAGTGTATAGTGTAG	Diptera	Clusiidae	absent	0	1						
+Microphor_holosericeus	test	Diptera:test	AAGGTC	Diptera	Empididae	absent	0	1						
+Eratigena_atrica	test	Araneae:test	ACACACACACATATATAT	Araneae	Agelenidae	absent	0	1						
+Amaurobius_ferox	test	Araneae:test	AATATATATAT	Araneae	Amaurobiidae	absent	0	0						
+Araneus_angulatus	test	Araneae:test	AAGCACTCTGACCGCTGTAATTGGATGC	Araneae	Araneidae	absent	0	0						
+Araneus_marmoreus	test	Araneae:test	AACCTCGATAATCCG	Araneae	Araneidae	absent	0	1						
+Linyphia_triangularis	test	Araneae:test	AGAT	Araneae	Linyphiidae	absent	0	0						
+Segestria_senoculata	test	Araneae:test	AGATCTCATGCGC	Araneae	Segestriidae	absent	0	1						
+Ecdyonurus_torrentis	test	Ephemeroptera:test	AAAG	Ephemeroptera	Heptageniidae	absent	0	0						
+Siphlonurus_alternatus	test	Ephemeroptera:test	AACCAGGCC	Ephemeroptera	Siphlonuridae	absent	0	0						
+Serratella_ignita	test	Ephemeroptera:test	AAAT	Ephemeroptera	Ephemerellidae	absent	0	0						
+Ephemera_vulgata	test	Ephemeroptera:test	AAATGCCC	Ephemeroptera	Ephemeridae	absent	0	1						
+Procloeon_bifidum	test	Ephemeroptera:test	AAAAATTTAGTACCAACTGGTGCT	Ephemeroptera	Baetidae	present	1	0	A0A8S1DV25	1.00	500	0	0	SUPER_4:34887843-34890454:-
+Cloeon_dipterum	test	Ephemeroptera:test	ACCGCATGACGCTACTGCAGT	Ephemeroptera	Baetidae	present	1	0	A0A8S1DV25	1.00	670	0	0	SUPER_3:30481135-30483701:-

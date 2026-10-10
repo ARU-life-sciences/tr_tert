@@ -1,0 +1,2 @@
+A unit ACCAGACCTAG: 11 template-like candidates; 5 with a blastn hit in B
+B unit ACCCAG: 0 co-varying candidates

@@ -1,0 +1,6 @@
+species	fasta	family	unit	support	order	class	phylum
+Lissotriton_helveticus	/data/tol/data/darwin/amphibians/Lissotriton_helveticus/assembly/curated/aLisHel1.2/aLisHel1.2.primary.fa.gz	Salamandridae	AGAT	weak	Caudata	Amphibia	Chordata
+Lissotriton_montandoni	/data/tol/data/darwin/amphibians/Lissotriton_montandoni/assembly/curated/aLisMon1.1/aLisMon1.hap1.1.primary.fa.gz	Salamandridae	AGAT	weak	Caudata	Amphibia	Chordata
+Lissotriton_vulgaris	/data/tol/data/darwin/amphibians/Lissotriton_vulgaris/assembly/curated/aLisVul1.2/aLisVul1.2.primary.fa.gz	Salamandridae	AGAT	weak	Caudata	Amphibia	Chordata
+Triturus_cristatus	/data/tol/data/darwin/amphibians/Triturus_cristatus/assembly/curated/aTriCri1.1/aTriCri1.1.primary.fa.gz	Salamandridae	ACTACTCACTCTCT	weak	Caudata	Amphibia	Chordata
+Viscum_album	/data/tol/data/darwin/dicots/Viscum_album/assembly/curated/drVisAlbu1.1/drVisAlbu1.1.primary.fa.gz	Viscaceae	AATAATTAGT	weak	Santalales	Magnoliopsida	Streptophyta
