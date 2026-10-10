@@ -87,6 +87,52 @@ telomere-validated seeds, lineage-specific models, copy-aware template
 checks, covariance models, synteny and co-variation; TERT by miniprot + RBD
 domain and profile HMMs.
 
+## Requirements checklist (2026-10-10)
+
+Core = needed for the paper; optional = section 4 or a later paper.
+
+**A. Data and infrastructure**
+- [ ] A1 Finish the ToL TR search (round-2/3 stragglers, literature-seeded run) and merge into **one TR table**: species, TR locus, template, copies, model, support
+- [ ] A2 TR search for the 7 genomes left out (2 out of memory, 5 too large)
+- [ ] A3 Physical consolidation (`tol_telomeres` -> `tr_tert/tol`, `tol_run/`) and path fixes
+- [ ] A4 **Species tree** for the 3,422 species: Open Tree of Life synthetic topology + TimeTree dates; BUSCO-based trees for key clades if needed
+- [ ] A5 **Final repeat-state table**: canonical unit, support, compound/mixed flag, curated exceptions (*Andrena* dual repeats, satellite calls, *Aphodius*)
+- [ ] A6 (optional) Refresh the assembly list; add ERGA/EBP
+
+**B. Section 1, repeat evolution**
+- [ ] B1 Ancestral-state reconstruction on the tree; transitions counted per lineage, not per species
+- [ ] B2 Classify transitions: edit distance, "contains ancestral", route 1 vs 2, against a null
+- [ ] B3 G-run constraint against a null (random units of matched length/composition; non-telomeric tandem repeats from the same genomes)
+- [ ] B4 Transition rates (Mk models), repeated targets, reversals
+- [ ] B5 Mixed/compound telomeres: second unit at chromosome ends, per species
+- [ ] B6 Predictors (phylogenetic regression): holocentricity (literature list), genome size, GC, chromosome number, TR copy state
+
+**C. Section 2, TR mechanism**
+- [ ] C1 TR table tree-wide (from A1) with template checks
+- [ ] C2 Positional survey extended to vertebrates, plants and the new animal groups
+- [ ] C3 TR copy number per genome with a uniform search per clade
+- [ ] C4 Route-vs-copy test (phylogenetically controlled)
+- [ ] C5 TE content around mobile vs stationary TRs (ToL Earl Grey repeat annotations where present)
+- [ ] C6 TERT coevolution: codon alignments (CDS from miniprot or ToL gene annotations), PAML branch/clade models
+- [ ] C7 Biogenesis classification: type-3 promoter, box H/ACA, intronic
+
+**D. Section 3, telomerase loss**
+- [ ] D1 **TERT search across all 3,422 species** (miniprot panel + RBD, HMM fallback)
+- [ ] D2 Map losses (no TERT, no telomere at ends); characterise chromosome ends without telomerase
+- [ ] D3 Spiders: more evidence (sensitivity checks, more assemblies)
+
+**E. Section 4 (optional)**
+- [ ] E1 Telomere length atlas (`tidk ends` lengths; `tidk length` on HiFi)
+- [ ] E2 Interstitial telomeric sequences as fusion scars
+- [ ] E3 TR horizontal-transfer screen
+- [ ] E4 T2T QC table for DToL
+
+**F. Figures and writing**
+- [ ] F1 Fig 1: tree with repeat states; Fig 2: two routes + G-run; Fig 3: TR validation and relocation; Fig 4: TR copies and mechanism; Fig 5: telomerase loss
+- [ ] F2 Methods (tidk 0.3.0 and the TR/TERT pipelines), supplementary tables, data release
+
+Order: start the long compute first (D1, A1), then A4 (needed by B1, B4, B6, C4), then the quick analyses (B2, B3, B5) while it runs.
+
 ## Status
 
 Done: 1 (data, first numbers), 2 (validation, relocation survey, copies), 3
