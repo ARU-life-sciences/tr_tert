@@ -112,3 +112,7 @@ tol/tr_tol/outputs/*.nhmmer.tbl
 tol/tr_tol_r*/logs/
 tol/tr_tol_r*/outputs/*.hits.fa
 tol/tr_tol_r*/outputs/*.nhmmer.tbl
+
+# santalales: downloaded genomes stay on disk
+santalales/genomes/
+santalales/logs/

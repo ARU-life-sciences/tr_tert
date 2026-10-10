@@ -1,0 +1,14 @@
+species	accession	level	note
+Santalum_album	GCA_043873815.1	complete	sandalwood
+Malania_oleifera	GCF_029873635.1	chromosome	RefSeq annotated
+Taxillus_chinensis	GCA_023512835.1	chromosome	Loranthaceae mistletoe
+Taxillus_sutchuenensis	GCA_056956755.1	chromosome	Loranthaceae mistletoe
+Scurrula_parasitica	GCA_051363255.1	chromosome	Loranthaceae mistletoe
+Thesium_ramosoides	GCA_059757395.1	chromosome	Santalaceae
+Champereia_manillana	GCA_059467235.1	chromosome	Opiliaceae
+Erythropalum_scandens	GCA_051306975.1	chromosome	Erythropalaceae
+Dendrophthoe_pentandra	GCA_059756755.1	scaffold	Loranthaceae mistletoe
+Balanophora_yakushimensis	GCA_041381295.1	contig	holoparasite
+Scleropyrum_pentandrum	GCA_059701425.1	scaffold	Santalaceae
+Strombosia_ceylanica	GCA_059705605.1	scaffold	Strombosiaceae
+Scorodocarpus_borneensis	GCA_059628465.1	scaffold	Olacaceae
