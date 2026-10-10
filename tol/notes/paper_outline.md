@@ -7,8 +7,8 @@ changes, telomerase RNA mobility and telomerase loss across 3,400 genomes.*
 ## Thesis
 
 Telomeric repeats change by two routes - single template mutations, and
-larger changes that keep the ancestral repeat and add to it - under a
-constraint that every repeat keeps a G-run. The large changes are made
+larger changes that keep the ancestral repeat and add to it - with
+G-triplets strongly enriched (a G-quadruplex or protein-binding constraint). The large changes are made
 possible by telomerase RNA (TR) duplication and relocation, which is frequent
 in some lineages (Hymenoptera) and rare in others (Lepidoptera). Where
 telomerase is lost altogether, other things occupy the chromosome ends.
@@ -24,10 +24,17 @@ Data: tidk 0.3.0 calls checked at chromosome ends, 3,422 DToL species
   (`AACCCAGACCT`, `AACCATCCCT`, `AAAGAACCT`, ...), and only 18 lie between.
   Most large changes contain the ancestral repeat plus an insertion.
   To do: per-lineage (not per-species) counts; test against TR copy state.
-- **A G-run constraint.** All 268 non-ancestral repeats keep `GG` or `GGG` on
-  the G-rich strand (187 `GGG`). To do: compare with random units of the same
-  length and composition; G-quadruplex potential; telomere-binding protein
-  (TRF/TRB, POT1) coevolution.
+  Caveat: these counts only included units containing `CC` (as the first
+  G-run count did); redo without that filter (B2).
+- **G-triplet enrichment** (B3, `repeat_evolution/grun_null.py`). Of 86
+  distinct derived telomeric units, 56% have a `GGG` run on the G-rich strand,
+  against 26% for the same units shuffled (same length and composition) and
+  22% of non-telomeric tandem repeats in the same genomes; `GG` alone is only
+  weakly enriched (84% vs 71%). Simulated from the per-unit shuffle
+  probabilities: `GGG` p < 1e-5, `GG` p = 1.6e-4. (An earlier "268/268 keep a G-run" was an
+  artefact: that count only included units containing `CC`.) To do:
+  G-quadruplex potential; telomere-binding protein (TRF/TRB, POT1)
+  coevolution.
 - **Rates and patterns on the tree.** Number of independent changes,
   reversals, direction, repeated targets (`AACCC`, `ACCTG` in several beetle
   and wasp lineages). Needs a ToL species tree.
