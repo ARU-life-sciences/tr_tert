@@ -96,6 +96,14 @@ Data: `tr_tert/tol/` (TR.md, tr_hym, denovo, tr_copies, tr_tol).
 
 - TERT absent and no telomere at chromosome ends in Diptera (expected) and
   spiders (0/6 TERT, 0/18 telomeres: new), *Viscum*.
+- **Tree-wide TERT, first pass** (D1, `tert_tol/`: miniprot with a 505-protein
+  panel incl. 159 fungal/protist TERTs, + RBD): found in 2,722, partial 89,
+  absent 569 of 3,380 genomes; 319 have neither TERT nor a telomere at any
+  end. Diptera 401/402 without TERT (274 also without telomeres); **spiders
+  36/36 without TERT** (28 without telomeres) - twice the earlier sample.
+  Absences in damselflies (14/14), leafhoppers, mayflies and stoneflies have
+  telomeres, so are search misses: profile-HMM + RBD search of the 168
+  non-Diptera absences (+20 Diptera controls) running.
 - To do: map losses tree-wide; characterise chromosome ends without
   telomerase (retrotransposon arrays, satellites, recombination signatures);
   interrupted telomeres (Lepidoptera `not_terminal`, TRAS/SART) as a possible
@@ -149,7 +157,7 @@ Core = needed for the paper; optional = section 4 or a later paper.
 - [ ] C7 Biogenesis classification: type-3 promoter, box H/ACA, intronic
 
 **D. Section 3, telomerase loss**
-- [ ] D1 **TERT search across all 3,422 species** (miniprot panel + RBD, HMM fallback)
+- [~] D1 **TERT search across all 3,422 species** (miniprot done; HMM fallback running) (miniprot panel + RBD, HMM fallback)
 - [ ] D2 Map losses (no TERT, no telomere at ends); characterise chromosome ends without telomerase
 - [ ] D3 Spiders: more evidence (sensitivity checks, more assemblies)
 
