@@ -46,8 +46,13 @@ Data: tidk 0.3.0 calls checked at chromosome ends, 3,422 DToL species
   `AACCCACTCT`+`AACCCAGTCT` (*Hedychridium*), `AAACCCT`+`AACCCCT`
   (*Arctium* x2), `AAACCCT`+`AAACCCG` (*Epilobium hirsutum*),
   `AACCCTG`+`AAACCCT` (*Hypericum hirsutum*). Like *Mimulus lewisii* (two TR
-  paralogs, mixed telomere; Kumawat 2023). To do: do these species have two
-  TR copies, one templating each unit? Caveats: "compound" second units
+  paralogs, mixed telomere; Kumawat 2023). First test (plant TR loci from
+  `tr_tert/outputs/tr_template_loci`): ***Hypericum hirsutum* has two TR
+  paralogs on different scaffolds, one templating each unit** (SCAFFOLD_5,
+  `AAACCCT`; SCAFFOLD_4, `AACCCTG`). *Epilobium hirsutum* (3 copies, one
+  cluster) and *Arctium* (4 copies, dispersed) show only `AAACCCT`
+  templates. To do: the animal cases (no TRs yet for *Bruchidius*,
+  *Oxystoma*, *Korscheltellus*, *Hedychridium*). Caveats: "compound" second units
   (one unit within the other's tandem; 1,280 species) are mostly variant
   repeats inside ordinary telomeres, and many "mixed" second units are
   satellites next to the telomere.
