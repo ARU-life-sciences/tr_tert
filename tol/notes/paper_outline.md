@@ -13,6 +13,44 @@ possible by telomerase RNA (TR) duplication and relocation, which is frequent
 in some lineages (Hymenoptera) and rare in others (Lepidoptera). Where
 telomerase is lost altogether, other things occupy the chromosome ends.
 
+## Prior work that overlaps, and what stays new (2026-10-11)
+
+- **Fajkus et al. 2026 GBE 18:evag069 (beetles).** TR in *Tribolium* (two
+  paralogs, TcTR1/2, active in vitro); a Coleoptera CM (Zenodo
+  17782128) finds TRs in 301/420 beetle genomes (Table S2: 299
+  sequences), templates matching lineage-specific repeats; **TERT absent
+  in derived Scarabaeoidea (Dynastinae, Rutelinae, Cetoniinae, Hopliini)**,
+  present in basal Melolonthinae. 184 of our 317 beetles are in their set
+  (mostly the same DToL assemblies). Their telomere motifs agree with our
+  calls in 159/177 shared species; their TERT calls agree with ours except
+  seven rove beetles/histerids where we missed TERT (rerun with their
+  beetle TERTs). So: beetle TRs and the scarab loss are theirs - we cite,
+  use their CM, and fold beetles into the tree-wide analyses.
+- **Lukhtanov & Pazhenkova 2023 Biol J Linn Soc 140:536.** Motif survey of
+  220 DToL insects (8 orders): non-canonical motifs in Pentatomomorpha and
+  Apocrita; SART/TRAS insertions in telomeres of most insects; long repeats
+  in Syrphidae/Tachinidae; hypothesis that a telomerase/retrotransposon
+  balance relaxes motif constraint. Our calls agree in 46/51 shared species
+  (disagreements are our weak calls). Their hypothesis is testable with our
+  data (repeat change rates vs SART/TRAS at ends, TERT loss).
+- **Stoianova et al. 2025 Diversity 17:552; 2026 CompCytogen 20:171
+  (Hemiptera).** Motifs from 16 assemblies (used tidk) and TREW on SRA
+  reads for Nepomorpha: `TTAGAGGTGG` (*Gerris*), `TTAGGGATGG` (Aradidae),
+  `TGAC` (*Aphrophora*), 10-bp `TGGATAGG..` decamers in Nepomorpha. No TRs,
+  no TERT. Hemiptera TRs remain unknown: open for us.
+- **Samo et al. 2026 bioRxiv (*Mimulus*).** TERT evolves fast in lineages
+  sharing the TR duplication; TERT binds both TR paralogs. Supports C6 (TERT
+  coevolution with TR duplication) as a tree-wide test.
+- **Klapproth et al. 2026 (*Caenorhabditis*).** Intronic TR (in *nmy-2*),
+  21 species. Another biogenesis switch for C7.
+
+What stays new: the scale and the comparisons across clades - per-lineage
+transition counts and rates on a dated tree across all eukaryote groups in
+DToL, the two routes and the G-run constraint, TR relocation and copy
+number compared between clades, tree-wide telomerase loss (spiders new),
+and Hemiptera TRs if found. Motif catalogues per group and single-clade TR
+discovery are no longer novel on their own.
+
 ## 1. Repeat evolution (the backbone)
 
 Data: tidk 0.3.0 calls checked at chromosome ends, 3,422 DToL species

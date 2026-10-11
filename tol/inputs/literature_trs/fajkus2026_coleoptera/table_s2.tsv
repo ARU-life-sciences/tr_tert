@@ -1,0 +1,418 @@
+species	family	GCA	telomere_t2t	telomere_trfi	tert	tr_accession	tr_from	tr_to	tr_strand	tr_copies
+Notoxus_monoceros	Anthicidae	GCA_965276455.1	1/18 TCAGG	TCAGG	hit	OZ255611.1	76840169	76840375	+	1
+Araecerus_fasciculatus	Anthribidae	GCA_050578095.1		n.a.	hit	JAWMAH010002438.1	15489	15668	+	2
+Platystomos_albinus	Anthribidae	GCA_964106875.1	18/22 TTAGG	TTAGG	hit	OZ066732.1	5173734	5173962	+	1
+Pseudeuparius_sepicola	Anthribidae	GCA_963920635.1	18/24 TTAGG	TTAGG	hit	OY987307.1	24044031	24044218	+	1
+Aspidapion_aeneum	Apionidae	GCA_963576565.1	10/22 TTCGG	TTCGG	hit					
+Oxystoma_pomonae	Apionidae	GCA_963921995.1	12/22 TTGGG	TTGGG	hit					
+Apoderus_coryli	Attelabidae	GCA_911728435.2	8/40 TTGGG	TTGGG	hit	OU452199.1	34870335	34870519	+	22
+Biphyllus_lunatus	Biphyllidae	GCA_965194465.1	33/36 TCAGG	TCAGG	hit	OZ239151.1	36186821	36187006	+	8
+Rhyzopertha_dominica	Bostrichidae	GCA_025024175.1		TCAGG	hit					
+Dastarcus_helophoroides	Bothrideridae	GCA_028583605.1	5/26 TTAGG	TTAGG	hit	CM053329.1	29008066	29008258	+	1
+Cylas_formicarius	Brentidae	GCA_029955315.1		TTTTGGTTAG	hit	JARGXY010000004.1	23569011	23569227	+	1
+Agrilus_biguttatus	Buprestidae	GCA_963921985.1	7/22 TTAGG	TTAGG	hit	OY998118.1	24467921	24468121	+	1
+Agrilus_cyanescens	Buprestidae	GCA_947389935.1	7/22 TTAGG	TTAGG	hit	OY998118.1	24467921	24468121	+	1
+Agrilus_mali	Buprestidae	GCA_029378335.1		TTAGG	hit	OX376706.1	12196080	12195882	-	1
+Agrilus_planipennis	Buprestidae	GCA_000699045.2		TTAGG	hit					
+Sambus_kanssuensis	Buprestidae	GCA_047651835.1		TTAGG	hit	CM105360.1	31191522	31191723	+	1
+Cantharis_decipiens	Cantharidae	GCA_965642435.1	2/14 TTAGG	n.a.	hit	OZ284948.1	8370971	8370769	-	1
+Cantharis_flavilabris	Cantharidae	GCA_949152465.1	12/14 TTAGG	TTAGG	hit	OX424438.1	31532914	31533116	+	1
+Cantharis_lateralis	Cantharidae	GCA_963170105.1	11/14 TTAGG	TTAGG	hit	OY720625.1	39791572	39791776	+	1
+Cantharis_nigra	Cantharidae	GCA_958510845.1	7/14 TTAGG	TTAGG	hit	OY294031.1	29991870	29992066	+	2
+Cantharis_rufa	Cantharidae	GCA_947369205.1	10/14 TTAGG	TTAGG	hit	OX376307.1	33638126	33637925	-	2
+Cantharis_rustica	Cantharidae	GCA_911387805.1	6/14 TTAGG	TTAGG	hit	OU426881.1	11549451	11549264	-	1
+Lycocerus_yunnanus	Cantharidae	GCA_036346125.1		TTAGG	hit	JARFIX010000006.1	484835	484640	-	1
+Malthinus_flaveolus	Cantharidae	GCA_950108345.1	10/12 TTAGG	TTAGG	hit	OX467285.1	48871919	48872136	+	1
+Malthinus_seriepunctatus	Cantharidae	GCA_963924605.1	3/12 TTAGG	TTAGG	hit	OZ004600.1	70790105	70790303	+	1
+Malthodes_marginatus	Cantharidae	GCA_965119235.1	4/12 TTAGG	TTAGG	hit	OZ221430.1	36489647	36489444	-	2
+Malthodes_minimus	Cantharidae	GCA_964263285.1	9/14 TTAGG	TTAGG	hit	OZ181723.1	139417104	139416924	-	2
+Podabrus_alpinus	Cantharidae	GCA_932274525.1	3/14 TTAGG	TTAGG	hit	OW026454.1	17739295	17739097	-	1
+Rhagonycha_fulva	Cantharidae	GCA_905340355.1	4/14 TTAGG	TTAGG	hit	HG996554.1	8877594	8877791	+	1
+Rhagonycha_lignosa	Cantharidae	GCA_965212295.1	7/14 TTAGG	TTAGG	hit	OZ243225.1	70289926	70290118	+	1
+Rhagonycha_lutea	Cantharidae	GCA_958510855.1	5/14 TTAGG	TTAGG	hit	OY294038.1	57435839	57435627	-	1
+Abax_parallelepipedus	Carabidae	GCA_964197645.1	15/36 TTAGG	TTAGG	hit	OZ078030.1	11404883	11405081	+	4
+Agonum_fuliginosum	Carabidae	GCA_947534325.1	24/38 TTTAGACCGAA	TTAGG/TTTAGACCGAA	hit	OX384043.1	18954889	18954671	-	1
+Amara_ovata	Carabidae	GCA_965279835.1	14/22 TTAGG	TTAGG	hit	OZ257476.1	30494890	30495119	+	2
+Blemus_discus	Carabidae	GCA_050230235.1		TTAGG	hit					
+Calosoma_granatense	Carabidae	GCA_022063505.1		n.a.	hit	JAGJTL010000059.1	970794	971006	+	3
+Calosoma_tepidum	Carabidae	GCA_044734075.1		TAGGG	hit	JBIFNO010000004.1	4859901	4860114	+	4
+Calosoma_wilkesii	Carabidae	GCA_044734065.1		TAGGG	hit	JBIFNN010000003.1	10798702	10798912	+	6
+Carabus_banonii	Carabidae	GCA_964291765.2	26/30 TAGGG	TAGGG	hit	OZ198164.1	10384304	10384542	+	1
+Carabus_blaptoides_fortunei	Carabidae	GCA_050785175.1		TAGGG	hit	BSRF01002111.1	242397	242623	+	9
+Carabus_depressus	Carabidae	GCA_048127345.1		n.a.	hit					
+Carabus_problematicus	Carabidae	GCA_963422195.1	18/28 TAGGG	TAGGG	hit	OY728580.1	13124603	13124866	+	2
+Cedrorum_azoricus	Carabidae	GCA_965287095.1	7/32 TTAGG	TTAGG	hit	OZ261459.1	585487	585707	+	1
+Clivina_fossor	Carabidae	GCA_963966155.1	5/44 TTAGG	TTAGG	hit	OZ014560.1	3745023	3744804	-	10
+Dicheirus_dilatatus	Carabidae	GCA_043773905.1		n.a.	hit	JBECYY010000006.1	15318744	15318959	+	2
+Dromius_quadrimaculatus	Carabidae	GCA_963989225.1	13/28 TTAGG	TTAGG	hit	OZ022326.1	19113571	19113793	+	1
+Harpalus_anxius	Carabidae	GCA_965601895.1	12/38 TTAGG	TTAGG	hit	OZ271883.1	18705837	18705625	-	4
+Harpalus_rubripes	Carabidae	GCA_963082715.1	5/38 TTAGG	TTAGG	hit	OY720459.1	41650633	41650852	+	3
+Kurasawatrechus_hirakei_hirakei	Carabidae	GCA_050230135.1		TTAGG	hit	JBNCAE010006745.1	10516	10316	-	1
+Leistus_spinibarbis	Carabidae	GCA_933228885.1	26/46 TTAGG	TTAGG	hit	OW121795.1	8420418	8420187	-	2
+Nebria_brevicollis	Carabidae	GCA_944738965.1	19/30 TTAGG	TTAGG	hit	OX122897.1	15414579	15414355	-	3
+Nebria_ingens_riversi	Carabidae	GCA_018344505.1		TTAGG	hit	JADQWA010000126.1	28408	28639	+	1
+Nebria_salina	Carabidae	GCA_944039245.1	27/42 TTAGG	TTAGG	hit	OX063268.1	3738760	3738535	-	4
+Nipponaphaenops_erraticus	Carabidae	GCA_050230155.1		TTAGG	hit	JBNCAF010004937.1	9881	10116	+	1
+Notiophilus_biguttatus	Carabidae	GCA_965642445.1	15/26 TTGTGAATAATTGAGAATAA	TTAGG	hit	OZ258410.1	40279469	40279667	+	1
+Ocys_tachysoides	Carabidae	GCA_965282375.1	13/14 TTAGG	TTAGG	hit					
+Ophonus_ardosiacus	Carabidae	GCA_943142095.1	7/38 TTAGG	TTAGG	hit					
+Poecilus_cupreus	Carabidae	GCA_963942605.1	24/42 TTAGG	TTAGG	hit					
+Pogonus_chalceus	Carabidae	GCA_002278615.1		TTAGG	hit	CM008237.1	3548088	3548278	+	1
+Pterostichus_madidus	Carabidae	GCA_911728475.2	10/38 TTAGG	TTAGG	hit	OU452313.1	18380526	18380748	+	6
+Pterostichus_niger	Carabidae	GCA_947425015.1	7/38 TTAGG	TTAGG	hit	OX380341.1	16604187	16604407	+	1
+Pterostichus_vernalis	Carabidae	GCA_965283465.1	27/44 TTAGG	TTAGG	hit					
+Stenolophus_ochropezus	Carabidae	GCA_035578165.1		TTAGG	hit	JAQOWZ010000011.1	22214384	22214599	+	3
+Trechiama_lewisi	Carabidae	GCA_050230255.1		TTAGG	hit	JBNCAH010012166.1	7146	7357	+	4
+Anoplophora_glabripennis	Cerambycidae	GCA_000390285.2		TTAGG	hit	KZ487209.1	100175	100366	+	2
+Arhopalus_rusticus	Cerambycidae	GCA_046563155.1		TTAGG	hit	CM102200.1	171594665	171594531	-	1
+Arhopalus_unicolor	Cerambycidae	GCA_045514315.1		TTAGG	hit	CM098605.1	134463640	134463427	-	1
+Aromia_moschata	Cerambycidae	GCA_965642075.1	18/28 TTAGG	TTAGG	hit	OZ284428.1	45598844	45599030	+	1
+Batocera_rufomaculata	Cerambycidae	GCA_050941775.1		TTAGG	hit	JBKOFD010000001.1	34669664	34669874	+	1
+Exocentrus_adspersus	Cerambycidae	GCA_029955175.1		n.a.	hit	JANEYG010000002.1	2049737	2049925	+	3
+Grammoptera_ruficornis	Cerambycidae	GCA_964332215.1	22/24 TTAGG	TTAGG	hit	OZ201107.1	24963259	24963443	+	2
+Leptura_quadrifasciata	Cerambycidae	GCA_963675555.1	6/20 TTAGG	TTAGG	hit	OY776673.1	167112789	167112968	+	1
+Molorchus_minor	Cerambycidae	GCA_029963825.1		n.a.	hit	JAPWTJ010000069.1	232905	232775	-	2
+Monochamus_alternatus	Cerambycidae	GCA_037114965.1		TTAGG	hit	CM073430.1	31173125	31172982	-	2
+Monochamus_saltuarius	Cerambycidae	GCA_025584915.1		n.d.	hit	CM046724.1	63398718	63398531	-	2
+Nadezhdiella_cantori	Cerambycidae	GCA_051225655.1		TTAGG	hit	CM119096.1	11473391	11473597	+	1
+Neoclytus_acuminatus_acuminatus	Cerambycidae	GCA_047371185.1		n.a.	hit	JBKEIY010000005.1	26673235	26673020	-	1
+Pogonocherus_hispidulus	Cerambycidae	GCA_963924545.1	15/22 TTAGG	TTAGG	hit	OZ004692.1	25293694	25293507	-	1
+Rhagium_mordax	Cerambycidae	GCA_963680705.1	9/20 TTAGG	TTAGG	hit	OY796656.1	6469981	6470174	+	1
+Rhamnusium_bicolor	Cerambycidae	GCA_029963845.1		n.a.	hit	JANEYF010001596.1	1732945	1733129	+	3
+Rosalia_funebris	Cerambycidae	GCA_037954035.1		n.a.	hit	JAZFAV010000017.1	6010208	6010034	-	2
+Rutpela_maculata	Cerambycidae	GCA_936432065.2	3/20 TTAGG	TTAGG	hit	OW386286.2	86302339	86302513	+	2
+Stenurella_melanura	Cerambycidae	GCA_963583905.1	11/20 TTAGG	TTAGG	hit	OY757312.1	68985022	68984844	-	16
+Stictoleptura_scutellata	Cerambycidae	GCA_964212005.1	14/20 TTAGG	TTAGG	hit	OZ125664.1	21543824	21544008	+	2
+Tetraopes_tetrophthalmus	Cerambycidae	GCA_042257075.1		n.a.	hit	JBBENX010000928.1	625584	625388	-	2
+Tetropium_fuscum	Cerambycidae	GCA_964058775.1	20/26 TTAGG	TTAGG	hit	OZ060246.1	64706647	64706837	+	4
+Opilo_mollis	Cleridae	GCA_964338635.1	12/18 TCAGG	TCAGG	hit	OZ201991.1	96815178	96815360	+	4
+Adalia_bipunctata	Coccinellidae	GCA_910592335.1	7/22 TTAGG	TTAGG	hit	OU342954.1	12531681	12531455	-	1
+Adalia_decempunctata	Coccinellidae	GCA_951802165.1	12/24 TTAGG	TTAGG	hit	OX637702.1	23785311	23785516	+	1
+Anisosticta_novemdecimpunctata	Coccinellidae	GCA_964188095.1	9/22 TTAGG	TTAGG	hit	OZ076654.1	33394179	33393958	-	1
+Aphidecta_obliterata	Coccinellidae	GCA_963966015.1	1/20 TTAGG	TTAGG	hit	OZ014429.1	24320694	24320465	-	21
+Calvia_quattuordecimguttata	Coccinellidae	GCA_964059645.1	14/20 TTAGG	TTAGG	hit	OZ060822.1	112039007	112039245	+	1
+Coccidula_rufa	Coccinellidae	GCA_965178175.1	17/20 TCAGG	TCAGG	hit	OZ238025.1	138067420	138067634	+	1
+Coccinella_septempunctata	Coccinellidae	GCA_907165205.1		TTAGG	hit	OU015573.1	44504220	44504429	+	1
+Cryptolaemus_montrouzieri	Coccinellidae	GCA_013387265.2		n.a.	hit	JABFTP020000144.1	25070897	25071104	+	2
+Cynegetis_impunctata	Coccinellidae	GCA_030704885.1		n.a.	hit					
+Halyzia_sedecimguttata	Coccinellidae	GCA_937662695.2	11/20 TTAGG	TTAGG	hit	OW569413.2	38503289	38503520	+	4
+Harmonia_axyridis	Coccinellidae	GCA_914767665.1		TTAGG	hit	OU611927.1	34610059	34609841	-	1
+Harmonia_quadripunctata	Coccinellidae	GCA_965642415.1	6/16 TTAGG	TTAGG	hit	OZ284970.1	11947204	11947442	+	4
+Henosepilachna_vigintioctopunctata	Coccinellidae	GCA_030704895.1		n.a.	hit					
+Hippodamia_convergens	Coccinellidae	GCA_038502775.1		TTAGG	hit					
+Hippodamia_variegata	Coccinellidae	GCA_046424425.1		TTAGG	hit	CM101730.1	49049835	49050056	+	1
+Megalocaria_dilatata	Coccinellidae	GCA_034642435.1		TTAGG	hit	CM067858.1	71013083	71012871	-	1
+Micraspis_discolor	Coccinellidae	GCA_030674115.1		n.a.	hit	JARTUT010000003.1	3633829	3634052	+	1
+Myrrha_octodecimguttata	Coccinellidae	GCA_958510865.1	8/20 TTAGG	TTAGG	hit	OY294057.1	19784070	19784288	+	1
+Novius_pumilus	Coccinellidae	GCA_020654155.1		n.a.	hit					
+Propylea_japonica	Coccinellidae	GCA_013421045.1		n.a.	hit	CM024239.1	28785032	28784806	-	2
+Serangium_japonicum	Coccinellidae	GCA_040543525.2		TTAGG	hit					
+Cryptophagus_acutangulus	Cryptophagidae	GCA_963556235.1	13/36 TTAGG	TTAGG	hit					
+Pediacus_dermestoides	Cucujidae	GCA_963942485.1	13/20 TTAGG	TTAGG	hit	OZ012625.1	8786676	8786855	+	1
+Anthonomus_grandis	Curculionidae	GCA_022605725.1		TTGGG	hit					
+Anthonomus_rubi	Curculionidae	GCA_050242925.2		TTGGG	hit					
+Barypeithes_pellucidus	Curculionidae	GCA_963991005.1	19/22 TTTGTTCGGG	TTTGTTCGGG	hit	OZ022557.1	92727458	92727237	-	4
+Ceutorhynchus_assimilis	Curculionidae	GCA_917834065.1		TTTGGGTTAG	hit	OU892278.1	12478890	12478681	-	6
+Ceutorhynchus_obstrictus	Curculionidae	GCA_965178145.1	1/28 TTTGGGTTAG	TTTGGGTTAG	hit	OZ238010.1	59209564	59209775	+	13
+Cosmopolites_sordidus	Curculionidae	GCA_031761425.1		n.a.	hit	JARFXV010001890.1	4397	4204	-	2
+Cryptorhynchus_lapathi	Curculionidae	GCA_965641385.1	34/36 TTAGG	TTAGG	hit	OZ281987.1	5110558	5110337	-	5
+Curculio_caryae	Curculionidae	GCA_051047995.1		TTGGG	hit	CM117443.1	185554844	185555070	+	7
+Dendroctonus_frontalis	Curculionidae	GCA_040113315.1		n.a.	hit	CM078935.1	31819519	31819710	+	1
+Dendroctonus_ponderosae	Curculionidae	GCA_020466585.1		TTTGGGTTAG	hit	JAFETG010000011.1	3394776	3394575	-	1
+Dendroctonus_valens	Curculionidae	GCA_024550625.1		TTTGGGTTAG	hit					
+Diaprepes_abbreviatus	Curculionidae	GCA_034092305.1		n.d.	hit	JASJET010000055.1	40108142	40107936	-	1
+Elaeidobius_kamerunicus	Curculionidae	GCA_014849505.1		TTGGGTTAGA	hit	JACGEL010031416.1	918	709	-	1
+Eucryptorrhynchus_brandti	Curculionidae	GCA_040894065.1		n.a.	hit	CM081801.1	9293325	9293115	-	1
+Eucryptorrhynchus_scrobiculatus	Curculionidae	GCA_046736385.1		n.a.	hit	CP061784.1	6959113	6958903	-	1
+Euwallacea_fornicatus	Curculionidae	GCA_040115645.1		n.a.	hit	CM078776.1	1231544	1231761	+	1
+Euwallacea_similis	Curculionidae	GCA_039881205.1		n.a.	hit	CM077969.1	219289	219075	-	1
+Hypera_rumicis	Curculionidae	GCA_965643735.1	13/24 TTTTGGTTAG	TTTTGGTTAG	hit	OZ286123.1	45244543	45244335	-	1
+Hypothenemus_hampei	Curculionidae	GCA_041296355.1		TTAGG	hit	JBDJPC010000010.1	3088645	3088453	-	4
+Ips_nitidus	Curculionidae	GCA_018691245.2		TTAGG	hit	CM042798.1	8303523	8303316	-	1
+Ips_typographus	Curculionidae	GCA_016097725.1		TTAGG	hit	JADDUH010000025.1	1427098	1426891	-	2
+Kuschelorhynchus_macadamiae	Curculionidae	GCA_030620095.1		n.a.	hit	JAUTXW010005110.1	660374	660567	+	2
+Kyklioacalles_roboris	Curculionidae	GCA_964211925.1	7/40 TTTGGGTTAG	TTTGGGTTAG	hit	OZ125627.1	17864823	17864615	-	3
+Larinus_minutus	Curculionidae	GCA_041228525.2		TTTGGGTTAG	hit	JBGEDJ020000001.1	74586303	74586495	+	2
+Leiosoma_deflexum	Curculionidae	GCA_965260835.1	14/34 TTTGGGTTAG	TTTGGGTTAG	hit	OZ253196.1	22737687	22737471	-	2
+Listronotus_bonariensis	Curculionidae	GCA_014170235.1		TTCTGGTTAG	hit	JACEGR010004808.1	33906	34095	+	3
+Listronotus_oregonensis	Curculionidae	GCA_019359885.1		n.a.	hit	JAHBCN010000424.1	214605	214398	-	3
+Magdalis_cerasi	Curculionidae	GCA_965642045.1	13/38 TTTGG	TTTGG	hit					
+Orchestes_rusci	Curculionidae	GCA_958502075.1	11/24 TTTGGGTAG	TTTGGGTTAG	hit	OY293308.1	35041639	35041918	+	3
+Pachyrhinus_lethierryi	Curculionidae	GCA_965118235.1	18/22 TTTGTTCGGG	n.a.	hit	OZ221309.1	42697801	42698008	+	2
+Pachyrhynchus_sulphureomaculatus	Curculionidae	GCA_019049505.1		n.a.	hit	CM032455.1	56744252	56744039	-	1
+Philopedon_plagiatum	Curculionidae	GCA_963971165.1	5/20 TTTGGGTTAG	n.d.	hit	OZ020190.1	29283650	29283864	+	13
+Phyllobius_virideaeris	Curculionidae	GCA_965643005.1	16/22 TTAGG	TTAGG|TTGGGTTAGA|TTAGGTTAGA	hit	OZ285573.1	98278573	98278340	-	1
+Pissodes_strobi	Curculionidae	GCA_016904865.1		TTTGGGTTAG	hit	MU188673.1	51688	51894	+	5
+Platypus_cylindrus	Curculionidae	GCA_949748235.1	8/16 TTTGG	TTTGG	hit	MU188673.1	51688	51894	+	5
+Polydrusus_cervinus	Curculionidae	GCA_935413205.1	16/22 TCTGTTCGGG	TCTGTTCGGG	hit	OW284511.1	50941886	50942121	+	1
+Polydrusus_pterygomalis	Curculionidae	GCA_963969555.1	12/22 TTTGTTCGGG	TTTGTTCGGG	hit	OZ018376.1	66849456	66849661	+	1
+Polydrusus_tereticollis	Curculionidae	GCA_963920685.1	8/24  TTCAGGTTAG	n.a.	hit	OY987326.1	162607930	162608132	+	5
+Rhynchophorus_ferrugineus	Curculionidae	GCA_030347505.1		TTTGG|TTTGGG	hit	JASCQM010000009.1	17873576	17873781	+	1
+Sitona_lineatus	Curculionidae	GCA_964263205.1	16/24 TCAGTTTAGG	n.a.	hit	OZ181667.1	23804551	23804755	+	9
+Sitophilus_oryzae	Curculionidae	GCA_002938485.1		TTTGG	hit					
+Sitophilus_zeamais	Curculionidae	GCA_047936755.1		TTTGG	hit					
+Sternochetus_mangiferae	Curculionidae	GCA_051294475.1		TTAGG	hit	JBLDTD010000111.1	12670961	12670782	-	2
+Taphrorychus_bicolor	Curculionidae	GCA_951812265.1	7/24 TTCAGGTTAG	TTCAGGTTAG	hit	OX638306.1	27625909	27625673	-	2
+Trigonoscuta_pilosa	Curculionidae	GCA_046128435.1		n.a.	hit	JBJXVV010000010.1	33886702	33886928	+	3
+Xyleborus_affinis	Curculionidae	GCA_046766355.1		TTCAGGTTAG	hit	JBKIBS010000006.1	2012166	2012377	+	1
+Xyleborus_bispinatus	Curculionidae	GCA_049176215.1		TTCAGGTTAG	hit	JBMBXN010000006.1	2043456	2043668	+	1
+Xyleborus_glabratus	Curculionidae	GCA_049176235.1		TTCAGGTTAG	hit	JBMBXO010039203.1	41719	41918	+	1
+Dascillus_cervinus	Dascillidae	GCA_949768715.1	1/18 TTAGG	TTAGG	hit	OX458317.1	18160435	18160261	-	3
+Megatoma_undata	Dermestidae	GCA_965643495.1	10/18 137bp_satellite ATATAATAAGTAGGGATTTGAGCAACTTTTTTTTTCAACATTGAAAACACAAAAATGCTCATATCTCCTAAACCGTGAGAGCTAGATCATTTCTGTAAGCTGCGTTGAAATCAGCAAAAAATTAGCTTTAATTTGGT	TTAGG	hit	OZ285970.1	13966140	13965959	-	1
+Liopterus_haemorrhoidalis	Dytiscidae	GCA_963971575.1	14/32 TTAGG	TTAGG	hit					
+Actenicerus_siaelandicus	Elateridae	GCA_964234755.1	2/20 TTAGG	TTAGG	hit	OZ174147.1	53857171	53857321	+	2
+Agriotes_lineatus	Elateridae	GCA_940337035.1		TTAGG	hit	CALNHX010001850.1	90169	90383	+	3
+Agriotes_mancus	Elateridae	GCA_041228495.2		TTAGG	hit	JBGEDG020000001.1	742082089	742081875	-	2
+Agriotes_obscurus	Elateridae	GCA_040955315.2		TTAGG	hit	JBEBYV020000014.1	21304220	21304002	-	1
+Agriotes_pubescens	Elateridae	GCA_044115395.2		TTAGG	hit	JBINIZ020000239.1	553953	553739	-	1
+Agriotes_sputator	Elateridae	GCA_044115325.1		TTAGG	hit	JBINJN010000075.1	14512164	14512368	+	1
+Agrypnus_murinus	Elateridae	GCA_929113105.1	8/18 TTAGG	TTAGG	hit	OV816026.1	176205645	176205866	+	2
+Alaus_oculatus	Elateridae	GCA_009852465.2		TTAGG	no hit					
+Ampedus_sanguinolentus	Elateridae	GCA_964234815.1	6/20 TTAGG	TTAGG	hit	OZ174266.1	131260190	131260393	+	2
+Ctenicera_cuprea	Elateridae	GCA_958336395.1	7/24 TTAGG	TTAGG	hit	OY284486.1	25634486	25634678	+	1
+Dalopius_marginatus	Elateridae	GCA_965112895.1	1/20 TTAGG	TTAGG	hit	OZ219175.1	3631880	3631672	-	1
+Denticollis_linearis	Elateridae	GCA_964205235.1	10/20 TTAGG	TTAGG	hit	OZ123669.1	38941340	38941109	-	1
+Hemicrepidius_hirtus	Elateridae	GCA_963082805.1	3/20 TTAGG	TTAGG	hit	OY720160.1	13656734	13656951	+	1
+Ignelater_luminosus	Elateridae	GCA_011009095.1		TTAGG	hit	VTPC01007835.1	45322	45547	+	1
+Limonius_californicus	Elateridae	GCA_014611495.1		TTAGG	hit	JABXWE010078405.1	5294	5522	+	1
+Limonius_poneli	Elateridae	GCA_965119595.1	n.d.	n.a.	hit	OZ221929.1	49045471	49045679	+	1
+Melanotus_villosus	Elateridae	GCA_963082815.1	5/20 ATGATGG	TTAGG	hit	OY720426.1	18511585	18511405	-	2
+Sinelater_perroti	Elateridae	GCA_036346155.1		TTAGG	hit	JARFIY010000369.1	638487	638699	+	1
+Sinopyrophorus_schimmeli	Elateridae	GCA_036325965.1		n.d.	no hit					
+Elmis_aenea	Elmidae	GCA_947652605.1	1/18 TTAGG	TTAGG	hit	OX393577.1	46629283	46629044	-	2
+Endomychus_coccineus	Endomychidae	GCA_958510875.1	6/12 TTAGG	TTAGG	hit	OY294070.1	42072624	42072841	+	1
+Grypus_equiseti	Erirhinidae	GCA_964656865.1	11/24 TTTGG	TTTGG	hit	OZ210585.1	32187797	32188003	+	1
+Microrhagus_pygmaeus	Eucnemidae	GCA_965643785.1	13/22 TTAGG	TTAGG	hit					
+Geotrupes_spiniger	Geotrupidae	GCA_959613385.1	12/24 TTGGG	TTGGG	hit					
+Lethrus_apterus	Geotrupidae	GCA_018397195.1		TTGGG	hit					
+Hololepta_plana	Histeridae	GCA_963695495.1	14/24 TTAGG	TTAGG	hit					
+Hydrochus_callosus	Hydrochidae	GCA_033557855.1		n.a.	no hit	JAUIMY010000006.1	88161	88372	+	1
+Enochrus_cinctus	Hydrophilidae	GCA_033557785.1		n.a.	hit					
+Helochares_maculicollis	Hydrophilidae	GCA_033557835.1		n.a.	no hit	JAWQRO010000432.1	12815	12615	-	1
+Quadriops_clusia	Hydrophilidae	GCA_033557875.1		n.a.	hit					
+Sperchopsis_tessellata	Hydrophilidae	GCA_033557685.1		n.a.	no hit					
+Agelastica_alni	Chrysomelidae	GCA_950111635.2	14/24 TTAGG	TTAGG	hit	OX467713.1	33144227	33144420	+	1
+Altica_lythri	Chrysomelidae	GCA_964028335.1	6/24 TTAGG	TTAGG	hit	OZ034809.1	32260140	32260321	+	1
+Aulacophora_lewisii	Chrysomelidae	GCA_051251045.1		TTAGG	hit	CM119240.1	43190111	43190304	+	1
+Brontispa_longissima	Chrysomelidae	GCA_040580785.1		TTAGG	hit	CM080940.1	29423238	29423435	+	1
+Bruchidius_siliquastri	Chrysomelidae	GCA_949316355.1	15/22 TTAGG	TTAGG	hit	OX438535.1	25301630	25301854	+	1
+Bruchidius_varius	Chrysomelidae	GCA_964204745.1	14/20 CCAACC(C)AA(A)	n.d.	hit	OZ123450.1	27029864	27029664	-	3
+Bruchidius_villosus	Chrysomelidae	GCA_965643515.1	14/20 TTAGG	TTAGG	hit	OZ286004.1	25225309	25225105	-	2
+Calligrapha_alni	Chrysomelidae	GCA_046129895.1		n.a.	hit	JBHEQG010008935.1	33482	33282	-	1
+Callosobruchus_maculatus	Chrysomelidae	GCA_040182625.1		TTAGG	hit	CM079348.1	298549	298372	-	9
+Crepidodera_aurea	Chrysomelidae	GCA_949320105.2	11/20 TCAGG	TCAGG	hit	OX439472.1	22861868	22862058	+	5
+Crepidodera_fulvicornis	Chrysomelidae	GCA_965615805.1	9/18 TCAGG	TCAGG	hit	OZ277758.1	67693411	67693238	-	1
+Crioceris_asparagi	Chrysomelidae	GCA_958507055.1	10/18 TTAGG	TTAGG	hit	OY293831.1	34248270	34248479	+	2
+Cryptocephalus_moraei	Chrysomelidae	GCA_946251905.1	6/30 TTAGG	TTAGG	hit	OX276454.1	21819906	21819683	-	1
+Cryptocephalus_primarius	Chrysomelidae	GCA_963576515.1	4/42 TTAGG	TTAGG	hit	OY754941.1	8879758	8879545	-	1
+Diabrotica_balteata	Chrysomelidae	GCA_918026665.1		TTAGG	hit	OU898278.1	124349923	124350176	+	1
+Diabrotica_undecimpunctata	Chrysomelidae	GCA_040954645.1		n.a.	hit	CM082566.1	124178700	124178945	+	1
+Diabrotica_virgifera_virgifera	Chrysomelidae	GCA_917563875.1		n.d.	hit	OU830624.1	162381594	162381826	+	2
+Diorhabda_carinata	Chrysomelidae	GCA_029229535.1		TTAGG	hit	CM055261.1	15975641	15975881	+	1
+Diorhabda_carinulata	Chrysomelidae	GCA_026250575.1		TTAGG	hit	CM047961.1	3641226	3640988	-	1
+Diorhabda_elongata	Chrysomelidae	GCA_026230145.1		TTAGG	hit	CM047931.1	4531440	4531202	-	1
+Diorhabda_sublineata	Chrysomelidae	GCA_026230105.1		TTAGG	hit	CM047922.1	4451360	4451120	-	1
+Galeruca_laticollis	Chrysomelidae	GCA_963921935.1	7/24 TTAGG	TTAGG	hit	OY998176.1	64549090	64549315	+	6
+Galerucella_calmariensis	Chrysomelidae	GCA_910591675.1		TTAGG	hit	CAJUYG010000038.1	101382	101155	-	1
+Galerucella_nymphaeae	Chrysomelidae	GCA_963978555.1	26/32 TTAGG	TTAGG	hit	OZ021719.1	7025362	7025116	-	1
+Galerucella_pusilla	Chrysomelidae	GCA_910591695.1		TTAGG	hit	CAJUYI010034463.1	1193	963	-	2
+Galerucella_tenella	Chrysomelidae	GCA_910591685.1		n.a.	hit	CAJUYH010002643.1	11350	11572	+	1
+Gastrophysa_polygoni	Chrysomelidae	GCA_963576655.1	16/24 TTAGG	TTAGG	hit	OY755091.1	15119744	15119536	-	1
+Gastrophysa_viridula	Chrysomelidae	GCA_965641405.1	16/30 TTAGG	TTAGG	hit	OZ281960.1	11981385	11981604	+	2
+Gonioctena_quinquepunctata	Chrysomelidae	GCA_018342105.1		TTAGG	hit	JAFIRS010001445.1	38378	38557	+	2
+Hermaeophaga_mercurialis	Chrysomelidae	GCA_951812935.1	9/18 TTAGG	TTAGG	hit	OX638363.1	34381326	34381152	-	1
+Chrysolina_americana	Chrysomelidae	GCA_958502065.1	14/24 TTAGG	TTAGG	hit	OY293421.1	36381699	36381496	-	1
+Chrysolina_graminis	Chrysomelidae	GCA_964197785.1	13/24 TTAGG	TTAGG	hit	OZ078256.1	46768551	46768363	-	1
+Chrysolina_haemoptera	Chrysomelidae	GCA_958298965.1	28/40 TTAGG	TTAGG	hit	OY282588.1	25845335	25845154	-	1
+Chrysolina_oricalcia	Chrysomelidae	GCA_944452925.2	30/40 TTAGG	TTAGG	hit	OX101818.2	24830822	24830654	-	3
+Chrysomela_aeneicollis	Chrysomelidae	GCA_029955515.1		TTAGG	hit	JARUHQ010000016.1	2936696	2936494	-	1
+Chrysomela_populi	Chrysomelidae	GCA_965642295.1	20/34 TTAGG	TTAGG	hit	OZ284527.1	32428409	32428626	+	1
+Chrysomela_saliceti	Chrysomelidae	GCA_965121785.1	18/34 TTAGG	TTAGG	hit	OZ222419.1	44571313	44571517	+	1
+Labidomera_clivicollis	Chrysomelidae	GCA_051313465.1		TTAGG	hit	JBPGYG010000162.1	384441	384249	-	1
+Leptinotarsa_defecta	Chrysomelidae	GCA_015342085.1		TTAGG	hit	WOGO01016104.1	5928	5726	-	1
+Leptinotarsa_haldemani	Chrysomelidae	GCA_015342125.1		TTAGG	hit	WOGM01036895.1	1687	1896	+	1
+Leptinotarsa_juncta	Chrysomelidae	GCA_015342185.1		TTAGG	hit	WOGJ01117331.1	30	233	+	2
+Leptinotarsa_lineolata	Chrysomelidae	GCA_015342045.1		TTAGG	hit	WOGR01026203.1	5249	5044	-	1
+Leptinotarsa_peninsularis	Chrysomelidae	GCA_015342205.1		TTAGG	hit	WOGI01035106.1	1750	1953	+	1
+Leptinotarsa_rubiginosa	Chrysomelidae	GCA_015342145.1		TTAGG	hit	WOGL01034524.1	1854	1660	-	1
+Leptinotarsa_texana	Chrysomelidae	GCA_015342105.1		TTAGG	hit	WOGN01054155.1	3193	3016	-	1
+Leptinotarsa_tumamoca	Chrysomelidae	GCA_015342025.1		TTAGG	hit	WOGQ01052050.1	1007	1208	+	1
+Leptinotarsa_undecemlineata	Chrysomelidae	GCA_015342065.1		TTAGG	hit	WOGP01001231.1	11100	10897	-	1
+Lochmaea_capreae	Chrysomelidae	GCA_949126875.1	29/34 TTAGG	TTAGG	hit	OX421397.1	7226520	7226743	+	1
+Lochmaea_crataegi	Chrysomelidae	GCA_947563755.1	7/32 TTAGG	TTAGG	hit	OX387426.1	18394128	18393928	-	1
+Longitarsus_dorsalis	Chrysomelidae	GCA_965178105.1	2/30 TTAGG	TTAGG	hit	OZ238101.1	16014122	16014299	+	4
+Longitarsus_flavicornis	Chrysomelidae	GCA_964258785.1	1/32 TTAGG	TTAGG	hit	OZ177641.1	87226466	87226650	+	3
+Monolepta_hieroglyphica	Chrysomelidae	GCA_045514875.1		TTAGG	hit					
+Neocrepidodera_transversa	Chrysomelidae	GCA_963243735.1	5/42 TTAGG	TTAGG	hit	OY725337.1	32813853	32813676	-	26
+Octodonta_nipae	Chrysomelidae	GCA_034190945.1		TTAGG	hit	CM067217.1	27105716	27105922	+	2
+Ophraella_communa	Chrysomelidae	GCA_035357415.1		TTAGG	hit					
+Oreina_elongata	Chrysomelidae	GCA_964006375.1	12/20 TCAGG	TCAGG	hit	OZ023262.1	183690965	183690790	-	3
+Phaedon_cochleariae	Chrysomelidae	GCA_918026855.4		TTAGG	hit	OU896710.1	7032278	7032078	-	4
+Phyllotreta_cruciferae	Chrysomelidae	GCA_917563865.1		n.a.	hit	OU830606.1	13192086	13191857	-	1
+Phyllotreta_striolata	Chrysomelidae	GCA_918026865.1		TAGGG	hit					
+Plagiodera_versicolora	Chrysomelidae	GCA_037013635.1		TTAGG	hit	CM072981.1	7789649	7789466	-	3
+Plateumaris_germari	Chrysomelidae	GCA_050242995.1		n.a.	no hit					
+Psylliodes_chrysocephalus	Chrysomelidae	GCA_927349885.1		TTAGG	hit	OV651825.1	27313237	27313455	+	3
+Zygogramma_bicolorata	Chrysomelidae	GCA_032362365.1		TTAGG	hit	JAVJAQ010001197.1	240661	240483	-	1
+Brachypterus_glaber	Kateretidae	GCA_958510825.1	n.d.	n.d.	hit	OY294053.1	20686480	20686255	-	3
+Abscondita_cerata	Lampyridae	GCA_030710515.1		n.a.	hit					
+Aquatica_leii	Lampyridae	GCA_035610365.1		TTAGG	hit	CM069433.1	164224398	164224594	+	1
+Lampyris_noctiluca	Lampyridae	GCA_050947525.1		TTAGG	hit	JBNDYH010000158.1	677273	677077	-	1
+Photinus_pyralis	Lampyridae	GCA_008802855.1		TTAGG	hit	VVIM01000002.1	44745014	44745215	+	1
+Pyrocoelia_pectoralis	Lampyridae	GCA_036250285.1		TTAGG	hit	CM070074.1	78315209	78315002	-	1
+Vesta_saturnalis	Lampyridae	GCA_036346205.1		TTAGG	hit	JARFJB010002505.1	1723724	1723923	+	1
+Cartodere_bifasciata	Latridiidae	GCA_963920755.1	8/20 TTAGG	TTAGG	hit	OY987197.1	7424640	7424840	+	1
+Astagobius_angustatus	Leiodidae	GCA_965278915.1		n.a.	no hit					
+Catops_nigricans	Leiodidae	GCA_965642125.1	3/22 TCAGG	TCAGG	no hit					
+Leptodirus_hochenwartii	Leiodidae	GCA_947310635.1	17/28 TCAGG	TCAGG	no hit					
+Dorcus_hopei	Lucanidae	GCA_033060865.1		TTGGG	hit	CM065425.1	59083406	59083198	-	2
+Dorcus_parallelipipedus	Lucanidae	GCA_958336345.1	10/20 TTGGG	n.d.	hit	OY284475.1	20529690	20529897	+	2
+Lucanus_miwai	Lucanidae	GCA_050437245.1		n.a.	hit	JBKGTV010000008.1	34169666	34169866	+	1
+Odontolabis_cuvera	Lucanidae	GCA_049462965.1		TTGGG	hit	CM111973.1	51532084	51531880	-	1
+Prosopocoilus_inquinatus	Lucanidae	GCA_036172665.1		n.d.	hit	CM069876.1	26826683	26826883	+	1
+Serrognathus_titanus	Lucanidae	GCA_039766575.1		TTGGG	hit	CM077913.1	59246044	59246229	+	4
+Platerodrilus_igneus	Lycidae	GCA_036346225.1		TTAGG	hit					
+Orchesia_undulata	Melandryidae	GCA_965642315.1	n.d.	n.d.	hit	OZ284513.1	22315918	22315722	-	2
+Epicauta_chinensis	Meloidae	GCA_021725515.1		TCAGG	hit	JAEDXX010000017.1	245788	245579	-	6
+Hycleus_cichorii	Meloidae	GCA_013841215.1		TCAGG	hit	JACDRQ010000092.1	167635	167438	-	1
+Hycleus_marcipoli	Meloidae	GCA_051167335.1		TCAGG	hit	CM118057.1	151478	151289	-	1
+Hycleus_phaleratus	Meloidae	GCA_013841185.1		TCAGG	hit					
+Iselma_pallidipennis	Meloidae	GCA_037464855.1		n.a.	hit	JAZBHA010000093.1	12540	12739	+	2
+Lydus_trimaculatus	Meloidae	GCA_037414755.1		n.a.	hit	JAZBGY010000545.1	8749	8940	+	6
+Meloe_dianella	Meloidae	GCA_028455855.1		n.a.	hit	JAPTHL010000019.1	45721	45531	-	1
+Mylabris_phalerata	Meloidae	GCA_020740385.1		n.a.	hit	JAJEOX010000044.1	7881490	7881679	+	1
+Mylabris_sibirica	Meloidae	GCA_039776855.1		TCAGG	hit	CM077837.1	13871942	13871747	-	2
+Mylabris_variabilis	Meloidae	GCA_037464815.1		n.a.	hit	JAZBGW010014793.1	1971	2166	+	1
+Stenodera_caucasica	Meloidae	GCA_037414795.1		n.a.	hit	JAZBGZ010000008.1	187604	187403	-	2
+Zonitis_immaculata	Meloidae	GCA_037414775.1		n.a.	hit	JAZBGX010003445.1	5596	5406	-	1
+Anthocomus_fasciatus	Melyridae	GCA_964258815.1	15/20 TCAGG	TCAGG	hit	OZ177480.1	30050974	30051168	+	4
+Malachius_bipustulatus	Melyridae	GCA_910589415.1	3/20 TCAGG	TCAGG	hit					
+Eulagius_filicornis	Mycetophagidae	GCA_965643585.1	7/20 TCAGG	TCAGG	hit					
+Mycetophagus_piceus	Mycetophagidae	GCA_965642255.1	9/20 TCAGG	TCAGG	hit					
+Aethina_tumida	Nitidulidae	GCA_024364675.1		TTAGG	hit	CM044481.1	13314282	13314094	-	2
+Brassicogethes_aeneus	Nitidulidae	GCA_921294245.1		TTGGG	hit	OV121132.1	26665543	26665354	-	1
+Librodor_japonicus	Nitidulidae	GCA_046866795.1		TTAGG	hit	CM103690.1	30131862	30131668	-	4
+Nacerdes_melanura	Oedemeridae	GCA_965279825.1	5/16 TCAGG	TCAGG	hit	OZ257391.1	156773070	156772865	-	1
+Phrixothrix_hirtus	Phengodidae	GCA_024586415.1		TTAGG	hit					
+Anobium_punctatum	Ptinidae	GCA_965643755.1	6/18 TTAGG	TTAGG	hit	OZ286100.1	16775075	16775270	+	1
+Xestobium_rufovillosum	Ptinidae	GCA_963966045.2	18/26 TCAGG	TCAGG	hit	OZ014492.1	27749398	27749614	+	2
+Pyrochroa_serraticornis	Pyrochroidae	GCA_905333025.2	3/20 TCAGG	TCAGG	hit	HG995154.1	19968391	19968193	-	1
+Schizotus_pectinicornis	Pyrochroidae	GCA_951805265.1	3/18 TCAGG	TCAGG	hit	OX638203.1	12479728	12479524	-	1
+Rhagophthalmus_giganteus	Rhagophthalmidae	GCA_036326145.1		TTAGG	hit	JARFJA010000001.1	33351909	33351699	-	1
+Metoecus_paradoxus	Ripiphoridae	GCA_965282865.1	6/12 TCAGG	TCAGG	hit					
+Salpingus_planirostris	Salpingidae	GCA_949788335.1	11/26 TCAGG	TCAGG	hit	OX460917.1	7933973	7933773	-	1
+Amphimallon_solstitiale	Scarabaeidae	GCA_963170755.1	5/22 TTGGG	TTGGG	hit	OY720682.1	82624663	82624455	-	2
+Amphistomus_primonactus	Scarabaeidae	GCA_033557545.1		n.a.	no hit					
+Aphodius_fimetarius	Scarabaeidae	GCA_964211865.1	5/22 TTGGG	n.a.	hit	OZ125097.1	87984554	87984355	-	2
+Aphodius_granarius	Scarabaeidae	GCA_963971325.1	10/20 TTGGG	TTGGG	hit	OZ020221.1	18238436	18238631	+	1
+Aphodius_immundus	Scarabaeidae	GCA_032191705.1		n.a.	hit	JAUIMU010231093.1	248	66	-	2
+Aphodius_sticticus	Scarabaeidae	GCA_963966075.1	6/22 TTGGG	TTGGG	hit	OZ014511.1	29972132	29971915	-	1
+Caccobius_schreberi	Scarabaeidae	GCA_033557405.1		n.a.	hit					
+Catharsius_molossus	Scarabaeidae	GCA_051362485.1	11/20 TTGGG	TTGGG	hit					
+Cetonia_aurata	Scarabaeidae	GCA_949128085.1	n.d.	n.d.	no hit					
+Copris_fidius	Scarabaeidae	GCA_032191685.1		n.a.	hit					
+Coptodactyla_brooksi	Scarabaeidae	GCA_033557675.1		n.a.	hit					
+Dermolepida_albohirtum	Scarabaeidae	GCA_031893035.2		n.a.	hit	JAVIWB010006761.1	63157	62958	-	1
+Digitonthophagus_gazella	Scarabaeidae	GCA_036711955.1		TTGGG	hit					
+Diorygopyx_duplodentatus	Scarabaeidae	GCA_033557515.1		n.a.	hit					
+Dynastes_grantii	Scarabaeidae	GCA_029619325.2		n.d.	no hit					
+Dynastes_hyllus	Scarabaeidae	GCA_029619255.2		n.d.	no hit					
+Dynastes_maya	Scarabaeidae	GCA_029619315.2		n.d.	no hit					
+Dynastes_tityus	Scarabaeidae	GCA_029618875.2		n.d.	no hit					
+Epilissus_splendidus	Scarabaeidae	GCA_033557285.1		n.a.	no hit					
+Euoniticellus_fulvus	Scarabaeidae	GCA_032191655.1		n.a.	hit					
+Helictopleurus_sicardi	Scarabaeidae	GCA_033557245.1		n.a.	no hit					
+Holotrichia_oblita	Scarabaeidae	GCA_023690525.1		n.a.	no hit					
+Chrysina_gloriosa	Scarabaeidae	GCA_038088585.1		n.d.	no hit					
+Chrysina_resplendens	Scarabaeidae	GCA_010091895.2		n.d.	no hit					
+Kibakoganea_sinica	Scarabaeidae	GCA_043790905.1		n.d.	no hit					
+Kibakoganea_tamdaoensis	Scarabaeidae	GCA_046237675.1		n.d.	hit					
+Marronus_borbonicus	Scarabaeidae	GCA_902655005.2		n.d.	no hit					
+Melinopterus_prodromus	Scarabaeidae	GCA_964023965.1	n.d.	TTGGG	hit	OZ030397.1	28176240	28176020	-	2
+Melolontha_melolontha	Scarabaeidae	GCA_935421215.2	10/20 TTGGG	TTGGG	hit					
+Nanos_vadoni	Scarabaeidae	GCA_032191565.1		n.a.	hit					
+Onthophagus_taurus	Scarabaeidae	GCA_036711975.1		TTGGG	no hit					
+Oryctes_borbonicus	Scarabaeidae	GCA_902654985.2		n.d.	no hit					
+Oryctes_rhinoceros	Scarabaeidae	GCA_020654165.1		n.d.	no hit					
+Osmoderma_eremita	Scarabaeidae	GCA_031763485.1		n.d.	no hit					
+Popillia_japonica	Scarabaeidae	GCA_042919845.1		n.d.	no hit					
+Protaetia_brevitarsis	Scarabaeidae	GCA_004143645.1		n.d.	no hit					
+Rhizotrogus_aestivus	Scarabaeidae	GCA_965643555.1	10/20 TTGGG	TTGGG	hit	OZ286034.1	121383906	121383701	-	1
+Sarophorus_costatus	Scarabaeidae	GCA_032191635.1		n.a.	no hit					
+Temnoplectron_lewisense	Scarabaeidae	GCA_033557385.1		n.a.	hit					
+Thyregis_relictus	Scarabaeidae	GCA_033557495.1		n.a.	no hit					
+Trypoxylus_dichotomus	Scarabaeidae	GCA_023509865.1		n.d.	no hit					
+Anaspis_frontalis	Scraptiidae	GCA_964243895.1	1/16 TCAGG	TCAGG	hit					
+Anaspis_maculata	Scraptiidae	GCA_949128115.1	7/16 TCAGG	TCAGG	hit	OX421964.1	46542214	46542070	-	1
+Anaspis_regimbarti	Scraptiidae	GCA_964204715.1	4/16 TCAGG	TCAGG	hit	OZ123346.1	28688777	28688583	-	1
+Nicrophorus_investigator	Silphidae	GCA_963457615.1	6/14 TTAGG	TCAGG	hit					
+Nicrophorus_orbicollis	Silphidae	GCA_018845635.2		TTAGG	hit					
+Nicrophorus_vespilloides	Silphidae	GCA_001412225.1		TTAGG	hit					
+Phosphuga_atrata	Silphidae	GCA_944588485.1	13/36 TTAGG	TTAGG	hit					
+Thanatophilus_sinuatus	Silphidae	GCA_051122355.1		TTAGG	hit					
+Oryzaephilus_surinamensis	Silvanidae	GCA_004796505.1		TTAGG	hit	SSSI01006073.1	2243	2431	+	1
+Silvanus_unidentatus	Silvanidae	GCA_963930825.1	13/14 TTAGG	TTAGG	hit	OZ005758.1	4973170	4972975	-	1
+Uleiota_planata	Silvanidae	GCA_965112455.1	16/22 TTAGG	TTAGG	hit	OZ218462.1	28960661	28960468	-	1
+Adranes_taylori	Staphylinidae	GCA_009867245.2		TTAGG	hit					
+Aenictocupidus_jacobsonorum	Staphylinidae	GCA_010014765.2		TTAGG	hit					
+Aleochara_bilineata	Staphylinidae	GCA_003054995.1		n.a.	hit					
+Aleochara_curtula	Staphylinidae	GCA_963978815.1	9/22 TTAGG	TTAGG	hit					
+Anaulacaspis_nigra	Staphylinidae	GCA_030264675.1		TTAGG	hit					
+Atheta_pasadenae	Staphylinidae	GCA_030264155.1		TTAGG	hit					
+Coproporus_ventriculus	Staphylinidae	GCA_027574865.2		n.d.	hit					
+Cypha_longicornis	Staphylinidae	GCA_030264615.1		TTAGG	hit					
+Dalotia_coriaria	Staphylinidae	GCA_025399875.1		TTAGG	hit					
+Deinopsis_erosa	Staphylinidae	GCA_027574845.2		TTAGG	hit					
+Diploeciton_nevermanni	Staphylinidae	GCA_027575565.1		TTAGG	hit					
+Dorylogaster_longipes	Staphylinidae	GCA_027580035.1		TTAGG	hit					
+Earota_dentata	Staphylinidae	GCA_027574905.2		TTAGG	hit					
+Ecitoglossa_quadriceps	Staphylinidae	GCA_027574925.1		TTAGG	hit					
+Ecitomorpha_arachnoides	Staphylinidae	GCA_027574945.2		TTAGG	hit					
+Ecitophya_simulans	Staphylinidae	GCA_027574965.2		TTAGG	hit					
+Labidoglobus_nevermanni	Staphylinidae	GCA_025447835.1		TTAGG	hit					
+Labidopullus_appendiculatus	Staphylinidae	GCA_027574705.1		TTAGG	no hit					
+Lathrobium_brunnipes	Staphylinidae	GCA_965240315.1	17/22 TTAGG	TTAGG	hit	OZ251354.1	10370050	10370255	+	1
+Liometoxenus_newtonarum	Staphylinidae	GCA_030264535.1		n.d.	hit					
+Lissagria_laeviuscula	Staphylinidae	GCA_030264695.1		TTAGG	hit					
+Lordithon_lunulatus	Staphylinidae	GCA_963942505.1	6/20 TTAGG	TTAGG	hit					
+Mimaenictus_wilsoni	Staphylinidae	GCA_027575185.1		TTAGG	hit					
+Ocypus_olens	Staphylinidae	GCA_910593695.2	14/38 TTAGG	TTAGG	hit	OU343060.1	47381839	47381628	-	2
+Ontholestes_murinus	Staphylinidae	GCA_963969525.1	n.d.	TTAGG	hit	OZ018395.1	17778721	17778508	-	1
+Othius_punctulatus	Staphylinidae	GCA_951805005.1	2/20 TTAGG	TTAGG	hit	OX638143.1	60170892	60170666	-	3
+Oxypoda_opaca	Staphylinidae	GCA_030264175.1		TTAGG	hit					
+Philonthus_cognatus	Staphylinidae	GCA_932526585.2	10/24 TTAGG	TTAGG	hit	OW052242.1	131499205	131499393	+	3
+Philonthus_spinipes	Staphylinidae	GCA_963082785.1	22/50 TTAGG	TTAGG	hit	OY720312.1	9542980	9542784	-	1
+Platyusa_sonomae	Staphylinidae	GCA_027576655.1		TTAGG	hit					
+Pseudomimeciton_antennatum	Staphylinidae	GCA_027576155.1		TTAGG	hit					
+Quedius_lateralis	Staphylinidae	GCA_964338995.1	1/34 TTAGG	TTAGG	hit	OZ202133.1	32998801	32998994	+	3
+Scaphidium_quadrimaculatum	Staphylinidae	GCA_965282785.1	2/24 TTAGG	TTAGG	hit					
+Sceptobius_lativentris	Staphylinidae	GCA_025399995.1		TTAGG	hit					
+Staphylinus_erythropterus	Staphylinidae	GCA_964211955.1	26/44 TTAGG	TTAGG	hit	OZ125648.1	43758376	43758143	-	15
+Stenus_bimaculatus	Staphylinidae	GCA_963971135.1	11/16 TTAGG	TTAGG	hit					
+Tachinus_rufipes	Staphylinidae	GCA_963932245.1	12/22 TTAGG	TTAGG	hit					
+Tetradonia_laticeps	Staphylinidae	GCA_025400035.1		TTAGG	hit					
+Weissflogia_rhopalogaster	Staphylinidae	GCA_019419845.2		TTAGG	hit					
+Asbolus_verrucosus	Tenebrionidae	GCA_047676225.1		TCAGG	hit	JBANDU010000008.1	3404315	3404121	-	2
+Blaps_rhynchoptera	Tenebrionidae	GCA_042257705.1		TCAGG	hit	CM090352.1	17050562	17050774	+	2
+Cynaeus_angustus	Tenebrionidae	GCA_030157275.1		TCAGG	hit	CM058059.1	24412122	24411898	-	1
+Dailognatha_quadricollis	Tenebrionidae	GCA_965183915.1	9/22 TCAGG	TCAGG	hit	OZ239037.1	15215663	15215862	+	2
+Dendarus_foraminosus	Tenebrionidae	GCA_965152765.1	3/22 TCAGG/TCGGG/TCAGGTCGGG	TCAGG	hit	OZ224574.1	12806555	12806349	-	3
+Diaperis_boleti	Tenebrionidae	GCA_963583935.1	8/16 TCAGG	TCAGG	hit	OY757242.1	93833018	93832802	-	3
+Eledona_agricola	Tenebrionidae	GCA_964023215.2	8/20 TCAGG	TCAGG	hit	OZ026854.1	16346715	16346546	-	6
+Gnatocerus_cornutus	Tenebrionidae	GCA_029298725.1		TCAGG	hit	CM055509.1	37361979	37361766	-	12
+Lagria_hirta	Tenebrionidae	GCA_947359425.1	10/24 TCAGG	TCAGG	hit	OX375794.1	14820792	14820615	-	1
+Latheticus_oryzae	Tenebrionidae	GCA_030157265.1		TCAGG	hit	CM058048.1	9480172	9479969	-	2
+Prionychus_ater	Tenebrionidae	GCA_965112505.1	8/28 TCAGG	TCAGG	hit	OZ218290.1	23208455	23208706	+	1
+Pseudocistela_ceramboides	Tenebrionidae	GCA_965601595.1	5/26 TCAGG	TCAGG	hit	OZ271861.1	14332849	14332675	-	2
+Tenebrio_molitor	Tenebrionidae	GCA_963966145.1		TCAGG	hit	OZ014542.1	8671045	8671240	+	1
+Tribolium_castaneum	Tenebrionidae	GCA_031307605.1		TCAGG	hit	CM062406.1	1279454	1279652	+	2
+Tribolium_confusum	Tenebrionidae	GCA_029207805.1		TCAGG	hit	JALGAY010000003.1	14250800	14251016	+	2
+Tribolium_freemani	Tenebrionidae	GCA_939628115.1		n.a.	hit	OW626783.1	2701481	2701690	+	7
+Tribolium_madens	Tenebrionidae	GCA_015345945.1		n.a.	hit	JADDYM010000096.1	4351995	4352194	+	1
+Ulomoides_dermestoides	Tenebrionidae	GCA_040954815.1		TCAGG	hit					
+Zophobas_atratus	Tenebrionidae	GCA_022388445.1		n.a.	hit	CM039443.1	49427433	49427246	-	2
+Zophobas_morio	Tenebrionidae	GCA_036711695.1		TCAGG	hit	JAVQLY010000024.1	12882716	12882529	-	3
+Bitoma_crenata	Zopheridae	GCA_964656825.1	7/20 TTAGG	TTAGG	hit	OZ210532.1	6114589	6114776	+	1
+Colydium_elongatum	Zopheridae	GCA_964656385.1	11/20 TTAGG	TTAGG	hit	OZ210020.1	33051828	33051635	-	2
+Pycnomerus_fuliginosus	Zopheridae	GCA_963924575.1	10/22 TCAGG	TCAGG	hit	OZ004623.1	10740238	10740448	+	3
+Tarphius_canariensis	Zopheridae	GCA_964277315.1	10/20 TTAGG	TTAGG	hit	OZ194988.1	15286636	15286811	+	2
