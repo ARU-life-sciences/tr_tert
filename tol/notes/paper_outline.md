@@ -132,7 +132,7 @@ domain and profile HMMs.
 Core = needed for the paper; optional = section 4 or a later paper.
 
 **A. Data and infrastructure**
-- [ ] A1 Finish the ToL TR search (round-2/3 stragglers, literature-seeded run) and merge into **one TR table**: species, TR locus, template, copies, model, support
+- [~] A1 Finish the ToL TR search (round-2/3 stragglers, literature-seeded run) and merge into **one TR table**: species, TR locus, template, copies, model, support. All rounds + literature models merged, copy-aware template check (2026-10-11, `tr_tol/merged/outputs/template_check.tsv`): **1,818 validated TRs** of 2,292 strong calls (stage 1: 1,572; +109 Bryopsida, +38 Magnoliopsida, +30 liverworts, +15 Sphagnum, molluscs/echinoderms/annelids a few each). Gaps: Coleoptera 1/209, Hemiptera 0/40, fungi 0/20, ascidians 0/16, cnidarians 1/8 (no seed TR for beetles or bugs)
 - [ ] A2 TR search for the 7 genomes left out (2 out of memory, 5 too large)
 - [ ] A3 Physical consolidation (`tol_telomeres` -> `tr_tert/tol`, `tol_run/`) and path fixes
 - [x] A4 **Species tree, dated**: Open Tree of Life induced subtree, 3,363 tips; node ages from TimeTree pairwise divergence times (935 of 2,463 internal nodes dated, the rest interpolated BLADJ-style), ultrametric, root 1,516 Myr (`tree/species_tree_dated.nwk`, `tree/date_tree.py`). Checks: Lepidoptera-Hymenoptera 335 Myr, *Bombus*-*Andrena* 99, oak-*Arabidopsis* 107, sawfly-bee 248 (a little young). Caveats: polytomies where the synthesis is unresolved; 62% of node ages interpolated. Was: for the 3,422 species: Open Tree of Life synthetic topology + TimeTree dates; BUSCO-based trees for key clades if needed
@@ -157,7 +157,7 @@ Core = needed for the paper; optional = section 4 or a later paper.
 - [ ] C7 Biogenesis classification: type-3 promoter, box H/ACA, intronic
 
 **D. Section 3, telomerase loss**
-- [~] D1 **TERT search across all 3,422 species** (miniprot done; HMM fallback running) (miniprot panel + RBD, HMM fallback)
+- [x] D1 **TERT search across all 3,422 species**: found 2,749, found by HMM fallback 80 (Odonata 14, Hemiptera 12), partial 91, absent 492, not run 4 (very large genomes); absent = Diptera 401/402 (exception: *Tipula helvola*, to check), spiders 38/38, ~53 scattered others (Staphylinidae, leafhoppers, nemerteans, *Littorina*), most with canonical telomeres, so probably divergent TERTs missed (miniprot panel + RBD, HMM fallback)
 - [ ] D2 Map losses (no TERT, no telomere at ends); characterise chromosome ends without telomerase
 - [ ] D3 Spiders: more evidence (sensitivity checks, more assemblies)
 
