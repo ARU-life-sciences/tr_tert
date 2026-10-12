@@ -170,7 +170,7 @@ domain and profile HMMs.
 Core = needed for the paper; optional = section 4 or a later paper.
 
 **A. Data and infrastructure**
-- [~] A1 Finish the ToL TR search (round-2/3 stragglers, literature-seeded run) and merge into **one TR table**: species, TR locus, template, copies, model, support. All rounds + literature models merged, copy-aware template check (2026-10-11, `tr_tol/merged/outputs/template_check.tsv`): **1,818 validated TRs** of 2,292 strong calls (stage 1: 1,572; +109 Bryopsida, +38 Magnoliopsida, +30 liverworts, +15 Sphagnum, molluscs/echinoderms/annelids a few each). Gaps: Coleoptera 1/209, Hemiptera 0/40, fungi 0/20, ascidians 0/16, cnidarians 1/8 (no seed TR for beetles or bugs)
+- [~] A1 Finish the ToL TR search and merge into **one TR table** (`tol_telomeres/shifts/tr_table.tsv`: species, TR locus, template, copies, model, support). 2026-10-12: **1,980 validated TRs** of 2,291 strong calls (tr_tol rounds + literature models 1,818; Coleoptera via the Fajkus et al. 2026 CM 153; round 4 6; Hemiptera 3, Pentatomidae). Template agrees with the call in 2,032/2,057 strongly called species with a template. Two beetles (*Chrysolina hyperici*, *Dascillus cervinus*) still running. Gaps: Hemiptera outside Pentatomidae (3/40), Basidiomycota 0/20, ascidians 0/16, most molluscs/annelids, Odonata, Collembola, crustaceans. Model-free searches failed there: template co-variation within genera (`structcov`; needs a repeat change in the group; *Eurysa*/*Conomelus* leads not TRs, 2026-10-12) and template-bearing RNA-seq reads (`rnatr`; ToL libraries poly-A, TR absent in 6/10 benchmarks). Closing the gaps needs rRNA-depleted RNA-seq
 - [ ] A2 TR search for the 7 genomes left out (2 out of memory, 5 too large)
 - [ ] A3 Physical consolidation (`tol_telomeres` -> `tr_tert/tol`, `tol_run/`) and path fixes
 - [x] A4 **Species tree, dated**: Open Tree of Life induced subtree, 3,363 tips; node ages from TimeTree pairwise divergence times (935 of 2,463 internal nodes dated, the rest interpolated BLADJ-style), ultrametric, root 1,516 Myr (`tree/species_tree_dated.nwk`, `tree/date_tree.py`). Checks: Lepidoptera-Hymenoptera 335 Myr, *Bombus*-*Andrena* 99, oak-*Arabidopsis* 107, sawfly-bee 248 (a little young). Caveats: polytomies where the synthesis is unresolved; 62% of node ages interpolated. Was: for the 3,422 species: Open Tree of Life synthetic topology + TimeTree dates; BUSCO-based trees for key clades if needed
@@ -186,7 +186,7 @@ Core = needed for the paper; optional = section 4 or a later paper.
 - [ ] B6 Predictors (phylogenetic regression): holocentricity (literature list), genome size, GC, chromosome number, TR copy state
 
 **C. Section 2, TR mechanism**
-- [ ] C1 TR table tree-wide (from A1) with template checks
+- [x] C1 TR table tree-wide (from A1) with template checks: done with A1 (copy-aware template check per species)
 - [ ] C2 Positional survey extended to vertebrates, plants and the new animal groups
 - [ ] C3 TR copy number per genome with a uniform search per clade
 - [ ] C4 Route-vs-copy test (phylogenetically controlled)
@@ -195,7 +195,7 @@ Core = needed for the paper; optional = section 4 or a later paper.
 - [ ] C7 Biogenesis classification: type-3 promoter, box H/ACA, intronic
 
 **D. Section 3, telomerase loss**
-- [x] D1 **TERT search across all 3,422 species**: found 2,749, found by HMM fallback 80 (Odonata 14, Hemiptera 12), partial 91, absent 492, not run 4 (very large genomes); absent = Diptera 401/402 (exception: *Tipula helvola*, to check), spiders 38/38, ~53 scattered others (Staphylinidae, leafhoppers, nemerteans, *Littorina*), most with canonical telomeres, so probably divergent TERTs missed (miniprot panel + RBD, HMM fallback)
+- [x] D1 **TERT search across all 3,422 species**: found 2,749, found by HMM fallback 80 (Odonata 14, Hemiptera 12), partial 91, absent 492, not run 4 (very large genomes); absent = Diptera 402/402 (the *Tipula helvola* hit is a microsporidian contaminant, *Nosema bombycis*), spiders 38/38, ~53 scattered others (Staphylinidae, leafhoppers, nemerteans, *Littorina*), most with canonical telomeres, so probably divergent TERTs missed (miniprot panel + RBD, HMM fallback)
 - [ ] D2 Map losses (no TERT, no telomere at ends); characterise chromosome ends without telomerase
 - [ ] D3 Spiders: more evidence (sensitivity checks, more assemblies)
 
@@ -213,7 +213,6 @@ Order: start the long compute first (D1, A1), then A4 (needed by B1, B4, B6, C4)
 
 ## Status
 
-Done: 1 (data, first numbers), 2 (validation, relocation survey, copies), 3
-(TERT survey). Running: ToL-wide TR search with literature seeds (molluscs,
-cnidarians, echinoderms, plants beyond flowering plants, fungi). Missing: a
-species tree; per-lineage counts; the tests marked "To do".
+2026-10-12: data collection essentially done (A1, A4, C1, D1). Done: B3, B5; partial: B1, B2.
+Next, in order: A5 (repeat-state table) and B4 (Mk rates), then C4 (route vs TR copy state, the central test),
+C2/C3, D2. First prose draft: `paper_draft.md` (`[TODO]` markers point to these items).
