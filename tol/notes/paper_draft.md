@@ -1,8 +1,8 @@
-# Draft: How telomeres evolve across the Tree of Life (2026-10-12)
+# Draft: How telomeres evolve across the Tree of Life (2026-10-13)
 
 First prose draft of the phase 4 paper, built on `paper_outline.md` (plan,
 checklist) and `literature_synthesis.md` (prior work). Numbers are current
-as of 2026-10-12; `[TODO ...]` marks results still to come, with the
+as of 2026-10-13; `[TODO ...]` marks results still to come, with the
 checklist item from the outline. Working title:
 
 *How telomeres evolve: repeat changes, telomerase RNA mobility and
@@ -22,13 +22,16 @@ telomerase reverse transcriptase (TERT). Repeats change by two routes: [N]
 single template edits, and [N] larger changes that usually keep the
 ancestral repeat and add to it. Derived repeats are strongly enriched for
 G-triplets (56% vs 26% of shuffled units). The TR template encodes the
-called repeat in 98.8% of species, and TRs duplicate and move frequently in
-some lineages (Hymenoptera: 3.3 TR-like copies per genome, positions not
-conserved between families) but rarely in others (Lepidoptera: 1.2 copies,
-positions conserved). [TODO C4: whether large changes coincide with
-duplicated or relocated TRs.] Telomerase was lost in all Diptera and all
-spiders (38/38, new), where chromosome ends have no telomeric repeat.
-[TODO: one-sentence conclusion once C4 and B4 are in.]
+called repeat in 98.8% of species. The rate of repeat change differs
+90-fold between orders on a dated tree (Hymenoptera 0.63 changes per
+lineage per 100 Myr, Lepidoptera 0.007), and so do TR duplication and
+movement (Hymenoptera: 2.7 TR copies per genome, positions not conserved
+between families; Lepidoptera: 1.2 copies, positions conserved). Within
+clades, however, a species' TR copy number does not predict whether its
+repeat has changed: derived repeats cluster in a few lineages
+(phylogenetic heritability 0.9). Telomerase was lost in all Diptera and
+all spiders (38/38, new), where chromosome ends have no telomeric repeat.
+[TODO: one-sentence conclusion once C2 and the C4 follow-up are in.]
 
 ## Introduction
 
@@ -71,8 +74,16 @@ spiders (38/38, new), where chromosome ends have no telomeric repeat.
   chromosome-end checks) gives a strong telomere call (the unit at a
   substantial fraction of chromosome ends) in 2,291 species, weak in 692,
   none in 432. Species without a call are mostly Diptera (274), fungi (52),
-  Hymenoptera (40) and spiders (30). [TODO A5: final repeat-state table
-  with curated exceptions; Fig 1 tree.]
+  Hymenoptera (40) and spiders (30).
+- **Repeat states.** Combining calls, TR templates and TERT
+  (`repeat_states.tsv`): 2,678 species telomeric, 453 telomerase lost
+  (TERT absent, with no strong call, or in Diptera and spiders), 285
+  unknown. Where a strong call disagrees with the TR template and the
+  template unit is at ≥ 4 chromosome ends, the template unit is taken (11
+  species, e.g. *Sabra* `ACCTC` → `AACCT`); 9 other disagreements and
+  units with no C run and no template are excluded from analyses. Analysis
+  set: 2,664 telomeric species with 85 distinct units, 453 losses. [Fig 1
+  tree.]
 - **Calls are confirmed by the TR template** (section 2): where a TR is
   found, its template encodes the called unit in 2,032 of 2,057 strongly
   called species (98.8%). Most of the 21 disagreements are tidk miscalls
@@ -88,8 +99,17 @@ spiders (38/38, new), where chromosome ends have no telomeric repeat.
   18 of 55 contain the old unit exactly). The same edits recur:
   `AAACCCT` → `AACCCT` 13 times in plants, `AACCT` → `AACCC` 8 times,
   `AACCT` → `ACCTG` 7 times, `AACCT` → `AAACC` 4 times.
-  [TODO B4: Mk rates with branch lengths on the dated tree; reversals;
-  per-lineage rates. TODO B2: null for the edit-distance distribution.
+- **Rates differ by orders of magnitude.** An equal-rates Mk model of the
+  repeat state on the dated tree, per clade, gives the rate at which a
+  lineage changes repeat: Hymenoptera 0.63 per 100 Myr (95% CI
+  0.50-0.80), Coleoptera 0.18 (0.13-0.24), Hemiptera 0.10, flowering
+  plants 0.10 (0.06-0.16), birds 0.03, Lepidoptera 0.007 (0.001-0.022).
+  Hymenoptera vs Lepidoptera 90-fold (likelihood ratio test of a shared
+  rate, p = 2.5e-36); Coleoptera vs Lepidoptera 26-fold (p = 6e-13);
+  Hymenoptera vs Coleoptera 3.5-fold (p = 9e-11). Parsimony steps per
+  1,000 Myr of tree give the same order (Hymenoptera 5.3, Coleoptera 1.7,
+  Lepidoptera 0.07). [TODO B1/B2: reversals and repeated targets on the
+  dated tree; null for the edit-distance distribution.
   Caveat to fix: alphabetical tie-breaking in polytomies, Diptera
   satellite calls.]
 - **G-triplet constraint.** Of 86 distinct derived units, 56% have a `GGG`
@@ -130,13 +150,24 @@ spiders (38/38, new), where chromosome ends have no telomeric repeat.
   failed: template co-variation within genera (works only where a genus
   includes a repeat change, as in *Bombus*), and template-bearing reads in
   RNA-seq (the ToL libraries are poly-A selected, and the TR, which is not
-  polyadenylated, is missing from 6 of 10 benchmark species). [TODO:
-  planthopper lead, `structcov/leads/`; rRNA-depleted libraries would
-  close the gaps.]
-- **TRs duplicate.** TR-like copies (E ≤ 1e-5): Hymenoptera mean 3.3 per
-  genome, Lepidoptera 1.2 (p = 3e-22); pimpline wasps 3-7 copies with one
-  carrying a template; halictid bees up to 52. [TODO C3: uniform copy
-  search per clade.]
+  polyadenylated, is missing from 6 of 10 benchmark species). Public
+  rRNA-depleted and virome libraries do not help: TR reads are about 0.04
+  per million (3 in 72 M in *Scotinophara*), and the *Nezara viridula* TR
+  (found by the pentatomid profile; its template predicts `AACCATCCCC`)
+  has no template read in 84 M. A conservation test in Delphacidae (51,146
+  transcribed template loci of *Sogatella*, homologs in *Laodelphax*,
+  *Nilaparvata*, *Conomelus* and *Eurysa*, which has a different repeat)
+  found no locus whose template follows the repeat change: Eurysa
+  homologs carry their own template no more often than by chance (26 of
+  11,063). Pentatomid profiles, relaxed covariance models and Eurysa
+  co-variation leads found nothing outside Pentatomidae.
+- **TRs duplicate.** One uniform search per species (its own TR as the
+  query, E ≤ 1e-10, copies = hits covering ≥ half the TR): most TRs are
+  single-copy (1,344 of 1,980; median 1), but Hymenoptera average 2.7
+  copies (up to 69, *Tiphia femorata*) and Coleoptera 3.6 (up to 38,
+  *Amara*), against 1.2 in Lepidoptera (max 4). Most extra copies carry a
+  template. Pimpline wasps have 3-7 copies with one carrying a template;
+  halictid bees up to 47.
 - **TRs move.** In 250 congeneric and confamilial pairs, the TR is at the
   orthologous position in Lepidoptera (genus 25/25, family 22/25) but often
   not in Hymenoptera (16/25, 4/24); where it moved, the orthologous interval
@@ -147,9 +178,18 @@ spiders (38/38, new), where chromosome ends have no telomeric repeat.
   insertions with unique flanks (pimplines, *Lasioglossum*) or copies
   inside a larger repeated unit (*Andrena*, *Seladonia*). [TODO C5: TE
   annotation of flanks, copy ages.]
-- **Do mobile TRs make big changes?** [TODO C4, the key test: large
-  repeat changes (route 2) on branches with multi-copy or relocated TRs,
-  small ones (route 1) with single-copy TRs; phylogenetically controlled.]
+- **Do species with more TRs change repeat?** Between clades, yes: the
+  orders with the fastest repeat change (Hymenoptera, Coleoptera) have the
+  most TR copies. Within clades, no: a phylogenetic probit model
+  (MCMCglmm, dated tree as random effect; 1,741 arthropods and plants, 182
+  with a derived repeat) finds no effect of TR copy number (log2 copies,
+  arthropods −0.12, 95% HPD −0.42 to 0.18; Hymenoptera + Coleoptera −0.11,
+  −0.43 to 0.19). Derived repeats cluster by lineage (phylogenetic
+  heritability 0.90-0.95), so the association is at the level of clades,
+  not species. Arthropods with a derived repeat have fewer copies carrying
+  a template for their *own* repeat (−0.56, −1.05 to −0.16). [TODO C4
+  follow-up: copies carrying the ancestral template in derived species;
+  TR relocation (C2) as the predictor; route 1 vs 2 per transition.]
 - [TODO C6: TERT rates on branches with TR duplication or relocation.
   TODO C7: biogenesis class (type-3 promoter, box H/ACA, intronic) mapped
   on the tree.]
@@ -189,10 +229,12 @@ assembly. [TODO E1-E4, optional.]
 1. Telomeric repeats change by two routes, with different mechanisms: a
    template point mutation, and a template expansion that keeps the old
    unit. The G-triplet constraint shapes both.
-2. TR mobility differs by orders of magnitude between lineages; if C4
-   holds, TR duplication and relocation explain why some lineages
-   (Hymenoptera, Hemiptera?) have diverse repeats and others (Lepidoptera)
-   do not. This generalises *Mimulus* and *Andrena* to the tree.
+2. Repeat-change rates and TR mobility both differ by orders of magnitude
+   between lineages, in the same direction (Hymenoptera, Coleoptera high;
+   Lepidoptera low). The link is a property of lineages, not of
+   individual species' copy number: a clade with mobile TRs changes
+   repeat more often, but the species that changed need not carry more
+   copies today. This generalises *Mimulus* and *Andrena* to the tree.
 3. Telomerase loss is rare but recurrent (Diptera, spiders, scarabs), and
    always with loss of the telomeric repeat at the ends.
 4. Limits: TR discovery is still seed-bound, so the TR table is biased to
@@ -215,23 +257,41 @@ assembly. [TODO E1-E4, optional.]
 - **Species tree.** Open Tree of Life induced subtree (3,363 tips); node
   ages from TimeTree pairwise divergences (935 of 2,463 internal nodes
   dated, the rest interpolated), ultrametric, root 1,516 Myr.
+- **Repeat states.** Rules in order: telomerase lost (TERT absent in
+  Diptera/Araneae, or absent with no strong call); curated exceptions;
+  strong call with agreeing template; strong call replaced by the template
+  unit when it is at ≥ 4 ends; weak call with agreeing template; else
+  unknown (`repeat_evolution/repeat_states.py`).
 - **Repeat transitions.** Fitch parsimony; edit distance between parent
-  and child units; containment of the ancestral unit. [Mk models, B4.]
+  and child units; containment of the ancestral unit. Rates: phytools
+  `fitMk` equal-rates model per clade on the dated tree (polytomies
+  resolved at random, 0.01 Myr branches); rate of change r = (k − 1) q;
+  likelihood ratio test of one shared r between two clades; profile 95%
+  CIs (`b4_rates.R`, `b4_lrt.R`).
+- **TR copies vs repeat change.** MCMCglmm threshold model, derived repeat
+  (differs from the phylum's ancestral unit) ~ log2 TR copies, phylogenetic
+  random effect from the dated tree (inverseA), residual variance fixed at
+  1, parameter-expanded prior, 200,000 iterations (`c4_mcmcglmm.R`).
 - **G-run null.** Each derived unit shuffled 1,000 times (same length and
   composition); non-telomeric tandem repeats from the same genomes.
 - **TR search.** nhmmer family profiles from published TRs, Infernal CMs
   (Rfam RF00024; sawfly, beetle CMs), model walking with validated seeds;
   copy-aware template check (exact match ≥ unit + 2 nt to the tandem, in
   any copy); validation rule as above.
-- **TR copies and position.** TR-like loci at E ≤ 1e-5, one per 2 kb;
-  synteny of TR flanks between pairs of species; poly-A, TSD and TATA
+- **TR copies and position.** Per species, its validated TR locus searched
+  against its genome (nhmmer, E ≤ 1e-10), hits within 2 kb merged; a copy
+  covers ≥ 50% of the query; template-bearing if the hit ± 20 nt matches
+  ≥ unit + 2 nt of the tandem (`tr_copies/src/uniform_copies.py`); synteny of TR flanks between pairs of species; poly-A, TSD and TATA
   tests against random positions.
 - **TERT.** miniprot (v0.18), panel grown over rounds from 40 UniProt TERTs
   to 505 proteins; Telomerase_RBD (PF12009) hmmsearch; profile HMM from 236
   TERTs on six-frame ORFs, positive at RBD i-E ≤ 1e-4.
 - **Searches that did not find TRs** (supplement): template co-variation
   and RNAz/R-scape within genera (`structcov`); template-bearing RNA-seq
-  reads (`rnatr`) with ORF and protein triage calibrated on 60 known TRs.
+  reads (`rnatr`) with ORF and protein triage calibrated on 60 known TRs;
+  public rRNA-depleted libraries for 6 hemipterans (genome units from WGS
+  reads where assemblies lack telomeres); the delphacid conservation and
+  template-switch test (`rnatr/src/planthopper_conservation.py`).
 
 ## Figures
 

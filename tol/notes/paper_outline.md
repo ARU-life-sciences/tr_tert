@@ -170,26 +170,26 @@ domain and profile HMMs.
 Core = needed for the paper; optional = section 4 or a later paper.
 
 **A. Data and infrastructure**
-- [~] A1 Finish the ToL TR search and merge into **one TR table** (`tol_telomeres/shifts/tr_table.tsv`: species, TR locus, template, copies, model, support). 2026-10-12: **1,980 validated TRs** of 2,291 strong calls (tr_tol rounds + literature models 1,818; Coleoptera via the Fajkus et al. 2026 CM 153; round 4 6; Hemiptera 3, Pentatomidae). Template agrees with the call in 2,032/2,057 strongly called species with a template. Two beetles (*Chrysolina hyperici*, *Dascillus cervinus*) still running. Gaps: Hemiptera outside Pentatomidae (3/40), Basidiomycota 0/20, ascidians 0/16, most molluscs/annelids, Odonata, Collembola, crustaceans. Model-free searches failed there: template co-variation within genera (`structcov`; needs a repeat change in the group; *Eurysa*/*Conomelus* leads not TRs, 2026-10-12) and template-bearing RNA-seq reads (`rnatr`; ToL libraries poly-A, TR absent in 6/10 benchmarks). Closing the gaps needs rRNA-depleted RNA-seq
+- [~] A1 Finish the ToL TR search and merge into **one TR table** (`tol_telomeres/shifts/tr_table.tsv`: species, TR locus, template, copies, model, support). 2026-10-12: **1,980 validated TRs** of 2,291 strong calls (tr_tol rounds + literature models 1,818; Coleoptera via the Fajkus et al. 2026 CM 153; round 4 6; Hemiptera 3, Pentatomidae). Template agrees with the call in 2,032/2,057 strongly called species with a template. Two beetles (*Chrysolina hyperici*, *Dascillus cervinus*) still running. Gaps: Hemiptera outside Pentatomidae (3/40), Basidiomycota 0/20, ascidians 0/16, most molluscs/annelids, Odonata, Collembola, crustaceans. Model-free searches failed there: template co-variation within genera (`structcov`; needs a repeat change in the group; *Eurysa*/*Conomelus* leads not TRs, 2026-10-12) and template-bearing RNA-seq reads (`rnatr`; ToL libraries poly-A, TR absent in 6/10 benchmarks). Closing the gaps needs rRNA-depleted RNA-seq. 2026-10-13, Hemiptera: public rRNA-depleted/virome libraries for 6 species (TR reads ~0.04 per million; *Nezara* TR, found by the pentatomid profile, unit `AACCATCCCC` from its template, has 0 template reads in 84 M) and a delphacid conservation + template-switch test (51,146 *Sogatella* loci; Eurysa templates at chance level, 26/11,063) found no TR outside Pentatomidae
 - [ ] A2 TR search for the 7 genomes left out (2 out of memory, 5 too large)
 - [ ] A3 Physical consolidation (`tol_telomeres` -> `tr_tert/tol`, `tol_run/`) and path fixes
 - [x] A4 **Species tree, dated**: Open Tree of Life induced subtree, 3,363 tips; node ages from TimeTree pairwise divergence times (935 of 2,463 internal nodes dated, the rest interpolated BLADJ-style), ultrametric, root 1,516 Myr (`tree/species_tree_dated.nwk`, `tree/date_tree.py`). Checks: Lepidoptera-Hymenoptera 335 Myr, *Bombus*-*Andrena* 99, oak-*Arabidopsis* 107, sawfly-bee 248 (a little young). Caveats: polytomies where the synthesis is unresolved; 62% of node ages interpolated. Was: for the 3,422 species: Open Tree of Life synthetic topology + TimeTree dates; BUSCO-based trees for key clades if needed
-- [ ] A5 **Final repeat-state table**: canonical unit, support, compound/mixed flag, curated exceptions (*Andrena* dual repeats, satellite calls, *Aphodius*)
+- [x] A5 **Final repeat-state table** (`shifts/repeat_evolution/repeat_states.tsv`, 2026-10-12): 3,416 species; 2,678 telomeric, 453 telomerase lost, 285 unknown; 11 calls replaced by the template unit; analysis set 2,664 telomeric (85 units) + 453 lost, 299 excluded (template disagrees, no C run, unknown). Flags: compound, mixed, tert_missed
 - [ ] A6 (optional) Refresh the assembly list; add ERGA/EBP
 
 **B. Section 1, repeat evolution**
 - [~] B1 Ancestral-state reconstruction on the tree; transitions counted per lineage, not per species
 - [~] B2 Classify transitions: edit distance, "contains ancestral", route 1 vs 2, against a null
 - [x] B3 G-run constraint against a null (random units of matched length/composition; non-telomeric tandem repeats from the same genomes)
-- [ ] B4 Transition rates (Mk models), repeated targets, reversals
+- [~] B4 Transition rates (Mk models), repeated targets, reversals. 2026-10-12: rates done (`b4_rates.R`, `b4_lrt.R`): rate of changing repeat per lineage per 100 Myr, Hymenoptera 0.63, Coleoptera 0.18, Magnoliopsida 0.10, Aves 0.03, Lepidoptera 0.007; Hym/Lep 90-fold (LRT p = 2.5e-36). Repeated targets and reversals still to do (with B1)
 - [x] B5 Mixed/compound telomeres: second unit at chromosome ends, per species
 - [ ] B6 Predictors (phylogenetic regression): holocentricity (literature list), genome size, GC, chromosome number, TR copy state
 
 **C. Section 2, TR mechanism**
 - [x] C1 TR table tree-wide (from A1) with template checks: done with A1 (copy-aware template check per species)
 - [ ] C2 Positional survey extended to vertebrates, plants and the new animal groups
-- [ ] C3 TR copy number per genome with a uniform search per clade
-- [ ] C4 Route-vs-copy test (phylogenetically controlled)
+- [x] C3 TR copy number per genome with a uniform search (`shifts/tr_copies/uniform/copies.tsv`, 2026-10-13): own TR vs own genome, nhmmer E ≤ 1e-10, copy = ≥ 50% coverage. Median 1; 1,344/1,980 single-copy; Lepidoptera mean 1.16 (max 4), Hymenoptera 2.67 (max 69), Coleoptera 3.61 (max 38)
+- [~] C4 Route-vs-copy test (phylogenetically controlled). 2026-10-13 (`repeat_evolution/c4_mcmcglmm.R`): MCMCglmm threshold model, derived repeat ~ log2 copies + phylogeny, 1,741 species (182 derived): no copy-number effect (arthropods −0.12, HPD −0.42 to 0.18); phylogenetic h2 0.90-0.95; fewer own-template copies in derived arthropods (−0.56, −1.05 to −0.16). Running: copies with the ancestral template in derived species. Still to do: TR relocation (C2) as predictor; route 1 vs 2 per transition
 - [ ] C5 TE content around mobile vs stationary TRs (ToL Earl Grey repeat annotations where present)
 - [ ] C6 TERT coevolution: codon alignments (CDS from miniprot or ToL gene annotations), PAML branch/clade models
 - [ ] C7 Biogenesis classification: type-3 promoter, box H/ACA, intronic
@@ -213,6 +213,9 @@ Order: start the long compute first (D1, A1), then A4 (needed by B1, B4, B6, C4)
 
 ## Status
 
-2026-10-12: data collection essentially done (A1, A4, C1, D1). Done: B3, B5; partial: B1, B2.
-Next, in order: A5 (repeat-state table) and B4 (Mk rates), then C4 (route vs TR copy state, the central test),
-C2/C3, D2. First prose draft: `paper_draft.md` (`[TODO]` markers point to these items).
+2026-10-13: data collection essentially done (A1, A4, C1, D1). Done: A5, B3, B5, C3; partial: B1, B2, B4
+(rates done), C4 (copy number done: no species-level effect). Hemiptera TR search outside Pentatomidae closed
+as a negative result.
+Next, in order: C4 follow-up (ancestral-template copies), C2 (positional survey beyond Hymenoptera and
+Lepidoptera; relocation as the C4 predictor), D2, B6. Prose draft: `paper_draft.md` (`[TODO]` markers point to
+these items).
