@@ -301,8 +301,15 @@ assembly. [TODO E1-E4, optional.]
 - **TR copies and position.** Per species, its validated TR locus searched
   against its genome (nhmmer, E ≤ 1e-10), hits within 2 kb merged; a copy
   covers ≥ 50% of the query; template-bearing if the hit ± 20 nt matches
-  ≥ unit + 2 nt of the tandem (`tr_copies/src/uniform_copies.py`); synteny of TR flanks between pairs of species; poly-A, TSD and TATA
-  tests against random positions.
+  ≥ unit + 2 nt of the tandem (`tr_copies/src/uniform_copies.py`).
+  Position: 2 kb chunks from 100 kb around A's TR mapped to B (minimap2
+  asm20), and the 3 nearest complete BUSCOs either side (ToL BUSCO tables,
+  the most specific lineage both species have); densest collinear block;
+  B's interval between the nearest anchors; conserved if B's TR is inside,
+  moved if not with ≥ 10 nucleotide or ≥ 3 gene anchors
+  (`denovo/src/survey_pairs*.py`, `worker_survey.bash`,
+  `summarise_survey.py`). Poly-A, TSD and TATA tests against random
+  positions.
 - **TERT.** miniprot (v0.18), panel grown over rounds from 40 UniProt TERTs
   to 505 proteins; Telomerase_RBD (PF12009) hmmsearch; profile HMM from 236
   TERTs on six-frame ORFs, positive at RBD i-E ≤ 1e-4.
