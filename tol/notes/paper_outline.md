@@ -197,7 +197,7 @@ Core = needed for the paper; optional = section 4 or a later paper.
 **D. Section 3, telomerase loss**
 - [x] D1 **TERT search across all 3,422 species**: found 2,749, found by HMM fallback 80 (Odonata 14, Hemiptera 12), partial 91, absent 492, not run 4 (very large genomes); absent = Diptera 402/402 (the *Tipula helvola* hit is a microsporidian contaminant, *Nosema bombycis*), spiders 38/38, ~53 scattered others (Staphylinidae, leafhoppers, nemerteans, *Littorina*), most with canonical telomeres, so probably divergent TERTs missed (miniprot panel + RBD, HMM fallback)
 - [x] D2 Map losses (no TERT, no telomere at ends); characterise chromosome ends without telomerase (2026-10-13, `shifts/d2_ends/`): 12 independent losses (Dollo) - Diptera 400, spiders 37, Caligidae 2, *Baetis* 2, 8 singles. Ends (TRF + shared sequence, terminal vs interior 20 kb; 150 controls): Diptera satellite caps in 154/402 (160-200 bp monomers), Drosophilidae none shared; spiders 31/38 nothing
-- [ ] D3 Spiders: more evidence (sensitivity checks, more assemblies; are assemblies complete to the ends?)
+- [x] D3 Spiders: are assemblies complete to the ends? (2026-10-13, `shifts/d2_ends/src/end_reads.py`): no. HiFi reads overhang the assembly tip at 11-31 ends in 8 spiders (median 3-5 kb; 650-14,000 overhang reads vs 250-770 in Lepidoptera controls, whose overhangs are AACCT); per end, overhangs mostly non-tandem and no shared family (top family at <= 9 ends; recurrent long arrays only in *Eratigena* 577 bp and *Anyphaena* 653 bp). Fly overhangs = their terminal satellites. Spider caps unresolved (would need ONT/longer reads or T2T assemblies)
 
 **E. Section 4 (optional)**
 - [ ] E1 Telomere length atlas (`tidk ends` lengths; `tidk length` on HiFi)
@@ -213,8 +213,8 @@ Order: start the long compute first (D1, A1), then A4 (needed by B1, B4, B6, C4)
 
 ## Status
 
-2026-10-13: data collection essentially done (A1, A4, C1, D1). Done: A5, B3, B5, C2, C3, D2; partial: B1, B2,
+2026-10-13: data collection essentially done (A1, A4, C1, D1). Done: A5, B3, B5, C2, C3, D2, D3; partial: B1, B2,
 B4 (rates done), C4 (no species-level copy effect; clade-level relocation vs repeat-change rate rho 0.63).
 Hemiptera TR search outside Pentatomidae closed as a negative result.
-Next: D3 (spider end completeness), B6, B1/B2 on the dated tree, C5-C7. Prose draft: `paper_draft.md`
+Next: B6, B1/B2 on the dated tree, C5-C7. Prose draft: `paper_draft.md`
 (`[TODO]` markers point to these items).

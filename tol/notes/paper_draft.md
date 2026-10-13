@@ -255,8 +255,18 @@ Lineages whose TR moves are the lineages whose telomeric repeat changes.
   across the order. Drosophilidae are the exception (no shared family; their
   HeT-A/TART retrotransposon telomeres exceed the window). Spider ends have
   no telomere, no shared satellite and less tandem sequence than controls
-  (31 of 38 species). [TODO D3: are spider assemblies complete to the
-  ends?]
+  (31 of 38 species). But spider assemblies stop short of the
+  chromosome ends: in 8 spiders, HiFi reads aligned at the assembly tip run
+  past it (median 3-5 kb, up to >10 kb) at 11-31 ends per species (open
+  ends), with 650-14,000 overhanging reads vs 250-770 in Lepidoptera
+  controls, whose overhangs are the AACCT telomere (longer in reads than in
+  the assembly). Per end, spider overhangs are mostly not tandem (median
+  1-8% tandem cover in 5 species) and no repeat family is top at more than
+  9 of 7-21 ends (5-15 families per species); *Eratigena* (577 bp, 9/21
+  ends) and *Anyphaena* (653 bp, 5/10) have the only recurrent long-period
+  arrays. So the spider "none" class describes truncated assembly ends,
+  not the chromosome ends; what caps spider chromosomes is unresolved
+  (fly overhangs, by contrast, are their terminal satellites).
 - **Shift lineages keep telomerase.** In 30 lineages with a changed
   repeat, 196/198 species have TERT: repeat changes are telomerase
   products, not a switch to a telomerase-independent mechanism.
@@ -281,8 +291,8 @@ assembly. [TODO E1-E4, optional.]
    copies today. This generalises *Mimulus* and *Andrena* to the tree.
 3. Telomerase loss is rare (12 losses in 3,083 species) but recurrent, and
    always with loss of the telomeric repeat at the ends. Only Diptera
-   replaced it with a widespread terminal satellite; spider ends show no
-   repeat cap.
+   replaced it with a widespread terminal satellite; spider assemblies end
+   short of the chromosome ends, so their caps are unknown.
 4. Limits: TR discovery is still seed-bound, so the TR table is biased to
    clades with known TRs; Hemiptera, molluscs, annelids and fungi need
    rRNA-depleted RNA-seq. Parsimony on a partly unresolved, partly
