@@ -25,13 +25,14 @@ G-triplets (56% vs 26% of shuffled units). The TR template encodes the
 called repeat in 98.8% of species. The rate of repeat change differs
 90-fold between orders on a dated tree (Hymenoptera 0.63 changes per
 lineage per 100 Myr, Lepidoptera 0.007), and so do TR duplication and
-movement (Hymenoptera: 2.7 TR copies per genome, positions not conserved
-between families; Lepidoptera: 1.2 copies, positions conserved). Within
+movement: the TR has kept its genomic position across all birds and
+mammals and across Lepidoptera families, but moved in most beetle and
+Hymenoptera pairs beyond the genus, with the old position left empty. Within
 clades, however, a species' TR copy number does not predict whether its
 repeat has changed: derived repeats cluster in a few lineages
 (phylogenetic heritability 0.9). Telomerase was lost in all Diptera and
 all spiders (38/38, new), where chromosome ends have no telomeric repeat.
-[TODO: one-sentence conclusion once C2 and the C4 follow-up are in.]
+Lineages whose TR moves are the lineages whose telomeric repeat changes.
 
 ## Introduction
 
@@ -168,11 +169,22 @@ all spiders (38/38, new), where chromosome ends have no telomeric repeat.
   *Amara*), against 1.2 in Lepidoptera (max 4). Most extra copies carry a
   template. Pimpline wasps have 3-7 copies with one carrying a template;
   halictid bees up to 47.
-- **TRs move.** In 250 congeneric and confamilial pairs, the TR is at the
-  orthologous position in Lepidoptera (genus 25/25, family 22/25) but often
-  not in Hymenoptera (16/25, 4/24); where it moved, the orthologous interval
-  is conserved and empty, as in *Mimulus*. [TODO C2: vertebrates, plants,
-  beetles.]
+- **TRs move, in some lineages.** For 1,033 pairs of species with
+  validated TRs (up to 25 per clade and taxonomic level), the interval
+  orthologous to species A's TR was projected into species B by
+  nucleotide and BUSCO-gene anchors. The TR stays at the orthologous
+  position in every bird and mammal pair, up to different orders (25/25
+  and 25/25 at class level), in fish to family (10/10), in liverworts and
+  mostly in mosses (23/25 at order level), and in Lepidoptera to family
+  (22/25). It is stable within genera but mobile beyond in flowering
+  plants (genus 23/24, subfamily 7/16, family 3/11) and caddisflies (genus
+  5/5, order 4/13). It moves often in Hymenoptera (genus 16/25, family
+  4/24, order 0/12) and most of all in beetles (genus 11/25, subfamily
+  1/18, family and beyond 0/49). Where the TR moved, the orthologous
+  interval holds no TR-like sequence (no hit to B's TR at E ≤ 1e-10 in any
+  of 222 moved pairs): relocation, not decay in place, as in *Mimulus*.
+  Another copy of B's TR sits at the orthologous position in only 13
+  pairs.
 - **How TRs move.** No retrocopy signature (poly-A tails and target-site
   duplications at background rates). Copies are either dispersed TR-sized
   insertions with unique flanks (pimplines, *Lasioglossum*) or copies
@@ -186,10 +198,18 @@ all spiders (38/38, new), where chromosome ends have no telomeric repeat.
   arthropods −0.12, 95% HPD −0.42 to 0.18; Hymenoptera + Coleoptera −0.11,
   −0.43 to 0.19). Derived repeats cluster by lineage (phylogenetic
   heritability 0.90-0.95), so the association is at the level of clades,
-  not species. Arthropods with a derived repeat have fewer copies carrying
-  a template for their *own* repeat (−0.56, −1.05 to −0.16). [TODO C4
-  follow-up: copies carrying the ancestral template in derived species;
-  TR relocation (C2) as the predictor; route 1 vs 2 per transition.]
+  not species. An apparent deficit of templated copies in derived
+  arthropods (−0.56, −1.05 to −0.16) disappears when copies carrying the
+  *ancestral* template are counted (−0.22, −0.65 to 0.20): 55 copies in 24
+  derived species kept only the old template, most in *Andrena* (up to 11
+  in *A. bucephala*), *Bruchidius*, *Sitona* and *Potentilla*: old TR
+  copies left behind after the repeat changed.
+- **Mobility and repeat change go together across lineages.** Ranking
+  clades by TR relocation (C2) gives the same order as their rate of
+  repeat change (B4): beetles and Hymenoptera highest, flowering plants
+  and caddisflies intermediate, Lepidoptera, birds and mammals lowest.
+  [TODO: formal clade-level test (rate vs fraction relocated); route 1 vs
+  2 per transition.]
 - [TODO C6: TERT rates on branches with TR duplication or relocation.
   TODO C7: biogenesis class (type-3 promoter, box H/ACA, intronic) mapped
   on the tree.]

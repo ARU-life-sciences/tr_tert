@@ -187,9 +187,9 @@ Core = needed for the paper; optional = section 4 or a later paper.
 
 **C. Section 2, TR mechanism**
 - [x] C1 TR table tree-wide (from A1) with template checks: done with A1 (copy-aware template check per species)
-- [ ] C2 Positional survey extended to vertebrates, plants and the new animal groups
+- [x] C2 Positional survey extended to vertebrates, plants and the new animal groups (2026-10-13, `shifts/denovo/outputs/survey_c2_summary.tsv`): 783 new pairs + 250 rerun. TR position kept: birds and mammals 100% to class; fish to family; liverworts, mosses mostly; Lepidoptera to family; flowering plants and Trichoptera within genera only; Hymenoptera 16/25 genus, 0/12 order; Coleoptera 11/25 genus, 1/67 beyond. Moved intervals empty (222/222); another TR copy at the orthologous position in 13 pairs
 - [x] C3 TR copy number per genome with a uniform search (`shifts/tr_copies/uniform/copies.tsv`, 2026-10-13): own TR vs own genome, nhmmer E ≤ 1e-10, copy = ≥ 50% coverage. Median 1; 1,344/1,980 single-copy; Lepidoptera mean 1.16 (max 4), Hymenoptera 2.67 (max 69), Coleoptera 3.61 (max 38)
-- [~] C4 Route-vs-copy test (phylogenetically controlled). 2026-10-13 (`repeat_evolution/c4_mcmcglmm.R`): MCMCglmm threshold model, derived repeat ~ log2 copies + phylogeny, 1,741 species (182 derived): no copy-number effect (arthropods −0.12, HPD −0.42 to 0.18); phylogenetic h2 0.90-0.95; fewer own-template copies in derived arthropods (−0.56, −1.05 to −0.16). Running: copies with the ancestral template in derived species. Still to do: TR relocation (C2) as predictor; route 1 vs 2 per transition
+- [~] C4 Route-vs-copy test (phylogenetically controlled). 2026-10-13 (`repeat_evolution/c4_mcmcglmm.R`): MCMCglmm threshold model, derived repeat ~ log2 copies + phylogeny, 1,741 species (182 derived): no copy-number effect (arthropods −0.12, HPD −0.42 to 0.18); phylogenetic h2 0.90-0.95; fewer own-template copies in derived arthropods (−0.56, −1.05 to −0.16). Ancestral-template copies: 55 in 24 derived species (Andrena, Bruchidius, Sitona, Potentilla); counting them removes the templated-copies effect (−0.22, −0.65 to 0.20). Clade level: C2 relocation order = B4 rate order. Still to do: formal clade-level test; route 1 vs 2 per transition
 - [ ] C5 TE content around mobile vs stationary TRs (ToL Earl Grey repeat annotations where present)
 - [ ] C6 TERT coevolution: codon alignments (CDS from miniprot or ToL gene annotations), PAML branch/clade models
 - [ ] C7 Biogenesis classification: type-3 promoter, box H/ACA, intronic
@@ -213,9 +213,8 @@ Order: start the long compute first (D1, A1), then A4 (needed by B1, B4, B6, C4)
 
 ## Status
 
-2026-10-13: data collection essentially done (A1, A4, C1, D1). Done: A5, B3, B5, C3; partial: B1, B2, B4
-(rates done), C4 (copy number done: no species-level effect). Hemiptera TR search outside Pentatomidae closed
-as a negative result.
-Next, in order: C4 follow-up (ancestral-template copies), C2 (positional survey beyond Hymenoptera and
-Lepidoptera; relocation as the C4 predictor), D2, B6. Prose draft: `paper_draft.md` (`[TODO]` markers point to
-these items).
+2026-10-13: data collection essentially done (A1, A4, C1, D1). Done: A5, B3, B5, C2, C3; partial: B1, B2, B4
+(rates done), C4 (no species-level copy effect; lineage-level match of TR relocation and repeat-change rate).
+Hemiptera TR search outside Pentatomidae closed as a negative result.
+Next: a formal clade-level test of rate vs relocation (C4), D2, B6, B1/B2 on the dated tree. Prose draft:
+`paper_draft.md` (`[TODO]` markers point to these items).
