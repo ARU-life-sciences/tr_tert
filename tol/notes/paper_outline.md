@@ -189,15 +189,15 @@ Core = needed for the paper; optional = section 4 or a later paper.
 - [x] C1 TR table tree-wide (from A1) with template checks: done with A1 (copy-aware template check per species)
 - [x] C2 Positional survey extended to vertebrates, plants and the new animal groups (2026-10-13, `shifts/denovo/outputs/survey_c2_summary.tsv`): 783 new pairs + 250 rerun. TR position kept: birds and mammals 100% to class; fish to family; liverworts, mosses mostly; Lepidoptera to family; flowering plants and Trichoptera within genera only; Hymenoptera 16/25 genus, 0/12 order; Coleoptera 11/25 genus, 1/67 beyond. Moved intervals empty (222/222); another TR copy at the orthologous position in 13 pairs
 - [x] C3 TR copy number per genome with a uniform search (`shifts/tr_copies/uniform/copies.tsv`, 2026-10-13): own TR vs own genome, nhmmer E ≤ 1e-10, copy = ≥ 50% coverage. Median 1; 1,344/1,980 single-copy; Lepidoptera mean 1.16 (max 4), Hymenoptera 2.67 (max 69), Coleoptera 3.61 (max 38)
-- [~] C4 Route-vs-copy test (phylogenetically controlled). 2026-10-13 (`repeat_evolution/c4_mcmcglmm.R`): MCMCglmm threshold model, derived repeat ~ log2 copies + phylogeny, 1,741 species (182 derived): no copy-number effect (arthropods −0.12, HPD −0.42 to 0.18); phylogenetic h2 0.90-0.95; fewer own-template copies in derived arthropods (−0.56, −1.05 to −0.16). Ancestral-template copies: 55 in 24 derived species (Andrena, Bruchidius, Sitona, Potentilla); counting them removes the templated-copies effect (−0.22, −0.65 to 0.20). Clade level: C2 relocation order = B4 rate order. Still to do: formal clade-level test; route 1 vs 2 per transition
+- [~] C4 Route-vs-copy test (phylogenetically controlled). 2026-10-13 (`repeat_evolution/c4_mcmcglmm.R`): MCMCglmm threshold model, derived repeat ~ log2 copies + phylogeny, 1,741 species (182 derived): no copy-number effect (arthropods −0.12, HPD −0.42 to 0.18); phylogenetic h2 0.90-0.95; fewer own-template copies in derived arthropods (−0.56, −1.05 to −0.16). Ancestral-template copies: 55 in 24 derived species (Andrena, Bruchidius, Sitona, Potentilla); counting them removes the templated-copies effect (−0.22, −0.65 to 0.20). Clade level (`c4_clade.R`): relocation rate vs repeat-change rate over 10 clades, Spearman 0.63, p = 0.052. Still to do: route 1 vs 2 per transition
 - [ ] C5 TE content around mobile vs stationary TRs (ToL Earl Grey repeat annotations where present)
 - [ ] C6 TERT coevolution: codon alignments (CDS from miniprot or ToL gene annotations), PAML branch/clade models
 - [ ] C7 Biogenesis classification: type-3 promoter, box H/ACA, intronic
 
 **D. Section 3, telomerase loss**
 - [x] D1 **TERT search across all 3,422 species**: found 2,749, found by HMM fallback 80 (Odonata 14, Hemiptera 12), partial 91, absent 492, not run 4 (very large genomes); absent = Diptera 402/402 (the *Tipula helvola* hit is a microsporidian contaminant, *Nosema bombycis*), spiders 38/38, ~53 scattered others (Staphylinidae, leafhoppers, nemerteans, *Littorina*), most with canonical telomeres, so probably divergent TERTs missed (miniprot panel + RBD, HMM fallback)
-- [ ] D2 Map losses (no TERT, no telomere at ends); characterise chromosome ends without telomerase
-- [ ] D3 Spiders: more evidence (sensitivity checks, more assemblies)
+- [x] D2 Map losses (no TERT, no telomere at ends); characterise chromosome ends without telomerase (2026-10-13, `shifts/d2_ends/`): 12 independent losses (Dollo) - Diptera 400, spiders 37, Caligidae 2, *Baetis* 2, 8 singles. Ends (TRF + shared sequence, terminal vs interior 20 kb; 150 controls): Diptera satellite caps in 154/402 (160-200 bp monomers), Drosophilidae none shared; spiders 31/38 nothing
+- [ ] D3 Spiders: more evidence (sensitivity checks, more assemblies; are assemblies complete to the ends?)
 
 **E. Section 4 (optional)**
 - [ ] E1 Telomere length atlas (`tidk ends` lengths; `tidk length` on HiFi)
@@ -213,8 +213,8 @@ Order: start the long compute first (D1, A1), then A4 (needed by B1, B4, B6, C4)
 
 ## Status
 
-2026-10-13: data collection essentially done (A1, A4, C1, D1). Done: A5, B3, B5, C2, C3; partial: B1, B2, B4
-(rates done), C4 (no species-level copy effect; lineage-level match of TR relocation and repeat-change rate).
+2026-10-13: data collection essentially done (A1, A4, C1, D1). Done: A5, B3, B5, C2, C3, D2; partial: B1, B2,
+B4 (rates done), C4 (no species-level copy effect; clade-level relocation vs repeat-change rate rho 0.63).
 Hemiptera TR search outside Pentatomidae closed as a negative result.
-Next: a formal clade-level test of rate vs relocation (C4), D2, B6, B1/B2 on the dated tree. Prose draft:
-`paper_draft.md` (`[TODO]` markers point to these items).
+Next: D3 (spider end completeness), B6, B1/B2 on the dated tree, C5-C7. Prose draft: `paper_draft.md`
+(`[TODO]` markers point to these items).

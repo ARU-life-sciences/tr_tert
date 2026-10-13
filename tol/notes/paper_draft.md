@@ -208,8 +208,16 @@ Lineages whose TR moves are the lineages whose telomeric repeat changes.
   clades by TR relocation (C2) gives the same order as their rate of
   repeat change (B4): beetles and Hymenoptera highest, flowering plants
   and caddisflies intermediate, Lepidoptera, birds and mammals lowest.
-  [TODO: formal clade-level test (rate vs fraction relocated); route 1 vs
-  2 per transition.]
+  Per clade, a relocation rate from the survey pairs and their divergence
+  times (P(position kept) = exp(−m·2t)): beetles 1.44 per lineage per 100
+  Myr, flowering plants 1.16, Hymenoptera 0.68, caddisflies 0.37,
+  Lepidoptera 0.20, fish 0.19, mosses 0.04, liverworts 0.008, birds and
+  mammals 0. Across the 10 clades it correlates with the rate of repeat
+  change (Spearman ρ = 0.63, p = 0.052; pair-level complementary log-log
+  model, slope 0.51 on log repeat-change rate). Exceptions: Lepidoptera
+  relocate more than their near-zero repeat-change rate predicts; birds and
+  mammals change repeat in a few species without TR relocation. [TODO:
+  route 1 vs 2 per transition.]
 - [TODO C6: TERT rates on branches with TR duplication or relocation.
   TODO C7: biogenesis class (type-3 promoter, box H/ACA, intronic) mapped
   on the tree.]
@@ -230,9 +238,25 @@ Lineages whose TR moves are the lineages whose telomeric repeat changes.
   Hymenoptera (5), nemerteans and *Littorina* are in species with
   canonical telomeres, so are probably divergent TERTs missed by the
   search.
-- [TODO D2: map losses on the dated tree; what occupies chromosome ends
-  without telomerase (retrotransposon arrays, satellites). TODO D3:
-  spider sensitivity tests.]
+- **Twelve independent losses.** Telomerase is not regained, so each
+  maximal clade of species without it is one loss (Dollo): 12 among 3,083
+  species with a state - Diptera (400 species; stem 291 Myr), spiders
+  (37), and two new small clades, *Caligus*/*Pandarus* fish lice
+  (Caligidae) and *Baetis* mayflies, plus 8 single species (2 beetles, a
+  scale insect, a gall wasp, a spongillafly, a scallop, *Littorina*, a
+  terebellid), several of which may be divergent TERTs missed.
+- **What replaces the telomere.** The terminal 20 kb of every chromosome
+  end, against interior windows (TRF; masked all-against-all alignment of
+  ends): in 150 telomeric controls the telomeric repeat is the top tandem
+  family at ends in 132. Diptera ends are tandem-rich (median 69% of the
+  window, controls 37%), and 154 of 402 fly species have one satellite
+  family at most ends and almost never in the interior, mostly with
+  160-200 bp monomers, as in *Chironomus* (176 bp): a satellite cap
+  across the order. Drosophilidae are the exception (no shared family; their
+  HeT-A/TART retrotransposon telomeres exceed the window). Spider ends have
+  no telomere, no shared satellite and less tandem sequence than controls
+  (31 of 38 species). [TODO D3: are spider assemblies complete to the
+  ends?]
 - **Shift lineages keep telomerase.** In 30 lineages with a changed
   repeat, 196/198 species have TERT: repeat changes are telomerase
   products, not a switch to a telomerase-independent mechanism.
@@ -255,8 +279,10 @@ assembly. [TODO E1-E4, optional.]
    individual species' copy number: a clade with mobile TRs changes
    repeat more often, but the species that changed need not carry more
    copies today. This generalises *Mimulus* and *Andrena* to the tree.
-3. Telomerase loss is rare but recurrent (Diptera, spiders, scarabs), and
-   always with loss of the telomeric repeat at the ends.
+3. Telomerase loss is rare (12 losses in 3,083 species) but recurrent, and
+   always with loss of the telomeric repeat at the ends. Only Diptera
+   replaced it with a widespread terminal satellite; spider ends show no
+   repeat cap.
 4. Limits: TR discovery is still seed-bound, so the TR table is biased to
    clades with known TRs; Hemiptera, molluscs, annelids and fungi need
    rRNA-depleted RNA-seq. Parsimony on a partly unresolved, partly
