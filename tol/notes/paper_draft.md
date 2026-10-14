@@ -254,19 +254,36 @@ Lineages whose TR moves are the lineages whose telomeric repeat changes.
   160-200 bp monomers, as in *Chironomus* (176 bp): a satellite cap
   across the order. Drosophilidae are the exception (no shared family; their
   HeT-A/TART retrotransposon telomeres exceed the window). Spider ends have
-  no telomere, no shared satellite and less tandem sequence than controls
-  (31 of 38 species). But spider assemblies stop short of the
-  chromosome ends: in 8 spiders, HiFi reads aligned at the assembly tip run
-  past it (median 3-5 kb, up to >10 kb) at 11-31 ends per species (open
-  ends), with 650-14,000 overhanging reads vs 250-770 in Lepidoptera
-  controls, whose overhangs are the AACCT telomere (longer in reads than in
-  the assembly). Per end, spider overhangs are mostly not tandem (median
-  1-8% tandem cover in 5 species) and no repeat family is top at more than
-  9 of 7-21 ends (5-15 families per species); *Eratigena* (577 bp, 9/21
-  ends) and *Anyphaena* (653 bp, 5/10) have the only recurrent long-period
-  arrays. So the spider "none" class describes truncated assembly ends,
-  not the chromosome ends; what caps spider chromosomes is unresolved
-  (fly overhangs, by contrast, are their terminal satellites).
+  no telomere, consistent with no (TTAGG)n FISH signal (Vitkova et al.
+  2005), and in 20 kb windows no single family caps most ends (31 of 38
+  species). HiFi reads run past the assembly tip at many spider ends
+  (median 3-5 kb), but Lepidoptera controls overhang too, so this is not
+  evidence of truncated assemblies. In 100 kb windows (38 spiders,
+  `shifts/d2_ends/spiders/`) 60-90% of ends carry an end-specific
+  satellite (>= 2 kb, >= 80% of its copies at ends; periods 140-950 bp,
+  3-23 families per species), and the two ends of a chromosome are of
+  different kinds, almost never sharing a family. At one end of most
+  chromosomes (e.g. 13/13 in *Meta bourneti*) one family starts at the tip
+  and runs 10-98 kb: the centromeric satellite of acrocentric chromosomes
+  (22A+X1X2A karyotypes in six of the species; absent in holocentric
+  *Segestria*). The other end has less satellite (median 3 vs 18 kb) in
+  families shared by only 2-5 ends. Families are species- or
+  genus-specific with no shared core motif, and copies on different
+  chromosomes are as similar as copies within an array (97.4 vs 98.0%):
+  homogenised between ends. Ends also exchange larger segments: 25% of
+  ends (263/1,058, 35/38 species) but 0.6% of interior windows share
+  >= 10 kb of non-tandem sequence at >= 99% identity with another
+  chromosome, 83 pairs collinear from both tips (one end copied onto
+  another; median 46 kb at centromeric ends, 17 kb at distal ends, up to
+  >= 80 kb), always between ends of the same kind (61 proximal, 25 distal,
+  1 mixed). Homologous ends differ between haplotypes far more than the
+  interior (a third of end windows < 50% aligned vs 8%; > 2-fold array
+  size difference in about half the pairs). This end-to-end copying is
+  what break-induced replication (ALT-like) end maintenance would leave,
+  but array lengths in single HiFi reads are mostly stable (> 10% of reads
+  outside the two main alleles in 18% of distal and 35% of proximal arrays
+  vs 4% of interior arrays), so the copying looks germline and episodic
+  rather than a somatic, cell-by-cell mechanism.
 - **Shift lineages keep telomerase.** In 30 lineages with a changed
   repeat, 196/198 species have TERT: repeat changes are telomerase
   products, not a switch to a telomerase-independent mechanism.
@@ -290,9 +307,11 @@ assembly. [TODO E1-E4, optional.]
    repeat more often, but the species that changed need not carry more
    copies today. This generalises *Mimulus* and *Andrena* to the tree.
 3. Telomerase loss is rare (12 losses in 3,083 species) but recurrent, and
-   always with loss of the telomeric repeat at the ends. Only Diptera
-   replaced it with a widespread terminal satellite; spider assemblies end
-   short of the chromosome ends, so their caps are unknown.
+   always with loss of the telomeric repeat at the ends. Diptera
+   replaced it with a widespread terminal satellite; spiders with
+   species-specific satellites (centromeric at one end of acrocentric
+   chromosomes) and subterminal segments recently copied between ends of
+   the same kind, an ALT-like footprint without somatic array instability.
 4. Limits: TR discovery is still seed-bound, so the TR table is biased to
    clades with known TRs; Hemiptera, molluscs, annelids and fungi need
    rRNA-depleted RNA-seq. Parsimony on a partly unresolved, partly
